@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Instagram, Facebook, Linkedin } from "lucide-react";
 import Image from "next/image";
-import SetToBoxLogo from '../../../public/logoImage/SetToBoxLogo.webp'
+
 
 const services = [
   { name: "İnstagram Sponsorlu Reklam", path: "instagram-sponsorlu-reklam" },
@@ -25,7 +25,7 @@ const Footer = () => {
           {/* Brand and Description */}
           <div>
             <Link href="/" className="flex items-center space-x-2">
-              <Image src={SetToBoxLogo} alt="SetToBox Logo" width={100} height={100}/>
+              <Image src="/logoImage/SetToBoxLogo.webp" alt="SetToBox Logo" width={100} height={100}/>
             </Link>
             <p className="mt-4 text-sm footerHeaderColor">
               Dijitalde Yolculuğunuzu Şekillendiriyoruz

@@ -13,7 +13,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import Image from "next/image"
-import DijitalDonusumKutusu from "../../../../public/images/DigitalDonusumKutusu.webp"
+
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -78,7 +78,7 @@ export function Menu() {
                     href="/"
                   >   
                   <div className="mx-auto">
-                  <Image src={DijitalDonusumKutusu} alt="Dijital Dönüşüm Kutusu" width={200}  height={200}/>
+                  <Image src="/images/DigitalDonusumKutusu.webp" alt="Dijital Dönüşüm Kutusu" width={200}  height={200}/>
                   </div>
                   
                     <div className="mb-2 mt-4 text-lg font-medium text-center">

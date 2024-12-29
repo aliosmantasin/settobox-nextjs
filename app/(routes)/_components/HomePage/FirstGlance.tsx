@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Lottie from "lottie-react";
-import AllInBoxAnimation from "../../../../public/json/All-in-SetToBox.json";
+import data from "../../../../public/data/All-in-SetToBox.json";
 import Link from "next/link";
 import { PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -48,7 +48,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
           <div className="w-96 max-w-md relative">
     
             <Lottie
-              animationData={AllInBoxAnimation}
+              animationData={data}
               loop={false}
               style={{ marginTop: "30px" }}
             />
