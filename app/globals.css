@@ -66,7 +66,43 @@ body {
   * {
     @apply border-border;
   }
+  
   body {
     @apply bg-background text-foreground;
   }
-}
+
+  /* Footer Renk Dark Mode */
+  .footerBg {
+    @apply bg-background;
+  }
+  
+  .dark .footerBg {
+    @apply bg-foreground;
+  }
+
+  .footerHeaderColor {
+    @apply text-gray-500;
+  }
+  
+  .dark .footerHeaderColor {
+    @apply text-foreground;
+  }
+
+  .footerTextColor {
+    @apply text-blue-600;
+  }
+  
+  .dark .footerTextColor {
+    @apply text-gray-300;
+  }
+
+  .footerIconColor {
+    @apply text-gray-400;
+  }
+  .dark .footerIconColor {
+    @apply text-gray-300;
+  }
+
+  }
+
+
