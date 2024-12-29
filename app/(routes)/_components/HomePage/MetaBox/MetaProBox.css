@@ -1,0 +1,318 @@
+.metaProBox {
+  cursor: pointer;
+  /* width: 300px!important; */
+}
+
+
+.mt-pro-1, .mt-pro-2 {
+  fill: none;
+}
+
+.mt-pro-3 {
+  fill: #2d0402;
+}
+
+.mt-pro-4 {
+  fill-rule: evenodd;
+}
+
+.mt-pro-4, .mt-pro-5, .mt-pro-6 {
+  fill: #afafaf;
+}
+
+.mt-pro-7, .mt-pro-8 {
+  fill: #231f20;
+}
+
+.mt-pro-9 {
+  fill: #838689;
+}
+
+.mt-pro-10 {
+  fill: #174f72;
+}
+
+.mt-pro-11 {
+  fill: #454a4c;
+}
+
+.mt-pro-12 {
+  fill: url(#radial-gradient);
+}
+
+.mt-pro-13 {
+  fill: url(#linear-gradient);
+}
+
+.mt-pro-2 {
+  stroke: #1c75bc;
+}
+
+.mt-pro-2, .mt-pro-5 {
+  stroke-width: 2px;
+}
+
+.mt-pro-2, .mt-pro-5, .mt-pro-14 {
+  stroke-miterlimit: 10;
+}
+
+.mt-pro-15 {
+  fill: #3e3e3e;
+}
+
+.mt-pro-16 {
+  isolation: isolate;
+}
+
+.mt-pro-17 {
+  fill: #373737;
+}
+
+.mt-pro-18 {
+  fill: #4c2c02;
+}
+
+.mt-pro-19 {
+  fill: #770e28;
+}
+
+.mt-pro-20 {
+  font-family: Quicksand-Light, Quicksand;
+  font-weight: 300;
+}
+
+.mt-pro-20, .mt-pro-21 {
+  fill: #302e29;
+}
+
+.mt-pro-22 {
+  fill: #303233;
+}
+
+.mt-pro-23 {
+  fill: #4f4f4f;
+}
+
+.mt-pro-24 {
+  font-size: 14px;
+}
+
+.mt-pro-24, .mt-pro-25, .mt-pro-26, .mt-pro-14 {
+  fill: #1c75bc;
+}
+
+.mt-pro-24, .mt-pro-26 {
+  font-family: Quicksand-Bold, Quicksand;
+  font-weight: 700;
+}
+
+.mt-pro-27 {
+  clip-path: url(#clippath-1);
+}
+
+.mt-pro-28 {
+  font-size: 23.16px;
+}
+
+.mt-pro-29 {
+  fill: url(#linear-gradient-2);
+}
+
+.mt-pro-29, .mt-pro-30 {
+  mix-blend-mode: multiply;
+}
+
+.mt-pro-29, .mt-pro-30, .mt-pro-31 {
+  opacity: .3;
+}
+
+.mt-pro-30 {
+  fill: url(#linear-gradient-3);
+}
+
+.mt-pro-32 {
+  font-size: 34.74px;
+}
+
+.mt-pro-33 {
+  fill: #fff;
+}
+
+.mt-pro-34 {
+  fill: #3e3eaf;
+}
+
+.mt-pro-35 {
+  fill: #363691;
+}
+
+.mt-pro-36 {
+  opacity: .68;
+}
+
+.mt-pro-37 {
+  fill: #1f1f1f;
+}
+
+.mt-pro-38 {
+  fill: #00005c;
+}
+
+.mt-pro-8 {
+  opacity: .5;
+}
+
+.mt-pro-39 {
+  fill: #51b1fc;
+}
+
+.mt-pro-40 {
+  fill: #383838;
+}
+
+.mt-pro-41 {
+  fill: #94989b;
+}
+
+.mt-pro-5 {
+  stroke: #c1ad76;
+}
+
+.mt-pro-42 {
+  fill: #525659;
+}
+
+.mt-pro-43 {
+  fill: #331c25;
+}
+
+.mt-pro-44 {
+  fill: #c1ad76;
+}
+
+.mt-pro-45 {
+  fill: #020223;
+}
+
+.mt-pro-46 {
+  fill: #0d1a23;
+}
+
+.mt-pro-26 {
+  font-size: 31px;
+}
+
+.mt-pro-31 {
+  mix-blend-mode: screen;
+}
+
+.mt-pro-14 {
+  stroke: #231f20;
+  stroke-width: .75px;
+}
+
+  /******Hover*****/ 
+
+  .metaProBox:hover .mt-pro-10 {
+    fill: #30a8ff;
+  }
+  
+  .metaProBox:hover .mt-pro-46 {
+    fill: #001e36;
+  }
+  
+  .metaProBox:hover .mt-pro-18 {
+    fill: #ff9a00;
+  }
+  .metaProBox:hover .mt-pro-3 {
+    fill: #2d0402;
+  }
+  .metaProBox:hover .mt-pro-34 {
+    fill: #9999ff;
+  }
+  .metaProBox:hover .mt-pro-45 {
+    fill: #00005b;
+  }
+  .metaProBox:hover .mt-pro-19 {
+    fill: #e94869;
+  }
+  .metaProBox:hover .mt-pro-43 {
+    fill: #43091f;
+  }
+  
+  .metaProBox:hover .mt-pro-35 {
+    fill: #9a99ff;
+  }
+
+  .metaProBox:hover .mt-pro-38 {
+    fill: #00005c;
+  }
+  
+  .metaProBox:hover .mt-pro-6 {
+    fill: #ffffff;
+  }
+
+  .metaProBox:hover  .mt-pro-5 {
+    fill: #ffffff;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .metaProBox svg:hover {
+      cursor: pointer;
+      width: initial;
+      transition: initial;
+    }
+  
+    .metaProBox {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .metaProBox .mt-pro-10 {
+      fill: #30a8ff;
+    }
+    
+    .metaProBox .mt-pro-46 {
+      fill: #001e36;
+    }
+    
+    .metaProBox .mt-pro-18 {
+      fill: #ff9a00;
+    }
+    .metaProBox .mt-pro-3 {
+      fill: #2d0402;
+    }
+    .metaProBox .mt-pro-34 {
+      fill: #9999ff;
+    }
+    .metaProBox .mt-pro-45 {
+      fill: #00005b;
+    }
+    .metaProBox .mt-pro-19 {
+      fill: #e94869;
+    }
+    .metaProBox .mt-pro-43 {
+      fill: #43091f;
+    }
+    
+    .metaProBox .mt-pro-35 {
+      fill: #9a99ff;
+    }
+  
+    .metaProBox .mt-pro-38 {
+      fill: #00005c;
+    }
+    
+    .metaProBox .mt-pro-6 {
+      fill: #ffffff;
+    }
+  
+    .metaProBox  .mt-pro-5 {
+      fill: #ffffff;
+    }
+    
+    .mt-pro-11 {
+      fill: url(#radial-gradient-mobil);
+    }
+    
+  }

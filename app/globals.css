@@ -6,6 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -103,6 +107,60 @@ body {
     @apply text-gray-300;
   }
 
+
+  /* FirstGlancComponent */
+  .styled-h1 {
+    @apply flex justify-center sm:text-3xl text-center;
+    background: -webkit-linear-gradient(#d459c1, #46d6ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    .styled-paragraph {
+      @apply text-center text-lg max-w-3xl leading-7 tracking-widest my-4 mx-auto;
+    }
+  
+  
+
+    /* BUTTON */
+  .button-media {
+    @apply flex items-center justify-center text-white rounded-lg text-lg cursor-pointer;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #29d9e6);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    padding: 10px 15px;
+    min-width: 140px;
+    max-width: 100%;
   }
 
+}
 
+/* @layer base {
+  .gradient-efect {
+    @apply absolute max-w-[1140px] w-[1140px] h-[400px] flex top-0 right-0 mr-[10%] z-0;
+  }
+
+  .blue-grad {
+    @apply bg-gradient-to-r from-[#74e9f4] to-white;
+    filter: brightness(0) saturate(49%) invert(80%) sepia(46%) saturate(88) hue-rotate(203deg) brightness(112%) contrast(74%) blur(90px);
+    @apply opacity-70;
+  }
+
+  .purple-grad {
+    @apply bg-gradient-to-r from-[#74e9f4] to-white;
+    filter: brightness(0) saturate(22%) invert(82%) sepia(67%) saturate(2646%) hue-rotate(203deg) brightness(112%) contrast(54%) blur(90px);
+    @apply opacity-70;
+  }
+
+  .boxPurple {
+    @apply w-[60%] h-[10rem];
+  }
+
+  .boxBlue {
+    @apply w-[40%] h-[6rem];
+  }
+
+  .b-gridline {
+    @apply absolute top-0 right-0 left-0 w-full h-[150px] mx-auto opacity-40;
+    background-image: url('/public/svg/gridlines.svg');
+  }
+
+} */
