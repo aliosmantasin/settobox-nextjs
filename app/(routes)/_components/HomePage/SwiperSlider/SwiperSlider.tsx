@@ -35,7 +35,7 @@ const ServiceSlider = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen ">
-      <div className="w-full px-4">
+      <div className="container px-4">
         <Slider {...settings}>
           {/* Slaytlar */}
           <div className="p-5">
