@@ -57,3 +57,4 @@ next-env.d.ts
 *.tar
 *.gz
 *.rar
+pnpm-lock.yaml

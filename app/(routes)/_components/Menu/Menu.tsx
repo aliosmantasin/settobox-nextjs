@@ -78,7 +78,7 @@ export function Menu() {
                     href="/"
                   >   
                   <div className="mx-auto">
-                  <Image src="/images/DigitalDonusumKutusu.webp" alt="Dijital Dönüşüm Kutusu" width={200}  height={200}/>
+                  <Image src="/DigitalDonusumKutusu.webp" alt="Dijital Dönüşüm Kutusu" width={200}  height={200}/>
                   </div>
                   
                     <div className="mb-2 mt-4 text-lg font-medium text-center">

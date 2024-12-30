@@ -133,6 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
+
 /* @layer base {
   .gradient-efect {
     @apply absolute max-w-[1140px] w-[1140px] h-[400px] flex top-0 right-0 mr-[10%] z-0;
