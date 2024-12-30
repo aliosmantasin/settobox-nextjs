@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 2560 210">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #2b74a5;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="2560" height="302"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0" y1="-807.1" x2="2560.1" y2="-807.1" gradientTransform="translate(0 -656) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#231f20"/>
+      <stop offset="0" stop-color="#262223"/>
+      <stop offset=".2" stop-color="#2f2c2d"/>
+      <stop offset=".2" stop-color="#403d3d"/>
+      <stop offset=".3" stop-color="#585455"/>
+      <stop offset=".3" stop-color="#767374"/>
+      <stop offset=".4" stop-color="#9b999a"/>
+      <stop offset=".4" stop-color="#c7c6c6"/>
+      <stop offset=".5" stop-color="#f9f9f9"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#f9f9f9"/>
+      <stop offset=".6" stop-color="#c7c6c6"/>
+      <stop offset=".6" stop-color="#9b999a"/>
+      <stop offset=".7" stop-color="#767374"/>
+      <stop offset=".7" stop-color="#585455"/>
+      <stop offset=".8" stop-color="#403d3d"/>
+      <stop offset=".8" stop-color="#2f2c2d"/>
+      <stop offset=".9" stop-color="#262223"/>
+      <stop offset="1" stop-color="#231f20"/>
+    </linearGradient>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <g id="Layer_1-2">
+          <g class="cls-4">
+            <g>
+              <path class="cls-3" d="M1981.2,112.6h0c185.7,51.3,379.2,83.5,578.9,94.4v94.1H0v-94.7c199.5-12,394.3-46.2,576.1-94.4C800,52.5,1034,1,1277.3,1s479.2,51.8,703.9,111.6h0Z"/>
+              <path class="cls-2" d="M1981.2,113.6h0c185.7,51.3,379.2,83.5,578.9,94.4v95.1H0v-95.7c199.5-12,394.3-46.2,576.1-94.4C800,53.5,1034,2,1277.3,2s479.2,51.8,703.9,111.6h0Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

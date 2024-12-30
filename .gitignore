@@ -47,9 +47,7 @@ next-env.d.ts
 *.gif
 *.bmp
 *.tiff
-*.json
-*.svg
-*.webp
+
 *.mp4
 
 # Ignore archive and zip files
