@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic"; // dynamic import
 import Link from "next/link";
-import { PhoneCall } from "lucide-react";
+import { Mail, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // Dinamik olarak Lottie bileşenini import ediyoruz
@@ -60,9 +60,9 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
 
         <div className="flex justify-center items-center mt-6 space-x-4">
           <Link href="/bilgiformu">
-            <button className="px-6 py-3 text-sm font-medium text-white bg-primary rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 button-media">
-              Form İletişim
-            </button>
+            <Button className="">
+            <Mail />Form İletişim
+            </Button>
           </Link>
 
           <Link href="tel:+905437214839" target="_blank">

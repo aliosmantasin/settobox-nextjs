@@ -267,8 +267,7 @@
   @media only screen and (max-width: 500px) {
     .metaMiniBox svg:hover {
       cursor: pointer;
-      width: initial;
-      transition: initial;
+  
     }
   
     .metaMiniBox {
