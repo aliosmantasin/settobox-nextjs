@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic"; // dynamic import
 import Link from "next/link";
 import { PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
+// Dinamik olarak Lottie bileşenini import ediyoruz
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 interface AnimationData {
   v: string;
