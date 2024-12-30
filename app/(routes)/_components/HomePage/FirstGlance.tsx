@@ -1,26 +1,35 @@
-"use client"
 import React, { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import Link from "next/link";
 import { PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+interface AnimationData {
+  v: string;
+  fr: number;
+  ip: number;
+  op: number;
+  w: number;
+  h: number;
+  nm: string;
+  [key: string]: unknown;
+}
+
 interface FirstGlanceProps {
   onLoad?: () => void;
 }
 
 const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
-  const [animationData, setAnimationData] = useState<object>();
+  const [animationData, setAnimationData] = useState<AnimationData | null>(null);
 
   useEffect(() => {
-    // JSON dosyasını fetch ile yükle
     const fetchAnimationData = async () => {
       try {
         const response = await fetch("/data/All-in-SetToBox.json");
         if (!response.ok) {
           throw new Error("JSON dosyası yüklenemedi.");
         }
-        const data = await response.json();
+        const data: AnimationData = await response.json();
         setAnimationData(data);
       } catch (error) {
         console.error("Hata:", error);
