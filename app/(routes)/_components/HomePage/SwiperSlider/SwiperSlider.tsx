@@ -1,19 +1,12 @@
 import React from 'react';
-
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Image from 'next/image';
-
-
-
-
 
 const ServiceSlider = () => {
 
@@ -55,10 +48,9 @@ const ServiceSlider = () => {
       <SwiperSlide><Image src="/GoogleMiniBox.webp" alt='MetaMiniBox' width={1080} height={1080}/></SwiperSlide>
       <SwiperSlide><Image src="/GoogleMegaBox.webp" alt='MetaMiniBox' width={1080} height={1080}/></SwiperSlide>
       <SwiperSlide><Image src="/GoogleProBox.webp" alt='MetaMiniBox' width={1080} height={1080}/></SwiperSlide>
-
       <SwiperSlide><Image src="/BasicWeb.webp" alt='MetaMiniBox' width={1080} height={1080}/></SwiperSlide>
       <SwiperSlide><Image src="/BusinessWeb.webp" alt='MetaMiniBox' width={1080} height={1080}/></SwiperSlide>
-      
+  
     </Swiper>
 
       </div>

@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     --radius: 0.5rem;
   }
   .dark {
-    --background: 240 10% 3.9%;
+    --background: #0A0A0B;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* FirstGlancComponent */
   .styled-h1 {
-    @apply flex justify-center sm:text-3xl text-center;
+    @apply flex justify-center text-3xl text-center;
     background: -webkit-linear-gradient(#d459c1, #46d6ef);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
