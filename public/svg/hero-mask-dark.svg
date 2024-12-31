@@ -3,11 +3,11 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#radial-gradient);
+        fill: #09090a;
       }
 
       .cls-2 {
-        fill: #131313;
+        fill: url(#radial-gradient);
       }
     </style>
     <radialGradient id="radial-gradient" cx="1280.05" cy="152.66" fx="1280.05" fy="152.66" r="939.4" gradientTransform="translate(0 -283.84) scale(1 2.9)" gradientUnits="userSpaceOnUse">
@@ -15,6 +15,6 @@
       <stop offset="1" stop-color="#000"/>
     </radialGradient>
   </defs>
-  <path class="cls-1" d="M1981.2,116.76c185.7,53.73,379.2,87.45,578.9,98.86v99.6H0v-100.22c785.82-78.65,1135.6-374.27,1981.2-98.23h0Z"/>
-  <path class="cls-2" d="M1981.2,121.63h0c185.7,52.41,379.2,85.3,578.9,96.44v97.15H0v-97.77c776.14-76.84,1151.46-364.25,1981.2-95.83Z"/>
+  <path class="cls-2" d="M1981.2,116.76c185.7,53.73,379.2,87.45,578.9,98.86v99.6H0v-100.22c785.82-78.65,1135.6-374.27,1981.2-98.23h0Z"/>
+  <path class="cls-1" d="M1981.2,121.63h0c185.7,52.41,379.2,85.3,578.9,96.44v97.15H0v-97.77c776.14-76.84,1151.46-364.25,1981.2-95.83Z"/>
 </svg>

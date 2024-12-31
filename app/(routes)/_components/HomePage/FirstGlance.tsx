@@ -47,20 +47,20 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   }, [onLoad]);
 
   return (
-    <section className="py-10 bg-background">
+    <section className="py-10 bg-background ">
       <div className="container mx-auto text-center">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-foreground styled-h1 my-5">
+          <h1 className="text-foreground styled-h1 my-5 relative">
             Dijital`de Yolculuğunuzu Şekillendiriyoruz!
           </h1>
-          <p className="mt-4 text-muted-foreground styled-paragraph">
+          <p className="mt-4 text-muted-foreground styled-paragraph relative">
             Facebook, Instagram ve Google reklamlarıyla markanızı öne çıkarın, web sitenizi etkileyici tasarımlarla güçlendirin. Sosyal medya reklamlarıyla etkileşimi artırın. Başarıya giden yolda stratejik hedeflerimize siz de dahil olun 😊
           </p>
         </div>
 
         <div className="flex justify-center items-center mt-6 space-x-4">
           <Link href="/bilgiformu">
-            <Button className="">
+            <Button className="relative">
             <Mail />Form İletişim
             </Button>
           </Link>
@@ -68,9 +68,9 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
           <Link href="tel:+905437214839" target="_blank">
             <Button
               variant="ghost"
-              className="flex items-center gap-3 border rounded border-r-8 border-blue-700 hover:text-blue-800 py-5"
+              className="flex items-center gap-3 border rounded border-r-8 border-blue-700 hover:text-blue-800 py-5 relative"
             >
-              <PhoneCall size={14} className="" />
+              <PhoneCall size={14} className="relative" />
               Şimdi Ara!
             </Button>
           </Link>

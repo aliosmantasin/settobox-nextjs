@@ -1,5 +1,6 @@
 'use client'
 
+import DijitalDonusumKutusu from "../_components/HomePage/DijitalDonusumKutusu/DijitalDonusumKutusu";
 import FirstGlance from "../_components/HomePage/FirstGlance";
 import {MaskSvg} from "../_components/HomePage/Mask/Mask";
 import ServiceSlider from "../_components/HomePage/SwiperSlider/SwiperSlider";
@@ -16,6 +17,7 @@ export default function HomePage() {
     <FirstGlance/>
     <MaskSvg/>
     <ServiceSlider/>
+    <DijitalDonusumKutusu/>
    </>
   );
 }
