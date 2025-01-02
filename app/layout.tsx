@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <GoogleTagManager gtmId="GTM-XYZ" />
+      <GoogleTagManager gtmId="GTM-NRSTMB28" />
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
