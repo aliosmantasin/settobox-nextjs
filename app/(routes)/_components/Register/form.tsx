@@ -60,6 +60,8 @@ const InfoForm = () => {
       const res = await axios.post(apiUrl, formData, {
         headers: { "Content-Type": "application/json" },
       });
+    
+      console.log(res);
 
       if (res.status === 200) {
         setToastMessage("Email başarıyla gönderildi");
