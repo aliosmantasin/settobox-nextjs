@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Mail, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 
@@ -60,7 +59,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
         </div>
 
         <div className="flex justify-center items-center mt-6 space-x-4">
-          <Link href="/bilgiformu">
+          <Link href="/bilgi-alma-formu">
             <Button className="relative">
             <Mail />Form İletişim
             </Button>
