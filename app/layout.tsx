@@ -39,7 +39,7 @@ export default function RootLayout({
           <ToastProvider>  {/* ToastProvider'ı buraya sarın */}
             {children}
           </ToastProvider>
-          <SpeedInsights />
+          <SpeedInsights/>
         </ThemeProvider>
       </body>
     </html>

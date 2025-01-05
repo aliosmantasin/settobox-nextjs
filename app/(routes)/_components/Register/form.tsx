@@ -96,7 +96,7 @@ const InfoForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen relative">
+    <section className="flex items-center justify-center relative mt-10">
       <div className="w-full max-w-md p-6 rounded shadow-md">
         <h2 className="text-2xl font-bold text-center mb-4">Bilgi Formu</h2>
 
@@ -186,7 +186,7 @@ const InfoForm = () => {
           Kapat
         </ToastAction>
       </Toast>
-    </div>
+    </section>
   );
 };
 
