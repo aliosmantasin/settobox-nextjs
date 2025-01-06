@@ -1,7 +1,8 @@
-"use client";
+"use client"
 
 import { useState, ChangeEvent, FormEvent } from "react";
 import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger } from "@/components/ui/select";
@@ -14,6 +15,7 @@ interface FormData {
   phone: string;
   email: string;
   service?: string;
+  recaptchaToken?: string;
 }
 
 const InfoForm = () => {
@@ -23,11 +25,14 @@ const InfoForm = () => {
     phone: "",
     email: "",
     service: "",
+    recaptchaToken: "",
   });
   const [loading, setLoading] = useState(false);
   const [toastOpen, setToastOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
   const [toastSeverity, setToastSeverity] = useState<"default" | "destructive">("default");
+
+  
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -37,17 +42,25 @@ const InfoForm = () => {
     }));
   };
 
+  const handleReCAPTCHAChange = (token: string | null) => {
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      recaptchaToken: token || "",
+    }));
+  };
+
   const sendEmail = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
-    const apiUrl = "/api/send-email";
+    const apiUrl = "/api/send-email"
 
     try {
+      
       const res = await axios.post(apiUrl, formData, {
         headers: { "Content-Type": "application/json" },
       });
-
+    
       console.log(res);
 
       if (res.status === 200) {
@@ -61,6 +74,7 @@ const InfoForm = () => {
           phone: "",
           email: "",
           service: "",
+          recaptchaToken: "",
         });
       } else {
         setToastMessage("Email gönderilirken hata oluştu");
@@ -150,6 +164,13 @@ const InfoForm = () => {
               value={formData.email}
               onChange={handleChange}
               required
+            />
+          </div>
+
+          <div className="mb-4">
+            <ReCAPTCHA
+              sitekey="6LekPDgqAAAAADuETCb6NOlzwacjJQSFxCNgyj2M"
+              onChange={handleReCAPTCHAChange}
             />
           </div>
 
