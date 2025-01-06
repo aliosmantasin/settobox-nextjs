@@ -67,6 +67,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @layer base {
+  .bg-info {
+    background-color: hsl(var(--info));
+  }
+  
+  .bg-success {
+    background-color: hsl(var(--success));
+  }
+  
+  .bg-warning {
+    background-color: hsl(var(--warning));
+  }
+  
+  .bg-danger {
+    background-color: hsl(var(--danger));
+  }
+  
+}
+
+@layer base {
+  .primary {
+    color: #2b29e6;
+  }
+
+  .secondary {
+    color: #6621eb;
+  }
+}
+
+
+
+
+@layer base {
+  .ocean-shadow {
+    box-shadow: rgba(93, 198, 255, 0.247) 0px 20px 20px -20px;
+  }
+}
+
+
+@layer base {
   * {
     @apply border-border;
   }
@@ -74,6 +113,8 @@ h1, h2, h3, h4, h5, h6 {
   body {
     @apply bg-background text-foreground;
   }
+
+ 
 
   /* Footer Renk Dark Mode */
   .footerBg {

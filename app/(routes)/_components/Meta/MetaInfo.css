@@ -1,0 +1,229 @@
+@keyframes upDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: upDown 4s ease-in-out infinite;
+  }
+
+/* Animasyonu eklemek için ImageContainer'a özel sınıf */
+.image-container {
+  animation: upDown 4s ease-in-out infinite;
+}
+
+  
+  .callToAction h2 {
+    font-size: x-large;
+    font-weight: 400;
+  }
+  
+  
+  .callToAction > h1{
+      justify-content: center;
+      margin: auto;
+      font-size: 1.5rem;
+      background: -webkit-linear-gradient(#46d6ef, #d459c1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 2rem;
+      font-weight: 400;
+  }
+  
+  @media  (max-width: 500px) {
+    .callToAction h1 {
+      margin-top: 2rem;
+    }
+  
+    .callToAction h2 {
+      margin-top: 1rem;
+      font-weight: 400;
+    }
+    .callToAction p {
+      margin-top: 10px;
+    }
+  }
+  
+  
+  
+  /**********/
+  
+  .Ig-Profil-Git-1 {
+      fill: #3f4c70;
+    }
+  
+    .Ig-Profil-Git-1, .Ig-Profil-Git-2, .Ig-Profil-Git-3, .Ig-Profil-Git-4, .Ig-Profil-Git-5, .Ig-Profil-Git-6, .Ig-Profil-Git-7, .Ig-Profil-Git-8, .Ig-Profil-Git-9, .Ig-Profil-Git-10, .Ig-Profil-Git-11, .Ig-Profil-Git-12, .Ig-Profil-Git-13, .Ig-Profil-Git-14, .Ig-Profil-Git-15, .Ig-Profil-Git-16, .Ig-Profil-Git-17, .Ig-Profil-Git-18, .Ig-Profil-Git-19, .Ig-Profil-Git-20, .Ig-Profil-Git-21 {
+      stroke-width: 0px;
+    }
+  
+    .Ig-Profil-Git-22 {
+      font-family: Arial, sans-serif;
+      font-size: 3.09px;
+      font-weight: 600;
+    }
+  
+    .Ig-Profil-Git-22, .Ig-Profil-Git-12, .Ig-Profil-Git-13 {
+      fill: #1a1f2e;
+    }
+  
+    .Ig-Profil-Git-2, .Ig-Profil-Git-11 {
+      fill: #ff5a76;
+    }
+  
+    .Ig-Profil-Git-2, .Ig-Profil-Git-13 {
+      fill-rule: evenodd;
+    }
+  
+    .Ig-Profil-Git-23 {
+      font-size: 3.51px;
+    }
+  
+    .Ig-Profil-Git-23, .Ig-Profil-Git-24, .Ig-Profil-Git-25 {
+      font-weight: 700;
+    }
+  
+    .Ig-Profil-Git-23, .Ig-Profil-Git-25 {
+      font-family: Arial, sans-serif;
+    }
+  
+    .Ig-Profil-Git-23, .Ig-Profil-Git-25, .Ig-Profil-Git-19 {
+      fill: #454b60;
+    }
+  
+    .Ig-Profil-Git-3 {
+      fill: #2d354f;
+    }
+  
+    .Ig-Profil-Git-4 {
+      fill: #cecece;
+      filter: url(#drop-shadow-1);
+    }
+  
+    .Ig-Profil-Git-5 {
+      fill: #5c8eff;
+    }
+  
+    .Ig-Profil-Git-6 {
+      fill: #cad2db;
+    }
+  
+    .Ig-Profil-Git-7 {
+      fill: #0a0c12;
+    }
+  
+    .Ig-Profil-Git-26 {
+      stroke: #dce0ed;
+      stroke-width: .23px;
+    }
+  
+    .Ig-Profil-Git-26, .Ig-Profil-Git-27 {
+      stroke-miterlimit: 10;
+    }
+  
+    .Ig-Profil-Git-26, .Ig-Profil-Git-27, .Ig-Profil-Git-28, .Ig-Profil-Git-29 {
+      fill: none;
+    }
+  
+    .Ig-Profil-Git-30 {
+      mix-blend-mode: multiply;
+    }
+  
+    .Ig-Profil-Git-31 {
+      letter-spacing: -.01em;
+    }
+  
+    .Ig-Profil-Git-27, .Ig-Profil-Git-28 {
+      stroke: #454b60;
+    }
+  
+    .Ig-Profil-Git-27, .Ig-Profil-Git-28, .Ig-Profil-Git-29 {
+      stroke-width: .77px;
+    }
+  
+    .Ig-Profil-Git-8 {
+      fill: #3797f2;
+    }
+  
+    .Ig-Profil-Git-24 {
+      fill: #3f3f3f;
+      font-family: Quicksand-Bold, Quicksand;
+      font-size: 9.71px;
+    }
+  
+    .Ig-Profil-Git-25 {
+      font-size: 4.41px;
+    }
+  
+    .Ig-Profil-Git-28, .Ig-Profil-Git-29 {
+      stroke-linejoin: round;
+    }
+  
+    .Ig-Profil-Git-9 {
+      fill: url(#Degradado_sin_nombre_2);
+    }
+  
+    .Ig-Profil-Git-10 {
+      fill: #e7ecf2;
+    }
+  
+    .Ig-Profil-Git-32 {
+      letter-spacing: -.02em;
+    }
+  
+    .Ig-Profil-Git-14 {
+      fill: #0c101a;
+    }
+  
+    .Ig-Profil-Git-33 {
+      isolation: isolate;
+    }
+  
+    .Ig-Profil-Git-15 {
+      fill: url(#Degradado_sin_nombre_2-4);
+    }
+  
+    .Ig-Profil-Git-16 {
+      fill: url(#Degradado_sin_nombre_2-5);
+    }
+  
+    .Ig-Profil-Git-17 {
+      fill: url(#Degradado_sin_nombre_2-3);
+    }
+  
+    .Ig-Profil-Git-18 {
+      fill: url(#Degradado_sin_nombre_2-2);
+    }
+  
+    .Ig-Profil-Git-20 {
+      fill: #fff;
+    }
+  
+    .Ig-Profil-Git-21 {
+      fill: #131621;
+    }
+  
+    .Ig-Profil-Git-29 {
+      stroke: #1a1f2e;
+      stroke-linecap: round;
+    }
+  
+  
+  
+    @media(max-width: 768px) {
+      .callToAction svg{
+        width: 70%;
+      }
+      }
+  
+  
+  
+  
+    

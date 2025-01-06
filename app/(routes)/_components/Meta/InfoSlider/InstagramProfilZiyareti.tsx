@@ -1,0 +1,46 @@
+import "./BizimleIletisimeGec.css";
+
+const InstagramProfilZiyareti = () => {
+  return (
+
+<g id="InstagramProfilZiyareti">
+          <g>
+            <rect className="Bizimle-Iletisime-Gec-20" x="35.21" y="83.88" width="134.85" height="180.4"/>
+            <rect className="Bizimle-Iletisime-Gec-10" x="35.21" y="109.99" width="134.85" height="134.67"/>
+            <path className="Bizimle-Iletisime-Gec-10" d="M51.65,100.15c0,3.09-2.51,5.6-5.6,5.6s-5.6-2.51-5.6-5.6,2.51-5.6,5.6-5.6,5.6,2.51,5.6,5.6Z"/>
+            <path className="Bizimle-Iletisime-Gec-16" d="M46.05,106.93c-3.74,0-6.78-3.04-6.78-6.78s3.04-6.78,6.78-6.78,6.78,3.04,6.78,6.78-3.04,6.78-6.78,6.78ZM46.05,94.14c-3.31,0-6.01,2.7-6.01,6.01s2.7,6.01,6.01,6.01,6.01-2.7,6.01-6.01-2.7-6.01-6.01-6.01Z"/>
+            <text className="Bizimle-Iletisime-Gec-25" transform="translate(55.59 101.65)"><tspan x="0" y="0">@username</tspan></text>
+            <g>
+              <path className="Bizimle-Iletisime-Gec-11" d="M48.16,250.74c-.38-.25-.8-.36-1.21-.36-.72,0-1.42.36-1.89,1.01-.47-.65-1.17-1.01-1.89-1.01-.41,0-.83.12-1.21.36-1.16.75-1.56,2.42-.89,3.72.55,1.06,2.85,2.9,3.69,3.55.09.07.2.11.3.11s.21-.04.3-.11c.83-.64,3.14-2.49,3.69-3.55.67-1.3.27-2.97-.89-3.72Z"/>
+              <path className="Bizimle-Iletisime-Gec-27" d="M63.19,256.08c-.02-.08-.01-.16.03-.24.39-.78.48-1.65.26-2.52-.31-1.25-1.27-2.23-2.5-2.56-.33-.09-.66-.13-.99-.13-1.12,0-2.16.51-2.84,1.39-.69.89-.92,2.05-.63,3.17.28,1.1,1.47,2.26,2.59,2.54.89.21,1.81.1,2.59-.33.08-.04.17-.06.25-.03l1.55.41s.06-.02.09-.05c.02-.03.03-.07.02-.11l-.41-1.55Z"/>
+              <path className="Bizimle-Iletisime-Gec-28" d="M163.14,251.07h-5.6c-.11,0-.2.09-.2.2v6.06c0,.08.05.15.12.18.07.03.15.02.21-.03l2.67-2.34,2.67,2.34c.06.05.14.06.21.03.07-.03.12-.1.12-.18v-6.06c0-.11-.09-.2-.2-.2Z"/>
+              <g>
+                <path className="Bizimle-Iletisime-Gec-6" d="M94.88,254.57c0,.51-.41.92-.92.92s-.92-.41-.92-.92.41-.92.92-.92.92.41.92.92Z"/>
+                <path className="Bizimle-Iletisime-Gec-6" d="M99,254.57c0,.51-.41.92-.92.92s-.92-.41-.92-.92.41-.92.92-.92.92.41.92.92Z"/>
+                <path className="Bizimle-Iletisime-Gec-5" d="M103.12,254.57c0,.51-.41.92-.92.92s-.92-.41-.92-.92.41-.92.92-.92.92.41.92.92Z"/>
+                <path className="Bizimle-Iletisime-Gec-6" d="M107.23,254.57c0,.51-.41.92-.92.92s-.92-.41-.92-.92.41-.92.92-.92.92.41.92.92Z"/>
+                <path className="Bizimle-Iletisime-Gec-6" d="M111.35,254.57c0,.51-.41.92-.92.92s-.92-.41-.92-.92.41-.92.92-.92.92.41.92.92Z"/>
+              </g>
+              <g>
+                <path className="Bizimle-Iletisime-Gec-27" d="M78.43,250.84h-7.41c-.08,0-.14.05-.17.12-.03.07,0,.15.05.2l2.92,2.48v.03s.72,3.94.72,3.94c.01.08.07.13.15.15.07.02.15-.02.19-.09l3.71-6.55c.03-.06.03-.12,0-.18-.03-.06-.09-.09-.16-.09Z"/>
+                <line className="Bizimle-Iletisime-Gec-27" x1="78.59" y1="250.93" x2="73.83" y2="253.67"/>
+              </g>
+            </g>
+            <line className="Bizimle-Iletisime-Gec-26" x1="35.21" y1="83.88" x2="170.07" y2="83.88"/>
+            <g>
+              <path className="Bizimle-Iletisime-Gec-19" d="M161.79,97.94c0,.35-.29.64-.64.64s-.64-.29-.64-.64.29-.64.64-.64.64.29.64.64Z"/>
+              <path className="Bizimle-Iletisime-Gec-19" d="M161.79,100.15c0,.35-.29.64-.64.64s-.64-.29-.64-.64.29-.64.64-.64.64.28.64.64Z"/>
+              <path className="Bizimle-Iletisime-Gec-19" d="M161.79,102.36c0,.35-.29.64-.64.64s-.64-.29-.64-.64.29-.64.64-.64.64.28.64.64Z"/>
+            </g>
+          </g>
+        <g>
+            <rect className="Bizimle-Iletisime-Gec-4" x="48" y="169.49" width="115" height="14.99" rx="5.14" ry="5.14"/>
+            <text className="Bizimle-Iletisime-Gec-24" transform="translate(49.43 180.14)"><tspan x="3" y="1">İnstagram Profiline Git</tspan></text>
+        </g>
+
+    </g>
+
+  )
+}
+
+export default InstagramProfilZiyareti

@@ -10,8 +10,8 @@ const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
   createServer((req, res) => {
-    const parsedUrl = parse(req.url!, true)
-    const { pathname, query } = parsedUrl 
+    const parsedUrl = parse(req.url!, true) // parsedUrl içerir pathname ve query
+    const { pathname, query } = parsedUrl // pathname ve query'yi almak
 
     try {
       if (pathname === '/a') {
