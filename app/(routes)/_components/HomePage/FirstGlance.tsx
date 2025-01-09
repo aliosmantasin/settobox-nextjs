@@ -16,7 +16,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   useEffect(() => {
     if (animationContainer.current) {
       const animInstance = lottie.loadAnimation({
-        container: animationContainer.current, // HTML element to render the animation
+        container: animationContainer.current, 
         renderer: "svg", 
         loop: false, 
         autoplay: true, 

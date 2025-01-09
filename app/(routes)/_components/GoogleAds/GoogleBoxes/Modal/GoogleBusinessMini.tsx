@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 
 
-export default function BusinessMini() {
+export default function GoogleBusinessMini() {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(true);
@@ -21,21 +21,20 @@ export default function BusinessMini() {
    
    
       <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="overflow-y-auto h-[80%]">
-      <DialogTitle>İhtiyaca Yönelik Reklam Yaklaşımı</DialogTitle>
+      <DialogContent>
+      <DialogTitle>Potansiyel Müşteri Odaklı</DialogTitle>
       
           <p className="text-base ">
-            Genellikle bütçe kısıtlaması olan veya anlık ihtiyaca göre tercih edilebilecek bir reklam yönetimi işletmeler tarafından tercih edilebilmektedir. İstenilen hedef doğrultusunda bir gönderiyi öne çıkararak chat (WhatsApp - DM) veya telefon araması başlatabilir, görseli veya videoyu etkileşime sokarak marka bilgisini/değerini artırabilir.
-          </p>
+          Özellikle bütçesi kısıtlı, online reklamcılığa yeni başlamak isteyen küçük işletmelerin
+           en çok tercih ettiği reklam türü Google Arama Ağı reklam türüdür. Bu reklam türünde ürün/hizmet
+            arayan internet kullacıları google arama ağı motorunda arama yaptıklarında karşılarına çıkan arama ağı
+             reklam türüdür. Potansiyel müşteriler için önemli bir reklam türüdür.</p>
           <h2 className="mt-4 mb-2 text-lg font-semibold ">Kimler için uygundur?</h2>
           <ul className="max-w-md space-y-1  list-disc list-inside">
-            <li>Kampanya ve etkinlik tanıtımı yapan işletmeler</li>
-            <li>Belirli tarihler, özel gün veya tatiller için reklam veren işletmeler</li>
-            <li>Yerel ve küçük işletmelerin tanıtımları</li>
+            <li>Özellikle yerel hizmet veren işletmeler için uygundur</li>
+           
           </ul>
-          <p className="mt-4 text-sm">
-            <strong>Not:</strong> Reklam öğrenim süresi belirli bir zaman alır. Belirli zaman aralıklarında bir reklam gösterimi planlıyorsanız 7 gün önceden planlanması gerekmektedir.
-          </p>
+        
         </DialogContent>
        
       </Dialog>

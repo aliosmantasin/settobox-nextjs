@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Dialog, DialogContent, DialogDescription, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
 
-export default function HareketPlaniMeta() {
+export default function HareketPlaniGoogle() {
 
 
   return (

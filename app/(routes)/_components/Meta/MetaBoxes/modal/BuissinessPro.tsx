@@ -20,7 +20,7 @@ export default function BusinessPro() {
       </Button>
    
       <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent>
+      <DialogContent className="overflow-y-auto h-[80%]">
       <DialogTitle>Stratejik Reklam ve Sosyal Medya Desteğiı</DialogTitle>
       
           <p className="text-base ">
