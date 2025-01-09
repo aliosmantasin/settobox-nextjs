@@ -90,11 +90,53 @@ h1, h2, h3, h4, h5, h6 {
     color: #2b29e6;
   }
 
+  .primary-light {
+    color: #299de6;
+  }
+
   .secondary {
     color: #6621eb;
   }
 }
 
+
+
+
+/*Product Colors*/
+@layer base {
+  .productBgColor {
+    @apply border border-[#88c4f4] bg-[#f5f9ff]
+   
+  }
+  .dark .productBgColor {
+   @apply border-none bg-black
+  }
+  }
+
+  @layer base {
+    .productBgBodyColor {
+      @apply border border-gray-200 bg-white
+     
+    }
+    .dark .productBgBodyColor {
+     @apply border-none bg-black
+    }
+    }
+  
+
+
+
+  @layer base {
+    .productListColor {
+      @apply  bg-[#f4f7f8] 
+     
+    }
+  
+    .dark .productListColor {
+     @apply border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800
+    }
+    }
+  
 
 
 
@@ -172,6 +214,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+
+
+
+
 
 
 

@@ -1,15 +1,17 @@
 import React from 'react'
-import MetaInfo from '../_components/Meta/MetaInfo'
+import MetaInfo from '../_components/Meta/MetaInfoComponent/MetaInfo'
+import MetaAdditional from '../_components/Meta/MetaAdditionalComponent/Additional';
+import MetaProduct from '../_components/Meta/MetaProduct/MetaProduct';
 
 
-console.log(MetaInfo); // Eğer undefined ise bir sorun var demektir.
-
-const page = () => {
+const MetaPage = () => {
   return (
     <>
         <MetaInfo/>
+        <MetaAdditional/>
+        <MetaProduct/>
     </>
   )
 }
 
-export default page
+export default MetaPage

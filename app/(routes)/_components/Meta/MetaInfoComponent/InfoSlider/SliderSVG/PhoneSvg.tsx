@@ -1,9 +1,9 @@
 "use client"
 
-import InstagramProfilZiyareti from "../../InfoSlider/InstagramProfilZiyareti";
-import DahaFazlaBilgiAl from "../../InfoSlider/DahaFazlaBilgiAl";
-import RandevuTalepEt from "../../InfoSlider/RandevuTalep";
-import BizimleIletisimeGec from "../..//InfoSlider/BizimleIletisimeGec";
+import InstagramProfilZiyareti from "../InstagramProfilZiyareti";
+import DahaFazlaBilgiAl from "../DahaFazlaBilgiAl";
+import RandevuTalepEt from "../RandevuTalep";
+import BizimleIletisimeGec from "../BizimleIletisimeGec";
 import { useEffect, useState } from "react";
 
 

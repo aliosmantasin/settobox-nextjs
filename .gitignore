@@ -54,3 +54,5 @@ yarn-error.log*
 *.rar
 
 .env
+*.next
+*.build

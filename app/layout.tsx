@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { GoogleTagManager } from '@next/third-parties/google';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { ToastProvider } from "@/components/ui/toast";  // Bu satırı ekleyin
 import type { Metadata } from "next";
 import "./globals.css";
@@ -39,7 +38,7 @@ export default function RootLayout({
           <ToastProvider>  {/* ToastProvider'ı buraya sarın */}
             {children}
           </ToastProvider>
-          <SpeedInsights/>
+     
         </ThemeProvider>
       </body>
     </html>

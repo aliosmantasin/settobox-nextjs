@@ -1,12 +1,12 @@
 import Image from "next/image";
-import PhoneSvg from "../Meta/InfoSlider/SliderSVG/PhoneSvg";
+import PhoneSvg from "./InfoSlider/SliderSVG/PhoneSvg";
 import "./MetaInfo.css";
 
 function MetaInfo() {
   return (
-    <section className="my-20">
+    <section className="mb-20 callToAction">
 
-      <div className="container mx-auto p-4 ocean-shadow relativ">
+      <div className="container mx-auto p-4 ocean-shadow relative ">
 
         <div className="flex flex-col lg:flex-row justify-center items-center flex-wrap ">
 

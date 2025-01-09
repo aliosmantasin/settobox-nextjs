@@ -32,8 +32,6 @@ const InfoForm = () => {
   const [toastMessage, setToastMessage] = useState("");
   const [toastSeverity, setToastSeverity] = useState<"default" | "destructive">("default");
 
-  
-
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({
@@ -53,15 +51,12 @@ const InfoForm = () => {
     e.preventDefault();
     setLoading(true);
 
-    const apiUrl = "/api/send-email"
+    const apiUrl = "/api/send-email";
 
     try {
-      
       const res = await axios.post(apiUrl, formData, {
         headers: { "Content-Type": "application/json" },
       });
-    
-      console.log(res);
 
       if (res.status === 200) {
         setToastMessage("Email başarıyla gönderildi");
@@ -169,7 +164,7 @@ const InfoForm = () => {
 
           <div className="mb-4">
             <ReCAPTCHA
-              sitekey="6LekPDgqAAAAADuETCb6NOlzwacjJQSFxCNgyj2M"
+              sitekey={process.env.RECAPTCHA_SITE_KEY || ""}
               onChange={handleReCAPTCHAChange}
             />
           </div>

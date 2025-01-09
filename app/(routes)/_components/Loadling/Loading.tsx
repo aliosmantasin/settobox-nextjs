@@ -1,22 +1,31 @@
-import Lottie from 'lottie-react';
-import loaderBox from '../../../../public/data/loaderBox.json';
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
+import loaderBox from "../../../../public/data/loaderBox.json";
 
-const Loading = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: loaderBox,
-  };
+const Loading: React.FC = () => {
+  const animationContainer = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (animationContainer.current) {
+      const animInstance = lottie.loadAnimation({
+        container: animationContainer.current, // HTML element
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        animationData: loaderBox,
+      });
+
+      return () => {
+        animInstance.destroy(); // Cleanup animation on unmount
+      };
+    }
+  }, []);
 
   return (
-    <div>
-      <Lottie 
-        animationData={loaderBox}
-        style={{ height: 100, width: 100, display: "flex", margin: "auto" }}
-        loop={defaultOptions.loop}
-        autoplay={defaultOptions.autoplay}
-      />
-    </div>
+    <div
+      ref={animationContainer}
+      style={{ height: 100, width: 100, display: "flex", margin: "auto" }}
+    />
   );
 };
 
