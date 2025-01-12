@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '@/components/ui/table';
 
-import { X } from 'lucide-react';
+
 
 export default function SocialMediaManageModalPro() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+ 
 
   const contentData = [
     { type: 'Görsel Paylaşımı', frequency: '2 - 3' },
@@ -24,18 +24,19 @@ export default function SocialMediaManageModalPro() {
     <>
       <Button
         variant="link"
-        className="p-1 sm:p-1 my-2  text-start cursor-pointer w-full"
+        className="p-1 sm:p-1 my-2  text-start cursor-pointer underline w-full"
         onClick={handleOpen}
       >
-              <div id="alert-" className="flex items-center p-3 mb-1 text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-blue-400 border border-green-400 w-full" role="alert">
-                  <svg className="w-3.5 h-3.5 me-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
-                  </svg>
-                 
-                  
-                      Sosyal Medya Yönetim İçeriği
-                 
-              </div>
+        <div id="alert-1" className="w-full flex items-center p-3 mb-1 text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400">
+          <svg className="me-2 h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
+            <path d="M10 0C4.612 0 0 5.336 0 7c0 1.742 3.546 7 10 7 6.454 0 10-5.258 10-7 0-1.664-4.612-7-10-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" />
+          </svg>
+
+          <div className="ms-3 text-sm font-medium">
+            Sosyal Medya Yönetim İçeriği
+          </div>
+        </div>
+
       </Button>
 
       <Dialog open={open} onOpenChange={setOpen}>
@@ -45,12 +46,7 @@ export default function SocialMediaManageModalPro() {
               <DialogTitle className="flex items-center text-blue-600">
                 Sosyal Medya İçerik Yönetimi
               </DialogTitle>
-              <button
-                onClick={handleClose}
-                className="text-gray-500 hover:text-gray-800 focus:outline-none"
-              >
-                <X size={20} />
-              </button>
+           
             </div>
           </DialogHeader>
 

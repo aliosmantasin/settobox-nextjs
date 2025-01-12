@@ -21,7 +21,7 @@ export default function GoogleBusinessMini() {
    
    
       <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent>
+      <DialogContent className="overflow-y-auto max-h-[80vh] sm:max-h-full sm:h-auto">
       <DialogTitle>Potansiyel Müşteri Odaklı</DialogTitle>
       
           <p className="text-base ">

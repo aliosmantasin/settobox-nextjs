@@ -89,7 +89,7 @@ const MetaBoxesMini = () => {
                       </div>
 
                       
-                   <div className="p:0 sm:px-14">  
+                   <div className="p:0 sm:px-1">  
 
                     <Accordion type="single" collapsible className="w-full px:2 sm:px-0 productBgBodyColor">
                     <AccordionItem value="item-4"> 

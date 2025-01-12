@@ -1,0 +1,145 @@
+/* General Styles */
+.step-to-explation-section {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.highlight-text {
+  color: #2226ac;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.step-title {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.icon-container {
+
+
+
+  margin: 2rem 0;
+  background-image: url(/svg/gridlines.svg);
+}
+
+.all-service {
+  display: flex;
+  width: 100%;
+}
+
+.mask-card {
+  width: 120px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.three-mask-svg {
+  position: relative;
+  width: 100px;
+  height: 113px;
+  -webkit-mask-image: url(/svg/iconMask.svg);
+  mask-image: url(/svg/iconMask.svg);
+  background-color: white;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.three-mask-object {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 92%;
+  height: 92%;
+  background-image: url(/svg/iconMask.svg);
+  z-index: 1;
+}
+
+.objective {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.icon-text {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.motion-box {
+  position: absolute;
+  width: 100px;
+  height: 107px;
+  filter: blur(4px);
+  animation: spin 3s linear infinite;
+}
+
+.motion-box-meta {
+  background: linear-gradient(90deg, rgba(16, 171, 195, 0.595) 0%, rgb(21, 90, 218) 96%);
+}
+
+.motion-box-google {
+  background: linear-gradient(360deg, rgba(174, 227, 17, 0.595) 0%, #1976d2 35%, #ff3d00 65%, #ffeb3b 100%);
+}
+
+.motion-box-web {
+  background: linear-gradient(90deg, rgba(224, 170, 255, 0.595) 0%, #9d4edd 96%);
+}
+
+.custom-icon-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: auto;
+  margin: 1rem;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.high-conversion {
+  background-color: #5b42f3;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  width: 150px;
+}
+
+.description {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.highlight {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

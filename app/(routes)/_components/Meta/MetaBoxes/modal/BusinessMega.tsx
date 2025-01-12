@@ -20,7 +20,7 @@ export default function BusinessMega() {
       </Button>
    
       <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="overflow-y-auto h-[80%]">
+      <DialogContent className="overflow-y-auto max-h-[80vh] sm:max-h-full sm:h-auto">
       <DialogTitle>Stratejik Reklam Yaklaşımı</DialogTitle>
       
           <p className="text-base ">

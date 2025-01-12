@@ -10,7 +10,7 @@ export default function HareketPlaniGoogle() {
     <>
     <Dialog>
       <DialogTrigger className='underline mx-2'>Hareket Planı</DialogTrigger>
-      <DialogContent>
+      <DialogContent className="overflow-y-auto max-h-[80vh] sm:max-h-full sm:h-auto">
         <DialogTitle>Hareket Planı Detayları</DialogTitle>
         <DialogDescription>
           Sisteme dahil olunmadan önce öncelikle nasıl bir hizmete dahil olduğunuzu bilmenizi isteriz, hareket planını bir hafta olarak belirledik. 

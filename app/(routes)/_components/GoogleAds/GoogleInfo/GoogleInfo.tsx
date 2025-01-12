@@ -3,11 +3,12 @@
 import Lottie from 'lottie-web';
 import { useEffect, useRef } from 'react';
 import './GoogleInfo.css';
-interface FirstGlanceProps {
+
+interface GoogleInfoProps {
   onLoad?: () => void;
 }
 
-const GoogleInfo: React.FC<FirstGlanceProps> = ({ onLoad }) => {
+const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
   const animationContainer = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

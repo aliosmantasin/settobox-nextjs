@@ -103,7 +103,7 @@ const MetaBoxesMega = () => {
                       </div>
 
                       
-                      <div className="p:0 sm:px-14 m-1 sm:m-0">    
+                      <div className="p:0 sm:px-1 m-1 sm:m-0">    
 
                     <Accordion type="single" collapsible className="w-full px:2 sm:px-0 productBgBodyColor">
                     <AccordionItem value="item-4"> 

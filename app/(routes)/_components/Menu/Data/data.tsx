@@ -80,6 +80,7 @@ export const serviceLinkData = {
         description:
           "MiniWeb - MegaWeb olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
       },
+      
     
     ],
 

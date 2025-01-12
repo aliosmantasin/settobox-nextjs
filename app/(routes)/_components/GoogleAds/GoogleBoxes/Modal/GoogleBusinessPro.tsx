@@ -12,7 +12,6 @@ export default function GoogleBusinessPro() {
 
   return (
     <>
- 
       <Button variant="outline" onClick={handleOpen}>
         <svg className="me-2 h-3 w-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
           <path d="M10 0C4.612 0 0 5.336 0 7c0 1.742 3.546 7 10 7 6.454 0 10-5.258 10-7 0-1.664-4.612-7-10-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z" />
@@ -22,7 +21,7 @@ export default function GoogleBusinessPro() {
    
    
       <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="overflow-y-auto h-[80%]">
+      <DialogContent className="overflow-y-auto max-h-[80vh] sm:max-h-full sm:h-auto">
       <DialogTitle>İstikrarlı Bütçe - Derinlemesine Hedefleme - Yüksek Dönüşüm</DialogTitle>
       
           <p className="text-base ">

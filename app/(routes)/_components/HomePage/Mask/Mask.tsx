@@ -1,12 +1,23 @@
-"use client"
+"use client";
 
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export const MaskSvg = () => {
   const { theme, resolvedTheme } = useTheme();
-  const currentTheme = theme === "system" ? resolvedTheme : theme;
+  const [isMounted, setIsMounted] = useState(false);
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    // Mount edilmeden önce bir placeholder render edebilirsiniz
+    return null;
+  }
+
+  const currentTheme = theme === "system" ? resolvedTheme : theme;
 
   return (
     <Image

@@ -7,8 +7,8 @@ import megaBox from "../../../../../public/mega-box.webp";
 import proBox from "../../../../../public/pro-box.webp";
 import MetaBoxesMini from "../MetaBoxes/MetaBoxesMini";
 import MetaBoxesMega from "../MetaBoxes/MetaBoxesMega";
-import "./MetaProduct.css";
 import MetaBoxesPro from "../MetaBoxes/MetaBoxesPro";
+import "./MetaProduct.css";
 
 
 

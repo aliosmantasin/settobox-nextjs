@@ -13,6 +13,8 @@ const GoogleBoxesPro = () => {
   return (
     <>
 
+      <section>
+
         <div className="boxTable">
                   
                       <div className="container flex flex-wrap  justify-center mx-auto">
@@ -269,7 +271,7 @@ const GoogleBoxesPro = () => {
 
         </div>
 
-
+        </section>
     </>
   )
 }

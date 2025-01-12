@@ -12,10 +12,10 @@ const GoogleAdditional = () => {
   return (
     <section>
       {/* Header Section */}
-      <div className="container flex justify-center text-center mx-auto">
+      <div className="container flex justify-center text-center mx-auto ">
         <div className='mx-auto'>
 
-        <h3  className="text-primary mb-4">
+        <h3  className="text-primary text-xl mb-4">
           Bir Google Ads Uzmanı ile İletişime Geçin
         </h3>
        
