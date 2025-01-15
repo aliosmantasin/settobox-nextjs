@@ -1,5 +1,5 @@
 
-import GoogleProBox from "../../../../../public/pro-box.webp";
+import GoogleProBox from "@/public/images/pro-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

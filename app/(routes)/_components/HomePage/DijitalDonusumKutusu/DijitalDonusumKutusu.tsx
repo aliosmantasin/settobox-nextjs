@@ -2,7 +2,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Loading from "../../Loadling/Loading";
-import "./DijitalDonusumKutusu.css";
 import { useTheme } from "next-themes";
 
 const DijitalDonusumKutusu = () => {
@@ -60,7 +59,7 @@ const DijitalDonusumKutusu = () => {
             <p className="text-base mb-4">
               Dijital dönüşüm kutusu küçük ve orta büyüklükteki işletmeler için tasarlanmıştır.
             </p>
-            <Link href="/dijital-pazarlama-donusum-kutusu">
+            <Link href="/dijital-donusum-kutusu" target="blank">
               <button className="mt-4 px-6 py-2 border-2 border-primary text-primary font-semibold w-full sm:w-auto">
                 Daha Fazla İncele
               </button>

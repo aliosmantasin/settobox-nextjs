@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import MiniWeb from "@/public/miniWeb.webp";
-import GoogleMegaBox from "@/public/megaWeb.webp";
+import MiniWeb from "@/public/images/miniWeb.webp";
+import GoogleMegaBox from "@/public/images/megaWeb.webp";
 import WebDesignBoxesMini from "../WebBoxes/WebDesignBoxesMini";
 import WebDesignBoxesMega from "../WebBoxes/WebDesighnBoxesMega";
 import './WebDesignProduct.css'

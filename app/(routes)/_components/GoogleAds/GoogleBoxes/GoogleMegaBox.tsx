@@ -1,5 +1,5 @@
 
-import GoogleMegaBox from "../../../../../public/mega-box.webp";
+import GoogleMegaBox from "@/public/images/mega-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

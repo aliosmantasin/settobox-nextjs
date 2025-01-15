@@ -9,7 +9,7 @@ const DigitalConversiyonInfo = () => {
       <div className="container mx-auto flex flex-wrap items-center justify-center">
     
         <div className="w-full sm:w-1/2 lg:w-2/5 p-2 sm:p-0 justify-center">
-          <h1 className="text-2xl font-bold leading-relaxed text-gray-900">
+          <h1 className="text-2xl font-bold leading-relaxed">
             Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu 
             <span className="text-blue-600"> Dijital Dönüşüm Kutusu</span>
           </h1>

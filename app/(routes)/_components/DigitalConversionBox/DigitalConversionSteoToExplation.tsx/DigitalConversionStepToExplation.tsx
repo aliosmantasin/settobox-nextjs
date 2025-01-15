@@ -1,8 +1,25 @@
+"use client"
+
 import { MdAdd, MdOutlineDragHandle } from "react-icons/md";
 import "./DigitalConversionStepToExplation.css";
 import { FcGoogle, FcTemplate } from "react-icons/fc";
+import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
 const DigitalConversionStepToExplation = () => {
+  const [showEffect, setShowEffect] = useState(false);
+  const { theme, resolvedTheme } = useTheme();
+  const currentTheme = theme === "system" ? resolvedTheme : theme;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowEffect(true);
+    }, 1); 
+
+    return () => clearTimeout(timer); // Cleanup on unmount
+  }, []);
+
+
   return (
     <section className="step-to-explation-section">
 
@@ -12,7 +29,8 @@ const DigitalConversionStepToExplation = () => {
       </div>
 
       <div className="overflow-x-auto flex sm:justify-center"> 
-      <div className="icon-container">
+      {showEffect && (
+      <div className=  {`${currentTheme === "dark" ? "digital-gridlineDark" : "digital-gridline"}`}>
         <div className="all-service">
           {/* Meta Section */}
           <div className="mask-card">
@@ -26,7 +44,7 @@ const DigitalConversionStepToExplation = () => {
                                       </g>
                      </svg>
                 </div>
-                <p className="icon-text text-black">Meta</p>
+                <p className={`${currentTheme === "dark" ? "icon-textDark" : "icon-text"}`}>Meta</p>
               </div>
               <div className="motion-box motion-box-meta"></div>
             </div>
@@ -44,7 +62,7 @@ const DigitalConversionStepToExplation = () => {
                 <div className="">
                 <FcGoogle className="icon mx-auto"/>
                 </div>
-                <p className="icon-text text-black">Google</p>
+                <p className={`${currentTheme === "dark" ? "icon-textDark" : "icon-text"}`}>Google</p>
               </div>
               <div className="motion-box motion-box-google"></div>
             </div>
@@ -62,7 +80,7 @@ const DigitalConversionStepToExplation = () => {
                 <div>
                   <FcTemplate className="icon" />
                 </div>
-                <p className="icon-text text-black">Web</p>
+                <p className={`${currentTheme === "dark" ? "icon-textDark" : "icon-text"}`}>Web</p>
               </div>
               <div className="motion-box motion-box-web"></div>
             </div>
@@ -80,6 +98,7 @@ const DigitalConversionStepToExplation = () => {
           </div>
         </div>
       </div>
+      )}
 
       </div>
 

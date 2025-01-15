@@ -8,9 +8,10 @@ import { Alert } from "@/components/ui/alert";
 import { MdAdsClick } from "react-icons/md";
 import Link from "next/link";
 import Image from "next/image";
-import Meta from "@/public/pro-box.webp";
-import Google from "@/public/GooglePro.webp";
-import Web from "@/public/megaWeb.webp";
+import Meta from "@/public/images/pro-box.webp";
+import Google from "@/public/images/GooglePro.webp";
+import Web from "@/public/images/megaWeb.webp";
+
 
 const data = {
   meta: [
@@ -35,9 +36,14 @@ export default function AdvantageConversion() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
 
+
+
+
+
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const renderTable = (title: React.JSX.Element, rows: any[]) => (
-    <div className="my-4 p-2 bg-gray-100 rounded-lg">
+    <div className="my-4 p-2 productBgBodyColor rounded-lg">
       <div className="flex items-center mb-2">{title}</div>
       <Table className="w-full">
         <TableBody>
@@ -68,11 +74,12 @@ export default function AdvantageConversion() {
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogContent className="max-w-lg overflow-y-auto max-h-[80vh] sm:max-h-[%80] sm:h-auto">
             <DialogHeader>
+
               <DialogTitle className="flex items-center justify-between">
                 <span>Dijital Dönüşüm Kutusunun Avantajları</span>
               </DialogTitle>
             </DialogHeader>
-            <div className="text-sm text-gray-700">
+            <div className="text-sm">
               Dijital Dönüşüm Kutusunda 3 farklı hizmetin bütünüyle ele alınarak
               işlenmesi ve yönetilmesi birçok avantaj sağlamıştır.
             </div>

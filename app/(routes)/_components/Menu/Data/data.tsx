@@ -51,7 +51,7 @@ export const serviceLinkData = {
       title: "Dijital Dönüşüm Kutusu",
       href: "/dijital-donusum-kutusu",
       description:
-        " Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu",
+        "Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu",
     },
   ],
 

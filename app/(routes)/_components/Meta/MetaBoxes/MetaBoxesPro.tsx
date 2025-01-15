@@ -1,5 +1,5 @@
 
-import ProBox from "../../../../../public/pro-box.webp";
+import ProBox from "@/public/images/pro-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -14,7 +14,6 @@ import HareketPlaniMeta from "./modal/HareketPlani";
 const MetaBoxesPro = () => {
   return (
     <>
-
         <div className="boxTable">
                   
                       <div className="container flex flex-wrap  justify-center mx-auto">

@@ -1,5 +1,5 @@
 
-import miniWeb from "../../../../../public/miniWeb.webp";
+import miniWeb from "@/public/images/miniWeb.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

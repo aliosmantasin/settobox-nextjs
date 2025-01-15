@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import miniBox from "../../../../../public/mini-box.webp";
-import megaBox from "../../../../../public/mega-box.webp";
-import proBox from "../../../../../public/pro-box.webp";
+import miniBox from "@/public/images/mini-box.webp";
+import megaBox from "@/public/images/mega-box.webp";
+import proBox from "@/public/images/pro-box.webp";
 import MetaBoxesMini from "../MetaBoxes/MetaBoxesMini";
 import MetaBoxesMega from "../MetaBoxes/MetaBoxesMega";
 import MetaBoxesPro from "../MetaBoxes/MetaBoxesPro";

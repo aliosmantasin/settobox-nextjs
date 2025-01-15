@@ -1,5 +1,5 @@
 
-import megaWeb from "../../../../../public/megaWeb.webp";
+import megaWeb from "@/public/images/megaWeb.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

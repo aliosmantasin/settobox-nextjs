@@ -54,6 +54,10 @@ yarn-error.log*
 *.rar
 
 .env
-*.next
 *.build
+..bfg-report/
+..bfg-report/2025-01-12/13-09-29/cache-stats.txt
+..bfg-report/2025-01-12/13-09-29/object-id-map.old-new.txt
 .next/
+json/
+mock-data

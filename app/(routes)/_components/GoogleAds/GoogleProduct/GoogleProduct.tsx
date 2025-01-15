@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import GoogleMiniBox from "@/public/GoogleMini.webp";
-import GoogleMegaBox from "@/public/GoogleMega.webp";
-import GoogleProBox from "@/public/GooglePro.webp";
+import GoogleMiniBox from "@/public/images/GoogleMini.webp";
+import GoogleMegaBox from "@/public/images/GoogleMega.webp";
+import GoogleProBox from "@/public/images/GooglePro.webp";
 import GoogleBoxesMini from "../GoogleBoxes/GoogleBoxesMini";
 import "./GoogleProduct.css"
 import GoogleBoxesMega from "../GoogleBoxes/GoogleMegaBox";

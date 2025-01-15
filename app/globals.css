@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   .bg-danger {
     background-color: hsl(var(--danger));
   }
-  
 }
 
 @layer base {
@@ -99,53 +98,40 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-
-
 /*Product Colors*/
 @layer base {
   .productBgColor {
-    @apply border border-[#88c4f4] bg-[#f5f9ff]
-   
+    @apply border border-[#88c4f4] bg-[#f5f9ff];
   }
   .dark .productBgColor {
-   @apply border-none bg-black
+    @apply border-none bg-black;
   }
+}
+
+@layer base {
+  .productBgBodyColor {
+    @apply border border-gray-200 bg-white;
+  }
+  .dark .productBgBodyColor {
+    @apply border-none bg-black;
+  }
+}
+
+@layer base {
+  .productListColor {
+    @apply bg-[#f4f7f8];
   }
 
-  @layer base {
-    .productBgBodyColor {
-      @apply border border-gray-200 bg-white
-     
-    }
-    .dark .productBgBodyColor {
-     @apply border-none bg-black
-    }
-    }
-  
-
-
-
-  @layer base {
-    .productListColor {
-      @apply  bg-[#f4f7f8] 
-     
-    }
-  
-    .dark .productListColor {
-     @apply border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800
-    }
-    }
-  
-
-
+  .dark .productListColor {
+    @apply border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800;
+  }
+}
 
 @layer base {
   .ocean-shadow {
     box-shadow: rgba(93, 198, 255, 0.247) 0px 20px 20px -20px;
   }
 }
-
 
 @layer base {
   * {
@@ -155,8 +141,6 @@ h1, h2, h3, h4, h5, h6 {
   body {
     @apply bg-background text-foreground;
   }
-
- 
 
   /* Footer Renk Dark Mode */
   .footerBg {
@@ -190,7 +174,6 @@ h1, h2, h3, h4, h5, h6 {
     @apply text-gray-300;
   }
 
-
   /* FirstGlancComponent */
   .styled-h1 {
     @apply flex justify-center text-3xl text-center;
@@ -198,12 +181,11 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-    .styled-paragraph {
-      @apply text-center text-lg max-w-3xl leading-7 tracking-widest my-4 mx-auto;
-    }
-  
-  
-    /* BUTTON */
+  .styled-paragraph {
+    @apply text-center text-lg max-w-3xl leading-7 tracking-widest my-4 mx-auto;
+  }
+
+  /* BUTTON */
   .BgColorGradient {
     @apply flex items-center justify-center text-white rounded-lg text-lg cursor-pointer;
     background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #29d9e6);
@@ -212,12 +194,45 @@ h1, h2, h3, h4, h5, h6 {
     min-width: 140px;
     max-width: 100%;
   }
-
 }
 
+/* Grid Box Styles */
+@layer base {
+  .gridBox {
+    background-image: url(/svg/gridlines.svg);
+  }
 
+  .gridBoxDark {
+    background-image: url(/svg/dark-gridline.svg);
+  }
 
-
-
-
-
+  .boxContent {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: -10;
+  }
+  
+  .boxBlueContent {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, #74e9f4, white);
+    filter: brightness(0) saturate(49%) invert(80%) sepia(46%) saturate(88)
+      hue-rotate(203deg) brightness(112%) contrast(74%) blur(90px);
+    opacity: 0.7;
+  }
+  
+  .boxPurpleContent {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right, #ec77d47a, white);
+    filter: brightness(0) saturate(49%) invert(80%) sepia(4%) saturate(88)
+    hue-rotate(203deg) brightness(112%) contrast(74%) blur(90px);
+    opacity: 1;
+  }
+  
+}

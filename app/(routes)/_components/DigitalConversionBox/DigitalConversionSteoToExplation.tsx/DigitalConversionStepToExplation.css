@@ -21,13 +21,27 @@
   text-align: center;
 }
 
-.icon-container {
 
 
+.digital-gridline {
+  display: flex;
+	height: 200px;
+	background-image: url(/svg/gridlines.svg);
+	opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 
-  margin: 2rem 0;
-  background-image: url(/svg/gridlines.svg);
-}
+ .digital-gridlineDark {
+
+	height: 200px;
+	background-image: url(/svg/dark-gridline.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
 
 .all-service {
   display: flex;
@@ -79,6 +93,14 @@
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
+  color: initial;
+}
+
+.icon-textDark {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: gray;
 }
 
 .motion-box {

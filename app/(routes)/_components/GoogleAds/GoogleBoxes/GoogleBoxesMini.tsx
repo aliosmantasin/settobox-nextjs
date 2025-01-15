@@ -1,5 +1,5 @@
 
-import miniBox from "../../../../../public/mini-box.webp";
+import miniBox from "@/public/images/mini-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
