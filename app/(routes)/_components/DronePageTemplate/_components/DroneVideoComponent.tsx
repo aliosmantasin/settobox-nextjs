@@ -23,9 +23,8 @@ const DroneVideoComponent: React.FC<DroneVideoComponentProps> = ({ droneVideoDat
       <div className="container flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-6">
    
           {/* Sol Kutu */}
-          <div className={`flex w-full sm:w-1/3 lg:w-2/5 justify-center items-center ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
+          <div className={`flex w-full sm:w-3/4 md:w-3/4 lg:w-2/5 p-0 sm:p-5  justify-center items-center mx-auto ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
           <DurunetVideoReferance/>
-      
           <div className="boxContent">
             <span className="w-2/4 boxBlueContent" />
             <span className="w-2/4 boxPurpleContent" />
@@ -33,7 +32,7 @@ const DroneVideoComponent: React.FC<DroneVideoComponentProps> = ({ droneVideoDat
         </div>
 
     
-          <div className="w-full sm:w-1/3 lg:w-3/6 justify-center items-center">
+          <div className="w-full sm:w-3/4 md:w-3/4 lg:w-2/5 p-0 sm:p-5 justify-center items-center mx-auto">
      
             <h2 className="text-2xl sm:text-3xl font-semibold text-primary mb-4">
               {droneVideoData.title}

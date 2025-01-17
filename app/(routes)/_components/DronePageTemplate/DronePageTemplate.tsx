@@ -4,7 +4,6 @@ import DroneBoxess from './_components/DroneBoxess';
 import DroneAdditional from './_components/DroneAdditional';
 import DroneVideoComponent from './_components/DroneVideoComponent';
 import MapVideoComponent from './_components/MapVideoComponent';
-
 import AccordionDrone from './_components/AccordionDrone';
 import OtherServices from './_components/OtherServices';
 
@@ -46,8 +45,8 @@ const DronePageTemplate: React.FC<DronePageTemplateProps> = ({ data }) => {
   return (
     <>
       <HeaderDrone headerData={data.headerDrone} />
-      <DroneBoxess/> 
       <DroneAdditional/>
+      <DroneBoxess/> 
       <DroneVideoComponent droneVideoData={data.droneVideoComponent} />
       <MapVideoComponent mapData={data.mapVideoComponent} />
       <OtherServices/>

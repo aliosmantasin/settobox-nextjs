@@ -14,8 +14,8 @@ const SwiperExample = () => {
   return (
     <section className='my-20'>
     <div className="flex flex-col items-center">
-      <div className="text-center mx-auto font-semibold text-xl sm:text-2xl md:text-2xl px-4 py-2 shadow-lg max-w-md bg-gradient-to-r from-purple-500 to-pink-500 text-white">
-      Opsiyonel Hizmetlerden Faydalan
+      <div className="text-center mx-auto font-semibold text-xl  px-4 py-2 shadow-lg max-w-md bg-secondary primary">
+      Opsiyonel Hizmetlerden Faydalanabilirsin
       </div>
       <p className="styled-paragraph my-12 mx-auto max-w-3xl px-4 text-center">
       Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz

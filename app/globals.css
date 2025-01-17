@@ -66,6 +66,29 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*Card Bg Colors */
+@layer base {
+  .cardBgColor {
+    @apply border border-gray-400/35;
+  }
+  .dark .cardBgColor {
+    @apply border border-slate-800;
+  }
+  .cardHover {
+    @apply  hover:bg-gray-400/10;
+  }
+  .dark .cardHover {
+    @apply  hover:bg-slate-800/50;
+  }
+
+  .ocean-Cardshadow {
+    box-shadow: rgba(93, 198, 255, 0.247) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+
+}
+
+
+
 @layer base {
   .bg-info {
     background-color: hsl(var(--info));
@@ -86,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @layer base {
   .primary {
-    color: #2b29e6;
+    color: #1f77bb;
   }
 
   .primary-light {
@@ -202,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(/svg/gridlines.svg);
   }
 
-  .gridBoxDark {
+ .dark .gridBox {
     background-image: url(/svg/dark-gridline.svg);
   }
 

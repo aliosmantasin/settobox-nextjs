@@ -17,6 +17,7 @@ const DurunetVideoReferance = () => {
         className={`${isPlaying ? "block" : ""}`}
         onEnded={() => setIsPlaying(false)} 
         onPlay={() => setIsPlaying(true)} 
+      
       >
         <source src="/videos/PrivateVideo.mp4" type="video/mp4" />
         Tarayıcınız bu videoyu desteklemiyor.

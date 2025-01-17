@@ -51,7 +51,7 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
             <span className="google-span">e</span>{' '}
             Sponsorlu Reklam Hizmeti
           </h2>
-          <p className="mt-4 text-gray-700">
+          <p className="mt-4">
             İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz.
              Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileriyle google ads`te
               reklam vererek potansiyel müşterilere ulaşın. Tam hesap kurulum desteği ve kişiselleştirilmiş

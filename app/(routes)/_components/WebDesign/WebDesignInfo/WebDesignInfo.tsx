@@ -5,7 +5,7 @@ import WebDesignManageAnimasyonJson from "../../AnimasyonData/WebDesignManageAni
 
 const WebDesignInfo = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 relative">
       <div className="container mx-auto flex flex-wrap justify-center">
         {/* Text Section */}
         <div className="flex col-span-12 text-center justify-center my-5">

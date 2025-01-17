@@ -11,7 +11,7 @@ const DijitalDonusumKutusu = () => {
 
   return (
     <section className="py-10 flex">
-      <div className="container flex flex-wrap mx-auto p-10">
+      <div className="container flex flex-wrap mx-auto">
         
         {/* Mobile title */}
         <div className="block sm:hidden text-center mb-6">
@@ -21,12 +21,12 @@ const DijitalDonusumKutusu = () => {
         </div>
 
         {/* Image section */}
-        <div className={`flex sm:w-1/2 lg:w-2/4 justify-center items-center ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
+        <div className={`flex mx-auto sm:w-1/2 lg:w-2/4 justify-center items-center ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
           {!isImageLoaded && <Loading />}
           <Image
             src="/DigitalDonusumKutusu.webp"
-            alt="DijitalDonusumKutusu Hizmet Kutusu"
-            className={`w-[400px] sm:w-[300px] md:w-[350px] lg:w-[400px] transition-opacity duration-300 ease-in-out ${
+            alt="Dijital Donusum Kutusu "
+            className={`flex mx-auto w-[450px] p-10 sm:w-[300px] md:w-[350px] lg:w-[400px] transition-opacity duration-300 ease-in-out  ${
               isImageLoaded ? "opacity-100" : "opacity-0"
             }`}
             onLoad={() => setIsImageLoaded(true)}
@@ -46,7 +46,7 @@ const DijitalDonusumKutusu = () => {
               İşletmenizin Online Varlıklarının Tümüyle Yönetilmesini İster misin?
             </h3>
             <ul className="list-disc pl-6 mb-4">
-              <li className="text-base mb-2">
+              <li className="text-base mb-2 ">
                 <span className="text-primary">Kullanıcı deneyimi ile tasarlanmış ücretsiz bir website</span>
               </li>
               <li className="text-base mb-2">

@@ -5,7 +5,7 @@ import DijitalDonusumKutusu from '@/public/DigitalDonusumKutusu.webp';
 
 const DigitalConversiyonInfo = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 relative">
       <div className="container mx-auto flex flex-wrap items-center justify-center">
     
         <div className="w-full sm:w-1/2 lg:w-2/5 p-2 sm:p-0 justify-center">

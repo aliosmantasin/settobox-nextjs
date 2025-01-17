@@ -19,7 +19,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { ModeToggle } from "@/components/ModeToggle"
-import { menuLinksData, serviceLinkData } from "../Menu/Data/data";
+import {serviceLinkData } from "../Menu/Data/data";
 import Image from "next/image"
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
@@ -123,7 +123,7 @@ export function MobilMenu() {
                 </NavigationMenuContent>
               </NavigationMenuItem>
 
-              <NavigationMenuItem className="flex w-full max-w-96">
+              {/* <NavigationMenuItem className="flex w-full max-w-96">
                 <NavigationMenuTrigger className={cn(navigationMenuTriggerStyle(), "bg-transparent hover:bg-transparent text-[1rem]")}>
                   Sektörler
                 </NavigationMenuTrigger>
@@ -141,7 +141,7 @@ export function MobilMenu() {
                     ))}
                   </ul>
                 </NavigationMenuContent>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
               <NavigationMenuItem className="flex w-full max-w-96">
                 <Link href="/referans" legacyBehavior passHref>
                   <NavigationMenuLink

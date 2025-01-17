@@ -1,4 +1,12 @@
+'use client';
+
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import MiniDroneBox from './DroneBoxes/MiniDroneBox';
 import MegaDroneBox from './DroneBoxes/MegaDroneBox';
 import ProDroneBox from './DroneBoxes/ProDroneBox';
@@ -6,20 +14,43 @@ import ProDroneBox from './DroneBoxes/ProDroneBox';
 
 const DroneBoxess = () => {
   return (
-    <section className="my-10">
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mx-auto">
-        <div className="flex justify-center">
+    <section className='my-10 p-2 sm:p-0'>
+    <div className="flex flex-col items-center">
+     
+      <div className="container mx-auto mb-14 r">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={30}
+          navigation
+    
+          breakpoints={{
+            1024: { slidesPerView: 3, spaceBetween: 40 },
+            768: { slidesPerView: 2, spaceBetween: 20 },
+            500: { slidesPerView: 1 },
+          }}
+        >
+          {/* slider 1 */}
+          <SwiperSlide className='flex justify-center items-center'>       
           <MiniDroneBox />
-        </div>
-        <div className="flex justify-center">
+          </SwiperSlide>
+
+          {/* slider 2 */}
+          <SwiperSlide>
           <MegaDroneBox />
-        </div>
-        <div className="flex justify-center">
+          </SwiperSlide>
+
+          {/* slider 3 */}
+          <SwiperSlide>
           <ProDroneBox />
-        </div>
+          </SwiperSlide>
+     
+        </Swiper>
       </div>
+    </div>
     </section>
   );
 };
+
+DroneBoxess.displayName = "SwiperExample";
 
 export default DroneBoxess;
