@@ -1,8 +1,12 @@
+"use client"
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { GoogleTagManager } from '@next/third-parties/google';
-import { ToastProvider } from "@/components/ui/toast";  // Bu satırı ekleyin
+import { ToastProvider } from "@/components/ui/toast";  // 
+import { Provider } from "react-redux";
+import store from "@/store";
 import "./globals.css";
+
 
 
 
@@ -25,6 +29,7 @@ export default function RootLayout({
     <html lang="tr">
 
       <GoogleTagManager gtmId="GTM-NRSTMB28" />
+      <Provider store={store}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
@@ -32,12 +37,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <ToastProvider>  {/* ToastProvider'ı buraya sarın */}
+          <ToastProvider>  {/* ToastProvider */}
             {children}
           </ToastProvider>
      
         </ThemeProvider>
       </body>
+      </Provider>
     </html>
   );
 }

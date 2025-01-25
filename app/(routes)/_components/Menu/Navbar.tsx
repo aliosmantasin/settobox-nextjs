@@ -9,7 +9,7 @@ import GradientEffect from './GradientEffect/GradientEffect'
 const Navbar = () => {
   return (
    <>
-   <header className='flex items-center h-24'>
+   <header className='flex items-center h-36'>
    <GradientEffect/>
         <div className='container flex item-center justify-between mx-auto px-4 relative'>
             <Logo/>

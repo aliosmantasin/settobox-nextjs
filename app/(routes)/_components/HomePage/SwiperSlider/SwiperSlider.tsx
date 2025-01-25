@@ -24,8 +24,8 @@ const ServiceSlider = () => {
        modules={[Navigation, Pagination, Scrollbar, A11y]}
        spaceBetween={50}
        navigation
-       onSwiper={(swiper) => console.log(swiper)}
-       onSlideChange={() => console.log('slide change')}
+      //  onSwiper={(swiper) => console.log(swiper)}
+      //  onSlideChange={() => console.log('slide change')}
 
        breakpoints={{
         1024: {

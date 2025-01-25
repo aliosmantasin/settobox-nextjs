@@ -6,9 +6,9 @@ import GoogleMiniBox from "@/public/images/GoogleMini.webp";
 import GoogleMegaBox from "@/public/images/GoogleMega.webp";
 import GoogleProBox from "@/public/images/GooglePro.webp";
 import GoogleBoxesMini from "../GoogleBoxes/GoogleBoxesMini";
-import "./GoogleProduct.css"
 import GoogleBoxesMega from "../GoogleBoxes/GoogleMegaBox";
 import GoogleBoxesPro from "../GoogleBoxes/GoogleProBox";
+import "./GoogleProduct.css"
 
 const GoogleProduct = () => {
   const [miniBoxProduct, setMiniBoxProduct] = useState(true);

@@ -57,7 +57,7 @@ const DijitalDonusumKutusu = () => {
               </li>
             </ul>
             <p className="text-base mb-4">
-              Dijital dönüşüm kutusu küçük ve orta büyüklükteki işletmeler için tasarlanmıştır.
+             <strong className="primary">Dijital Dönüşüm Kutusu</strong>  küçük ve orta büyüklükteki işletmeler için tasarlanmıştır.
             </p>
             <Link href="/dijital-donusum-kutusu" target="blank">
               <button className="mt-4 px-6 py-2 border-2 border-primary text-primary font-semibold w-full sm:w-auto">

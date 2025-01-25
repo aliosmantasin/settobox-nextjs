@@ -13,6 +13,23 @@ export async function generateStaticParams() {
   ];
 }
 
+
+// Sayfa bileşeni
+const TeritoryPage = async ({
+  params,
+}: {
+  params: Promise<{ teritory: string }>; // params artık Promise tipinde
+}) => {
+  const { teritory } = await params; // params asenkron olduğu için await kullanılıyor
+  const data = getTeritoryData(teritory);
+
+  if (!data) {
+    notFound();
+  }
+  
+  return <DronePageTemplate data={data} />;
+};
+
 // Dinamik metadata oluştur
 export async function generateMetadata({
   params,
@@ -33,20 +50,6 @@ export async function generateMetadata({
   };
 }
 
-// Sayfa bileşeni
-const TeritoryPage = async ({
-  params,
-}: {
-  params: Promise<{ teritory: string }>; // params artık Promise tipinde
-}) => {
-  const { teritory } = await params; // params asenkron olduğu için await kullanılıyor
-  const data = getTeritoryData(teritory);
 
-  if (!data) {
-    notFound();
-  }
-
-  return <DronePageTemplate data={data} />;
-};
 
 export default TeritoryPage;
