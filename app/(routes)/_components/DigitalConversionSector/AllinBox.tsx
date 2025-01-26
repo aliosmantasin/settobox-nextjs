@@ -72,18 +72,18 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
                     {data.headerDescription}
                 </p>
 
-                <div className="mt-6 flex flex-col sm:flex-row justify-start items-center">
+                <div className="mt-6 flex sm:flex-row justify-center items-center">
                     {/* "Nasıl Yapıyoruz?" butonuna tıklandığında onSubjectSelect('meta') çağrılıyor */}
                     <Button
                         variant="ghost"
-                        className="text-primary mb-4 sm:mb-0 sm:mr-4"
+                        className="text-primary  sm:mb-0 sm:mr-4 flex items-center"
                         onClick={() => onSubjectSelect("meta")}
                     >
                 
                         <MdArrowDropDownCircle className="mr-2" /> Nasıl Yapıyoruz?
                     </Button>
 
-                    <Link href="/dijital-pazarlama-donusum-kutusu">
+                    <Link href="/dijital-donusum-kutusu">
                         <Button variant="outline" className="">
                             Dijital Dönüşüm Kutusu
                             <MdKeyboardArrowRight className="ml-2" />

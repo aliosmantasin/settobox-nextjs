@@ -19,6 +19,7 @@ const ImageListServiceMeta: React.FC<ImageListServiceMetaProps> = ({ sector }) =
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+
   useEffect(() => {
     if (sector && sector !== sectorName) {
       dispatch(setSectorName(sector));
@@ -54,7 +55,7 @@ const ImageListServiceMeta: React.FC<ImageListServiceMetaProps> = ({ sector }) =
       <div className='flex'>
         <DialogContent>
          
-        <DialogTitle>Örnek Görsel</DialogTitle>
+        <DialogTitle>Örnek Görsel Önizlemesi</DialogTitle>
           <div className="relative rounded-lg p-2 shadow-lg max-w-xl w-full">
          
             {selectedImage && (

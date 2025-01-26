@@ -48,7 +48,7 @@ const GoogleAdditional = () => {
       <div className="flex justify-center text-center mb-8">
         <div>
           <h3 className="text-primary text-xl mb-4">
-            Bir Google Ads Uzmanı ile İletişime Geçin
+           Potansiyel Müşterilerinize Ulaşmak İçin Bir Google Ads Uzmanı ile İletişime Geçin
           </h3>
           <Button>
             <Link href="tel:+905437214839" target="_blank" className="flex items-center justify-center">

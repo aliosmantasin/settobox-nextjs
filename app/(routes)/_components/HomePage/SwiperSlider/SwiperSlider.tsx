@@ -11,12 +11,12 @@ import Image from 'next/image';
 const ServiceSlider = () => {
 
   return (
-    <div className="flex flex-col items-center">
+    <section className="flex flex-col items-center pb-10 ocean-Cardshadow">
       <div className="BgColorGradient text-white text-center mx-auto font-semibold text-xl sm:text-2xl md:text-3xl px-4 py-2 shadow-lg max-w-md">
         SetToBox Hizmet İçerikleri
       </div>
       <p className="styled-paragraph my-12 mx-auto max-w-3xl px-4">
-        Size uygun olan meta, google, web sitesi hizmet kutusunu seçerek dijital medya kanallarınıza yön verebilirsiniz.
+        Size uygun olan meta, google veya web sitesi hizmet kutusunu seçerek dijital medya kanallarınıza yön verebilirsiniz.
       </p>
       <div className="container mb-14">
       <Swiper
@@ -54,7 +54,7 @@ const ServiceSlider = () => {
     </Swiper>
 
       </div>
-    </div>
+    </section>
   );
 };
 

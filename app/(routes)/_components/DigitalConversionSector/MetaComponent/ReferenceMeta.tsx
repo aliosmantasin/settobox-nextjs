@@ -15,9 +15,9 @@ export const ReferanceMeta: React.FC = () => {
   return (
     <div className='container flex flex-wrap mx-auto p-5'>
   
-        <div className='w-full  md:w-2/5 mx-auto'>
+        <div className='w-full  md:w-3/5 mx-auto'>
 
-          <div className='productBgColor w-full sm:w-3/4 flex justify-center rounded-lg mb-5 p-2 sm:p-0'>
+          <div className='productBgColor w-full sm:w-3/4 flex sm:justify-start rounded-lg mb-5 p-2 sm:p-0'>
             <div className='p-2'>
             <p className='text-2xl mb-2'>
               {data.title}
@@ -53,7 +53,7 @@ export const ReferanceMeta: React.FC = () => {
         </div>
       
    
-        <div className='w-full md:w-3/5 mx-auto mt-10 md:mt-0'>
+        <div className='w-full md:w-2/5 mx-auto mt-10 md:mt-0'>
           <ListedObjectMeta/>
         </div>
      

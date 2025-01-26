@@ -5,8 +5,8 @@ import ReferansWebDurunet from '@/public/images/durunetGorsel/WebDurunet.webp'
 import WebIhc from '@/public/images/durunetGorsel/WebIhc.png'
 import GoogleDurunetAnimation from '@/public/data/GoogleDurunetAnimation.json'
 import WebSiteManage from '@/public/data/WebsiteManage.json'
-
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import DisPlayAds from '@/public/images/DisplayAds.webp'
 
 type Sector = 'hizmetsektoru' | 'egitimsektoru' | 'sagliksektoru'; // Sektör türlerini tanımlıyoruz.
 
@@ -44,41 +44,47 @@ referanceMeta: {   // Meta Referance
 };
 
 googleManage: null | {
-  title: string | undefined; //
-  generalDefinition: string; 
-  description: string;
-  metricsTitle: string;
+  title: string | undefined//
+  generalDefinition: string
+  description: string
+  metricsTitle: string
   googleMetrics: string[] | null [];
-  animation: object | null; //
-  subTitle: string;
+  animation: object | null//
+  subTitle: string
 };
 
 referanceGoogle: null | {
-  title:string,
-  companyName: string,
-  subHeader: string,
-  description: string,
-  subTitle : string,
-  subTitleBody : string,
-  animation: object | null
+  title:string
+  companyName: string
+  subHeader: string
+  description: string
+  subTitle : string
+  subTitleBody : string
+  animation: object
+  images: {
+    src: string
+    alt: string
+    width: number
+    height: number
+  }
 }
 webManage: {
-  title: string,
-  subTitle: string,
-  description: string,
-  metricsTitle:string,
-  webMetrics: string[],
+  title: string
+  subTitle: string
+  description: string
+  metricsTitle:string
+  webMetrics: string[]
   animation: object | null; //
 };
 
 referanceWeb: {   
-  title: string,
-  companyName: string,
-  subHeader: string,
-  metricsInfo: MetricInfo[]; // Güncellenmiş kısım
-  images: object;
-  webname: string;
-  webUrl : string;
+  title: string
+  companyName: string
+  subHeader: string
+  metricsInfo: MetricInfo[] // Güncellenmiş kısım
+  images: object
+  webname: string
+  webUrl : string
 };
 
 
@@ -112,7 +118,7 @@ const initialState: SectorState = {
       },
       referanceMeta: {
         title:'Referans',
-        companyName: '**** İNTERNET VE BİLİŞİM TEKNOLOJİLERİ',
+        companyName: 'Örnek İşletme',
         subHeader: 'Facebook - İnstagram ve Reklam Yönetimi',
         description: 'Facebook & instagram ve reklam yönetimini yaptığımız internet servis sağlayıcısı firmanın kurumsal kimlik ve içerik planlamasını düzenledikten sonra reklam yönetiminide yaptık. Bu proje kapsamında gerçekleştirdiğimiz sosyal medya yönetimi ve kurumsal tasarım çalışmalarıyla ilgili görsellerden bir izlenim edinebilirsiniz. Amacımız, sosyal medya hesaplarınıza giren potansiyel müşterilere hem yapılan iş hakkında bilgi sunmak hem de kurumsal tasarım ile markanıza duyulan güveni artırmaktır.',
         metricsInfo: [
@@ -144,16 +150,22 @@ const initialState: SectorState = {
       
       referanceGoogle: {
         title:'Referans',
-        companyName: '**** İNTERNET VE BİLİŞİM TEKNOLOJİLERİ',
+        companyName: 'Örnek İşletme',
         subHeader: 'Google Uygulamaları ve Reklam Yönetimi',
         description: `
         Bölgesel olarak hizmet veren İSS firmasını <strong>organik olarak öne çıkardık.</strong> Anahtar kelime olarak "manavgat internet" araması yapan internet kullanıcılarının ilk sıralarda bu firmayı bulmalarını sağladık. Aynı zamanda düzenlendiğimiz Google İşletme Hesabı ile haritalarda görünürlüğünü artırarak <strong>google işletme kaydını yaptık</strong>. Bu sayede işletmenin yorumları arttı, iletişim yöntemleri gibi konularda görünür oldu.
       `,
         subTitle : 'Google Ads Reklam Hizmeti',
         subTitleBody : `
-        Özellikle evde internet hizmeti gibi potansiyel tüketimi fazla olan herkesin hayatında olan bu tür hizmetlerin rekabeti oldukça fazladır. Bir çok firma organik ve reklam vererek hizmetini / ürünü pazarlamak durumundadır. <strong>Google Ads Arama Ağı</strong> ve <strong>Maksimum Performans Reklamlarına</strong> odaklanarak firmanın potansiyel müşterilere ulaşmasını sağladık ve bölgesel marka değerini artırdık. İşletme için dönemsel koşullara göre <strong>Google Ads Telefon reklamı </strong> ve <strong>Google Haritalar</strong> reklamının da kullanımını yaptık
+        Özellikle evde internet hizmeti gibi potansiyel tüketimi fazla olan herkesin hayatında olan bu tür hizmetlerin rekabeti oldukça fazladır. Bir çok firma organik veya reklam vererek hizmetini / ürünü pazarlamak durumundadır. <strong>Google Ads Arama Ağı</strong> ve <strong>Maksimum Performans Reklamlarına</strong> odaklanarak firmanın potansiyel müşterilere ulaşmasını sağladık ve bölgesel marka değerini artırdık. İşletme için dönemsel koşullara göre <strong>Google Ads Telefon reklamı </strong> ve <strong>Google Haritalar</strong> reklamının da kullanımını yaptık
         `,   
-        animation : GoogleDurunetAnimation
+        animation : GoogleDurunetAnimation,
+        images: {
+          src : DisPlayAds.src,
+          width : DisPlayAds.width,
+          height: DisPlayAds.height,
+          alt: "Google Ads Görsel Reklam Örneği",
+        }
       },
 
       webManage: {
@@ -167,7 +179,7 @@ const initialState: SectorState = {
 
       referanceWeb: {
         title:'Referans',
-        companyName: '**** İNTERNET VE BİLİŞİM TEKNOLOJİLERİ',
+        companyName: 'Örnek İşletme',
         subHeader: 'Web Site Yönetimi',
         metricsInfo: [
             {
@@ -335,12 +347,18 @@ const initialState: SectorState = {
       },
       referanceGoogle: {
         title:'Referans',
-        companyName: '**** İNTERNET VE BİLİŞİM TEKNOLOJİLERİ',
+        companyName: 'Örnek İşletme',
         subHeader: 'Google Uygulamaları ve Reklam Yönetimi',
         description: 'Bölgesel olarak hizmet veren İSS firmasını organik olarak öne çıkardık. Anahtar kelime olarak "manavgat internet" araması yapan internet kullanıcılarının ilk sıralarda bu firmayı bulmalarını sağladık. Aynı zamanda açtığımız Google İşletme Hesabı ile haritalarda görünürlüğünü artırarak google işletme kaydını yaptık . Bu sayede işletmenin yorumları arttı, iletişim yöntemleri gibi konularda görünür oldu. Bölgesel olarak hizmet almak isteyen potansiyel müşteriler haritaları veya iletişim yöntemlerini kullanarak işletmeye ulaştı, internet başvurusu yaptı ya da bilgi aldılar.',
         subTitle : 'Google Ads Reklam Hizmeti',
-        subTitleBody : 'Özellikle evde internet hizmeti gibi potansiyel tüketimi fazla olan herkesin hayatında olan bu tür hizmetlerin rekabeti oldukça fazladır. Bir çok firma organik ve reklam vererek hizmetini / ürünü pazarlamak durumundadır. Google Ads Arama Ağı ve Maksimum Performans reklamlarına odaklanarak firmanın potansiyel müşterilere ulaşmasını sağladık ve bölgesel marka değerini artırdık.',   
-        animation : GoogleDurunetAnimation
+        subTitleBody : 'Özellikle evde internet hizmeti gibi potansiyel tüketimi fazla olan herkesin hayatında olan bu tür hizmetlerin rekabeti oldukça fazladır. Bir çok firma organik veya reklam vererek hizmetini / ürünü pazarlamak durumundadır. Google Ads Arama Ağı ve Maksimum Performans reklamlarına odaklanarak firmanın potansiyel müşterilere ulaşmasını sağladık ve bölgesel marka değerini artırdık.',   
+        animation : GoogleDurunetAnimation,
+        images: {
+          src : DisPlayAds.src,
+          width : DisPlayAds.width,
+          height: DisPlayAds.height,
+          alt: "Google Ads Görsel Reklam Örneği",
+        }
       },
       webManage: {
         title: 'Web Site Yönetimi',
@@ -352,7 +370,7 @@ const initialState: SectorState = {
       },
       referanceWeb: {
         title:'Referans',
-        companyName: '**** İNTERNET VE BİLİŞİM TEKNOLOJİLERİ',
+        companyName: 'Örnek İşletme',
         subHeader: 'Web Site Yönetimi',
         metricsInfo: [
             {

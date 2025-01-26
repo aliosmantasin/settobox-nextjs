@@ -10,9 +10,9 @@ const DijitalDonusumKutusu = () => {
   const currentTheme = typeof window === "undefined" ? "light" : theme === "system" ? resolvedTheme : theme;
 
   return (
-    <section className="py-10 flex">
-      <div className="container flex flex-wrap mx-auto">
-        
+    <section className="my-20 flex">
+      <div className="container my-20 flex flex-wrap mx-auto">
+
         {/* Mobile title */}
         <div className="block sm:hidden text-center mb-6">
           <h3 className="text-xl text-primary">
@@ -21,12 +21,12 @@ const DijitalDonusumKutusu = () => {
         </div>
 
         {/* Image section */}
-        <div className={`flex mx-auto sm:w-1/2 lg:w-2/4 justify-center items-center ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
+        <div className={`flex mx-auto sm:w-2/3 md:w-1/2 justify-center items-center ${currentTheme === "dark" ? "gridBoxDark" : "gridBox"} relative`}>
           {!isImageLoaded && <Loading />}
           <Image
             src="/DigitalDonusumKutusu.webp"
             alt="Dijital Donusum Kutusu "
-            className={`flex mx-auto w-[450px] p-10 sm:w-[300px] md:w-[350px] lg:w-[400px] transition-opacity duration-300 ease-in-out  ${
+            className={`flex mx-auto w-[450px] p-10 sm:w-[400px] md:w-[450px] lg:w-[500px] transition-opacity duration-300 ease-in-out  ${
               isImageLoaded ? "opacity-100" : "opacity-0"
             }`}
             onLoad={() => setIsImageLoaded(true)}
@@ -40,7 +40,7 @@ const DijitalDonusumKutusu = () => {
         </div>
 
         {/* Content Area */}
-        <div className="flex sm:w-1/2 lg:w-2/4 xl:w-2/4 justify-center items-center">
+        <div className="flex sm:w-3/3 md:w-1/2 justify-center items-center">
           <div className="p-6 sm:p-8">
             <h3 className="text-3xl text-primary hidden sm:block mb-6">
               İşletmenizin Online Varlıklarının Tümüyle Yönetilmesini İster misin?
@@ -66,8 +66,8 @@ const DijitalDonusumKutusu = () => {
             </Link>
           </div>
         </div>
+        </div>
 
-      </div>
     </section>
   );
 };

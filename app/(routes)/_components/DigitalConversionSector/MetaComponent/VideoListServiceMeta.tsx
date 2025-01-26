@@ -29,7 +29,7 @@ const VideoListServiceMeta: React.FC<VideoListServiceMetaProps> = ({ sector }) =
   if (error) return <div className="text-center text-red-500">Hata: {error}</div>;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4">
       {videos.map((src, index) => (
         <React.Fragment key={index}>
           <div
@@ -43,6 +43,7 @@ const VideoListServiceMeta: React.FC<VideoListServiceMetaProps> = ({ sector }) =
               muted
               autoPlay={false}
               playsInline
+          
             >
               Tarayıcınız video formatını desteklemiyor.
             </video>
@@ -53,7 +54,7 @@ const VideoListServiceMeta: React.FC<VideoListServiceMetaProps> = ({ sector }) =
       {/* Dialog */}
       <Dialog open={!!selectedVideo} onOpenChange={(isOpen) => !isOpen && setSelectedVideo(null)}>
         <DialogContent>
-          <DialogTitle className="text-lg font-bold">Video Önizlemesi</DialogTitle>
+          <DialogTitle className="text-lg font-bold">Örnek Video Önizlemesi</DialogTitle>
           <div className="relative rounded-lg p-4 shadow-lg max-w-xl w-full">
             {selectedVideo && (
               <video

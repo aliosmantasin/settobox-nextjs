@@ -41,7 +41,7 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
 
         <div className="flex col-span-12 text-center justify-center">
           <div className='w-2/2 sm:w-1/2'>
-          <h2 className="text-3xl font-extrabold text-blue-700 tracking-wider">
+          <h1 className="text-3xl font-extrabold primary tracking-wider">
             Herkese Göre{' '}
             <span className="google-span">G</span>
             <span className="google-span">o</span>
@@ -50,7 +50,7 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
             <span className="google-span">l</span>
             <span className="google-span">e</span>{' '}
             Sponsorlu Reklam Hizmeti
-          </h2>
+          </h1>
           <p className="mt-4">
             İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz.
              Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileriyle google ads`te
