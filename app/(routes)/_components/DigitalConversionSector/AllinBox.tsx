@@ -72,7 +72,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
                     {data.headerDescription}
                 </p>
 
-                <div className="mt-6 flex sm:flex-row justify-center items-center">
+                <div className="mt-10 flex sm:flex-row justify-center md:justify-start items-center">
                     {/* "Nasıl Yapıyoruz?" butonuna tıklandığında onSubjectSelect('meta') çağrılıyor */}
                     <Button
                         variant="ghost"

@@ -67,7 +67,7 @@ const GoogleAdditional = () => {
             className="w-64 h-56 p-4 flex flex-col items-center flex-shrink-0 cardBgColor"
           >
             <div className="w-10 h-10 flex items-center justify-center text-primary">
-              <feature.icon className="text-3xl" />
+              <feature.icon className="text-3xl primary-light" />
             </div>
             <h6 className="mt-4 text-primary text-lg font-semibold text-center">
               {feature.title}

@@ -36,7 +36,7 @@ const ListedObjectGoogle = () => {
     <div className="flex justify-center items-center h-full">
       <Tabs defaultValue="images" className="max-w-[500px]">
         <TabsList className="w-full flex justify-around">
-          <TabsTrigger value="images">Arama Ağı</TabsTrigger>
+          <TabsTrigger value="images">Arama Ağı Reklam Örneği</TabsTrigger>
           <TabsTrigger value="videos">Görsel Reklam Örneği</TabsTrigger>
         </TabsList>
 

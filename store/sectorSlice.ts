@@ -82,7 +82,12 @@ referanceWeb: {
   companyName: string
   subHeader: string
   metricsInfo: MetricInfo[] // Güncellenmiş kısım
-  images: object
+  images: {
+    src: string
+    alt: string
+    width: number
+    height: number
+  }
   webname: string
   webUrl : string
 };
@@ -109,7 +114,7 @@ const initialState: SectorState = {
         headerDescription: 'Hizmet sektörü için planladığımız online varlıklarla, orta ve uzun vadede bütçe optimizasyonunu sağlayarak kontrollü bir yönetim süreci hedefliyoruz. Bilgilendirme ve referans dokümanlarımızı inceleyerek izlediğimiz stratejiyi daha ayrıntılı görebilirsiniz.',
       },
       metaManage: {
-        title: 'Meta Yönetimi',
+        title: 'Meta Yönetimi [Facebook & Instagram]',
         generalDefinition: 'Sosyal medya ve reklam yönetimi dediğimizde aklımıza ilk gelen Meta şirketidir. Facebook ve Instagram geniş kullanıcı kitlesine sahiptir. Yapısı gereği gelişmiş hedeflemeler sunar ve kapsamlı analitik raporlama seçeneğine sahiptir. Çapraz platform desteği vardır. Yani Facebook, Instagram, Messenger ve hatta WhatsaAp gibi platformlar üzerinden entegre çalışarak hedef kitlelerinize ulaşmanızı sağlar.',
         description: 'Hizmet satın alma veya abonelik gibi kavrmalardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Facebook | Instagram Metrikleri',
@@ -201,7 +206,12 @@ const initialState: SectorState = {
           
             
         ],
-        images: ReferansWebDurunet,
+        images: {
+          src : ReferansWebDurunet.src,
+          width : ReferansWebDurunet.width,
+          height: ReferansWebDurunet.height,
+          alt: "Website Tasarım Örneği",
+        },
         webname: 'Referans Websitesi',
         webUrl : 'https://durunet.com.tr/'
       }
@@ -287,7 +297,12 @@ const initialState: SectorState = {
             
         ],
 
-        images : WebIhc,
+        images: {
+          src : WebIhc.src,
+          width : WebIhc.width,
+          height: WebIhc.height,
+          alt: "Website Tasarım Örneği",
+        },
         webname: 'Referans Websitesi',
         webUrl : 'https://ihc-referans.settobox.com/'
 
@@ -390,7 +405,12 @@ const initialState: SectorState = {
               description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.',
           }   
         ],
-        images : WebIhc,
+        images: {
+          src : WebIhc.src,
+          width : WebIhc.width,
+          height: WebIhc.height,
+          alt: "Website Tasarım Örneği",
+        },
         webname: '',
         webUrl : '#'
       }

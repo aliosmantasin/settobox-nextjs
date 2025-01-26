@@ -44,7 +44,7 @@ export const ReferanceMeta: React.FC = () => {
           {data.metricsInfo.map((item, index) => (
             
             <li key={index} className='list-none'>
-              <p className='primary my-2'>{item.title}</p>
+              <p className='primary font-semibold  my-2'>{item.title}</p>
               <p>
                 {item.description}
               </p>

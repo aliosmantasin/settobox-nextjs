@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     @apply border border-[#88c4f4] bg-[#f5f9ff];
   }
   .dark .productBgColor {
-    @apply border-none bg-black;
+    @apply border-none bg-black 
   }
 }
 
