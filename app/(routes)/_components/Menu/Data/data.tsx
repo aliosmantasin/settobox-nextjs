@@ -49,7 +49,7 @@ export const serviceLinkData = {
   convertionBox: [
     {
       title: "Dijital Dönüşüm Kutusu",
-      href: "/dijital-donusum-kutusu",
+      href: "/dijital-pazarlama-donusum-kutusu",
       description:
         "Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu",
     },

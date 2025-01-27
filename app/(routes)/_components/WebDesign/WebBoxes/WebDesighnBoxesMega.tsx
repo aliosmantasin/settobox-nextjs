@@ -179,7 +179,7 @@ const WebDesignBoxesMega = () => {
                                İşletmeler profesyonel hizmetlerinin tanıtımını MegaWeb ile yapabilirler. Ayrıca MegaWeb
                                 hizmetimizde dijital pazarlama araçlarımızla bağlantılıdır. Google Ads ve Meta entegrasyonları
                                  yaparak dijital pazarlama hizmetlerini de kullanabilirsiniz.Eğer dijital pazarlama konularında reklam ihtiyaçlarınız var ve bununla
-                             ilgili bütünsel bir çalışmaya ihtiyacınız var ise bizimle iletişime geçebilir veya  <Link href="dijital-donusum-kutusu" className="primary-light"> Dijital Dönüşüm Kutusu </Link>  hizmetimizi inceleyebilirsiniz.</p></li>
+                             ilgili bütünsel bir çalışmaya ihtiyacınız var ise bizimle iletişime geçebilir veya  <Link href="dijital-pazarlama-donusum-kutusu" className="primary-light"> Dijital Dönüşüm Kutusu </Link>  hizmetimizi inceleyebilirsiniz.</p></li>
                         </ul>
 
                       </div>

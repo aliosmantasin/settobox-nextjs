@@ -83,7 +83,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
                         <MdArrowDropDownCircle className="mr-2" /> Nasıl Yapıyoruz?
                     </Button>
 
-                    <Link href="/dijital-donusum-kutusu">
+                    <Link href="/dijital-pazarlama-donusum-kutusu">
                         <Button variant="outline" className="">
                             Dijital Dönüşüm Kutusu
                             <MdKeyboardArrowRight className="ml-2" />

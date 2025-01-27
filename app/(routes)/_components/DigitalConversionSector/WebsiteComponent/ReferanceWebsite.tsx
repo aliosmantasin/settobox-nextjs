@@ -44,8 +44,8 @@ const ReferanceWeb = () => {
 
             <Link href={data.webUrl} target="_blank" rel="noopener noreferrer">
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-blue-50 border border-blue-500 rounded-lg px-6 py-3 flex items-center space-x-2 shadow-lg">
-                <span className="text-lg font-semibold ">{data.webname}</span>
-                <MdAdsClick className="text-blue-600 w-6 h-6" />
+                <span className="text-lg primary font-semibold ">{data.webname}</span>
+                <MdAdsClick className="primary-light w-6 h-6" />
               </div>
             </Link>
           </div>

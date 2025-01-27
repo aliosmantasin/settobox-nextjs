@@ -2,16 +2,15 @@
 import MetaProBox from "@/public/images/pro-box.webp";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import "./DitalConversionProduct.css"
 import ConversionBusiness from "../Modal/ConversionBusiness";
 import StartContactConversion from "../Modal/StartContactConversion";
 import AdvantageConversion from "../Modal/AdvantageConversion";
 import HareketPlaniDonusumKutusu from "../Modal/HareketPlani";
 import { MdAddBusiness, MdAdsClick, MdAppShortcut, MdAssessment, MdBalance, MdContentPasteSearch, MdControlPoint, MdCurrencyLira, MdDiversity1, MdDiversity2, MdFilter1, MdFilter2, MdGroupAdd, MdOutlineAdsClick, MdOutlineDirectionsRun, MdOutlineKeyboardDoubleArrowDown, MdOutlineStore, MdOutlineTag, MdPhonelinkSetup, MdWeb } from "react-icons/md";
+import "./DijitalMarketingConversionProduct.css"
 
 
-
-const DijitalConversionProduct = () => {
+const DijitalMarketingConversionProduct = () => {
   return (
     <>
 
@@ -457,4 +456,4 @@ const DijitalConversionProduct = () => {
   )
 }
 
-export default DijitalConversionProduct
+export default DijitalMarketingConversionProduct
