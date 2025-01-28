@@ -1,0 +1,16 @@
+# Genel Tarama Kuralları
+User-agent: *
+
+# Engellenen Alanlar
+Disallow: /404
+Disallow: /error
+Disallow: /server-error
+Disallow: /private
+Disallow: /admin
+Disallow: /login
+
+# İzin Verilen Alanlar
+Allow: /
+
+# Site Haritası
+Sitemap: https://www.settobox.com/sitemap.xml

@@ -6,15 +6,15 @@ import Image from "next/image";
 const services = [
   { name: "İnstagram Sponsorlu Reklam", path: "instagram-sponsorlu-reklam" },
   { name: "Google Ads Reklam Yönetimi", path: "google-ads-reklam-yonetimi" },
-  { name: "Website Tasarım Hizmeti", path: "web-sitesi-yaptırma" },
-  { name: "Drone Çekimleri ve Prodüksiyon", path: "havadan-drone-cekimleri/defaultdrone" },
+  { name: "Website Tasarım Hizmeti", path: "web-sitesi-yaptirma" },
+  { name: "Drone Çekimleri ve Prodüksiyon", path: "#" },
 ];
 
 const pages = [
   { name: "Ana Sayfa", path: "/" },
   { name: "Referanslar", path: "settobox-referanslar" },
-  { name: "Hizmetlerimiz", path: "hizmetlerimiz" },
-  { name: "SetToBox İletişim", path: "settobox-iletisim" },
+  { name: "Hizmetlerimiz", path: "#" },
+  { name: "SetToBox İletişim", path: "#" },
 ];
 
 const Footer = () => {

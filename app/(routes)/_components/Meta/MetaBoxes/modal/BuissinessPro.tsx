@@ -20,7 +20,7 @@ export default function BusinessPro() {
    
       <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="overflow-y-auto max-h-[80vh] sm:max-h-full sm:h-auto">
-      <DialogTitle>Stratejik Reklam ve Sosyal Medya Desteğiı</DialogTitle>
+      <DialogTitle>Stratejik Reklam ve Sosyal Medya Desteği</DialogTitle>
       
           <p className="text-base ">
           Facebook ve Instagram reklamlarının gücünü, zenginleştirilmiş sosyal medya içerikleriyle destekleyerek kurumsal kimliği

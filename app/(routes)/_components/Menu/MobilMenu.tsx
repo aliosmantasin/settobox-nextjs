@@ -143,7 +143,7 @@ export function MobilMenu() {
                 </NavigationMenuContent>
               </NavigationMenuItem> */}
               <NavigationMenuItem className="flex w-full max-w-96">
-                <Link href="/referans" legacyBehavior passHref>
+                <Link href="/settobox-referanslar" legacyBehavior passHref>
                   <NavigationMenuLink
                     className={cn(navigationMenuTriggerStyle(), "bg-transparent hover:bg-transparent text-[1rem]")}
                     onClick={handleClose}

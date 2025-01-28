@@ -141,7 +141,7 @@ export function Menu() {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <Link href="/referans" legacyBehavior passHref>
+            <Link href="/settobox-referanslar" legacyBehavior passHref>
               <NavigationMenuLink
                 className={cn(
                   navigationMenuTriggerStyle(),

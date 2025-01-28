@@ -12,7 +12,7 @@ const HealtySectorCard = () => {
 
 
   return (
-    <div className="sector-section p-4 flex flex-col items-center ">
+    <div className="sector-section flex flex-col items-center ">
       <div className="cardInclusive w-full max-w-4xl rounded-lg overflow-hidden">
         <div className="card">
           <div className="card-inner relative">

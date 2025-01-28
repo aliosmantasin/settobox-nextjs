@@ -1,0 +1,64 @@
+import Image from 'next/image';
+import IhcLogo from '@/public/images/İhc/ihcLogo.png';
+import MetaProBox from '@/public/images/pro-box.webp';
+import MegaWeb from '@/public/images/megaWeb.webp';
+import { MdCircle, MdDoneAll } from 'react-icons/md';
+
+const IhcReferance = () => {
+  return (
+    <div className="mt-5 border border-gray-300 p-4 rounded-md shadow-md">
+      <div className="text-center mb-4">
+        <div className="flex justify-center">
+          <Image src={IhcLogo} className="max-w-[50px]" alt="Referans Görsel" />
+        </div>
+        <h3 className="mt-2 text-lg font-semibold">International Company</h3>
+        <p className="text-sm text-gray-400">Eğitim Sektörü Dijital Pazarlama</p>
+      </div>
+
+      <div className="flex flex-wrap justify-between items-start">
+        <div className="w-full md:w-auto max-w-xs">
+          <nav aria-label="main mailbox folders" className="mb-2">
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <MdCircle className="text-xs text-blue-500 mr-2" />
+                <span>ProBox Meta + Mega Web</span>
+              </li>
+            </ul>
+          </nav>
+          <hr className="my-2" />
+          <nav aria-label="secondary mailbox folders">
+            <ul className="space-y-2">
+              <li className="flex items-center">
+                <MdDoneAll className="text-green-500 mr-2" />
+                <span>Facebook & Instagram Yönetimi</span>
+              </li>
+              <li className="flex items-center">
+                <MdDoneAll className="text-green-500 mr-2" />
+                <span>Web Tasarım Hizmeti</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div className="hidden md:flex items-center space-y-4">
+          <Image
+            src={MetaProBox}
+            className="w-[100px] object-contain"
+            alt="Sosyal Medya Yönetimi - SettoBox"
+          />
+          <Image
+            src={MegaWeb}
+            className="w-[100px] object-contain"
+            alt="Kurumsal Web Tasarım Hizmeti - SettoBox"
+          />
+        </div>
+      </div>
+
+      <p className="mt-4">
+        Firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.
+      </p>
+    </div>
+  );
+};
+
+export default IhcReferance;

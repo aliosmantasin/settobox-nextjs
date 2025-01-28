@@ -60,7 +60,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
  
             <div className="w-full p-2 sm:w-3/4 md:w-2/4 lg:w-3/5 items-center sm:items-start sm:text-center md:text-left mx-auto">
                 <h1         
-                    className="text-3xl font-bold text-primary"
+                    className="text-3xl font-bold text-primary text-center sm:text-start p-2 sm:p-0"
                 >
                     {data.headerTitle}
                 </h1>

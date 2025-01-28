@@ -50,7 +50,7 @@ export default function SocialMediaManageModalPro() {
             </div>
           </DialogHeader>
 
-          <DialogDescription className="mt-2 text-gray-700">
+          <DialogDescription className="mt-2 text-gray-500">
             Her işletmede olduğu gibi SetToBox içerik yönetiminde de instagram ve facebook uygulamalarında özelleştirmeler olmaktadır. İçeriklerimizi bir bütünlük içerisinde 
             bir hedef doğrultusunda yönetiyoruz.
           </DialogDescription>
@@ -75,7 +75,7 @@ export default function SocialMediaManageModalPro() {
             </Table>
           </div>
 
-          <DialogDescription className="mt-4 text-gray-700">
+          <DialogDescription className="mt-4 text-gray-400">
             Hazırlanacak reklam kreatifi bunların dışındadır.
           </DialogDescription>
         </DialogContent>

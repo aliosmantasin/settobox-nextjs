@@ -21,7 +21,7 @@ const ChooseSubject: React.FC<ChooseSubjectProps> = ({ onSubjectSelect }) => {
     <section className="py-10 theme">
       <div className="text-center">
         <h2 className="text-2xl font-bold text-blue-600">Online Varlıkların Tümüyle Yönetimi</h2>
-        <p className="mt-4">
+        <p className="mt-4 p-2 sm:p-0">
           Küçük ve orta büyüklükteki firmalar için oluşturduğumuz dijital dönüşüm kutusu hizmetini hangi araçları kullanarak yaptığımızı detaylandırıyoruz.
         </p>
       </div>
@@ -31,7 +31,7 @@ const ChooseSubject: React.FC<ChooseSubjectProps> = ({ onSubjectSelect }) => {
       <div className="overflow-x-auto mt-8 mx-auto p-2">
         {/* Meta Yönetimi */}
 
-        <div className='flex justify-evenly space-x-10'>
+        <div className='flex justify-start sm:justify-evenly space-x-10'>
 
         <div
           className={`flex flex-col items-center justify-center p-6 border rounded-lg min-w-[300px] cursor-pointer transition-colors ${
