@@ -1,14 +1,21 @@
 import { FC } from 'react';
-import { MdCloudDownload, MdEditAttributes, MdHd, MdLibraryAddCheck, MdSportsEsports } from 'react-icons/md';
+import { Md4K, MdCloudDownload, MdEditAttributes, MdHd, MdLibraryAddCheck, MdSportsEsports } from 'react-icons/md';
 
 
 const DroneAdditional: FC = () => {
   const features = [
     {
-      icon: <MdHd className="text-3xl primary-light" />, // Tailwind class names for styling
-      title: '1080p HD Kalite',
+      icon: <Md4K className="text-3xl primary-light" />, 
+      title: '4K Yüksek Kalite',
       description:
-        'İsteğe bağlı olarak 4k yüksek çözünürlü video kalitesinde görüntüler alabiliriz.'
+        'İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir.'
+    },
+
+    {
+      icon: <MdHd className="text-3xl primary-light" />, 
+      title: 'Sosyal Medya Uyumlu',
+      description:
+        'Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti'
     },
     {
       icon: <MdCloudDownload className="text-3xl primary-light" />,

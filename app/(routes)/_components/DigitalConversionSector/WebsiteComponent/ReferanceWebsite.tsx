@@ -14,23 +14,24 @@ const ReferanceWeb = () => {
 
   return (
     <section className="py-8">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto ">
         <div className="p-6 flex flex-wrap items-center">
           {/* Left Content */}
           <div className="w-full md:w-1/2 p-4">
             <div className="rounded-lg p-4 mb-4 productBgColor">
-              <h3 className="text-xl font-bold mb-2">{data.title}</h3>
-              <p className="primary font-semibold mb-1">{data.companyName}</p>
-              <p >{data.subHeader}</p>
+              <span className="text-xl font-bold mb-2">{data.title}</span> <br />
+              <span className="primary font-semibold mb-1">{data.companyName}</span>
+              <h4 >{data.subHeader}</h4>
             </div>
 
-            <hr className="my-4" />
+    
 
             <ul className="space-y-4">
               {data.metricsInfo.map((metric, index) => (
                 <li key={index}>
                   <h5 className="text-lg font-semibold primary">{metric.title}</h5>
-                  <p className="">{metric.description}</p>
+           
+                  <p dangerouslySetInnerHTML={{ __html: metric.description }}/>
                 </li>
               ))}
             </ul>

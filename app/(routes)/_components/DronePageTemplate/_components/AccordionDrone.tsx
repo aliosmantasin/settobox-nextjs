@@ -102,14 +102,7 @@ const AccordionDrone: React.FC<AccordionDroneProps> = ({headerData }) => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-7">
-              <AccordionTrigger>Tanıtım Videoları Ne Zaman Hazır Olur?</AccordionTrigger>
-              <AccordionContent>
-                <p>
-                  Drone çekimlerinin tamamlanmasının ardından belirlenen senaryo düzenlenip en kısa sürede iletilmektedir.
-                </p>
-              </AccordionContent>
-            </AccordionItem>
+        
           </Accordion>
         </div>
       </div>

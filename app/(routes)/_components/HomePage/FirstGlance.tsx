@@ -34,17 +34,16 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   }, [onLoad]);
 
   return (
-    <section className="py-10 bg-background">
+    <section>
       <div className="container mx-auto text-center">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-foreground styled-h1 my-5 relative">
-            Dijital`de Yolculuğunuzu Şekillendiriyoruz!
+          <h1 className="styled-h1 text-2xl sm:text-2xl md:text-3xl my-5 relative">
+           Markaların Dijital Varlıklarını Yönetiyor ve Büyütüyoruz!
           </h1>
           <p className="mt-4 text-muted-foreground styled-paragraph relative">
-            Facebook, Instagram ve Google reklamlarıyla markanızı öne çıkarın, web
-            sitenizi etkileyici tasarımlarla güçlendirin. Sosyal medya
-            reklamlarıyla etkileşimi artırın. Başarıya giden yolda stratejik
-            hedeflerimize siz de dahil olun 😊
+          Markanızı Facebook, Instagram ve Google reklamlarıyla öne çıkarıyor, web sitenizin içerik planlamasını
+           yaparak kurumsal kimliğinizi güçlendiriyoruz. Etkileşimi artıran sosyal medya yönetimiyle hedef kitlenize
+            daha etkili ulaşıyoruz. Dijital pazarlamayı plansız adımlarla değil, stratejik bir yol haritasıyla yönetiyoruz.
           </p>
         </div>
 

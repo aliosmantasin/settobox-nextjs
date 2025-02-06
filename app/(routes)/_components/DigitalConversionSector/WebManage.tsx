@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store';
-import { FcGoogle } from 'react-icons/fc';
+import { FcTemplate } from 'react-icons/fc';
 import ReferanceWeb from './WebsiteComponent/ReferanceWebsite';
 
 
@@ -36,7 +36,7 @@ const WebManage: React.FC = () => {
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           <div className="flex items-center mb-4">
             <div className="w-12 h-12 bg-white border border-blue-500 p-2 rounded-md flex items-center justify-center mr-4">
-              <FcGoogle className="text-xl" />
+              <FcTemplate className="text-3xl" />
             </div>
             <h3 className="text-2xl font-bold">{data.title}</h3>
           </div>
@@ -51,7 +51,7 @@ const WebManage: React.FC = () => {
 
           {/* Metrics List */}
           <ul className="space-y-3">
-            <h3 className="text-sm font-semibold">{data.metricsTitle}</h3>
+            <h4 className="text-sm font-semibold">{data.metricsTitle}</h4>
             {data.webMetrics.map((metric, index) => (
               <li key={index} className="flex items-center space-x-2">
                 {index + 1} - {metric}

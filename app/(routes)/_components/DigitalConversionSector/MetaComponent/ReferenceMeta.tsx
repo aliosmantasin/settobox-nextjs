@@ -17,17 +17,11 @@ export const ReferanceMeta: React.FC = () => {
   
         <div className='w-full  md:w-3/5 mx-auto'>
 
-          <div className='productBgColor w-full sm:w-3/4 flex sm:justify-start rounded-lg mb-5 p-2 sm:p-0'>
-            <div className='p-2'>
-            <p className='text-2xl mb-2'>
-              {data.title}
-            </p>
-            <p>
-              {data.companyName}
-            </p>
-            <p >
-              {data.subHeader}
-            </p>
+          <div className='w-full sm:w-3/4 flex sm:justify-start rounded-lg mb-5 p-2 sm:p-0'>
+          <div className="rounded-lg p-4 mb-4 productBgColor">
+              <span className="text-xl font-bold mb-2">{data.title}</span> <br />
+              <span className="primary font-semibold mb-1">{data.companyName}</span>
+              <h4 >{data.subHeader}</h4>
             </div>
           </div>
 
@@ -44,7 +38,7 @@ export const ReferanceMeta: React.FC = () => {
           {data.metricsInfo.map((item, index) => (
             
             <li key={index} className='list-none'>
-              <p className='primary font-semibold  my-2'>{item.title}</p>
+              <h4 className='primary font-semibold  my-2'>{item.title}</h4>
               <p>
                 {item.description}
               </p>

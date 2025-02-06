@@ -42,7 +42,7 @@ import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
           <div className="flex items-center mb-4">
             <div className="w-12 h-12 bg-white border border-blue-500 p-2 rounded-md flex items-center justify-center mr-4">
             
-            <FcGoogle className='text-xl'/>
+            <FcGoogle className='text-3xl'/>
 
             </div>
             <h3 className="text-2xl font-bold">{data.title}</h3>
@@ -58,7 +58,7 @@ import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
 
           {/* Metrics List */}
           <ul className="space-y-3">
-            <h3 className="text-sm font-semibold">{data.metricsTitle}</h3>
+            <h4 className="text-sm font-semibold">{data.metricsTitle}</h4>
             {data.googleMetrics.map((metric, index) => (
               <li key={index} className="flex items-center space-x-2">
                               

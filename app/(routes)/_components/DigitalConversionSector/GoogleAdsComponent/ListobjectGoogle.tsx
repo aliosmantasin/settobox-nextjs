@@ -11,42 +11,44 @@ const ListedObjectGoogle = () => {
   const animationContainer = useRef<HTMLDivElement>(null);
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
   const data = sectorData[selectedSector]?.referanceGoogle;
-  console.log("ListObjectGoogle Data:", data);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [isPlaying, setIsPlaying] = useState(true); // Animasyon oynatma kontrolü
 
   useEffect(() => {
     if (data?.animation && animationContainer.current) {
-      const animationData = JSON.parse(JSON.stringify(data.animation)); // Deep clone
+      const animationData = JSON.parse(JSON.stringify(data.animation));
 
       const animInstance = Lottie.loadAnimation({
         container: animationContainer.current,
         animationData,
         renderer: 'svg',
         loop: true,
-        autoplay: true,
+        autoplay: isPlaying, // State'e göre başlat
       });
 
       return () => animInstance.destroy();
     }
-  }, [data]);
+  }, [data, isPlaying]);
 
   if (!data) return null;
 
   return (
     <div className="flex justify-center items-center h-full">
-      <Tabs defaultValue="images" className="max-w-[500px]">
+      <Tabs defaultValue="animation" className="max-w-[500px]" onValueChange={(value) => setIsPlaying(value === 'animation')}>
         <TabsList className="w-full flex justify-around">
-          <TabsTrigger value="images">Arama Ağı Reklam Örneği</TabsTrigger>
-          <TabsTrigger value="videos">Görsel Reklam Örneği</TabsTrigger>
+          <TabsTrigger value="animation">Arama Ağı Reklam Örneği</TabsTrigger>
+          <TabsTrigger value="images">Görsel Reklam Örneği</TabsTrigger>
         </TabsList>
 
         <hr className="my-6" />
 
-        <TabsContent value="images" className="m-1 sm:m-0">
-          <div className="w-full p-2" ref={animationContainer} style={{ height: 500 }} />
+        {/* Animasyon Sekmesi */}
+        <TabsContent value="animation" className="m-1 sm:m-0">
+          <div className="w-full p-2" ref={animationContainer} style={{ height: 500, display: isPlaying ? 'block' : 'none' }} />
         </TabsContent>
 
-        <TabsContent value="videos" className="m-1 sm:m-0">
+        {/* Görsel Sekmesi */}
+        <TabsContent value="images" className="m-1 sm:m-0">
           <div className="w-full p-2">
             <div
               className="cursor-pointer rounded-lg overflow-hidden shadow-md"

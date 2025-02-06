@@ -6,7 +6,7 @@ import { MdCircle, MdDoneAll } from 'react-icons/md';
 
 const IhcReferance = () => {
   return (
-    <div className="mt-5 border border-gray-300 p-4 rounded-md shadow-md">
+    <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
           <Image src={IhcLogo} className="max-w-[50px]" alt="Referans Görsel" />
@@ -57,6 +57,11 @@ const IhcReferance = () => {
       <p className="mt-4">
         Firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.
       </p>
+      <div className="mt-4">
+        <div className="bg-info text-blue-800 p-3 rounded-md">
+          Referans Amaçlı Paylaşılmıştır.
+        </div>
+      </div>
     </div>
   );
 };

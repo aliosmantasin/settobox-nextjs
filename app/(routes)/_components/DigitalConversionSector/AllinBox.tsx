@@ -24,9 +24,9 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
           container: animationContainer.current, 
           
           renderer: "svg", 
-          loop: false, 
+          loop: true, 
           autoplay: true, 
-          path: "/data/All-in-SetToBox.json", 
+          path: "/data/Conversion.json", 
         });
   
         if (onLoad) {
@@ -44,7 +44,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
     const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
     const data = sectorData[selectedSector].allInBox;
 
-    console.log("Gelen Data verisi",data);
+    // console.log("Gelen Data verisi",data);
     // `data` yüklendi mi diye kontrol edelim
     if (!data) return null;
 
@@ -53,21 +53,23 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
 
             <div className="max-w-screen-xl flex flex-wrap mx-auto items-center">
 
-             <div  className="flex mx-auto p-5  sm:w-2/4 md:w-2/4 md:p-10 lg:w-2/5 lg:p-10"
+             <div  className="w-full sm:w-3/4 md:w-1/2 flex mx-auto p-5"
                 ref={animationContainer} 
-                style={{height:500}}/> 
+                style={{
+                    maxWidth:700,
+                    height:500,
+                }}
+               /> 
          
  
-            <div className="w-full p-2 sm:w-3/4 md:w-2/4 lg:w-3/5 items-center sm:items-start sm:text-center md:text-left mx-auto">
+            <div className="w-full  md:w-2/4 items-center sm:items-start sm:text-center md:text-left mx-auto">
                 <h1         
-                    className="text-3xl font-bold text-primary text-center sm:text-start p-2 sm:p-0"
-                >
-                    {data.headerTitle}
-                </h1>
+                    className="text-3xl font-bold text-primary text-center sm:text-center md:text-start p-2 sm:p-0" dangerouslySetInnerHTML={{ __html: data.headerTitle }}
+                />
 
                 <p
                 
-                    className="mt-4"
+                    className="mt-2 text-center sm:text-center md:text-start p-1"
                 >
                     {data.headerDescription}
                 </p>
@@ -85,7 +87,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
 
                     <Link href="/dijital-pazarlama-donusum-kutusu">
                         <Button variant="outline" className="">
-                            Dijital Dönüşüm Kutusu
+                            Dijital Dönüşüm Kutusu İncele
                             <MdKeyboardArrowRight className="ml-2" />
                         </Button>
                     </Link>

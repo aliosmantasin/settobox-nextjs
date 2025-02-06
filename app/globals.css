@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     --chart-3: 197 37% 24%; /* Koyu mavi */
     --chart-4: 43 74% 66%; /* Açık yeşil */
     --chart-5: 27 87% 67%; /* Açık sarı */
-   
+    --radius: 0.5rem; /* Kenar yuvarlama */
   }
   
   .dark {

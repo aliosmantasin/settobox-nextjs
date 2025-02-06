@@ -80,6 +80,18 @@
   z-index: 1;
 }
 
+.three-mask-objectDark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 92%;
+  height: 92%;
+  background-image: url(/svg/iconMaskDark.svg);
+  z-index: 1;
+}
+
+
 .objective {
   position: absolute;
   left: 50%;
@@ -130,10 +142,6 @@
   width: 120px;
   height: auto;
   margin: 1rem;
-}
-
-.icon {
-  font-size: 2rem;
 }
 
 .high-conversion {

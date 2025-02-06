@@ -4,16 +4,16 @@ import { MdCircle, MdDoneAll } from 'react-icons/md';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
 import XrealnetLogo from '@/public/images/xrealnet/logo.png';
-import MegaWeb from '@/public/images/megaWeb.webp';
+import MiniWeb from '@/public/images/miniWeb.webp';
 
 const XrealnetReferance = () => {
   return (
-    <div className="mt-5 border border-gray-300 p-4 rounded-md shadow-md">
+    <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
           <Image src={XrealnetLogo} className="max-w-[100px]" alt="XrealNet Logo" />
         </div>
-    
+        <p className="text-sm text-gray-400 mt-3">Hizmet Sektörü Dijital Pazarlama</p>
       </div>
 
       <div className="flex flex-wrap justify-between items-start">
@@ -39,9 +39,9 @@ const XrealnetReferance = () => {
 
         <div className="hidden md:flex justify-center">
           <Image
-            src={MegaWeb}
+            src={MiniWeb}
             className="w-[100px] object-contain"
-            alt="SetToBox Web Tasarım Hizmeti"
+            alt="Web Tasarım Hizmeti - SetToBox"
           />
         </div>
       </div>
@@ -56,6 +56,12 @@ const XrealnetReferance = () => {
           Detaylı İncele <AiOutlineArrowRight className="ml-2" />
         </Link>
       </p>
+
+      <div className="mt-4">
+        <div className="bg-info text-blue-800 p-3 rounded-md">
+          Referans Amaçlı Paylaşılmıştır.
+        </div>
+      </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@
 import Lottie from 'lottie-web';
 import { useEffect, useRef } from 'react';
 import './GoogleInfo.css';
+import { MdKeyboardDoubleArrowDown } from 'react-icons/md';
 
 interface GoogleInfoProps {
   onLoad?: () => void;
@@ -56,7 +57,9 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
              Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileriyle google ads`te
               reklam vererek potansiyel müşterilere ulaşın. Tam hesap kurulum desteği ve kişiselleştirilmiş
                kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın.
+              
           </p>
+          <MdKeyboardDoubleArrowDown className="text-4xl primary-light mx-auto mt-3 animate-pulse"/>
           </div>
         </div>
 
@@ -65,7 +68,7 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
         <div className='w-2/2 sm:w-1/2'>
         <div
             ref={animationContainer}
-            style={{ maxWidth:"600px" }}
+            style={{ maxWidth:"600px" }}  
           />
       
         </div>

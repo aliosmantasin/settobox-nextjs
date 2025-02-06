@@ -14,12 +14,12 @@ export const ReferanceGoogle: React.FC = () => {
     <div className="container flex flex-wrap mx-auto p-5 ">
       {/* Sol Bölüm */}
       <div className="w-full md:w-3/5 mx-auto">
-        <div className="productBgColor w-full sm:w-3/4 flex sm:justify-start rounded-lg mb-5 p-2 sm:p-0">
-          <div className="p-2">
-            <p className="text-2xl mb-2">{data.title}</p>
-            <p>{data.companyName}</p>
-            <p>{data.subHeader}</p>
-          </div>
+        <div className=" w-full sm:w-3/4 flex sm:justify-start rounded-lg mb-5 p-2 sm:p-0">
+         <div className="rounded-lg p-4 mb-4 productBgColor">
+              <span className="text-xl font-bold mb-2">{data.title}</span> <br />
+              <span className="primary font-semibold mb-1">{data.companyName}</span>
+              <h4 >{data.subHeader}</h4>
+            </div>
         </div>
 
         <div>
@@ -29,7 +29,7 @@ export const ReferanceGoogle: React.FC = () => {
         <hr className="my-6" />
         <div className="divide-y divide-dashed" />
         <div>
-        <h5 className='mb-2'>{data.subTitle}</h5>
+        <h5 className='mb-2 primary font-bold'>{data.subTitle}</h5>
         <p dangerouslySetInnerHTML={{ __html: data.subTitleBody }} />
         </div>
     

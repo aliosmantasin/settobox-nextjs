@@ -28,7 +28,7 @@ const Footer = () => {
               <Image src="/logoImage/SetToBoxLogo.webp" alt="SetToBox Logo" width={100} height={100}/>
             </Link>
             <p className="mt-4 text-sm footerHeaderColor">
-              Dijitalde Yolculuğunuzu Şekillendiriyoruz
+              Gelişigüzel Değil, Akıllı Dijital Pazarlama
             </p>
           </div>
 

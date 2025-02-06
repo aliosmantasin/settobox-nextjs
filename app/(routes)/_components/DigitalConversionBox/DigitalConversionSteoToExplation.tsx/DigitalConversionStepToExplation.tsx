@@ -1,10 +1,9 @@
 "use client"
-
 import { MdAdd, MdOutlineDragHandle } from "react-icons/md";
-import "./DigitalConversionStepToExplation.css";
 import { FcGoogle, FcTemplate } from "react-icons/fc";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import "./DigitalConversionStepToExplation.css";
 
 const DigitalConversionStepToExplation = () => {
   const [showEffect, setShowEffect] = useState(false);
@@ -24,18 +23,18 @@ const DigitalConversionStepToExplation = () => {
     <section className="step-to-explation-section">
 
       <div className="header">
-        <p className="highlight-text">Plansız Adımlar Atmak Yerine</p>
-        <p className="step-title">Dijital Pazarlamayı Bir Strateji Haline Getirin</p>
+        <span className="secondary">Plansız Adımlar Atmak Yerine</span>
+        <h2 className="step-title">Dijital Pazarlamayı Bir Strateji Haline Getirin</h2>
       </div>
 
-      <div className="overflow-x-auto flex sm:justify-center"> 
+      <div className="overflow-x-auto "> 
       {showEffect && (
-      <div className=  {`${currentTheme === "dark" ? "digital-gridlineDark" : "digital-gridline"}`}>
-        <div className="all-service">
+      <div className=  {`${currentTheme === "dark" ? "w-full mx-auto digital-gridlineDark" : "w-full mx-auto digital-gridline"}`}>
+        <div className="all-service flex md:justify-center">
           {/* Meta Section */}
           <div className="mask-card">
             <div className="three-mask-svg">
-              <div className="three-mask-object"></div>
+            <div className={`${currentTheme === "dark" ? "three-mask-objectDark" : "three-mask-object"}`}></div>
               <div className="objective">
                 <div>
                     <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 85.18 56.58" width={35} height={35}>
@@ -51,16 +50,16 @@ const DigitalConversionStepToExplation = () => {
           </div>
 
           <div className="custom-icon-card">
-            <MdAdd className="icon" />
+            <MdAdd className="text-3xl mx-auto" />
           </div>
 
           {/* Google Section */}
           <div className="mask-card">
             <div className="three-mask-svg">
-              <div className="three-mask-object"></div>
+            <div className={`${currentTheme === "dark" ? "three-mask-objectDark" : "three-mask-object"}`}></div>
               <div className="objective">
                 <div className="">
-                <FcGoogle className="icon mx-auto"/>
+                <FcGoogle className="text-3xl mx-auto"/>
                 </div>
                 <p className={`${currentTheme === "dark" ? "icon-textDark" : "icon-text"}`}>Google</p>
               </div>
@@ -69,16 +68,16 @@ const DigitalConversionStepToExplation = () => {
           </div>
 
           <div className="custom-icon-card">
-            <MdAdd className="icon" />
+            <MdAdd className="text-3xl mx-auto" />
           </div>
 
           {/* Web Section */}
           <div className="mask-card">
             <div className="three-mask-svg">
-              <div className="three-mask-object"></div>
+            <div className={`${currentTheme === "dark" ? "three-mask-objectDark" : "three-mask-object"}`}></div>
               <div className="objective">
                 <div>
-                  <FcTemplate className="icon" />
+                  <FcTemplate className="text-3xl mx-auto"/>
                 </div>
                 <p className={`${currentTheme === "dark" ? "icon-textDark" : "icon-text"}`}>Web</p>
               </div>
@@ -87,7 +86,7 @@ const DigitalConversionStepToExplation = () => {
           </div>
 
           <div className="custom-icon-card">
-            <MdOutlineDragHandle className="icon" />
+            <MdOutlineDragHandle className="text-3xl mx-auto" />
           </div>
 
           {/* High Conversion Section */}
@@ -112,6 +111,7 @@ const DigitalConversionStepToExplation = () => {
           <span className="highlight">küçük ve orta büyüklükteki işletmeler</span> için tasarlanmıştır.
         </p>
       </div>
+      
     </section>
   );
 };

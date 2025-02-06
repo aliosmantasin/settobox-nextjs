@@ -5,6 +5,7 @@ import { setSector } from "@/store/sectorSlice";
 import { RootState } from "@/store";
 import SectorTemplate from "../../_components/DigitalConversionSector/SectorTemplate";
 
+
 type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
 
 interface PageProps {
@@ -14,6 +15,8 @@ interface PageProps {
 const SectorPage = ({ params }: PageProps) => {
   const dispatch = useDispatch();
   const [sektor, setSektor] = useState<Sector | null>(null);
+
+
 
   // Promise olan params'ı çözmek için useEffect kullanımı
   useEffect(() => {
@@ -34,6 +37,8 @@ const SectorPage = ({ params }: PageProps) => {
 
   // Redux store'dan veriyi çek
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
+
+  console.log("Seçilen Sektör:",selectedSector)
 
   // Eğer veri mevcut değilse hata sayfası
   if (!sectorData || !selectedSector) {

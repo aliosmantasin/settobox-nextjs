@@ -15,9 +15,9 @@ const DijitalDonusumKutusu = () => {
 
         {/* Mobile title */}
         <div className="block sm:hidden text-center mb-6">
-          <h3 className="text-xl text-primary">
+          <h2 className="text-xl text-primary">
             İşletmenizin Online Varlıklarının Tümüyle Yönetilmesini İster misin?
-          </h3>
+          </h2>
         </div>
 
         {/* Image section */}
@@ -42,9 +42,9 @@ const DijitalDonusumKutusu = () => {
         {/* Content Area */}
         <div className="flex sm:w-3/3 md:w-1/2 justify-center items-center">
           <div className="p-6 sm:p-8">
-            <h3 className="text-3xl text-primary hidden sm:block mb-6">
+            <h2 className="text-3xl text-primary hidden sm:block mb-6">
               İşletmenizin Online Varlıklarının Tümüyle Yönetilmesini İster misin?
-            </h3>
+            </h2>
             <ul className="list-disc pl-6 mb-4">
               <li className="text-base mb-2 ">
                 <span className="text-primary">Kullanıcı deneyimi ile tasarlanmış ücretsiz bir website</span>

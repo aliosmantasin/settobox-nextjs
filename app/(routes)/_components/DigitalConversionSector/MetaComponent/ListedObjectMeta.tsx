@@ -22,7 +22,11 @@ const ListedObjectMeta = () => {
     <TabsTrigger value="images">Görsel Örnekler</TabsTrigger>
     <TabsTrigger value="videos">Video Örnekleri</TabsTrigger>
   </TabsList>
-
+  <div className="mt-4">
+        <div className="bg-info text-blue-800 p-3 rounded-md">
+          Referans paylaşımlardır. Herhangi bir kampanyayı temsil etmemektedir.
+        </div>
+      </div>
   <hr className="my-6" />
 
   <TabsContent value="images" className='m-1 sm:m-0'>

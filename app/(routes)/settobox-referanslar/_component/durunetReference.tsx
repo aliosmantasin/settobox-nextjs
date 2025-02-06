@@ -1,14 +1,14 @@
 
 
 import DurunetLogo from '@/public/images/durunetGorsel/durunetLogo.png';
-import DijitalDonusumKutusu from '@/public/images/setToBox.webp';
+import DijitalDonusumKutusu from '@/public/images/DigitalDonusumKutusu.webp';
 import Image from 'next/image';
 import { MdCircle, MdDoneAll } from 'react-icons/md';
 import Link from 'next/link';
 
 const DurunetReferance = () => {
   return (
-    <div className="mt-5 border border-gray-300 p-4 rounded-md shadow-md">
+    <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
           <Image src={DurunetLogo} className="max-w-[120px]" alt="Referans Görsel" />
@@ -57,7 +57,7 @@ const DurunetReferance = () => {
 
       <p className="mt-4">Firmanın online varlıkları tümüyle <strong className='primary-light text-'><Link href="/dijital-pazarlama-donusum-kutusu">Dijital Pazarlama Dönüşüm Kutusu</Link> </strong>  içerik yapısı ile yönettik.</p>
       <div className="mt-4">
-        <div className="bg-blue-100 text-blue-800 p-3 rounded-md">
+        <div className="bg-info text-blue-800 p-3 rounded-md">
           Referans Amaçlı Paylaşılmıştır.
         </div>
       </div>

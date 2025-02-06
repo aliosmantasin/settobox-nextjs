@@ -50,8 +50,7 @@ const DroneVideoComponent: React.FC<DroneVideoComponentProps> = ({ droneVideoDat
 
             {/* Açıklama */}
             <p
-              className="text-base mb-4"
-              dangerouslySetInnerHTML={{ __html: droneVideoData.description }}
+              className="text-base mb-4" dangerouslySetInnerHTML={{ __html: droneVideoData.description }}
             ></p>
 
             {/* Uyarı Mesajı */}

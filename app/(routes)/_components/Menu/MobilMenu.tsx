@@ -58,7 +58,9 @@ export function MobilMenu() {
         <SheetContent className="w-full p-2 h-full snap-y overflow-y-auto max-h-[100vh]">
           <div className="flex space-x-5 mt-5 border-b-2 p-2 border-black-500">
             <div><ModeToggle /></div>
-            <Button>Marka Kimliği</Button>
+            <Link href="/dijital-pazarlama-baslagic-kilavuzu">
+            <Button onClick={handleClose}>Başlangıç ​​Kılavuzu</Button>
+            </Link>
           </div>
           <NavigationMenu className="flex justify-start w-full max-w-96">
             <NavigationMenuList className="flex flex-col space-y-5 mt-8 w-full">

@@ -114,16 +114,16 @@ const initialState: SectorState = {
         headerDescription: 'Hizmet sektörü için planladığımız online varlıklarla, orta ve uzun vadede bütçe optimizasyonunu sağlayarak kontrollü bir yönetim süreci hedefliyoruz. Bilgilendirme ve referans dokümanlarımızı inceleyerek izlediğimiz stratejiyi daha ayrıntılı görebilirsiniz.',
       },
       metaManage: {
-        title: 'Meta Yönetimi [Facebook & Instagram]',
+        title: 'Meta Yönetimi <span style="color:#1f77bb; font-size: 0.7em;">"Facebook & Instagram"</span>',
         generalDefinition: 'Sosyal medya ve reklam yönetimi dediğimizde aklımıza ilk gelen Meta şirketidir. Facebook ve Instagram geniş kullanıcı kitlesine sahiptir. Yapısı gereği gelişmiş hedeflemeler sunar ve kapsamlı analitik raporlama seçeneğine sahiptir. Çapraz platform desteği vardır. Yani Facebook, Instagram, Messenger ve hatta WhatsaAp gibi platformlar üzerinden entegre çalışarak hedef kitlelerinize ulaşmanızı sağlar.',
-        description: 'Hizmet satın alma veya abonelik gibi kavrmalardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
+        description: 'Hizmet satın alma veya abonelik gibi kavramlardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Facebook | Instagram Metrikleri',
         metaMetrics: ['Kurumsal Kimlik', 'Sosyal Medya Yönetimi', 'Meta Reklamları'],
         animation: ArrangementInstagram, 
       },
       referanceMeta: {
         title:'Referans',
-        companyName: 'Örnek İşletme',
+        companyName: 'Örnek İşletme - İnternet Firması',
         subHeader: 'Facebook - İnstagram ve Reklam Yönetimi',
         description: 'Facebook & instagram ve reklam yönetimini yaptığımız internet servis sağlayıcısı firmanın kurumsal kimlik ve içerik planlamasını düzenledikten sonra reklam yönetiminide yaptık. Bu proje kapsamında gerçekleştirdiğimiz sosyal medya yönetimi ve kurumsal tasarım çalışmalarıyla ilgili görsellerden bir izlenim edinebilirsiniz. Amacımız, sosyal medya hesaplarınıza giren potansiyel müşterilere hem yapılan iş hakkında bilgi sunmak hem de kurumsal tasarım ile markanıza duyulan güveni artırmaktır.',
         metricsInfo: [
@@ -146,7 +146,7 @@ const initialState: SectorState = {
       googleManage: {
         title: 'Google Yönetimi',
         generalDefinition: 'Google, dijital pazarlamada en etkili araçlardan biridir ve işletmelerin çevrimiçi varlıklarını güçlendirmek için birçok farklı hizmet sunar. Google Search Console, Google Ads ve Google İşletme Hesabı gibi araçlar, işletmelerin hem görünürlüğünü artırmalarına hem de hedef kitleleriyle daha etkili etkileşim kurmalarına olanak tanır.',
-        description: 'Hizmet satın alma veya abonelik gibi kavrmalardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
+        description: 'Hizmet satın alma veya abonelik gibi kavramlardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Google Metrikleri',
         googleMetrics: ['Google Search Console (Arama Motoru Optimizasyonu)', 'Google Ads Reklamları', 'Google İşletme Hesabı (Google Haritalar Kaydı)'],
         subTitle: 'Kısacası, Google’ın sunduğu bu araçlar, bir araya geldiğinde dijital pazarlamada güçlü bir strateji oluşturur. Hem organik hem de ücretli kanallarla geniş kitlelere ulaşmak ve işletmenizi dijital dünyada daha görünür kılmak için Google hizmetleri oldukça önemlidir.',
@@ -155,7 +155,7 @@ const initialState: SectorState = {
       
       referanceGoogle: {
         title:'Referans',
-        companyName: 'Örnek İşletme',
+        companyName: 'Örnek İşletme - İnternet Firması',
         subHeader: 'Google Uygulamaları ve Reklam Yönetimi',
         description: `
         Bölgesel olarak hizmet veren İSS firmasını <strong>organik olarak öne çıkardık.</strong> Anahtar kelime olarak "manavgat internet" araması yapan internet kullanıcılarının ilk sıralarda bu firmayı bulmalarını sağladık. Aynı zamanda düzenlendiğimiz Google İşletme Hesabı ile haritalarda görünürlüğünü artırarak <strong>google işletme kaydını yaptık</strong>. Bu sayede işletmenin yorumları arttı, iletişim yöntemleri gibi konularda görünür oldu.
@@ -184,8 +184,8 @@ const initialState: SectorState = {
 
       referanceWeb: {
         title:'Referans',
-        companyName: 'Örnek İşletme',
-        subHeader: 'Web Site Yönetimi',
+        companyName: 'Örnek İşletme - İnternet Firması',
+        subHeader: 'Web Site Tasarımı ve Yönetimi',
         metricsInfo: [
             {
                 title: 'Kullanıcı Deneyimi Tasarımı Neden Önemli?',
@@ -197,11 +197,11 @@ const initialState: SectorState = {
             },
             {
                 title: 'Yazılım Teknolojisi',
-                description: 'React - Typescript teknolojileriyle beraber Material UI - Tailwind - Bootstrap gibi kütüphaneler kullanılmaktadır. (şu anda kullanılan teknolojiler)',
+                description: 'Tek sayfa(single page) bir web site tasarladığımızda React Vite ve Tailwind teknolojilerini kullanıyoruz. Donanımlı bir web site tasarladığımızda Next.js Typescript ve Tailwind teknolojilerinden faydalanıyoruz. (şu anda kullanılan teknolojiler)',
             },
             {
               title: 'Dijital Pazarlama Entegrasyonları ve Bütünsel Yaklaşımın Önemi',
-              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.',
+              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: <strong>Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.</strong',
             }
           
             
@@ -225,12 +225,12 @@ const initialState: SectorState = {
       
       allInBox : {
         headerTitle: 'Dijital Pazarlama Eğitim Sektörü',
-        headerDescription: 'Eğitim sektörü için planladığımız online varlıklarla, orta ve uzun vadede bütçe optimizasyonunu sağlayarak kontrollü bir yönetim süreci hedefliyoruz. Bilgilendirme ve referans dokümanlarımızı inceleyerek izlediğimiz stratejiyi daha ayrıntılı görebilirsiniz.',
+        headerDescription: 'Eğitim sektörü için planladığımız online varlıklarla, orta ve uzun vadede bütçe optimizasyonunu sağlayarak kontrollü bir yönetim süreci hedefliyoruz. Sektörlerin tüm online varlıklarını yönetmek için Dijital Dönüşüm Kutusu hizmetini kullanıyoruz.',
       },
       metaManage: {
         title: 'Meta Yönetimi',
         generalDefinition: 'Sosyal medya ve reklam yönetimi dediğimizde aklımıza ilk gelen Meta şirketidir. Facebook ve Instagram geniş kullanıcı kitlesine sahiptir. Yapısı gereği gelişmiş hedeflemeler sunar ve kapsamlı analitik raporlama seçeneğine sahiptir. Çapraz platform desteği vardır. Yani Facebook, Instagram, Messenger ve hatta WhatsaAp gibi platformlar üzerinden entegre çalışarak hedef kitlelerinize ulaşmanızı sağlar.',
-        description: 'Hizmet satın alma veya abonelik gibi kavrmalardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
+        description: 'Hizmet satın alma veya abonelik gibi kavramlardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Facebook | Instagram Metrikleri',
         metaMetrics: ['Kurumsal Kimlik', 'Sosyal Medya Yönetimi', 'Meta reklamları'],
         animation: ArrangementInstagram, 
@@ -238,7 +238,7 @@ const initialState: SectorState = {
 
      referanceMeta: {
         title:'Referans',
-        companyName: '***** Hospitality Company',
+        companyName: 'Örnek İşletme - Eğitim ve Geliştirme Firması',
         subHeader: 'Facebook - İnstagram ve Reklam Yönetimi',
         description: 'Türkiye ve KKTC’de ikamet eden, belirli kriterleri karşılayan Türk vatandaşlarına yönelik, Almanya’da eğitimlerini tamamladıktan sonra anlaşmalı otellerde çalışma imkanı sunan bir start-up projesinde Instagram, Facebook ve reklam yönetimini üstlendik. Bu proje kapsamında gerçekleştirdiğimiz sosyal medya yönetimi ve kurumsal tasarım çalışmalarıyla ilgili görsellerden bir izlenim edinebilirsiniz. Amacımız, sosyal medya hesaplarınıza giren potansiyel müşterilere hem yapılan iş hakkında bilgi sunmak hem de kurumsal tasarım ile markanıza duyulan güveni artırmaktır.',
         metricsInfo: [
@@ -274,7 +274,7 @@ const initialState: SectorState = {
       },
       referanceWeb: {
         title:'Referans',
-        companyName: '**** Hospitality Company',
+        companyName: 'Örnek İşletme - Eğitim ve Geliştirme Firması',
         subHeader: 'Web Site Yönetimi',
         metricsInfo: [
             {
@@ -287,11 +287,11 @@ const initialState: SectorState = {
             },
             {
                 title: 'Yazılım Teknolojisi',
-                description: 'React - Typescript teknolojileriyle beraber Material UI - Tailwind - Bootstrap gibi kütüphaneler kullanılmaktadır. (şu anda kullanılan teknolojiler)',
+                description: 'Tek sayfa(single page) bir web site tasarladığımızda React Vite ve Tailwind teknolojilerini kullanıyoruz. Donanımlı bir web site tasarladığımızda Next.js Typescript ve Tailwind teknolojilerinden faydalanıyoruz. (şu anda kullanılan teknolojiler)',
             },
             {
               title: 'Dijital Pazarlama Entegrasyonları ve Bütünsel Yaklaşımın Önemi',
-              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.',
+              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: <strong>Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.</strong',
           }
           
             
@@ -354,7 +354,7 @@ const initialState: SectorState = {
       googleManage: {
         title: 'Google Yönetimi',
         generalDefinition: 'Google, dijital pazarlamada en etkili araçlardan biridir ve işletmelerin çevrimiçi varlıklarını güçlendirmek için birçok farklı hizmet sunar. Google Search Console, Google Ads ve Google İşletme Hesabı gibi araçlar, işletmelerin hem görünürlüğünü artırmalarına hem de hedef kitleleriyle daha etkili etkileşim kurmalarına olanak tanır.Sosyal medya ve reklam yönetimi dediğimizde aklımıza ilk gelen Meta şirketidir. Facebook ve Instagram geniş kullanıcı kitlesine sahiptir. Yapısı gereği gelişmiş hedeflemeler sunar ve kapsamlı analitik raporlama seçeneğine sahiptir. Çapraz platform desteği vardır. Yani Facebook, Instagram, Messenger ve hatta WhatsaAp gibi platformlar üzerinden entegre çalışarak hedef kitlelerinize ulaşmanızı sağlar.',
-        description: 'Hizmet satın alma veya abonelik gibi kavrmalardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
+        description: 'Hizmet satın alma veya abonelik gibi kavramlardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Google Metrikleri',
         googleMetrics: ['Google Search Console (Arama Motoru Optimizasyonu)', 'Google Ads Reklamları', 'Google İşletme Hesabı (Google Haritalar Kaydı)'],
         subTitle: 'Kısacası, Google’ın sunduğu bu araçlar, bir araya geldiğinde dijital pazarlamada güçlü bir strateji oluşturur. Hem organik hem de ücretli kanallarla geniş kitlelere ulaşmak ve işletmenizi dijital dünyada daha görünür kılmak için Google hizmetleri oldukça önemlidir.',
@@ -398,11 +398,11 @@ const initialState: SectorState = {
             },
             {
                 title: 'Yazılım Teknolojisi',
-                description: 'React - Typescript teknolojileriyle beraber Material UI - Tailwind - Bootstrap gibi kütüphaneler kullanılmaktadır. (şu anda kullanılan teknolojiler)',
+                description: 'Tek sayfa(single page) bir web site tasarladığımızda React Vite ve Tailwind teknolojilerini kullanıyoruz. Donanımlı bir web site tasarladığımızda Next.js Typescript ve Tailwind teknolojilerinden faydalanıyoruz. (şu anda kullanılan teknolojiler)',
             },
             {
               title: 'Dijital Pazarlama Entegrasyonları ve Bütünsel Yaklaşımın Önemi',
-              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor: Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.',
+              description: 'Web siteleri tasarlarken Meta ve Google gibi dijital pazarlama araçlarını entegre ediyoruz. Online varlıkların birbiriyle uyumlu bir şekilde kullanılması, orta ve uzun vadede daha başarılı sonuçlar elde etmemizi sağlıyor. Süreç ilerledikçe, daha hassas hedeflemeler yapabiliyor ve bütçenizi en doğru noktalara yönlendirebiliyoruz. Bu da şu anlama geliyor <strong>Dijital pazarlama araçlarını bir bütün olarak yönetmek, doğru hedef kitleye ulaşmayı kolaylaştırırken bütçenizden maksimum verim almanızı sağlar.</strong',
           }   
         ],
         images: {

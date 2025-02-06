@@ -12,10 +12,6 @@ import WebManage from '../../_components/DigitalConversionSector/WebManage';
 import { setSector } from '@/store/sectorSlice';
 import { RootState } from '@/store';
 
-// import { sectorImgDataStore } from '../component/SectorComponent/sectorImgDataStore';
-// import { sectorVideoDataStore } from '../component/SectorComponent/sektorVideoDataStore'
-
-
 const SectorTemplate: React.FC = () => {
     const dispatch = useDispatch();
     const sectorData = useSelector((state: RootState) => state.sector.sectorData);

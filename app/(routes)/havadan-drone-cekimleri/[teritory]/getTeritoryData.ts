@@ -54,7 +54,7 @@ interface TeritoryData {
          },
 
          SSSComponent:{
-            header: '2024 Drone Çekim Fiyatları Manavgat'
+            header: '2025 Drone Çekim Fiyatları Manavgat'
          }
 
     },
@@ -87,7 +87,7 @@ interface TeritoryData {
          },
 
          SSSComponent:{
-            header: '2024 Drone Çekim Fiyatları Alanya'
+            header: '2025 Drone Çekim Fiyatları Alanya'
          }
     },
 
@@ -121,7 +121,7 @@ interface TeritoryData {
          },
 
          SSSComponent:{
-            header: '2024 Drone Çekim Fiyatları Serik'
+            header: '2025 Drone Çekim Fiyatları Serik'
          }
     },
 };

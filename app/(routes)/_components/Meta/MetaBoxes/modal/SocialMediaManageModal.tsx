@@ -18,13 +18,14 @@ export default function SocialMediaManageModalPro() {
     { type: 'Story Paylaşımı', frequency: '4' },
     { type: 'Sizden Gelenler', frequency: '+' },
     { type: 'Özel Günler Paylaşımı', frequency: 'Mevcut' },
+    { type: 'Sosyal Medya Kurumsal Yapı', frequency: 'Mevcut' },
   ];
 
   return (
     <>
       <Button
         variant="link"
-        className="p-1 sm:p-1 my-2  text-start cursor-pointer underline w-full"
+        className="p-0 my-2  text-start cursor-pointer underline w-full"
         onClick={handleOpen}
       >
         <div id="alert-1" className="w-full flex items-center p-3 mb-1 text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400">
@@ -61,7 +62,7 @@ export default function SocialMediaManageModalPro() {
               <TableHeader>
                 <TableRow>
                   <TableHead className="text-blue-600">İçerik Türü</TableHead>
-                  <TableHead>Haftalık</TableHead>
+                  <TableHead><b>Haftalık</b></TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>

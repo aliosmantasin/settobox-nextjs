@@ -21,18 +21,18 @@ const sectorImagesMap: Record<Sector, string[]> = {
   ],
   egitimsektoru: [
     '/images/sektorGorsel/egitimsektoru/gorsel1.webp',
+    '/images/sektorGorsel/egitimsektoru/gorsel7.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel2.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel3.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel4.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel5.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel6.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel7.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel8.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel9.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel10.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel11.webp',
+    '/images/sektorGorsel/egitimsektoru/gorsel10.webp',
     '/images/sektorGorsel/egitimsektoru/gorsel12.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel13.webp',
+    
     
    
   ],

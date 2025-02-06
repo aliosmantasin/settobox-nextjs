@@ -1,11 +1,54 @@
-type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
+import { seoData } from "@/lib/seo";
+import type { Metadata } from "next";
 
-// Statik parametreleri oluştur
-export async function generateStaticParams() {
-  const sectors: Sector[] = ["hizmetsektoru", "egitimsektoru", "sagliksektoru"];
-  return sectors.map((sector) => ({ sektor: sector }));
+
+type Params = Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }>;
+
+// SEO Metadata oluşturma fonksiyonu
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  const resolvedParams = await params; // 🚀 params artık Promise, bu yüzden await kullanıyoruz
+  const sectorKey = `dijital-pazarlama-donusum-kutusu/${resolvedParams.sektor}`;
+
+  console.log("✅ layout.tsx içinde generateMetadata çalıştı!");
+  console.log("SEO Key:", sectorKey);
+  console.log("SEO Data for Key:", seoData[sectorKey]);
+
+  if (seoData[sectorKey]) {
+    return {
+      title: seoData[sectorKey].title,
+      description: seoData[sectorKey].description,
+    };
+  }
+
+  return {
+    title: `SetToBox | ${resolvedParams.sektor} Dijital Pazarlama`,
+    description: `${resolvedParams.sektor} için dijital pazarlama hizmetleri hakkında bilgi alın.`,
+  };
 }
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+// generateStaticParams fonksiyonu
+export async function generateStaticParams(): Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }[]> {
+  return [
+    { sektor: "hizmetsektoru" },
+    { sektor: "egitimsektoru" },
+    { sektor: "sagliksektoru" },
+  ];
+}
+
+// Layout Component'i
+export default async function Layout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Params;
+}) {
+  const resolvedParams = await params; // 🚀 params artık Promise, burada await kullanıyoruz
+  console.log("Layout için params:", resolvedParams);
+
   return <>{children}</>;
 }
+
+
+
+

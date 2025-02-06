@@ -4,7 +4,7 @@
   <!-- Ana Sayfa -->
   <url>
     <loc>https://www.settobox.com</loc>
-    <lastmod>2024-11-01</lastmod>
+    <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,7 +13,7 @@
   <!-- Dijital Dönüşüm Kutusu -->
   <url>
     <loc>https://www.settobox.com/dijital-pazarlama-donusum-kutusu</loc>
-    <lastmod>2024-11-29</lastmod>
+    <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -21,16 +21,16 @@
   <!-- Hizmet Sektörü Referans -->
   <url>
     <loc>https://www.settobox.com/dijital-pazarlama-donusum-kutusu/hizmetsektoru</loc>
-    <lastmod>2024-11-01</lastmod>
-    <changefreq>monthly</changefreq>
+     <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Eğitim Sektörü Referans -->
   <url>
     <loc>https://www.settobox.com/dijital-pazarlama-donusum-kutusu/egitimsektoru</loc>
-    <lastmod>2024-11-01</lastmod>
-    <changefreq>monthly</changefreq>
+     <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -38,7 +38,7 @@
   <!-- Instagram-Facebook Reklamları -->
   <url>
     <loc>https://www.settobox.com/instagram-sponsorlu-reklam</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -46,7 +46,7 @@
   <!-- Google Reklamları -->
   <url>
     <loc>https://www.settobox.com/google-ads-reklam-yonetimi</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -54,7 +54,7 @@
   <!-- Web Tasarımı Teşekkürler Sayfası -->
   <url>
     <loc>https://www.settobox.com/web-sitesi-yaptırma</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -62,8 +62,8 @@
   <!-- SetToBox Referans -->
   <url>
     <loc>https://www.settobox.com/settobox-referanslar</loc>
-    <lastmod>2024-11-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
@@ -73,7 +73,7 @@
   <!-- Drone Hizmeti Manavgat -->
   <url>
     <loc>https://www.settobox.com/havadan-drone-cekimleri/manavgat</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -81,14 +81,14 @@
   <!-- Drone Hizmeti Alanya -->
   <url>
     <loc>https://www.settobox.com/havadan-drone-cekimleri/alanya</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
    <url>
     <loc>https://www.settobox.com/havadan-drone-cekimleri/serik</loc>
-    <lastmod>2024-11-01</lastmod>
+     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
