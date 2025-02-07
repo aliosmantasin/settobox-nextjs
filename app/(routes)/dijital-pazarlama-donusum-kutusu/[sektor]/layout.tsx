@@ -4,6 +4,35 @@ import type { Metadata } from "next";
 
 type Params = Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }>;
 
+
+// Layout Component'i
+export default async function Layout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Params;
+}) {
+  const resolvedParams = await params; // 🚀 params artık Promise, burada await kullanıyoruz
+  console.log("Layout için params:", resolvedParams);
+
+  return <>{children}</>;
+}
+
+
+
+// generateStaticParams fonksiyonu
+export async function generateStaticParams(): Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }[]> {
+  return [
+    { sektor: "hizmetsektoru" },
+    { sektor: "egitimsektoru" },
+    { sektor: "sagliksektoru" },
+  ];
+}
+
+
+
+
 // SEO Metadata oluşturma fonksiyonu
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const resolvedParams = await params; // 🚀 params artık Promise, bu yüzden await kullanıyoruz
@@ -26,28 +55,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-// generateStaticParams fonksiyonu
-export async function generateStaticParams(): Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }[]> {
-  return [
-    { sektor: "hizmetsektoru" },
-    { sektor: "egitimsektoru" },
-    { sektor: "sagliksektoru" },
-  ];
-}
 
-// Layout Component'i
-export default async function Layout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Params;
-}) {
-  const resolvedParams = await params; // 🚀 params artık Promise, burada await kullanıyoruz
-  console.log("Layout için params:", resolvedParams);
-
-  return <>{children}</>;
-}
 
 
 

@@ -138,7 +138,7 @@ export default function AdvantageConversion() {
 
             <div className="text-sm mt-4">
               <Link
-                href="/web-sitesi-yaptırma"
+                href="/web-sitesi-yaptirma"
                 target="_blank"
                 className="text-blue-600 flex items-center"
               >

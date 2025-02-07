@@ -24,7 +24,7 @@ const ListedObjectMeta = () => {
   </TabsList>
   <div className="mt-4">
         <div className="bg-info text-blue-800 p-3 rounded-md">
-          Referans paylaşımlardır. Herhangi bir kampanyayı temsil etmemektedir.
+        İçerikler referans paylaşımlardır. Herhangi bir güncel kampanyayı temsil etmemektedir.
         </div>
       </div>
   <hr className="my-6" />

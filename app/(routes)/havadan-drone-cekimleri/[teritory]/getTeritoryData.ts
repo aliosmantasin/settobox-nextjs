@@ -49,7 +49,7 @@ interface TeritoryData {
             subtitle: [
                 'Video Animasyon', 'Kanca Metin', 'Kanca Görsel',
             ],
-            description: `Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani "Manavgat" kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong> manavgat ilçesinde </strong> reklam gösterimi yapabiliriz.`,
+            description: `Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani "Manavgat" kanca başlığı kullanılmıştır. <u>Bu video gibi</u> işletmeniz için tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong> manavgat ilçesinde </strong> reklam gösterimi yapabiliriz.`,
 
          },
 

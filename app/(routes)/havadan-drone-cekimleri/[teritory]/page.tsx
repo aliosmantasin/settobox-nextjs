@@ -4,15 +4,6 @@ import { getTeritoryData } from "./getTeritoryData";
 import DronePageTemplate from "@/app/(routes)/_components/DronePageTemplate/DronePageTemplate";
 import { notFound } from "next/navigation";
 
-// Statik parametreleri oluştur
-export async function generateStaticParams() {
-  return [
-    { teritory: "manavgat" },
-    { teritory: "alanya" },
-    { teritory: "serik" },
-  ];
-}
-
 
 // Sayfa bileşeni
 const TeritoryPage = async ({
@@ -29,6 +20,19 @@ const TeritoryPage = async ({
   
   return <DronePageTemplate data={data} />;
 };
+
+
+
+// Statik parametreleri oluştur
+export async function generateStaticParams() {
+  return [
+    { teritory: "manavgat" },
+    { teritory: "alanya" },
+    { teritory: "serik" },
+  ];
+}
+
+
 
 // Dinamik metadata oluştur
 export async function generateMetadata({
