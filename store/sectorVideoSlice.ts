@@ -9,7 +9,6 @@ const sectorVideosMap: Record<Sector, string[]> = {
     '/videos/sektorVideo/hizmetsektoru/video2.mp4',
     '/videos/sektorVideo/hizmetsektoru/video3.mp4',
     '/videos/sektorVideo/hizmetsektoru/video4.mp4',
-
     '/videos/sektorVideo/hizmetsektoru/video6.mp4',
   ],
   egitimsektoru: [

@@ -27,7 +27,7 @@ import Link from "next/link"
       <CardContent>
         <form>
           <div className="grid w-full items-center">
-            <p>Merhaba; markanız için dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.</p>
+            <p>Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.</p>
           </div>
         </form>
       </CardContent>
