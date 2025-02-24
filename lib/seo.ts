@@ -1,7 +1,3 @@
-
-
-
-
 export const seoData: Record<string, { title: string; description: string }> = {
     //Ana Sayfa
     "anasayfa": {
@@ -25,6 +21,31 @@ export const seoData: Record<string, { title: string; description: string }> = {
       title: "Sağlık Sektörü Dijital Pazarlama | SetToBox",
       description: "Sağlık sektöründe faaliyet gösteren firmalar için etkili dijital pazarlama çözümleri sunuyoruz.",
     },
+     //Drone Hizmet Sayfaları
+    "havadan-drone-cekimleri/manavgat": {
+      title: "Manavgat Havadan Drone Çekimleri ve Kurumsal Video | SetToBox",
+      description: "Manavgat`ta işletmeniz için drone ve prodüksiyon çekimleri ve özelleştirilmiş kurumsal marka bilinirliğini artıran tanıtım videoları için bizimle iletişime geçin",
+    },
+
+    "havadan-drone-cekimleri/alanya": {
+      title: "Alanya Havadan Drone Çekimleri ve Kurumsal Video | SetToBox",
+      description: "Alanya`da işletmeniz için drone ve prodüksiyon çekimleri ve özelleştirilmiş kurumsal marka bilinirliğini artıran tanıtım videoları için bizimle iletişime geçin",
+    },
+
+    "havadan-drone-cekimleri/serik": {
+      title: "Serik Havadan Drone Çekimleri ve Kurumsal Video | SetToBox",
+      description: "Serik`te işletmeniz için drone ve prodüksiyon çekimleri ve özelleştirilmiş kurumsal marka bilinirliğini artıran tanıtım videoları için bizimle iletişime geçin",
+    },
+
+    // 
+    "bilgi-alma-formu": {
+      title: "Bilgi Alma Formu | SetToBox",
+      description: "Markanız için ihtiyacınız olan hizmeti seçin",
+    },
+    "dijital-pazarlama-baslagic-kilavuzu": {
+      title: "Markaların Dijital Pazarlamaya Girişi | SetToBox",
+      description: "Bir markayı kendi yöntemlerimizi kullanarak dijital pazarlamaya sağlam adımlarla girişini sağlıyoruz.",
+    },
     //Tekli Hizmetler
     "instagram-sponsorlu-reklam": {
       title: "İnstagram Sponsorlu Reklam Verme ve Reklam Fiyatları | SetToBox",
@@ -38,19 +59,8 @@ export const seoData: Record<string, { title: string; description: string }> = {
       title: "Web Sitesi Yaptırma | SetToBox",
       description: "Kurumsal web site tasarımı ile potansiyel müşterilerinize ulaşın.",
     },
-    //Drone Hizmetleri
-    "havadan-drone-cekimleri/manavgat": {
-      title: "Manavgat Drone Çekimleri | SetToBox",
-      description: "Manavgat'ta işletmeniz için drone ve prodüksiyon çekimleri ve özelleştirilmiş kurumsal marka bilinirliğini artıran tanıtım videoları için bizimle iletişime geçin.",
-    },
-    "havadan-drone-cekimleri/alanya": {
-      title: "Alanya Drone Çekimleri | SetToBox",
-      description: "Alanya'da bulunan işletmeniz drone çekimleri ile tanıtım videolarınızı oluşturalım daha fazlası için sayfayı ziyaret ediniz.",
-    },
-    "havadan-drone-cekimleri/serik": {
-      title: "Serik Drone Çekimleri | SetToBox",
-      description: "Serik bölgesinde havadan drone çekim hizmetleri ve sosyal medya desteği ile bölgesel marka bilinirliğinizi artırabiliriz.",
-    },
+
+  
     //Diğer Sayfalar
     "settobox-referanslar": {
         title: "SetToBox Referanslar | SetToBox",

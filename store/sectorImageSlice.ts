@@ -3,38 +3,36 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 type Sector = 'hizmetsektoru' | 'egitimsektoru' | 'sagliksektoru';
 
+const MEDIA_BASE_URL = 'https://media.settobox.com/images/sektorGorsel';
+
 const sectorImagesMap: Record<Sector, string[]> = {
   hizmetsektoru: [
-    '/images/sektorGorsel/hizmetsektoru/gorsel1.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel2.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel3.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel4.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel5.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel6.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel7.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel8.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel9.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel10.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel11.webp',
-    '/images/sektorGorsel/hizmetsektoru/gorsel12.webp',
-  
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel1.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel2.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel3.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel4.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel5.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel6.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel7.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel8.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel9.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel10.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel11.webp`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/gorsel12.webp`,
   ],
   egitimsektoru: [
-    '/images/sektorGorsel/egitimsektoru/gorsel1.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel7.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel2.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel3.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel4.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel5.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel6.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel8.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel9.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel11.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel10.webp',
-    '/images/sektorGorsel/egitimsektoru/gorsel12.webp',
-    
-    
-   
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel1.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel2.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel3.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel4.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel5.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel6.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel7.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel8.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel9.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel10.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel11.webp`,
+    `${MEDIA_BASE_URL}/egitimsektoru/gorsel12.webp`,
   ],
   sagliksektoru: [
     // ...

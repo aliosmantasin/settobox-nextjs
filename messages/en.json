@@ -1,0 +1,1402 @@
+{
+  "Navbar": {
+    "HomePage": "Home Page",
+    "Services": "Services",
+    "span1": "Dijital Conversion Boxes",
+    "descrition1": "The Planned and Economical Way to Reach Your Goals in Digital Marketing ",
+    "link1": "/digital-marketing-conversion-box",
+
+    "span2": "Meta Manage",
+    "description2": "You can choose the service you need by examining our MiniBox-Meta - MegaBox-Meta - ProBox-Meta service boxes.",
+    "link2": "/instagram-sponsored-ads",
+    "span3": "Google Manage",
+    "description3": "By examining our service boxes as MiniBox-Google - MegaBox-Google - ProBox-Google, it includes the service you need.",
+    "link3": "/google-ads-management",
+    "span4": "Web Design Services",
+    "description4": "As MiniWeb - MegaWeb, you can choose the service you need by examining our service boxes.",
+    "link4": "/website-development",
+
+    "Referance": "Referance",
+    "refLink":"/settobox-references",
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "Guide": "Beginner's Guide",
+    "guideLink":"/digital-marketing-beginner-guide",
+    "menu": "Menu"
+  },
+
+  "Footer": {
+    "slogan": "Smart Digital Marketing, Not Haphazard",
+
+    "sub1": "Corporate",
+    "span1": "Home Page",
+    "linkA1": "/",
+    "span2": "Referance",
+    "linkA2": "/settobox-references",
+
+    "sub2": "Services",
+    "span3": "Instagram Sponsored Ad",
+    "linkB1": "/instagram-sponsored-ads",
+    "span4": "Google Ads Advertising Management",
+    "linkB2": "/google-ads-management",
+    "span5": "Website Design Service",
+    "linkB3": "/website-development",
+
+    "sub3": "Can We Help You?",
+    "span6": "Whatsapp Support"
+  },
+
+  "HomePage": {
+    "title1": "We Manage and Grow the Digital Presence of Brands!",
+    "description1": "We highlight your brand with Facebook, Instagram, and Google ads, strengthen your corporate identity by planning your website content, and reach your target audience more effectively with social media management that increases engagement. We manage digital marketing not with random steps but with a strategic roadmap.",
+    "form": "Contact Form",
+    "formLink":"/information-form",
+    "contact": "Call Now!",
+    "subtitle2A": "SetToBox Service Contents",
+    "description2": "You can direct your digital media channels by selecting the meta, Google, or website service box that suits you.",
+    "subtitle2B": "Would You Like to Fully Manage Your Business's Online Presence?",
+    "list": [
+      "A free website designed with user experience in mind",
+      "Facebook | Instagram management and advertising services",
+      "Google Maps registration + Google Ads advertising services"
+    ],
+    "description3": "<strong>Digital Conversion Box</strong> is designed for small and medium-sized businesses.",
+    "LinkButton": "Explore More",
+    "moreİnfoLink":"/digital-marketing-conversion-box",
+
+    "subtitle3": "What Is Your Industry?",
+    "description4": "Discover how we manage online presence based on different industries with the digital transformation service box",
+
+    "subtitle4A": "Digital Marketing for the Service Industry",
+    "description5": "How to manage digital marketing in the service industry: We show it with references.",
+    "span1": "META MANAGEMENT",
+    "span2": "GOOGLE MANAGEMENT",
+    "span3": "WEBSITE MANAGEMENT",
+    "linkToService":"/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
+
+    "subtitle4B": "Digital Marketing for the Education Industry",
+    "description7": "How to manage digital marketing in the education industry: We show it with references.",
+    "span4": "META MANAGEMENT",
+    "span5": "GOOGLE MANAGEMENT",
+    "span6": "WEBSITE MANAGEMENT",
+    "linkToEducation":"/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+
+    "subtitle4C": "Digital Marketing for the Healthcare Industry",
+    "description8": "How to manage digital marketing in the healthcare industry: We show it with references.",
+    "span7": "META MANAGEMENT",
+    "span8": "GOOGLE MANAGEMENT",
+    "span9": "WEBSITE MANAGEMENT",
+    "linkToHealty":"/#"
+  },
+
+  "MetaPage": {
+    "title": "Facebook Instagram Sponsored Advertising and Account Management",
+    "description": "Effective social media strategies, corporate identity, and creative content increase brand awareness, strengthen customer engagement, and boost conversion rates. Utilize Meta applications and advertising power to reach and engage your target audience.",
+
+    "div1a": "REPORTING",
+    "div1b": "Receive weekly ad reports and recommendations tailored to your needs to shape your strategy",
+    "div2a": "AUDIENCE GUARANTEE",
+    "div2b": "Conduct in-depth audience research for targeted advertising with a guaranteed reach",
+    "div3a": "AWARENESS",
+    "div3b": "We ensure that the strategy executed in partnership is conscious and sustainable.",
+
+    "sub1": "Meta Service Packages",
+    "description1": "Below is a detailed information and pricing list for Instagram & Facebook advertising management.",
+
+    "sub2": "MiniBox Meta Advertising Management",
+    "sub3": "Need-Based Advertising Approach",
+    "dec1": "Monthly Facebook/Instagram ad management. The MiniBox package does not include account setup support or corporate design support. These services can be obtained optionally.",
+
+    "sub4": "Need-Based Advertising Approach",
+    "description2": "Monthly Facebook/Instagram ad management. The MiniBox package does not include account setup support or corporate design support. These services can be obtained optionally.",
+    "span1": "Who Can Prefer MiniBox?",
+    "title1": "Need-Based Advertising Approach",
+    "p1": "This type of ad management is often chosen by businesses with budget constraints or short-term advertising needs. You can highlight a post to initiate chat (WhatsApp - DM) or phone calls, engage visuals or videos to enhance brand awareness and value.",
+
+    "sub5": "Who is it suitable for?",
+    "listModalMetaMini": [
+      "Businesses promoting campaigns and events",
+      "Businesses advertising for specific dates, special days, or holidays",
+      "Local and small businesses looking for promotion"
+    ],
+    "p2": "<span>Note:</span> Ad learning takes a certain amount of time. If you are planning an ad display at specific time intervals, it must be scheduled at least <strong>7 days</strong> in advance.",
+
+    "span2": "Submit Application Form",
+    "formLink":"/information-form",
+    "span3": "Start WhatsApp Conversation",
+    "span4": "10% Discount Advantage",
+
+    "span5": "Action Plan",
+    "p3": "Detailed Information",
+    "span6": "Action Plan",
+    "p4": "There is a seven-day action plan. After seven days, ad creatives are ready. The ad becomes active within the planned timeframe.",
+    "span7": "Ad Duration",
+    "p5": "MiniBox includes short-term ad display. The advertiser determines this duration (7 to 15 days).",
+    "span8": "Ad Types",
+    "p6": "Go to Instagram Profile",
+    "p7": "Traffic Ad (Optional)",
+    "span9": "Campaign Setup",
+    "p8": "If you have a business account (Meta Business Manager), two campaign setups are provided in MiniBox.",
+    "span10": "Campaign Audit",
+    "p9": "Audit is conducted for two campaigns. It includes various analysis and optimization processes to monitor, improve, and enhance the performance of your campaigns.",
+    "span11": "Audience Research",
+    "p10": "We reach and develop a target audience with AI-powered creative focus.",
+    "span12": "Custom Audience",
+    "p11": "Custom audience targeting can be used in MiniBox Meta advertising management.",
+    "span13": "Lookalike Audience",
+    "p12": "Lookalike audience targeting is not supported in MiniBox Meta advertising management.",
+    "span14": "Ad Content",
+    "p13": "Ad content is created based on the corporate identity of the company and considering trending creatives. Additionally, sectoral experience is incorporated to create suitable visual creatives in different formats. Hook text and hook visuals are also applied in the ad content.",
+    "span15": "Ad Copywriting",
+    "p14": "Creating compelling ad texts for your business that engage your target audience (Sales-focused copywriting) and implementing them in creatives.",
+    "span16": "Ad Report",
+    "p15": "Weekly ad report: Impressions - Reach - Clicks - Cost, provided to you.",
+    "span17": "MiniBox Content",
+    "p16": "Basic Facebook/Instagram advertising management. The goal is to initiate messages, drive traffic, and create engagement with the prepared creative for your business. Since detailed targeting and marketing methods are not used in this package, there is no need for a pixel code. It is mainly designed for customers who do not use websites.",
+    "span18": "Recommended Budget",
+    "p17": "MiniBox includes low-budget, short-term ads. Therefore, the advertiser determines the ad budget and duration (minimum 7 days).",
+    "span19": "Meta Setup (Optional)",
+    "p18": "◆ Creation of Facebook & Instagram professional accounts ◆ Meta Business Suite setup ◆ Meta Business Manager setup",
+    "p19": "This service can be activated.",
+    "span20": "Corporate Design (Optional)",
+    "p20": "◆ Creation of bio information for Meta accounts ◆ Profile and cover image design ◆ CTA button setup ◆ Creation of 2 posts and 2 story images ◆ Setup of a permanent stories section",
+    "p21": "This service can be activated.",
+
+    "megaBox": {
+      "subtitle1A": "MegaBox Meta Advertising Management",
+      "subtitle2A": "Strategic Advertising Approach",
+      "description1A": "Monthly Facebook/Instagram ad management. The MegaBox package includes account setup support and corporate design support.",
+
+      "businessMega": {
+        "span": "Who Can Prefer MegaBox?",
+        "title": "Strategic Advertising Approach",
+        "p": "The advertising service offered by the MegaBox Meta Advertising package emphasizes in-depth advertising strategies. The goal is to drive traffic to communication tools using both Meta applications and a website. These tools include WhatsApp messaging, form submissions, and phone calls. By leveraging their websites, businesses can enhance their corporate identity while improving conversions through advertisements. The following industries are suitable for MegaBox advertising:",
+        "span2": "Suitable Industries",
+        "list": [
+          "Service Industry",
+          "Education Industry",
+          "Healthcare Industry"
+        ]
+      },
+
+      "googleAdditional": {
+        "span": "Call Now!",
+        "description": "Get in Touch with a Google Ads Expert to Reach Your Potential Customers"
+      },
+
+      "span0": "10% Discount Advantage",
+      "span01": "Free Web Design Service",
+      "span02": "Detailed Information",
+
+      "span": "Action Plan",
+      "p1": "A seven-day action plan is in place. After seven days, ad creatives are ready. Ads go live within the planned timeframe.",
+      "span2": "Ad Duration",
+      "p2": "The MegaBox package includes a one-month ad duration. The ad budget can be optimized according to the duration.",
+      "span3": "Ad Types",
+      "MegaBoxService": [
+        "Go to Instagram Profile",
+        "Retargeting",
+        "Traffic Ad"
+      ],
+      "span4": "Campaign Setup",
+      "p3": "A maximum of three campaigns can be set up in MegaBox.",
+      "span5": "Campaign Audit",
+      "p4": "Audits are conducted for three campaigns. This includes performance monitoring, optimization, and improvement efforts such as budget optimization and creative updates.",
+      "span6": "Audience Research",
+      "p5": "We focus on creative-driven efforts, creating custom and lookalike audiences. The ultimate goal is to identify the 'golden audience' to maximize effectiveness.",
+      "span7": "Custom Audience",
+      "p6": "Custom audience targeting can be applied in MegaBox Meta advertising management.",
+      "span8": "Lookalike Audience",
+      "p7": "Lookalike audience targeting is used in MegaBox Meta advertising management, formed after a certain number of ad impressions.",
+      "span9": "Ad Content",
+      "p8": "Ad content creation is based on the corporate identity of the company and trending creatives. Industry experience is also integrated, ensuring suitable visual creatives are produced in various formats. Additionally, 'hook text' and 'hook visuals' are applied to the ad content.",
+      "span10": "Ad Copywriting",
+      "p9": "We create compelling copy to engage your target audience and drive action.",
+      "span11": "Ad Report",
+      "p10": "Weekly ad reports include impressions, reach, clicks, and cost breakdowns.",
+      "span12": "MegaBox Content",
+      "p11": "This service utilizes Meta applications extensively and is further supported by an active website.",
+      "span13": "Recommended Budget",
+      "p12": "A minimum budget of 10,000₺ is recommended for MegaBox. The budget is determined based on the advertising strategy and can be optimized daily or for specific days.",
+      "span14": "Meta Setup",
+      "p13": "◆ Facebook & Instagram professional account setup ◆ Meta Business Suite setup ◆ Meta Business Manager setup",
+      "p14": "included in the service",
+      "span15": "Corporate Design",
+      "p15": "◆ Creation of Meta account bio information ◆ Profile and cover image design ◆ CTA button setup ◆ Creation of 2 post visuals and 2 story visuals ◆ Preparation of highlight stories",
+      "p16": "included in the service",
+      "span16": "Web Design (Optional)",
+      "p17": "◆ MiniWeb - Basic Level Website Design If your business lacks a website, we design a basic-level website for you. In this campaign, we cover the domain and hosting costs for the first year.",
+      "p18": "FREE SERVICE"
+    },
+
+    "proBox": {
+      "subtitle1": "ProBox Meta Ads Management",
+      "subtitle2": "Strategic Advertising and Social Media Support",
+      "p1": "This is a monthly Facebook/Instagram ad management service. ProBox includes account setup support, corporate design support, and social media management support.",
+      "bussinessPro": {
+        "span": "Who Can Benefit from ProBox?",
+        "dialogTitle": "Strategic Advertising and Social Media Support",
+        "p": "ProBox is an ideal choice for businesses that want to enhance the power of Facebook and Instagram ads with enriched social media content while prioritizing corporate identity. After establishing social media consistency and advertising strategies, ads are planned according to the target audience of the business. Additionally, SEO benefits from a website are utilized to achieve more effective results.",
+        "title": "Which Industries Are Suitable?",
+        "list": ["Service Sector", "Education Sector", "Healthcare Sector"]
+      },
+      "discount": "10% Discount Advantage",
+
+      "socialMediaManageModalPro": {
+        "title": "Social Media Content Management",
+        "description": "As with every business, SetToBox content management involves customizations on Instagram and Facebook platforms. We manage our content in an integrated manner towards a specific goal.",
+        "subtitle": "Content Structure",
+        "subtitle2": "Content Type",
+        "span1": "Weekly",
+
+        "features1": {
+          "type": "Image Sharing",
+          "frequency": "2 - 3"
+        },
+
+        "features2": {
+          "type": "Reels Sharing",
+          "frequency": "0 - 1"
+        },
+
+        "features3": {
+          "type": "Story Sharing",
+          "frequency": "4"
+        },
+
+        "features4": {
+          "type": "User-Generated Content",
+          "frequency": "+"
+        },
+
+        "features5": {
+          "type": "Special Occasion Posts",
+          "frequency": "Available"
+        },
+
+        "features6": {
+          "type": "Corporate Social Media Structure",
+          "frequency": "Available"
+        },
+
+        "span2": "The advertising creative to be prepared is separate from these."
+      },
+      "span2": "Free Web Design Service",
+
+      "span3": "Detailed Information",
+      "span4": "Action Plan",
+      "p2": "There is a seven-day action plan. After seven days, the advertising creatives are ready. The ad goes live within the planned time frame.",
+      "span5": "Ad Duration",
+      "p3": "ProBox includes a one-month ad duration. The ad budget can be optimized according to the duration.",
+      "span6": "Ad Types",
+      "p4": "Go to Instagram Profile",
+      "p5": "Retargeting",
+      "p6": "Traffic Ads",
+      "p7": "Conversion Campaigns",
+      "span7": "Campaign Setup",
+      "p8": "A maximum of 4 campaigns can be set up in ProBox.",
+      "span8": "Campaign Monitoring",
+      "p9": "Monitoring is conducted for 4 campaigns. Various analysis and adjustment processes are carried out to track, optimize, and improve campaign performance. These include budget optimization and creative adjustments.",
+      "span9": "Audience Research",
+      "p10": "We prioritize creative-focused efforts by creating custom and lookalike audiences. The ultimate goal is to identify the golden target audience and reach valuable segments.",
+      "span10": "Custom Audiences",
+      "p11": "ProBox Meta ad management allows the use of custom audiences.",
+      "span11": "Lookalike Audiences",
+      "p12": "ProBox Meta ad management incorporates lookalike audiences, which are formed after a certain number of ad impressions.",
+      "span12": "Ad Content",
+      "p13": "Ad content is created based on the corporate identity of the company and current creative trends. Additionally, industry experience is considered to produce appropriate visual creatives in various formats. Hook texts and hook visuals are also applied within the ad content.",
+      "span13": "Ad Copywriting",
+      "p14": "We create compelling ad copy to engage your target audience.",
+      "span14": "Ad Reports",
+      "p15": "A weekly ad report will be provided in PDF format through a dedicated cloud system. The report will include key metrics such as impressions, reach, clicks, and cost. At the end of each month, advertising plans and recommendations for the next month will be presented.",
+      "span15": "ProBox Content",
+      "p16": "In this efficiency-driven management approach, we implement strategies that enhance SEO and brand awareness through both social media and website integration. Beyond advertising creatives, we adopt a holistic approach to help businesses surpass their competitors.",
+      "span16": "Recommended Budget",
+      "p17": "A minimum budget of 15,000₺ is recommended for ProBox. The budget is determined based on the advertising strategy. Budget optimization can be done daily or for selected days to apply the most suitable strategy.",
+      "span17": "Meta Setup",
+      "p18": "◆ Creation of professional Facebook & Instagram accounts ◆ Meta Business Suite setup ◆ Meta Business Manager setup",
+      "p19": "included service value",
+      "span18": "Corporate Design",
+      "p20": "◆ Creation of biography details for Meta accounts ◆ Design of profile and cover images ◆ CTA button setup ◆ Creation of 2 posts and 2 story images ◆ Setup of permanent story highlights",
+      "p21": "included service value",
+      "span19": "Web Design (Optional)",
+      "p22": "◆ MiniWeb - Basic Website Design If your business does not have a website, we design a basic website for you. In this campaign, we cover the first-year domain and hosting fees.",
+      "p23": "FREE SERVICE"
+    }
+  },
+
+  "GooglePage": {
+    "googleInfo": {
+      "sub1": "For Everyone",
+      "sub2": "Sponsored Advertising Service",
+      "description": "We offer professional advertising services to make your business stand out on Google. Reach potential customers through Google Ads by leveraging search network ads, display ads, and maximum performance strategies. Achieve success in digital advertising with our full account setup support and personalized campaign management."
+    },
+
+    "googleAdditional": {
+      "span": "Call Now!",
+      "description": "Connect with a Google Ads Expert to Reach Your Potential Customers",
+
+      "feature1": {
+        "title": "Free Setup",
+        "description": "Google Ads setup support is provided for all packages."
+      },
+      "feature2": {
+        "title": "Optimized Keywords",
+        "description": "We focus on the right keywords to ensure budget control."
+      },
+      "feature3": {
+        "title": "Fast Setup",
+        "description": "Our ads and other services are delivered within the specified time frame."
+      },
+      "feature4": {
+        "title": "Reporting",
+        "description": "Receive weekly ad reports and recommendations tailored to your package to refine strategies."
+      },
+      "feature5": {
+        "title": "Awareness",
+        "description": "We ensure a conscious and sustainable strategy by maintaining awareness throughout the partnership."
+      },
+      "feature6": {
+        "title": "Fixed Pricing",
+        "description": "A 1-year fixed price guarantee is applied to all pricing plans."
+      }
+    },
+
+    "title": "Google Ads Service Packages",
+    "description": "Below is our detailed information and pricing list for Google Ads campaign management.",
+
+    "miniBox": {
+      "title1": "MiniBox Google Ads Management",
+      "subtitle1": "Focused on Potential Customers",
+      "description1": "One-month Google Ads Search Network ad management. The MiniBox package includes Google Ads account setup support.",
+
+      "googleBusinessMini": {
+        "span1": "Who Can Prefer MiniBox?",
+        "dialogTitle": "Focused on Potential Customers",
+        "p": "The most preferred advertising type for small businesses with limited budgets and those new to online advertising is Google Search Network ads. In this advertising type, when internet users search for products/services on the Google Search Engine, they see search network ads. It is an essential advertising type for potential customers.",
+        "span2": "Who is it suitable for?",
+        "span13": "Especially suitable for businesses providing local services"
+      },
+
+      "startContactGoogle": {
+        "span1": "Submit Application Form",
+        "span2": "Start WhatsApp Conversation"
+      },
+
+      "span1": "10% Discount Advantage",
+
+      "span2": "Detailed Information",
+      "spanHareketPlani": "Action Plan",
+      "p1": "There is a seven-day action plan. After seven days, ad creatives are prepared. Ads go live within the planned timeframe.",
+      "span3": "Ad Duration",
+      "p2": "Google MiniBox includes monthly management (1 MONTH).",
+      "span4": "Ad Types",
+      "listItems": [
+        "Text Ads",
+        "Call Ads",
+        "Search Network Ads with Location Extensions"
+      ],
+      "span5": "Campaign Setup",
+      "p3": "By leveraging the integrity of search network ads, we can utilize all ad types within a single campaign.",
+      "span6": "Keyword Research & Matching Type",
+      "p4": "To ensure ad impressions are clicked by the right audience searching for relevant terms, we optimize keywords and use necessary matching types (broad, phrase, or exact match).",
+      "span7": "Negative Keyword Optimization",
+      "p5": "Displaying the right product/service to potential customers based on their search terms is crucial for both budget and ad performance. Therefore, Google negative keyword optimization is included in all our service packages.",
+      "span8": "Ad Copywriting",
+      "p6": "We create compelling ad texts that attract the interest of potential customers in search engines, ensuring that your products and services stand out. We carefully craft headlines, descriptions, and other key elements to maximize engagement and results.",
+      "span9": "Site Links & Additional Snippets",
+      "p7": "By using site links and additional snippets, we enhance the visibility of your ads and direct users to relevant pages. These elements optimize ad performance and increase conversion rates.",
+      "span10": "Ad Reporting & Optimization",
+      "p8": "Monthly ad reports include Clicks and Costs.",
+      "span11": "Ad Copywriting",
+      "p9": "We create compelling texts to engage your target audience (sales-focused copywriting) and apply them in creatives.",
+      "span12": "Ad Reporting & Optimization",
+      "p10": "Monthly ad reports include Clicks and Costs.",
+      "span13": "Google MiniBox Content",
+      "p11": "Ads appear at the top or bottom of the search results page when users search for specific keywords. We focus on Google Search Network ads, which directly target customers with a low budget approach.",
+      "span14": "Recommended Budget",
+      "p12": "A minimum budget of 5,000 TL per month is recommended for Search Network ads. The budget varies based on keyword costs, competition, and demand.",
+      "span15": "Google Ads Setup",
+      "p13": "If you don’t have a Google Ads account, we provide free setup. Ad configuration is managed through a Google Ads account. If you have a website, we can also create search network ads directing traffic to your site."
+    },
+
+    "megaBox": {
+      "title": "MegaBox Google Ads Management",
+      "subtitle1": "Balanced Budget - Brand Awareness Growth",
+      "description": "One-month Google Ads Search Network & Display Network management. MegaBox includes Google Ads account setup support.",
+
+      "googleBusinessMega": {
+        "p": "Who Can Benefit from MegaBox?",
+        "subtitle1": "Balanced Budget - Brand Awareness Growth",
+        "description": "Preferred by businesses that aim to achieve digital marketing goals, target a wider audience, and allocate a specific budget for this purpose. This package typically includes Search Ads and Display Ads and is suitable for the following sectors:",
+        "subtitle2": "Who is it suitable for?",
+        "list": ["Service Sector", "Education Sector", "Healthcare Sector"]
+      },
+      "span1": "10% Discount Advantage",
+      "span2": "Free Web Design Advantage",
+
+      "span3": "Detailed Information",
+      "span4": "Action Plan",
+      "p1": "A seven-day action plan is in place. After seven days, ad creatives are prepared. The ad goes live within the planned timeframe.",
+      "span5": "Ad Duration",
+      "p2": "Google MegaBox includes monthly management (1 MONTH).",
+      "span6": "Ad Types",
+      "ListItems": [
+        "Search Network Ads",
+        "Display Network Ads",
+        "Retargeting Ads"
+      ],
+
+      "span7": "Campaign Setup",
+      "p3": "A maximum of three campaigns will be set up.",
+      "span8": "Keyword Research and Matching Type",
+      "p4": "To ensure that ads are clicked by the right people searching for relevant terms, we optimize keywords and use the necessary (broad, phrase, or exact) match types.",
+      "span9": "Negative Keyword Optimization",
+      "p5": "Showing the right product/service to potential customers based on their search terms is crucial for both budget and ad performance. Therefore, negative keyword optimization is included in all our service packages.",
+      "span10": "Ad Copy Creation",
+      "p6": "We create ad copies that attract potential customers on search engines, making your products and services stand out. By carefully crafting headlines, descriptions, and other key elements, we ensure that your ads effectively reach your target audience and deliver the best results.",
+      "span11": "Site Links and Additional Snippets",
+      "p7": "By using site links and additional snippets, we increase the visibility of your ads and direct users to the pages they are most interested in. These features optimize ad performance and boost conversion rates.",
+      "span12": "Responsive Display Ads",
+      "p8": "With our responsive display ad service, we automatically optimize your ads across different devices and platforms, ensuring that each user sees the most suitable format. This helps you reach a wider audience effectively and increases brand awareness. Square and horizontal logos belonging to your business will be used. Two creative visuals will be designed in square and horizontal formats. Additionally, one slide video will be created in square and horizontal formats. Headlines, descriptions, and a call-to-action button will be included in your ads.",
+      "span13": "Targeting",
+      "p9": "With our targeting strategies, we ensure that your ads reach the right audience for maximum effectiveness. By leveraging demographic data, interests, and behavioral analysis, we optimize ad performance.",
+      "span14": "Retargeting Targeting",
+      "p10": "With our retargeting service, we re-engage users who visited your website but did not convert, increasing sales and conversion rates.",
+      "span15": "Recommendations",
+      "p11": "We provide various recommendations on digital advertising strategies.",
+      "span16": "Ad Report and Optimization",
+      "p12": "A monthly ad report, including clicks and costs, will be provided.",
+      "span17": "Google MegaBox Content",
+      "p13": "Designed to ensure that internet users searching for products/services encounter your ads instantly, increase brand awareness in the sector, and drive traffic to websites for better targeting with advanced marketing tactics.",
+      "span18": "Recommended Budget",
+      "p14": "Google MegaBox includes Search Network Ads, Responsive Display Ads, and Retargeting Ads. Considering various factors affecting ad performance, the minimum required monthly budget is 10,000(+) TL.",
+      "span19": "Google Tools",
+      "p15": "Google Analytics | Google Search Console",
+      "p16": "To improve optimization and achieve better targeting, we integrate these tools' tracking codes (tags) into your website.",
+      "span20": "Existing Service Value",
+      "span21": "Web Design (Optional)",
+      "p17": "◆MiniWeb - Basic Level Website Design: If you do not have a website, we will design a basic-level website for your business. In this campaign, we cover the first-year domain and hosting costs.",
+      "span22": "FREE SERVICE"
+    },
+
+    "proBox": {
+      "title": "ProBox Google Ads Management",
+      "subtitle": "Stable Budget - In-Depth Targeting - High Conversion",
+      "description": "One-month Google Ads Search Network & Display Network management. ProBox includes Google Ads account setup support.",
+
+      "googleBusinessPro": {
+        "span": "Who Can Prefer ProBox?",
+        "title": "Stable Budget - In-Depth Targeting - High Conversion",
+        "p1": "The ProBox service is designed for businesses that aim to increase brand awareness and maximize product/service sales using various ad types as part of a long-term marketing strategy. In this service, ad types progress step by step, allowing machine learning to complete its process and leverage AI to optimize targeting without requiring complex configurations in the future.",
+        "p2": "Google ProBox service benefits small and medium-sized businesses that embrace long-term, brand-focused advertising strategies. Note: Maximum Performance Ads include platforms such as Search Network, Display Network, Gmail, YouTube, Discover, and Maps. Through machine learning, ads are shown to internet users who are likely to be interested in your product/service.",
+        "subtitle": "Who is it suitable for?",
+        "list": ["Service Sector", "Healthcare Sector", "Education Sector"]
+      },
+      "discountMetaPro": "10% Discount Advantage",
+      "span1": "Free Web Design Service",
+      "span2": "Detailed Information",
+      "span3": "Action Plan",
+      "p1": "A seven-day action plan is implemented. After seven days, ad creatives are ready. Ads go live within the planned time frame.",
+      "span4": "Ad Duration",
+      "p2": "Google ProBox includes monthly ad management. (1 MONTH)",
+      "span5": "Ad Types",
+      "googleAds": [
+        "Search Network Ads",
+        "Display Network Ads (Responsive Display Ads)",
+        "Retargeting Ads",
+        "Maximum Performance Ads"
+      ],
+      "span6": "Campaign Setup",
+      "p3": "A total of four campaigns are planned. The priority is Search Network Ads. Other ad types will be activated gradually as the algorithm progresses.",
+      "span7": "Keyword Research & Matching Types",
+      "p4": "We optimize keywords and utilize the necessary match types (broad, phrase, or exact match) to ensure that ads are clicked by the right audience.",
+      "span8": "Negative Keyword Optimization",
+      "p5": "Showing the right product/service based on the keywords potential customers search for is essential for budget efficiency and ad performance. Therefore, negative keyword optimization is included in all service packages.",
+      "span9": "Ad Copy Creation",
+      "p6": "We create compelling ad texts that attract potential customers on search engines, ensuring your products and services stand out. Headlines, descriptions, and other crucial elements are carefully crafted to optimize your ad performance.",
+      "span10": "Site Links & Additional Snippets",
+      "p7": "With site links and additional snippets, we enhance ad visibility and direct users to relevant pages, optimizing ad performance and increasing conversion rates.",
+      "span11": "Responsive Display Ads",
+      "p8": "With our responsive display ad service, your ads are automatically optimized across different devices and platforms, ensuring maximum reach. Your business’s square and horizontal logos will be used. Two visual creatives (square and horizontal) and one slide video creative (square and horizontal) will be designed. Headlines, descriptions, and call-to-action buttons will be included in your ads.",
+      "span12": "Targeting",
+      "p9": "Our targeting strategies ensure your ads reach the right audience for effective results. We use demographic data, interests, and behavioral analysis to optimize ad performance.",
+      "span13": "Retargeting Targeting",
+      "p10": "Our retargeting service helps you re-engage visitors who have browsed your website but have not converted, increasing your sales and conversion rates.",
+      "span14": "Conversion Tracking Setup",
+      "p11": "By implementing conversion tracking on your website, we enable machine learning to identify potential customers and improve purchase rates.",
+      "span15": "Recommendations",
+      "p12": "Various recommendations related to digital advertising are provided.",
+      "span16": "Ad Reporting & Optimization",
+      "p13": "A monthly ad report including Clicks and Cost metrics will be shared with you.",
+      "span17": "Google ProBox Content",
+      "p14": "ProBox starts with Search Network Ads to attract initial customers and optimize algorithms. Responsive Display Ads then enhance brand awareness in the industry. Finally, Maximum Performance Ads are used to maximize conversion rates. This package is designed to increase form submissions, WhatsApp inquiries, or phone call conversions via a well-structured website and algorithm.",
+      "span18": "Recommended Budget",
+      "p15": "Google ProBox includes Search Network, Responsive Display, and Retargeting Ads. Considering various campaign factors, the minimum required monthly budget is 10,000(+) TL.",
+      "span19": "Google Tools",
+      "p16": "Google Analytics | Google Search Console",
+      "p17": "To improve optimization and targeting, we integrate these tools’ tracking codes (tags) into your website.",
+      "span20": "Value of Existing Service",
+      "span21": "Web Design (Optional)",
+      "p18": "◆ MiniWeb - Basic Website Design: If you don’t have a website, we provide a basic website for your business. In this campaign, we cover the first-year domain and hosting fees.",
+      "span22": "FREE SERVICE"
+    },
+
+    "googleAdsCard": {
+      "howToMakeCart": {
+        "title": "How Do We Do It?",
+        "description": "How do we use industry-specific digital marketing metrics? What are the marketing metrics that help businesses reach their target audiences, such as Google Ads campaign management and Google Maps registration? Let's analyze them by industry.",
+        "span1": "References",
+        "link": "/settobox-referanslar",
+        "span2": "Industries",
+        "p1": "What is Your Industry?",
+        "span3": "Service Industry",
+        "link1": "/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
+        "span4": "Education Industry",
+        "link2": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+        "span5": "Healthcare Industry",
+        "link3": "/#"
+      },
+
+      "AdsCoastCart": {
+        "title": "How Much Should Your Advertising Budget Be?",
+        "description": "How do potential customers search for you on search engines? For example, we can estimate the daily, weekly, and monthly cost of a keyword like 'Google Ads Campaign Management.'",
+        "span1": "Get Free Information"
+      }
+    }
+  },
+
+  "WebsitePage": {
+    "webDesignInfo": {
+      "title": "Website Design Service According to Your Needs",
+      "description": "We shape website designs that will make your business stand out in the digital world according to your needs. We offer professional and user-friendly solutions with our customizable web design packages to reach your target audience in the most effective way."
+    },
+
+    "webDesignAdditional": {
+      "features1": {
+        "title": "SEO Structure",
+        "description": "A basic SEO infrastructure is applied in our service packages."
+      },
+      "features2": {
+        "title": "Free SSL Certificate",
+        "description": "Websites identified as secure by browsers are prioritized in search engine rankings."
+      },
+
+      "features3": {
+        "title": "Modern Technology",
+        "description": "Thanks to React's flexible structure and extensive ecosystem, we create dynamic and scalable interfaces that enhance user experience."
+      },
+
+      "features4": {
+        "title": "Fixed Price",
+        "description": "A fixed price guarantee is applied for one year in pricing."
+      }
+    },
+
+    "webDesignProduct": {
+      "title": "Website Design Service Boxes",
+      "subtitle": " Our website design and pricing list is below.",
+
+      "miniBox": {
+        "title": "MiniBox Web Design Service",
+        "subtitle": "Basic Level Web Design",
+        "description": "This beginner-level package is ideal for small businesses and personal projects. With fast setup, mobile-friendly design, and basic SEO optimization, we can quickly establish your online presence.",
+
+        "businessMiniWeb": {
+          "span": "Who Can Prefer MiniBox?",
+          "dialogTitle": "Basic Level Web Design",
+          "description": "With its basic design and additional features, the MiniWeb service is suitable for those who need a beginner-level web presence, as listed below.",
+          "title": "Who is it suitable for?",
+          "list": [
+            "Businesses that want to create an online presence and establish a bridge with their target audience.",
+            "Individuals who want to showcase their personal projects or freelance work."
+          ]
+        },
+
+        "startContactWeb": {
+          "mails": "Send Application Form",
+          "whatsapp": "Start WhatsApp Chat"
+        },
+
+        "discountWeb": "10% Discount Advantage",
+        "span1": "Free Domain - Free Hosting (1 Year)",
+
+        "span2": "Detailed Information",
+        "span3": "Action Plan",
+        "p1": "After collecting information via the form, the design and content planning of your website will be completed within 2 days.",
+        "span4": "Free Hosting and Domain",
+        "p2": "You do not pay any fees for domain and hosting services for the first year. For the following years, we will provide information regarding hosting and domain pricing.",
+        "span5": "Security Certificate",
+        "p3": "All our websites come with a free SSL certificate.",
+        "span6": "Technology Used",
+        "p4": "Using React-Vite, TypeScript, and Tailwind technologies, we combine speed, flexibility, and elegance in your modern single-page web design.",
+        "span7": "Web Interface Design",
+        "p5": "Based on your company's concept and the details you provide, we create a unique design. A unique design is crucial for search engine ranking and corporate branding.",
+        "span8": "Free Content Creation",
+        "p6": "During the content planning of your website, in addition to the topics you specify, we also create the necessary text and visual materials to enhance your search engine visibility. (Depending on the website concept)",
+        "span9": "SEO Infrastructure",
+        "p7": "Basic SEO structure is implemented.",
+        "span10": "Responsive Web Design",
+        "p8": "All our web design services include responsive (flexible) design, making them suitable for mobile, tablet, and wide screens.",
+        "span11": "Page Structure",
+        "p9": "The website is created as a single-page (Landing Page) structure.",
+
+        "contentMiniWeb": {
+          "span1": "Page Structure Content",
+          "description": "The website is created as a single-page (Landing Page) structure. Depending on the content structure, we can design slider sections, call-to-action (CTA) buttons, and informative sections for users. The general structure of such a page may include the following sections:",
+          "subtitle1": "Hero Section",
+          "list1": [
+            "An attention-grabbing headline.",
+            "A supporting subheadline.",
+            "A call-to-action (CTA) button.",
+            "A visual or background video to create an engaging effect."
+          ],
+          "subtitle2": "Services or Products Section",
+          "list2": [
+            "Concise and clear descriptions of the offered products or services.",
+            "Icons or visuals for each product/service.",
+            "A link or redirection for more details."
+          ],
+          "subtitle3": "Features and Benefits",
+          "list3": [
+            "Headings that attract the user's interest and offer solutions.",
+            "Reasons why users should prefer this product/service."
+          ],
+          "subtitle4": "Customer Testimonials",
+          "list4": [
+            "Reviews from customers who have previously used the service.",
+            "Names, positions, and visuals can be used to build trust."
+          ],
+          "subtitle5": "References or Business Partners",
+          "list5": [
+            "Logos of partnered brands.",
+            "Highlighted examples from previous projects."
+          ],
+          "subtitle6": "Final Call-to-Action (Footer CTA)",
+          "list6": [
+            "Contact information or form.",
+            "Social media links.",
+            "A strong call-to-action message such as 'Contact Us Now'."
+          ],
+          "subtitle7": "Frequently Asked Questions (FAQ)",
+          "list7": [
+            "Answering key questions that users might have to build trust."
+          ],
+          "subtitle8": "What Are the Advantages?",
+          "list8": [
+            "Directly guiding users toward their goal.",
+            "A simple and understandable structure with a high conversion rate."
+          ],
+          "subtitle9": "How Is It Structured?",
+          "list9": [
+            "Content planning tailored to the needs of the target audience.",
+            "SEO-friendly texts and fast-loading images.",
+            "Engaging design elements (CTAs, forms, visuals)."
+          ],
+          "description1": "These structures are carefully designed to grab users' attention, facilitate on-site navigation, and increase conversion rates.",
+          "description2": "Additionally, we ensure that the color palette, typography, and overall design language align with your brand identity. If your brand does not yet have a corporate identity, it would be beneficial to create one."
+        },
+
+        "span12": "MiniWeb Content",
+        "p10": "We provide a fast, cost-effective, and standardized web design service. With its simple structure, your target audience can easily find and access information about you in search engines."
+      },
+
+      "megaBox": {
+        "title": "MegaBox Web Tasarım Hizmeti",
+        "subtitle": "Gelişmiş Özellikli Hedef Odaklı Web Site",
+        "description": "Dinamik içerik yönetimi, özelleştirilmiş SEO entegrasyonu ve kullanıcı deneyimini artıran özelliklerle hazırlanmaktadır. Bu web sitesi 10 - 20 gün içerisinde tasarlanabilmektedir. İlerleyen 3 ay boyunca optimizasyonlara devam edilmektedir.",
+
+        "businessMegaWeb": {
+          "span": "MegaBox Kimler Tercih Edebilir?",
+          "dialogContent": "Gelişmiş Özellikli Hedef Odaklı Web Site",
+          "description": "Gelişmekte olan veya belirli bir hedef doğrultusunda müşteri portföyünü artırmak isteyen firmalar, daha fazla içerik yönetimi, SEO optimizasyonu ve kullanıcı deneyimi gibi gelişmiş özelliklerle donatılmış web sitelerine ihtiyaç duyar.",
+          "title": "Hangi sektörler için uygundur?",
+          "list": ["Hizmet Sektörü", "Sağlık Sektörü", "Eğitim Sektörü"]
+        }
+      }
+    }
+  },
+
+  "DigitalConversion": {
+    "digitalConversiyonInfo": {
+      "title": "A Planned and Economical Way to Achieve Your Goals in Digital Marketing <span>Digital Transformation Box</span>",
+      "list": [
+        "Comprehensive Management of Online Assets",
+        "Controlled Budget Management",
+        "Planning and Reporting"
+      ]
+    },
+
+    "digitalConversionStepToExplation": {
+      "span": "Instead of Taking Unplanned Steps",
+      "title": "Turn Digital Marketing into a Strategy",
+      "span1": "High Conversion",
+      "description": " Our marketing objectives, such as attracting customers, increasing sales, building brand awareness, reaching the target audience, and gaining a competitive advantage, are achieved through digital marketing tools used with a specific goal in mind. By turning digital marketing into a strategy and planning controlled advertising campaigns, we optimize the budget in the medium and long term while also increasing brand awareness to achieve the desired conversion. The Digital Transformation Box is designed entirely for <span>small and medium-sized businesses</span>."
+    },
+
+    "startContactConversion": {
+      "mail": "Send Application Form",
+      "whatsaAp": "Start WhatsApp Conversation"
+    },
+
+    "dijitalMarketingConversionProduct": {
+      "span": "Digital Transformation Box: Holistic Management of Google, Meta, and Website",
+      "title": "Holistic Management of Google, Meta, and Website",
+      "description": "This service evaluates various aspects of digital marketing to set a conversion-focused goal. By utilizing the necessary features of three different platforms, a holistic approach is taken to reach the desired point in the medium and long term.",
+
+      "conversionBusiness": {
+        "span": "Who Can Benefit from the Digital Transformation Box?",
+        "dialogtitle": "Digital Transformation Box: Integration and Holistic Management of Google, Meta, and Website",
+        "description": "Aimed at ensuring your business achieves sustainable success in the digital world, this service integrates strategic advertising campaigns on Google and Meta platforms with a professionally designed website. Going beyond short-term gains, it focuses on increasing your brand awareness, expanding your customer base, and strengthening your online presence in the medium and long term. Our digital marketing experts effectively manage your budget to achieve long-term growth results. The following types of businesses can effectively benefit from the Digital Transformation Box service.",
+        "title": "Which Sectors is it Suitable For?",
+        "list": ["Service Sector", "Education Sector", "Healthcare Sector"],
+
+        "p": " <b> Note: </b> Businesses that aim to strengthen their online presence in the medium and long term can benefit from the Digital Transformation Box."
+      },
+      "conversionDiscount": "Special Discount Opportunity | Limited",
+
+      "advantageConversion": {
+        "title": "Advantages of the Digital Transformation Box",
+        "span": "Advantages of the Digital Transformation Box",
+        "description": "Managing and processing three different services as a whole within the Digital Transformation Box has provided many advantages.",
+
+        "metaManage": "Meta Management",
+
+        "features1": {
+          "type": "Meta Setup",
+          "frequency": "Free setup worth 2500₺"
+        },
+        "features2": {
+          "type": "Ad Types",
+          "frequency": "4 Types"
+        },
+
+        "features3": {
+          "type": "Corporate Design",
+          "frequency": "Free design worth 3750₺"
+        },
+
+        "features4": {
+          "type": "Social Media Content Management",
+          "frequency": "Supported"
+        },
+
+        "link1": "/instagram-sponsored-ads",
+        "span1": "ProBox Meta ad package has been referenced.",
+
+        "googleAds": "Google Ads Management",
+
+        "features5": {
+          "type": "Google Ads Account",
+          "frequency": "Free setup"
+        },
+
+        "features6": {
+          "type": "Ad Types",
+          "frequency": "4 different ad types"
+        },
+
+        "features7": {
+          "type": "Google My Business Account",
+          "frequency": "Free setup worth 1500₺"
+        },
+
+        "link2": "/google-ads-management",
+        "span3": "ProBox Google ad package has been referenced.",
+
+        "features8": {
+          "type": "Website Design",
+          "frequency": "Provided for free"
+        },
+
+        "webDesign": "Website Design and Development",
+
+        "features9": {
+          "type": "Domain - Hosting",
+          "frequency": "First year free"
+        },
+
+        "features10": {
+          "type": "SSL Certificate",
+          "frequency": "Free"
+        },
+
+        "link3": "/website-development",
+        "span4": "Meta - Instagram ve Facebook Management"
+      },
+      "span1": "Detailed Information",
+      "span2": "Balanced and Gradual Progress",
+      "p1": "The Digital Transformation Box offers services at three different levels of depth. By managing these services in a balanced manner, a phased progress plan is established.",
+      "span3": "Action Plan",
+      "p2": "There is a seven-day action plan. After seven days, the first step implementation begins.",
+      "step1": "First Step",
+      "span4": "First Step | Establishment and Management of Online Assets",
+      "list1": [
+        "Meta Account Setup + Corporate Design",
+        "Instagram | Facebook Account Management",
+        "Instagram | Facebook Advertising Management",
+        "Website Design"
+      ],
+      "span5": "Social Media Management",
+      "p3": "Social media management is a weekly process. It includes 2-3 visual posts and video (reels) sharing per week. Customized 'hello' stories are shared four days a week by us. The social media content plan is entirely designed for a corporate structure. Social media, advertisements, and website content structuring are part of a holistic approach.",
+      "span6": "Instagram | Facebook Corporate Design",
+      "li": "◆ Creation of professional Facebook & Instagram accounts ◆ Setting up biography information for Meta accounts ◆ Creating profile and cover images ◆ Setting up CTA buttons ◆ Designing visual templates ◆ Preparing iconic highlights for stories",
+      "deg": "existing service value",
+
+      "span7": "Structured Social Media Content Planning",
+      "p4": "When an internet user visits our account, they should easily find contact information, see the business's services, and gain detailed information. By integrating all features, we aim to build trust with potential customers through an active social media presence.",
+      "spanY": "Social Media Special Day Posts",
+      "p5": "Many special days are visually shared on social media.",
+      "span8": "Increasing Social Media Audience",
+      "p6": "Your Instagram business account's audience should be relevant to your business. This audience feeds your algorithm, and as it grows, the algorithm expands accordingly. We reach the right audience through our carefully crafted ad creatives and encourage them to follow our page.",
+      "span9": "Meta Setup",
+      "li1": "◆ Meta Business Suite Setup ◆ Meta Business Manager Setup ◆ Meta Pixel Code Setup",
+      "deg1": "existing service value",
+
+      "span10": "Meta Ad Types",
+      "list4": [
+        "Go to Instagram Profile",
+        "Retargeting (Re-engagement)",
+        "Traffic Ads",
+        "Conversion Campaign (Optional)"
+      ],
+      "span11": "Meta Audience Research",
+      "p7": "We reach and develop a target audience with AI-supported creative focus.",
+      "span12": "Meta Custom Audiences",
+      "p8": "Custom audiences can be used strategically in Meta ad management.",
+      "span13": "Meta Lookalike Audiences",
+      "p9": "Lookalike audiences are used in Meta ad management.",
+      "span14": "Ad Duration and Optimization",
+      "p10": "Strategic ad planning is carried out. Each ad is planned monthly, evaluated weekly, and optimized accordingly.",
+      "span15": "Meta Ad Content",
+      "p11": "Ad content is created based on the corporate identity of the business, considering trendy creatives and sector-specific experience. Different formats of visual creatives are developed accordingly. Additionally, hook text and hook visuals are incorporated into the ad content.",
+      "span16": "Meta Ad Copywriting",
+      "p12": "Engaging ad copy is created to activate your target audience.",
+      "span17": "Ad Reports and Recommendations",
+      "p13": "A weekly ad report including impressions, reach, clicks, and costs is provided. Ad objectives and recommendations are also shared.",
+      "span18": "Google Account Setup",
+      "li3": "Google Ads ◆ Google Analytics ◆ Google Tag Manager ◆ Google Search Console",
+      "deg2": "existing service value",
+
+      "span19": "Website Design",
+      "p14": "Website Design is included in our Digital Transformation Box as a referenced service and is provided for free. The goal is to create a conversion-focused website integrated with digital marketing tools, develop advanced content planning related to your business, and offer SEO services.",
+      "span20": "Optimal Budget Allocation",
+      "p15": "The advertising budget in the Digital Transformation Box covers Meta ads and Google Ads. However, this service is designed for small and medium-sized businesses. Budget management is carried out based on a specific strategy. Initially, more budget allocation is planned for Meta Ads to develop online presence. <span> This budget starts at a minimum of 10,000₺. </span>",
+      "span21": "Google Business Account Setup",
+      "p16": "Your Google Business account is created and filled in with the information provided by you. Displaying your business location in organic searches is crucial. Including your logo, contact details, and relevant images in search results benefits potential customers. Additionally, businesses with a Google Business listing can run location-based ads on Google Ads.",
+
+      "span22": "Second Step",
+      "span23": "Second Step | Holistic Utilization of All Digital Assets",
+      "list6": ["Website Conversion Setup", "Google Ads Campaign Management"],
+
+      "span24": "Controlled Budget Usage",
+      "p17": "At the business development stage, it is assumed that a strong corporate identity is established, and the business has acquired many potential customers supported by various campaigns. The goal at this stage is to optimize the existing budget between Meta and Google Ads based on advertising strategies. The main objective now is to reach even more potential customers.",
+      "span25": "Google Ads Campaign Types",
+      "list7": [
+        "Search Ads (PPC)",
+        "Retargeting (Optional)",
+        "Display Network Ads",
+        "Maximum Performance Ads"
+      ],
+      "span26": "Holistic Approach",
+      "p18": "After implementing our marketing strategies, our ultimate goal is to engage directly with potential customers. This can happen through phone calls, WhatsApp chats, or form submissions for inquiries or appointments. To support this process, we strategically allocate our budget between Meta and Google Ads, progressing step by step to achieve effective results through precise targeting."
+    }
+  },
+
+  "ReferancePage": {
+    "span": "What Have We Done?",
+    "title": "SetToBox / Our References",
+
+    "durunetReferance": {
+      "span": "Service Industry Digital Marketing",
+      "span1": "Digital Marketing Conversion Box",
+      "li1": "Facebook & Instagram Management",
+      "li2": "Google Ads Campaign Management",
+      "li3": "Web Design Service",
+      "description": "The company's online assets were fully managed using the <a> Digital Marketing Conversion Box </a> content structure.",
+      "link": "/digital-marketing-conversion-box",
+      "span2": "Shared for Reference Purposes."
+    },
+
+    "ihcReferance": {
+      "span": "Education Industry Digital Marketing",
+      "span1": "ProBox Meta + Mega Web",
+      "li1": "Facebook & Instagram Management",
+      "li2": "Web Design Service",
+
+      "description": "The company's Facebook and Instagram accounts were managed, sponsored ads were run, and web design services were provided.",
+      "span2": "More Detail",
+      "span3": "Shared for Reference Purposes."
+    },
+
+    "xrealnetReferance": {
+      "span": "Service Industry Digital Marketing",
+      "span1": "Mega Web",
+      "li1": "Web Design Service",
+
+      "description": "A corporate web design service was created for a company based in Northern Cyprus. Content planning and SEO infrastructure were structured.",
+      "span2": "View Details",
+      "link": "/#",
+      "span3": "Shared for Reference Purposes."
+    }
+  },
+
+  "InfoForm": {
+    "title":"İnfo Form",
+    "name":"Name",
+    "lastName":"Surname",
+    "selectService":"Select Service",
+    "select":"Select",
+    "meta":
+      "İnstagram & Facebook Advertising Management",
+    "google":  "Google Ads Advertising Management",
+    "web":  "Web Site Tasarımı",
+    "conversionBox":  "Digital Conversion Box",
+    "generalInfo":  "Genaral Information",
+ 
+
+    "phone":"Phone Number",
+    "mail":"Your Email Adress",
+    "send":"Send"
+  },
+
+ "DronePage": {
+
+   "manavgat": {
+  "header": {
+    "title": "Contact Us for Manavgat Drone Shoots",
+    "description": "We help businesses in and around Manavgat increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
+    "callNow": "Call Now"
+  },
+
+  "droneAdditional": {
+    "features1": {
+      "title": "4K High Quality",
+      "description": "Shooting in 4K high quality is available upon request."
+    },
+    "features2": {
+      "title": "Social Media Compatible",
+      "description": "Video shooting service in social media-friendly quality."
+    },
+    "features3": {
+      "title": "2-Month Data Guarantee",
+      "description": "Guaranteed access to download raw and edited video and visual content for 2 months."
+    },
+    "features4": {
+      "title": "Licensed Operator",
+      "description": "A DJI drone operator who prioritizes safety and is skilled in drone usage."
+    },
+    "features5": {
+      "title": "DJI Mini 3",
+      "description": "We prefer DJI for our shoots, featuring a gimbal camera that provides excellent footage and story capture capabilities."
+    },
+    "features6": {
+      "title": "Optional Services",
+      "description": "You can choose additional services for your promotional videos."
+    }
+  },
+
+  "droneBoxes": {
+    "miniDroneBox": {
+      "title": "Drone Shooting | Raw Video - Visuals",
+      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+      "princeRange": "2,500₺ - 4,000₺",
+      "list": {
+        "li1": "Horizontal Drone Shooting",
+        "li2": "Vertical Drone Shooting (for stories)",
+        "li3": "Real Estate and Land Drone Shooting",
+        "li4": "Construction and Greenhouse Shooting",
+        "li5": "Before and After Shots",
+        "li6": "Project Drone Operator Support"
+      },
+      "whatsaAppContact": "WhatsApp Contact"
+    },
+
+    "megaDroneBox": {
+      "title": "Drone Shooting | Social Media Content",
+      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+      "princeRange": "6,500₺",
+      "list": {
+        "li1": "Horizontal Drone Shooting",
+        "li2": "Vertical Drone Shooting (for stories)",
+        "li3": "Real Estate and Land Drone Shooting",
+        "li4": "Construction and Greenhouse Shooting",
+        "li5": "Before and After Shots",
+        "li6": "Project Drone Operator Support"
+      },
+      "list2": {
+        "li5": "3 Story Videos and Visuals",
+        "li6": "1 Horizontal and Vertical Video"
+      },
+      "whatsaAppContact": "WhatsApp Contact"
+    },
+
+    "proDroneBox": {
+      "title": "Drone Shooting | Production | Custom Video",
+      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+      "princeRange": "7,000₺ + 5,000₺",
+      "list": {
+        "li1": "Horizontal Drone Shooting",
+        "li2": "Vertical Drone Shooting (for stories)",
+        "li3": "Real Estate and Land Drone Shooting",
+        "li4": "Construction and Greenhouse Shooting",
+        "li5": "Before and After Shots",
+        "li6": "Project Drone Operator Support"
+      },
+      "list2": {
+        "li5": "3 Story Videos and Visuals",
+        "li6": "Customized Video",
+        "li7": "Social Media Corporate Design (Meta)",
+        "li8": "Instagram Sponsored Ad Service"
+      },
+      "whatsaAppContact": "WhatsApp Contact"
+    }
+  },
+
+  "droneVideoComponent": {
+    "title": "Show Your Business",
+    "list": [
+      "Video clips from the work process",
+      "Video clips from your workplace and staff",
+      "Location-based information"
+    ],
+    "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Manavgat region</strong> through organic or paid advertisements to reach your target audience.",
+    "span": "This promotional video has been shared for reference purposes."
+  },
+
+  "mapVideoComponent": {
+    "title": "Where Exactly Is Your Address?",
+    "list": [
+      "Video Animation", "Hook Text", "Hook Visual"
+    ],
+    "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Manavgat district</strong>.",
+    "span": "This promotional video has been shared for reference purposes."
+  },
+
+  "swiperExample": {
+    "span": "You Can Benefit from Optional Services",
+    "p": "In addition to drone and promotional videos, you can check out other services we offer."
+  },
+
+  "accordionDrone": {
+    "span": "Frequently Asked Questions and Curious Topics",
+    "subtitle": "Why Choose Optional Services?",
+    "list": [
+      "Brand awareness can be increased through promotional videos, reaching your potential target audience.",
+      "Brand awareness can be enhanced with regular Meta ads.",
+      "You can instantly reach potential customers with Google Ads.",
+      "With website design services, you can be continuously visible to your customers organically."
+    ],
+    "subtitle2": "2025 Drone Shooting Prices Manavgat",
+    "prices1": "Package 1: 2,500 - 4,000₺",
+    "prices2": "Package 2: 6,500₺",
+    "prices3": "Package 3: 7,000₺ + 5,000₺",
+
+    "subtitle3": "Drone Model Features and Equipment Used",
+    "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
+
+    "subtitle4": "How Do You Edit Videos?",
+    "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
+
+    "subtitle5": "About Appointments",
+    "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
+
+    "subtitle6": "Safe Drone Flying Conditions",
+    "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
+    "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+  }
+  },
+
+  "alanya": {
+    "header": {
+      "title": "Contact Us for Alanya Drone Shoots",
+      "description": "We help businesses in and around Alanya increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
+      "callNow": "Call Now"
+    },
+  
+    "droneAdditional": {
+      "features1": {
+        "title": "4K High Quality",
+        "description": "Shooting in 4K high quality is available upon request."
+      },
+      "features2": {
+        "title": "Social Media Compatible",
+        "description": "Video shooting service in social media-friendly quality."
+      },
+      "features3": {
+        "title": "2-Month Data Guarantee",
+        "description": "Guaranteed access to download raw and edited video and visual content for 2 months."
+      },
+      "features4": {
+        "title": "Licensed Operator",
+        "description": "A DJI drone operator who prioritizes safety and is skilled in drone usage."
+      },
+      "features5": {
+        "title": "DJI Mini 3",
+        "description": "We prefer DJI for our shoots, featuring a gimbal camera that provides excellent footage and story capture capabilities."
+      },
+      "features6": {
+        "title": "Optional Services",
+        "description": "You can choose additional services for your promotional videos."
+      }
+    },
+  
+    "droneBoxes": {
+      "miniDroneBox": {
+        "title": "Drone Shooting | Raw Video - Visuals",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "2,500₺ - 4,000₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      },
+  
+      "megaDroneBox": {
+        "title": "Drone Shooting | Social Media Content",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "6,500₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "list2": {
+          "li5": "3 Story Videos and Visuals",
+          "li6": "1 Horizontal and Vertical Video"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      },
+  
+      "proDroneBox": {
+        "title": "Drone Shooting | Production | Custom Video",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "7,000₺ + 5,000₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "list2": {
+          "li5": "3 Story Videos and Visuals",
+          "li6": "Customized Video",
+          "li7": "Social Media Corporate Design (Meta)",
+          "li8": "Instagram Sponsored Ad Service"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      }
+    },
+  
+    "droneVideoComponent": {
+      "title": "Show Your Business",
+      "list": [
+        "Video clips from the work process",
+        "Video clips from your workplace and staff",
+        "Location-based information"
+      ],
+      "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Alanya Region</strong> through organic or paid advertisements to reach your target audience.",
+      "span": "This promotional video has been shared for reference purposes."
+    },
+  
+    "mapVideoComponent": {
+      "title": "Where Exactly Is Your Address?",
+      "list": [
+        "Video Animation", "Hook Text", "Hook Visual"
+      ],
+      "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Alanya district</strong>.",
+      "span": "This promotional video has been shared for reference purposes."
+    },
+  
+    "swiperExample": {
+      "span": "You Can Benefit from Optional Services",
+      "p": "In addition to drone and promotional videos, you can check out other services we offer."
+    },
+  
+    "accordionDrone": {
+      "span": "Frequently Asked Questions and Curious Topics",
+      "subtitle": "Why Choose Optional Services?",
+      "list": [
+        "Brand awareness can be increased through promotional videos, reaching your potential target audience.",
+        "Brand awareness can be enhanced with regular Meta ads.",
+        "You can instantly reach potential customers with Google Ads.",
+        "With website design services, you can be continuously visible to your customers organically."
+      ],
+      "subtitle2": "2025 Drone Shooting Prices Alanya",
+      "prices1": "Package 1: 2,500 - 4,000₺",
+      "prices2": "Package 2: 6,500₺",
+      "prices3": "Package 3: 7,000₺ + 5,000₺",
+  
+      "subtitle3": "Drone Model Features and Equipment Used",
+      "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
+  
+      "subtitle4": "How Do You Edit Videos?",
+      "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
+  
+      "subtitle5": "About Appointments",
+      "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
+  
+      "subtitle6": "Safe Drone Flying Conditions",
+      "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
+      "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+    }
+    },
+
+  "serik": {
+    "header": {
+      "title": "Contact Us for Serik Drone Shoots",
+      "description": "We help businesses in and around Serik increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
+      "callNow": "Call Now"
+    },
+  
+    "droneAdditional": {
+      "features1": {
+        "title": "4K High Quality",
+        "description": "Shooting in 4K high quality is available upon request."
+      },
+      "features2": {
+        "title": "Social Media Compatible",
+        "description": "Video shooting service in social media-friendly quality."
+      },
+      "features3": {
+        "title": "2-Month Data Guarantee",
+        "description": "Guaranteed access to download raw and edited video and visual content for 2 months."
+      },
+      "features4": {
+        "title": "Licensed Operator",
+        "description": "A DJI drone operator who prioritizes safety and is skilled in drone usage."
+      },
+      "features5": {
+        "title": "DJI Mini 3",
+        "description": "We prefer DJI for our shoots, featuring a gimbal camera that provides excellent footage and story capture capabilities."
+      },
+      "features6": {
+        "title": "Optional Services",
+        "description": "You can choose additional services for your promotional videos."
+      }
+    },
+  
+    "droneBoxes": {
+      "miniDroneBox": {
+        "title": "Drone Shooting | Raw Video - Visuals",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "2,500₺ - 4,000₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      },
+  
+      "megaDroneBox": {
+        "title": "Drone Shooting | Social Media Content",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "6,500₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "list2": {
+          "li5": "3 Story Videos and Visuals",
+          "li6": "1 Horizontal and Vertical Video"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      },
+  
+      "proDroneBox": {
+        "title": "Drone Shooting | Production | Custom Video",
+        "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+        "princeRange": "7,000₺ + 5,000₺",
+        "list": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "Project Drone Operator Support"
+        },
+        "list2": {
+          "li5": "3 Story Videos and Visuals",
+          "li6": "Customized Video",
+          "li7": "Social Media Corporate Design (Meta)",
+          "li8": "Instagram Sponsored Ad Service"
+        },
+        "whatsaAppContact": "WhatsApp Contact"
+      }
+    },
+  
+    "droneVideoComponent": {
+      "title": "Show Your Business",
+      "list": [
+        "Video clips from the work process",
+        "Video clips from your workplace and staff",
+        "Location-based information"
+      ],
+      "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Serik Region</strong> through organic or paid advertisements to reach your target audience.",
+      "span": "This promotional video has been shared for reference purposes."
+    },
+  
+    "mapVideoComponent": {
+      "title": "Where Exactly Is Your Address?",
+      "list": [
+        "Video Animation", "Hook Text", "Hook Visual"
+      ],
+      "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Serik district</strong>.",
+      "span": "This promotional video has been shared for reference purposes."
+    },
+  
+    "swiperExample": {
+      "span": "You Can Benefit from Optional Services",
+      "p": "In addition to drone and promotional videos, you can check out other services we offer."
+    },
+  
+    "accordionDrone": {
+      "span": "Frequently Asked Questions and Curious Topics",
+      "subtitle": "Why Choose Optional Services?",
+      "list": [
+        "Brand awareness can be increased through promotional videos, reaching your potential target audience.",
+        "Brand awareness can be enhanced with regular Meta ads.",
+        "You can instantly reach potential customers with Google Ads.",
+        "With website design services, you can be continuously visible to your customers organically."
+      ],
+      "subtitle2": "2025 Drone Shooting Prices Serik",
+      "prices1": "Package 1: 2,500 - 4,000₺",
+      "prices2": "Package 2: 6,500₺",
+      "prices3": "Package 3: 7,000₺ + 5,000₺",
+  
+      "subtitle3": "Drone Model Features and Equipment Used",
+      "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
+  
+      "subtitle4": "How Do You Edit Videos?",
+      "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
+  
+      "subtitle5": "About Appointments",
+      "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
+  
+      "subtitle6": "Safe Drone Flying Conditions",
+      "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
+      "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+    }
+    }
+
+ }
+
+}

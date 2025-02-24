@@ -3,20 +3,22 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 type Sector = 'hizmetsektoru' | 'egitimsektoru' | 'sagliksektoru';
 
+const MEDIA_BASE_URL = 'https://media.settobox.com/videos/sektorVideo';
+
 const sectorVideosMap: Record<Sector, string[]> = {
   hizmetsektoru: [
-    '/videos/sektorVideo/hizmetsektoru/video1.mp4',
-    '/videos/sektorVideo/hizmetsektoru/video2.mp4',
-    '/videos/sektorVideo/hizmetsektoru/video3.mp4',
-    '/videos/sektorVideo/hizmetsektoru/video4.mp4',
-    '/videos/sektorVideo/hizmetsektoru/video6.mp4',
+    `${MEDIA_BASE_URL}/hizmetsektoru/video1.mp4`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/video2.mp4`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/video3.mp4`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/video4.mp4`,
+    `${MEDIA_BASE_URL}/hizmetsektoru/video6.mp4`,
   ],
   egitimsektoru: [
-    '/videos/sektorVideo/egitimsektoru/video1.mp4',
-    '/videos/sektorVideo/egitimsektoru/video2.mp4',
-    '/videos/sektorVideo/egitimsektoru/video3.mp4',
-    '/videos/sektorVideo/egitimsektoru/video4.mp4',
-    '/videos/sektorVideo/egitimsektoru/video5.mp4',
+    `${MEDIA_BASE_URL}/egitimsektoru/video1.mp4`,
+    `${MEDIA_BASE_URL}/egitimsektoru/video2.mp4`,
+    `${MEDIA_BASE_URL}/egitimsektoru/video3.mp4`,
+    `${MEDIA_BASE_URL}/egitimsektoru/video4.mp4`,
+    `${MEDIA_BASE_URL}/egitimsektoru/video5.mp4`,
   ],
   sagliksektoru: [
     // ...

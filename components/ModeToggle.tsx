@@ -11,9 +11,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import { useTranslations } from "next-intl"
 
 export function ModeToggle() {
   const { setTheme } = useTheme()
+  const t = useTranslations("Navbar")
 
   return (
     <DropdownMenu>
@@ -25,11 +27,11 @@ export function ModeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
+        <DropdownMenuItem onClick={() => setTheme("light")} className="cursor-pointer">
+          {t("light")}
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
+        <DropdownMenuItem onClick={() => setTheme("dark")} className="cursor-pointer">
+          {t("dark")}
         </DropdownMenuItem>
        
       </DropdownMenuContent>

@@ -1,0 +1,1455 @@
+{
+  "Navbar": {
+    "HomePage": "Ana Sayfa",
+    "Services": "Hizmetler",
+    "span1": "Dijital Dönüşüm Kutusu",
+    "descrition1": "Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu",
+    "link1": "/dijital-pazarlama-donusum-kutusu",
+
+    "span2": "Meta Yönetimi",
+    "description2": "MiniBox-Meta - MegaBox-Meta - ProBox-Meta olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
+    "link2": "/instagram-sponsorlu-reklam",
+    "span3": "Google Yönetimi",
+    "description3": "MiniBox-Google - MegaBox-Google - ProBox-Google olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
+    "link3": "/google-ads-reklam-yonetimi",
+    "span4": "Web Tasarım Hizmeti",
+    "description4": "MiniWeb - MegaWeb olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
+    "link4": "/web-sitesi-yaptirma",
+
+    "Referance": "Referanslar",
+    "refLink":"/settobox-referanslar",
+    "light": "Aydınlık Mod",
+    "dark": "Karanlık Mod",
+    "Guide": "Başlangıç Klavuzu",
+    "guideLink":"/dijital-pazarlama-baslagic-kilavuzu",
+    "menu": "Menü"
+  },
+
+  "Footer": {
+    "slogan": "Gelişigüzel Değil, Akıllı Dijital Pazarlama",
+
+    "sub1": "Kurumsal",
+    "span1": "Ana Sayfa",
+    "linkA1": "/",
+    "span2": "Referanslar",
+    "linkA2": "/settobox-referanslar",
+
+    "sub2": "Hizmetlerimiz",
+    "span3": "İnstagram Sponsorlu Reklam",
+    "linkB1": "/instagram-sponsorlu-reklam",
+    "span4": "Google Ads Reklam Yönetimi",
+    "linkB2": "/google-ads-reklam-yonetimi",
+    "span5": "Website Tasarım Hizmeti",
+    "linkB3": "/web-sitesi-yaptirma",
+
+    "sub3": "Size Yardımcı Olabiliriz?",
+    "span6": "Whatsapp Destek"
+  },
+
+  "HomePage": {
+    "title1": "Markaların Dijital Varlıklarını Yönetiyor ve Büyütüyoruz!",
+    "description1": "Markanızı Facebook, Instagram ve Google reklamlarıyla öne çıkarıyor, web sitenizin içerik planlamasını yaparak kurumsal kimliğinizi güçlendiriyoruz. Etkileşimi artıran sosyal medya yönetimiyle hedef kitlenize daha etkili ulaşıyoruz. Dijital pazarlamayı plansız adımlarla değil, stratejik bir yol haritasıyla yönetiyoruz.",
+    "form": "Form İletişim",
+    "formLink":"/bilgi-alma-formu",
+    "contact": "Şimdi Ara!",
+    "subtitle2A": "SetToBox Hizmet İçerikleri",
+    "description2": "Size uygun olan meta, google veya web sitesi hizmet kutusunu seçerek dijital medya kanallarınıza yön verebilirsiniz.",
+    "subtitle2B": "İşletmenizin Online Varlıklarının Tümüyle Yönetilmesini İster misin?",
+    "list": [
+      "Kullanıcı deneyimi ile tasarlanmış ücretsiz bir website",
+      "Facebook | Instagram yönetimi ve reklam hizmeti",
+      "Google haritalar kayıt + Google Ads reklam hizmeti"
+    ],
+    "description3": "<strong>Dijital Dönüşüm Kutusu</strong> küçük ve orta büyüklükteki işletmeler için tasarlanmıştır.",
+    "LinkButton": "Daha Fazla İncele",
+    "moreİnfoLink":"/dijital-pazarlama-donusum-kutusu",
+
+    "subtitle3": "Sektörünüz Nedir?",
+    "description4": "Dijital dönüşüm hizmet kutusu ile sektörlere göre online varlıkları nasıl yönettiğimizi inceleyin...",
+
+    "subtitle4A": "Hizmet Sektörüne Göre Dijital Pazarlama",
+    "description5": "Hizmet sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
+    "span1": "META YÖNETİMİ",
+    "span2": "GOOGLE YÖNETİMİ",
+    "span3": "WEBSİTE YÖNETİMİ",
+    "linkToService":"/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
+
+
+    "subtitle4B": "Eğitim Sektörüne Göre Dijital Pazarlama",
+    "description7": "Eğitim sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
+    "span4": "META YÖNETİMİ",
+    "span5": "GOOGLE YÖNETİMİ",
+    "span6": "WEBSİTE YÖNETİMİ",
+    "linkToEducation":"/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+
+    "subtitle4C": "Sağlık Sektörüne Göre Dijital Pazarlama",
+    "description8": "Sağlık sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
+    "span7": "META YÖNETİMİ",
+    "span8": "GOOGLE YÖNETİMİ",
+    "span9": "WEBSİTE YÖNETİMİ",
+    "linkToHealty":"/#"
+  },
+
+  "MetaPage": {
+    "title": "Facebook Instagram Sponsorlu Reklam Verme ve Hesap Yönetimi",
+    "description": " Etkili sosyal medya stratejileri, kurumsal kimlik ve yaratıcı içerikler marka bilinirliğini artırır, müşteri etkileşimini güçlendirir ve dönüşüm oranlarını yükseltir. Hedef kitlenize ulaşmak ve etkileşim sağlamak için Meta uygulamalarından ve reklam gücünden yararlanın.",
+
+    "div1a": "RAPORLAMA",
+    "div1b": "Her hafta kutulara özel olarak reklam raporları ve önerileri alarak strateji belirleme",
+    "div2a": "KİTLE GARANTİSİ",
+    "div2b": "Kutulara özel derinlemesine kitle araştırması yaparak en doğru kitleye ulaşma garantisi",
+    "div3a": "FARKINDALIK",
+    "div3b": "İş ortaklığında yürütülecek stratejinin farkında olarak, bilinçli ve sürdürülebilir olmasını sağlıyoruz",
+
+    "sub1": "Meta Hizmet Kutuları",
+    "description1": "İnstagram & facebook ve reklam yönetimi detaylı bilgilendirme ve fiyatlandırma listemiz aşağıdadır.",
+
+    "sub2": "MiniBox Meta Reklam Yönetimi",
+    "sub3": "İhtiyaca Yönelik Reklam Yaklaşımı",
+    "dec1": "Aylık facebook/instagram reklam yönetimidir. MiniBox içeriğinde hesap kurulum desteği yoktur. Kurumsal tasarım desteği yoktur. Opsiyonel olarak temin edebilirsiniz.",
+
+    "sub4": "İhtiyaca Yönelik Reklam Yaklaşımı",
+    "description2": "Aylık facebook/instagram reklam yönetimidir. MiniBox içeriğinde hesap kurulum desteği yoktur. Kurumsal tasarım desteği yoktur. Opsiyonel olarak temin edebilirsiniz.",
+    "span1": "MiniBox Kimler Tercih Edebilir?",
+    "title1": "İhtiyaca Yönelik Reklam Yaklaşımı",
+    "p1": " Genellikle bütçe kısıtlaması olan veya anlık ihtiyaca göre tercih edilebilecek bir reklam yönetimi işletmeler tarafından tercih edilebilmektedir. İstenilen hedef doğrultusunda bir gönderiyi öne çıkararak yazışma (WhatsApp - DM) veya telefon araması başlatabilir, görseli veya videoyu etkileşime sokarak marka bilgisini/değerini artırabilir.",
+    "sub5": "Kimler için uygundur?",
+    "listModalMetaMini": [
+      "Kampanya ve etkinlik tanıtımı yapan işletmeler",
+      "Belirli tarihler, özel gün veya tatiller için reklam veren işletmeler",
+      "Yerel ve küçük işletmelerin tanıtımları"
+    ],
+    "p2": "<span>Not:</span> Reklam öğrenim süresi belirli bir zaman alır. Belirli zaman aralıklarında bir reklam gösterimi planlıyorsanız <strong>7 gün</strong> önceden planlanması gerekmektedir.",
+
+    "span2": "Başvuru Formu Gönder",
+    "formLink":"/bilgi-alma-formu",
+    "span3": "WhatsApp Konuşması Başlat",
+    "span4": "%10 İndirim Avantajı",
+
+    "span5": "Hareket Planı",
+    "p3": "Detaylı Bilgilendirme",
+    "span6": "Hareket Planı",
+    "p4": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+    "span7": "Reklam Süresi",
+    "p5": "MiniBox içeriğinde kısa süreli reklam gösterimi uygulanmaktadır. Bu süreyi reklamveren belirlemektedir.(7gün - 15 gün)",
+    "span8": "Reklam Türleri",
+    "p6": "İnstagram Profiline Git",
+    "p7": "Trafik Reklamı(Opsiyonel)",
+    "span9": "Kampanya Kurulumu",
+    "p8": "İşletme hesabı (Meta Business Manager) hesabınız mevcut ise Minibox`ta 2 adet kampanya kurulumu yapılmaktadır.",
+    "span10": "Kampanya Denetimi",
+    "p9": "2 adet kampanyaya göre denetim yapılmaktadır. Kampanyalarınızın performansını izlemek, optimize etmek ve iyileştirmek için yapılan çeşitli analiz ve ayar işlemlerini içerir.",
+    "span11": "Kitle Araştırması",
+    "p10": "Kreatif odaklı yapay zeka destekli hedef kitleye ulaşıyor ve geliştiriyoruz.",
+    "span12": "Özel Hedef Kitle",
+    "p11": "Minibox meta reklam yönetiminde özel hedef kitle reklam stratejisine göre tercih edilebilir.",
+    "span13": "Benzer Hedef Kitle",
+    "p12": "MiniBox Meta reklam yönetiminde benzer hedef kitle destelenmiyor",
+    "span14": "Reklam İçeriği",
+    "p13": "Reklam içerik çalışması, çalışılan şirketin kurumsal kimliği baz alınarak ve trend kreatifler göz önünde bulundurularak yapılmaktadır. Aynı zamanda sektörel tecrübeler de dahil edilerek uygun görsel kreatifler farklı formatlarda ortaya çıkarılmaktadır. Ayrıca reklam içeriğinde kanca metin ve kanca görsel uygulanmaktadır.",
+    "span15": "Reklam Metni Oluşturma",
+    "p14": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturma.(Satış odaklı metin yazarlığı) Ve bunu kreatifte uygulama",
+    "span16": "Reklam Raporu",
+    "p15": "Haftalık reklam raporu: Gösterim - Erişim - Tıklama - Maliyet olarak size iletilmektedir.",
+    "span17": "MiniBox İçeriği",
+    "p16": "Başlangıç facebook/instagram reklam yönetimidir. İşletmeniz için hazırlanan kreatif ile temel olarak mesaj başlatmak, trafik çekmek ve etkileşim oluşturmak hedeflenir. Bu kutu içeriğinde detaylı hedefleme ve pazarlama yöntemleri kullanılmadığı için pixel koduna ihtiyaç yoktur. Daha çok web sitesi kullanmayan müşterilerimiz için planlanmıştır.",
+    "span18": "Uygun Görülen Bütçe",
+    "p17": "Minibox içeriğimizde düşük bütçeli belirli süreli reklamlar kullanılmaktadır. Dolayısıyla reklam bütçesini ve reklam süresini (minumum 7gün) reklam veren belirlemektedir.",
+    "span19": "Meta Setup (opsiyonel)",
+    "p18": "◆Facebook & İnstagram profesyonel hesaplarının açılması ◆ Meta Business Suit kurulumu ◆ Meta Business Manager kurulumu",
+    "p19": "hizmet aktif edilebilir",
+    "span20": "Kurumsal Tasarım (opsiyonel)",
+    "p20": "◆Meta hesaplarının biyografi bilgilerinin oluşturulması ◆ profil ve kapak görsellerinin oluşturulması ◆ CTA butonunun oluşturulması ◆ 2 gönderi ve 2 hikaye görseli oluşturuyoruz ◆ kalıcı hikayeler kısmı hazırlıyoruz",
+    "p21": "hizmet aktif edilebilir",
+
+    "megaBox": {
+      "subtitle1A": "MegaBox Meta Reklam Yönetimi",
+      "subtitle2A": "Stratejik Reklam Yaklaşımı",
+      "description1A": "Aylık facebook/instagram reklam yönetimidir. MegaBox içeriğinde hesap kurulum desteği vardır. Kurumsal tasarım desteği vardır.",
+
+      "businessMega": {
+        "span": "MegaBox Kimler Tercih Edebilir?",
+        "title": "Stratejik Reklam Yaklaşımı",
+        "p": "MegaBox Meta Reklam kutusunun sunduğu reklam hizmetinde derinlemesine reklam stratejilerine önem verilir. Hem Meta uygulamarı hem de bir web site kullanılarak iletişim araçlarına trafik çekmek hedeflenir. Bunlar arasında whatsapp iletişim, form doldurmak ve telefon aramaları da dahildir... Bu doğrultuda işletmeler web siteleri sayesinde kurumsallığıda ön planda tutarak reklamlarda dönüşümleri artırmış olmaktadırlar. Aşağıdaki sektörlerin MegaBox reklam içeriğini kullanması uygundur.",
+        "span2": "Hangi Sektörler İçin Uygundur",
+        "list": ["Hizmet Sektörü", "Eğitim Sektörü", "Sağlık Sektörü"]
+      },
+
+      "googleAdditional": {
+        "span": "Şimdi Ara!",
+        "description": "Potansiyel Müşterilerinize Ulaşmak İçin Bir Google Ads Uzmanı ile İletişime Geçin"
+      },
+
+      "span0": "%10indirim Avantajı",
+      "span01": "Ücretsiz Web Tasarım Hizmeti",
+      "span02": "Detaylı Bilgilendirme",
+
+      "span": "Hareket Planı",
+      "p1": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+      "span2": "Reklam Süresi",
+      "p2": "MegaBox içeriğinde bir ay reklam süresi belirlenmiştir. Reklam bütçesi süreye göre optimize edilebilir.",
+      "span3": "Reklam Türleri",
+      "MegaBoxService": [
+        "İnstagram Profiline Git",
+        "Yeniden Hedefleme (Retargeting)",
+        "Trafik Reklamı"
+      ],
+      "span4": "Kampanya Kurulumu",
+      "p3": "MegaBox`ta maksimum 3 adet kampanya kurulumu yapılmaktadır.",
+      "span5": "Kampanya Denetimi",
+      "p4": "3 adet kampanyaya göre denetim yapılmaktadır. Kampanyalarınızın performansını izlemek, optimize etmek ve iyileştirmek için yapılan çeşitli analiz ve ayar işlemlerini içerir. Bunlar içerisinde kampanya bütçe optimizasyonu ve kreatif değişimi gibi önemli optimizasyonlarda dahildir.",
+      "span6": "Kitle Araştırması",
+      "p5": "Kretif odaklı çalışmalarımızı ön planda tutarak, özel hedef kitle ve benzer hedef kitlerler oluşturmaktayız. Nihai hedef; altın hedef kitle tespiti yaparak faydalı kitleye ulaşmaktır.",
+      "span7": "Özel Hedef Kitle",
+      "p6": "MegaBox meta reklam yönetiminde özel hedef kitle reklam stratejisine göre tercih edilebilir.",
+      "span8": "Benzer Hedef Kitle",
+      "p7": "MegaBox meta reklam yönetiminde benzer hedef kitle kullanılmaktadır. Belirli bir reklam gösteriminden sonra oluşmaktadır.",
+      "span9": "Reklam İçeriği",
+      "p8": "Reklam içerik çalışması, çalışılan şirketin kurumsal kimliği baz alınarak ve trend kreatifler göz önünde bulundurularak yapılmaktadır. Aynı zamanda sektörel tecrübeler de dahil edilerek uygun görsel kreatifler farklı formatlarda ortaya çıkarılmaktadır. Ayrıca reklam içeriğinde kanca metin ve kanca görsel uygulanmaktadır.",
+      "span10": "Reklam Metni Oluşturma",
+      "p9": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturmaktayız.",
+      "span11": "Reklam Raporu",
+      "p10": "Haftalık reklam raporu: Gösterim - Erişim - Tıklama - Maliyet olarak size iletilmektedir.",
+      "span12": "MegaBox İçeriği",
+      "p11": "Meta uygulamalarının derinlemesine kullanıldığı bu hizmete ek olarak aktif bir web site hizmeti ile destekleyici yapı oluşturulmaktadır.",
+      "span13": "Uygun Görülen Bütçe",
+      "p12": "MegaBox için minimum 10.000₺ bütçe uygun görülmektedir. Bütçe; işlenen reklam stratejisine göre belirlenmektedir. 1 Ay`ın her gününe göre ya da belirlenen günlere göre bütçe optimizasyonu yapılarak bütçeye göre de uygun strateji uygulanabilmektedir.",
+      "span14": "Meta Setup",
+      "p13": "◆Facebook & İnstagram profesyonel hesaplarının açılması ◆ Meta Business Suit kurulumu ◆ Meta Business Manager kurulumu",
+      "p14": "değerinde mevcut hizmet",
+      "span15": "Kurumsal Tasarım",
+      "p15": "◆Meta hesaplarının biyografi bilgilerinin oluşturulması ◆ profil ve kapak görsellerinin oluşturulması ◆ CTA butonunun oluşturulması ◆ 2 gönderi ve 2 hikaye görseli oluşturuyoruz ◆ kalıcı hikayeler kısmı hazırlıyoruz",
+      "p16": "değerinde mevcut hizmet",
+      "span16": "Web Tasarım (opsiyonel)",
+      "p17": "◆MiniWeb - Temel Düzeyde Website Tasarım Web sitenizin olmaması durumunda işletmeniz için temel düzeyde bir web sitesi tasarlıyoruz. Bu kampanyada ilk yıl domain ücretinizi ve hosting barındırma hizmetinizin ücretini biz karşılıyoruz.",
+      "p18": "ÜCRETSİZ HİZMET"
+    },
+
+    "proBox": {
+      "subtitle1": "ProBox Meta Reklam Yönetimi",
+      "subtitle2": "Stratejik Reklam ve Sosyal Medya Desteği",
+      "p1": "Aylık facebook/instagram reklam yönetimidir. ProBox içeriğinde hesap kurulum desteği vardır. Kurumsal tasarım desteği vardır. Sosyal medya yönetim desteği vardır.",
+      "bussinessPro": {
+        "span": "ProBox Kimler Tercih Edebilir?",
+        "dialogTitle": "Stratejik Reklam ve Sosyal Medya Desteği",
+        "p": " Facebook ve Instagram reklamlarının gücünü, zenginleştirilmiş sosyal medya içerikleriyle destekleyerek kurumsal kimliği ön planda tutmak isteyen işletmeler için ProBox ideal bir tercihtir.Sosyal medya düzeni ve reklam stratejileri oluşturulduktan sonra, işletmenin hedef kitlesine uygun şekilde reklamlar planlanır. Ayrıca, bu süreçte bir web sitesinin SEO gücünden faydalanarak daha etkili sonuçlar elde edilir.",
+        "title": "Hangi Sektörker İçin Uygundur?",
+        "list": ["Hizmet Sektörü", "Eğitim Sektörü", "Sağlık Sektörü"]
+      },
+      "discount": "10% İndirim Avantajı",
+
+      "socialMediaManageModalPro": {
+        "title": "Sosyal Medya İçerik Yönetimi",
+        "description": "Her işletmede olduğu gibi SetToBox içerik yönetiminde de instagram ve facebook uygulamalarında özelleştirmeler olmaktadır. İçeriklerimizi bir bütünlük içerisinde bir hedef doğrultusunda yönetiyoruz.",
+        "subtitle": "İçerik Yapısı",
+        "subtitle2": "İçerik Türü",
+        "span1": "Haftalık",
+
+        "features1": {
+          "type": "Görsel Paylaşımı",
+          "frequency": "2 - 3"
+        },
+
+        "features2": {
+          "type": "Reels Paylaşımı",
+          "frequency": "0 - 1"
+        },
+
+        "features3": {
+          "type": "Story Paylaşımı",
+          "frequency": "4"
+        },
+
+        "features4": {
+          "type": "Sizden Gelenler",
+          "frequency": "+"
+        },
+
+        "features5": {
+          "type": "Özel Günler Paylaşımı",
+          "frequency": "Mevcut"
+        },
+
+        "features6": {
+          "type": "Sosyal Medya Kurumsal Yapı",
+          "frequency": "Mevcut"
+        },
+
+        "span2": "Hazırlanacak reklam kreatifi bunların dışındadır."
+      },
+      "span2": "Ücretsiz Web Tasarım Hizmeti",
+
+      "span3": "Detaylı Bilgilendirme",
+      "span4": "Hareket Planı",
+      "p2": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+      "span5": "Reklam Süresi",
+      "p3": "Probox içeriğinde bir ay reklam süresi belirlenmiştir. Reklam süresi bütçeye göre optimize edilebilir.",
+      "span6": "Reklam Türleri",
+      "p4": "İnstagram Profiline Git",
+      "p5": "Yeniden Hedefleme (Retargeting)",
+      "p6": "Trafik Reklamı",
+      "p7": "Dönüşüm Kampanyası",
+      "span7": "Kampanya Kurulumu",
+      "p8": "ProBox`ta maksimum 4 adet kampanya kurulumu yapılmaktadır.",
+      "span8": "Kampanya Denetimi",
+      "p9": "4 adet kampanyaya göre denetim yapılmaktadır. Kampanyalarınızın performansını izlemek, optimize etmek ve iyileştirmek için yapılan çeşitli analiz ve ayar işlemlerini içerir. Bunlar içerisinde kampanya bütçe optimizasyonu ve kreatif değişimi gibi önemli optimizasyonlarda dahildir.",
+      "span9": "Kitle Araştırması",
+      "p10": "Kretif odaklı çalışmalarımızı ön planda tutarak, özel hedef kitle ve benzer hedef kitlerler oluşturmaktayız. Nihai hedef; altın hedef kitle tespiti yaparak faydalı kitleye ulaşmaktır.",
+      "span10": "Özel Hedef Kitle",
+      "p11": "Probox Meta reklam yönetiminde özel hedef kitle kullanılmaktadır.",
+      "span11": "Benzer Hedef Kitle",
+      "p12": "Probox Meta reklam yönetiminde benzer hedef kitle kullanılmaktadır.",
+      "span12": "Reklam İçeriği",
+      "p13": "Reklam içerik çalışması, çalışılan şirketin kurumsal kimliği baz alınarak ve trend kreatifler göz önünde bulundurularak yapılmaktadır. Aynı zamanda sektörel tecrübeler de dahil edilerek uygun görsel kreatifler farklı formatlarda ortaya çıkarılmaktadır. Ayrıca reklam içeriğinde kanca metin ve kanca görsel uygulanmaktadır.",
+      "span13": "Reklam Metni Oluşturma",
+      "p14": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturmaktayız.",
+      "span14": "Reklam Raporu",
+      "p15": "Haftalık reklam raporu sizin için oluşturduğumuz bulut üzerinden pdf ile görüntüleyebileceksiniz.Rapor içeriğinde reklam gösterim - erişim - tıklama - maliyet olarak temel bilgiler size iletilmektedir.Ve her ayın sonunda gelecek ayın reklam planlaması ve önerileri yapılmaktadır.",
+      "span15": "ProBox İçerği",
+      "p16": "Verimlilik esaslı bu yönetimde hem sosyal medya hem de web sitesi sayesinde SEO - Marka Bilinirliği konusunda öne çıkacak planlamaları hayata geçiriyoruz. Reklam kreatiflerinin dışında işletmeye fayda sağlayacak bütünsel bir yaklaşım ile rekabet içerisinde olduğunuz firmaların önüne geçebilme imkanı kazanacaksınız",
+      "span16": "Uygun Görülen Bütçe",
+      "p17": "ProBox için minimum 15.000₺ bütçe uygun görülmektedir. Bütçe; işlenen reklam stratejisine göre belirlenmektedir. 1 Ay`ın her gününe göre ya da belirlenen günlere göre bütçe optimizasyonu yapılarak bütçeye göre de uygun strateji uygulanabilmektedir.",
+      "span17": "Meta Setup",
+      "p18": "◆Facebook & İnstagram profesyonel hesaplarının açılması ◆ Meta Business Suit kurulumu ◆ Meta Business Manager kurulumu",
+      "p19": "değerinde mevcut hizmet",
+      "span18": "Kurumsal Tasarım",
+      "p20": "◆Meta hesaplarının biyografi bilgilerinin oluşturulması ◆ profil ve kapak görsellerinin oluşturulması ◆ CTA butonunun oluşturulması ◆ 2 gönderi ve 2 hikaye görseli oluşturuyoruz ◆ kalıcı hikayeler kısmı hazırlıyoruz",
+      "p21": "değerinde mevcut hizmet",
+      "span19": "Web Tasarım (opsiyonel)",
+      "p22": "Web Tasarım (opsiyonel)◆MiniWeb - Temel Düzeyde Website Tasarım Web sitenizin olmaması durumunda işletmeniz için temel düzeyde bir web sitesi tasarlıyoruz. Bu kampanyada ilk yıl domain ücretinizi ve hosting barındırma hizmetinizin ücretini biz karşılıyoruz",
+      "p23": "ÜCRETSİZ HİZMET"
+    }
+  },
+
+  "GooglePage": {
+    "googleInfo": {
+      "sub1": "Herkese Göre",
+      "sub2": "Sponsorlu Reklam Hizmeti",
+      "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileriyle google ads`te reklam vererek potansiyel müşterilere ulaşın. Tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın."
+    },
+
+    "googleAdditional": {
+      "span": "Şimdi Ara!",
+      "description": "Potansiyel Müşterilerinize Ulaşmak İçin Bir Google Ads Uzmanı ile İletişime Geçin",
+
+      "feature1": {
+        "title": "Ücretsiz Kurulum",
+        "description": "Tüm kutularda Google Ads kurulum desteği uygulanmaktadır."
+      },
+      "feature2": {
+        "title": "Uygun Anahtar Kelime",
+        "description": "Uygun anahtar kelimeler üzerine odaklanarak bütçe kontrolünü sağlarız."
+      },
+      "feature3": {
+        "title": "Hızlı Kurulum",
+        "description": "Reklamlarımızın yayınlanması ve verilen diğer hizmetler belirlenen sürede teslim edilir."
+      },
+      "feature4": {
+        "title": "Raporlama",
+        "description": "Her hafta kutulara özel olarak reklam raporları ve önerileri alarak strateji belirleme."
+      },
+      "feature5": {
+        "title": "Farkındalık",
+        "description": "İş ortaklığında yürütülecek stratejinin farkında olarak, bilinçli ve sürdürülebilir olmasını sağlıyoruz."
+      },
+
+      "feature6": {
+        "title": "Sabit Fiyat",
+        "description": "Fiyatlandırmalarda 1 yıl sabit fiyat garantisi uygulanır."
+      }
+    },
+
+    "title": "Google Ads Hizmet Kutuları",
+    "description": "Google Ads reklam yönetimi detaylı bilgilendirme ve fiyatlandırma listemiz aşağıdadır.",
+
+    "miniBox": {
+      "title1": "MiniBox Google Reklam Yönetimi",
+      "subtitle1": "Potansiyel Müşteri Odaklı",
+      "description1": "Bir aylık google ads Arama Ağı reklam yönetimidir. MiniBox içeriğinde google ads hesap kurulum desteği vardır.",
+
+      "googleBusinessMini": {
+        "span1": "MiniBox Kimler Tercih Edebilir?",
+        "dialogTitle": "Potansiyel Müşteri Odaklı",
+        "p": "Özellikle bütçesi kısıtlı, online reklamcılığa yeni başlamak isteyen küçük işletmelerin en çok tercih ettiği reklam türü Google Arama Ağı reklam türüdür. Bu reklam türünde ürün/hizmet arayan internet kullacıları google arama ağı motorunda arama yaptıklarında karşılarına çıkan arama ağı reklam türüdür. Potansiyel müşteriler için önemli bir reklam türüdür.",
+        "span2": "Kimler için uygundur?",
+        "span13": "Özellikle yerel hizmet veren işletmeler için uygundur"
+      },
+
+      "startContactGoogle": {
+        "span1": "Başvuru Formu Gönder",
+        "span2": " WhatsApp Konuşması Başlat"
+      },
+
+      "span1": "%10 İndirim Avantajı",
+
+      "span2": "Detaylı Bilgilendirme",
+      "spanHareketPlani": "Hareket Planı",
+      "p1": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+      "span3": "Reklam Süresi",
+      "p2": "Google MiniBox içeriğinde aylık yönetim uygulanmaktadır.(1 AY)",
+      "span4": "Reklam Türleri",
+      "listItems": [
+        "Metin Reklamı",
+        "Çağrı Reklamı",
+        "Konum Uzantılı Arama Ağı Reklamı"
+      ],
+      "span5": "Kampanya Kurulumu",
+      "p3": "Arama ağı reklam bütünlüğünden faydalanarak, bir kampanya içerisinde reklam türlerinin hepsinden faydalanabiliyoruz.",
+      "span6": "Anahtar Kelime Araştırması, Eşleme Türü",
+      "p4": "Reklam gösteriminin, ilgili arama yapan doğru kişiler tarafından tıklanabilmesi için anahtar kelime optimizasyonu ve ihtiyacımız olan (geniş - sıralı veya tam) eşleme türlerini kullanmaktayız.",
+      "span7": "Negatif Kelime Optimizasyonu",
+      "p5": "Potansiyel müşterilerinize aradıkları kelimeler doğrultusunda doğru ürün/hizmet gösterebilmek hem bütçe hem de reklam performansı için önemlidir. Dolayısıyla google negatif kelime optimizasyonu size sunduğumuz her hizmet kutularında mevcuttur.",
+      "span8": "Reklam Metni Oluşturma",
+      "p6": "Arama motorlarında potansiyel müşterilerinizin ilgisini çekecek reklam metinleri oluşturarak, sunduğunuz ürün ve hizmetlerin öne çıkmasını sağlıyoruz. Başlıklar, açıklamalar ve diğer önemli unsurlar üzerinde titizlikle çalışarak, reklamlarınızın hedef kitlenize en iyi şekilde ulaşmasını ve iyi sonuçlar almanızı sağlıyoruz.",
+      "span9": "Site Bağlantıları ve Ek Snipetler",
+      "p7": "Site bağlantıları ve ek snippet`lerle, reklamlarınızın görünürlüğünü artırarak kullanıcıların doğrudan ilgilendikleri sayfalara yönelmelerini sağlıyoruz. Bu yapılar, reklam performansınızı optimize eder ve dönüşüm oranlarınızı yükseltir.",
+      "span10": "Reklam Raporu ve Optimizasyon",
+      "p8": "Aylık reklam raporu: Tıklama - Maliyet olarak size iletilmektedir.",
+      "span11": "Reklam Metni Oluşturma",
+      "p9": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturma.(Satış odaklı metin yazarlığı) Ve bunu kreatifte uygulama",
+      "span12": "Reklam Raporu ve Optimizasyon",
+      "p10": "Aylık reklam raporu: Tıklama - Maliyet olarak size iletilmektedir.",
+      "span13": "Google MiniBox İçeriği",
+      "p11": "Reklamlar, kullanıcıların belirli anahtar kelimeleri aradığında sonuç sayfasının üstünde veya altında görünür. Temel olarak düşük bütçe ile doğrudan müşteriye odaklanan google arama ağı reklam türüne odaklanıyoruz.",
+      "span14": "Uygun Görülen Bütçe",
+      "p12": "Arama Ağı reklamları aylık minumum 5.000TL bütçe uygun görülmektedir. Bütçe anahtar kelime fiyatına, rekabete ve talebe göre değişkenlik gösterir",
+      "span15": "Google Ads Setup",
+      "p13": "Bir Google Ads hesabınız yok ise ücretsiz kurulum sağlıyoruz. Reklam yapılandırması google ads hesabı üzerinden yapılmaktadır. Bir web siteniz var ise web sitenize yönlendiren arama ağı reklamı da oluşturabiliriz."
+    },
+
+    "megaBox": {
+      "title": "MegaBox Google Reklam Yönetimi",
+      "subtitle1": "Dengeli Bütçe Marka Bilinirliği Artışı",
+      "description": "Bir aylık google ads Arama Ağı & Görüntülü Reklam Ağı yönetimidir. MegaBox içeriğinde google ads hesap kurulum desteği vardır.",
+
+      "googleBusinessMega": {
+        "p": "MegaBox Kimler Tercih Edebilir?",
+        "subtitle1": "Dengeli Bütçe Marka Bilinirliği Artışı",
+        "description": "Dijital pazarlama hedeflerine ulaşmak isteyen, ancak daha geniş bir kitleye hitap etmeyi amaçlayan ve belirli bir bütçeyi bu işe ayırabilecek işletmeler tarafından tercih edilir. Bu paket, genellikle Arama Ağı Reklamları (Search Ads) ve Display (Görsel) Reklamlar gibi reklam türlerini içerir ve aşağıdaki sektörler için uygundur",
+        "subtitle2": "Kimler için uygundur?",
+        "list": ["Hizmet Sektörü", "Eğitim Sektörü", "Sağlık Sektörü"]
+      },
+      "span1": "%10 İndirim Avantajı",
+      "span2": "Ücretsiz Web Tasarım Avantajı",
+
+      "span3": "Detaylı Bilgilendirme",
+      "span4": "Hareket Planı",
+      "p1": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+      "span5": "Reklam Süresi",
+      "p2": "Google MegaBox içeriğinde aylık yönetim uygulanmaktadır.(1 AY)",
+      "span6": "Reklam Türleri",
+      "ListItems": [
+        "Arama Ağı Reklamı",
+        "Görüntülü Reklam Ağı",
+        "Retargeting Reklam"
+      ],
+
+      "span7": "Kampanya Kurulumu",
+      "p3": "Maksimum 3 adet kampanya kurulumu gerçekleştirilmektedir.",
+      "span8": "Anahtar Kelime Araştırması, Eşleme Türü",
+      "p4": "Reklam gösteriminin, ilgili arama yapan doğru kişiler tarafından tıklanabilmesi için anahtar kelime optimizasyonu ve ihtiyacımız olan (geniş - sıralı veya tam) eşleme türlerini kullanmaktayız.",
+      "span9": "Negatif Kelime Optimizasyonu",
+      "p5": "Potansiyel müşterilerinize aradıkları kelimeler doğrultusunda doğru ürün/hizmet gösterebilmek hem bütçe hem de reklam performansı için önemlidir. Dolayısıyla google negatif kelime optimizasyonu size sunduğumuz her hizmet kutularında mevcuttur.",
+      "span10": "Reklam Metni Oluşturma",
+      "p6": "Arama motorlarında potansiyel müşterilerinizin ilgisini çekecek reklam metinleri oluşturarak, sunduğunuz ürün ve hizmetlerin öne çıkmasını sağlıyoruz. Başlıklar, açıklamalar ve diğer önemli unsurlar üzerinde titizlikle çalışarak, reklamlarınızın hedef kitlenize en iyi şekilde ulaşmasını ve iyi sonuçlar almanızı sağlıyoruz.",
+      "span11": "Site Bağlantıları ve Ek Snipetler",
+      "p7": "Site bağlantıları ve ek snippet`lerle, reklamlarınızın görünürlüğünü artırarak kullanıcıların doğrudan ilgilendikleri sayfalara yönelmelerini sağlıyoruz. Bu yapılar, reklam performansınızı optimize eder ve dönüşüm oranlarınızı yükseltir.",
+      "span12": "Duyarlı Reklam Ağı",
+      "p8": "Duyarlı reklam ağı hizmetimizle, reklamlarınızı farklı cihaz ve platformlarda otomatik olarak optimize ederek, her kullanıcıya en uygun formatta ulaşmanızı sağlıyoruz. Bu sayede, geniş bir kitleye etkili bir şekilde erişerek marka bilinirliğinizin artmasını sağlamış oluyoruz. İşletmenize ait kare logo ve yatay logo kullanılacaktır. Duyarlı reklam ağında 2 görsel kreatif, kare ve yatay formatta tasarlanacaktır. 1 adet slide video kare ve yatay formatlarda kreatif oluşturulacaktır. Reklamlarınıza ayrıca başlıklar, açıklamalar ve harekete geçirecek button eklenecektir.",
+      "span13": "Hedefleme",
+      "p9": "Hedefleme stratejilerimizle, reklamlarınızı doğru kitleye ulaştırarak etkili sonuçlar elde etmenizi sağlıyoruz. Demografik veriler, ilgi alanları ve davranış analizlerine dayalı olarak özelleştirilmiş hedefleme yöntemleri kullanarak, reklamlarınızın performansını maksimize ediyoruz.",
+      "span14": "Retergating Hedefleme",
+      "p10": "Retargeting hizmetimizle, web sitenizi ziyaret eden ancak dönüşüm sağlamayan kullanıcıları yeniden hedefleyerek, satış ve dönüşüm oranlarınızı artırıyoruz.",
+      "span15": "Öneri",
+      "p11": "Dijital reklam konularında çeşitli öneriler verilmektedir.",
+      "span16": "Reklam Raporu ve Optimizasyon",
+      "p12": "Aylık reklam raporu: Tıklama - Maliyet olarak size iletilmektedir.",
+      "span17": "Google MegaBox İçeriği",
+      "p13": "Ürün/hizmet arayan internet kullanıcılarının anlık olarak karşılarına çıkmak, sekörel olarak marka biliniliğini artırmak ve derinlemesine etki yaparak web sitelerinine kullanıcı trafiği çekerek daha iyi hedeflemeler ile pazarlama taktikleri uygulamak için tasarlanmıştır.",
+      "span18": "Uygun Görülen Bütçe",
+      "p14": "Google MegaBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 10.000(+) TL`dir.",
+      "span19": "Google Araçları",
+      "p15": "Google Analystic | Google Search Console",
+      "p16": "Optimizsayonu iyileştirimek daha iyi hedeflemeler yapabilmek için web sitenize bu araçların kodlarını (etiket) bağlıyoruz.",
+      "span20": "değerinde mevcut hizmet",
+      "span21": "Web Tasarım (opsiyonel)",
+      "p17": "◆MiniWeb - Temel Düzeyde Website Tasarım Web sitenizin olmaması durumunda işletmeniz için temel düzeyde bir web sitesi tasarlıyoruz. Bu kampanyada ilk yıl domain ücretinizi ve hosting barındırma hizmetinizin ücretini biz karşılıyoruz.",
+      "span22": "ÜCRETSİZ HİZMET"
+    },
+
+    "proBox": {
+      "title": "ProBox Google Reklam Yönetimi",
+      "subtitle": "İstikrarlı Bütçe - Derinlemesine Hedefleme - Yüksek Dönüşüm",
+      "description": "Bir aylık google ads Arama Ağı & Görüntülü Reklam Ağı yönetimidir. ProBox içeriğinde google ads hesap kurulum desteği vardır.",
+
+      "googleBusinessPro": {
+        "span": "ProBox Kimler Tercih Edebilir?",
+        "title": "İstikrarlı Bütçe - Derinlemesine Hedefleme - Yüksek Dönüşüm",
+        "p1": "ProBox hizmeti; uzun vadeli pazarlama stratejisi anlayışıyla bir çok reklam türünü kullanarak marka bilinirliğini artırmak, ürün/hizmet satışını en yüksek seviyelere ulaştırmak isteyen işletmelerin tercih edebileceği bir hizmettir. Bu hizmet`te reklam türleri aşama aşama ilerleyerek makina öğrenimini tamamlayarak gelecekte karmaşık hedeflemeler yapmadan yapay zekanın katkılarıyla en iyi hefeflemeleri bulmasını sağlatmaktır.",
+        "p2": "Google ProBox hizmeti marka odaklı uzun vadeli reklam stratejileri ile gelişmeyi benimsemiş küçük ve orta büyüklükteki tüm işletmeler için faydalıdır.Not: Maksimum performans reklamı google`e ait Arama Ağı - Görüntülü Reklam Ağı - Gmail - Youtube - Discover - Haritalar gibi platformları kapsamaktadır. Reklam makina öğrenimi sayesinde ürün/hizmetiniz ile ilgilenebilecek internet kullancılarına gösterilmektedir.",
+        "subtitle": "Kimler için uygundur?",
+        "list": ["Hizmet Sektörü", "Sağlık Sektörü", "Eğitim Sektörü"]
+      },
+      "discountMetaPro": "%10 İndirim Avantajı",
+      "span1": "Ücretsiz Web Tasarım Hizmeti",
+      "span2": "Detaylı Bilgilendirme",
+      "span3": "Hareket Planı",
+      "p1": "Yedi gün hareket planı vardır. Yedi gün ardından reklam kreatifleri hazır olur. Planlanan zaman diliminde reklam aktif olur.",
+      "span4": "Reklam Süresi",
+      "p2": "Google ProBox içeriğinde aylık yönetim uygulanmaktadır.(1 AY)",
+      "span5": "Reklam Türleri",
+      "googleAds": [
+        "Arama Ağı Reklamı",
+        "Görüntülü Reklam Ağı (Duyarlı Görüntülü Reklam)",
+        "Retargeting Reklam (Yeniden Hedefleme)",
+        "Maksimum Performans Reklamı"
+      ],
+      "span6": "Kampanya Kurulumu",
+      "p3": "Toplam 4 kampanya gösterimi hedeflenmektedir. Kurulum önceliği Arama Ağı reklamıdır. Algoritma uygun bir seviye geldikçe diğer reklam türleride kullanıma sunulacaktır.",
+      "span7": "Anahtar Kelime Araştırması, Eşleme Türü",
+      "p4": "Reklam gösteriminin, ilgili arama yapan doğru kişiler tarafından tıklanabilmesi için anahtar kelime optimizasyonu ve ihtiyacımız olan (geniş - sıralı veya tam) eşleme türlerini kullanmaktayız.",
+      "span8": "Negatif Kelime Optimizasyonu",
+      "p5": "Potansiyel müşterilerinize aradıkları kelimeler doğrultusunda doğru ürün/hizmet gösterebilmek hem bütçe hem de reklam performansı için önemlidir. Dolayısıyla google negatif kelime optimizasyonu size sunduğumuz her hizmet kutularında mevcuttur.",
+      "span9": "Reklam Metni Oluşturma",
+      "p6": "Arama motorlarında potansiyel müşterilerinizin ilgisini çekecek reklam metinleri oluşturarak, sunduğunuz ürün ve hizmetlerin öne çıkmasını sağlıyoruz. Başlıklar, açıklamalar ve diğer önemli unsurlar üzerinde titizlikle çalışarak, reklamlarınızın hedef kitlenize en iyi şekilde ulaşmasını ve iyi sonuçlar almanızı sağlıyoruz.",
+      "span10": "Site Bağlantıları ve Ek Snipetler",
+      "p7": "Site bağlantıları ve ek snippet`lerle, reklamlarınızın görünürlüğünü artırarak kullanıcıların doğrudan ilgilendikleri sayfalara yönelmelerini sağlıyoruz. Bu yapılar, reklam performansınızı optimize eder ve dönüşüm oranlarınızı yükseltir.",
+      "span11": "Duyarlı Reklam Ağı",
+      "p8": "Duyarlı reklam ağı hizmetimizle, reklamlarınızı farklı cihaz ve platformlarda otomatik olarak optimize ederek, her kullanıcıya en uygun formatta ulaşmanızı sağlıyoruz. Bu sayede, geniş bir kitleye etkili bir şekilde erişerek marka bilinirliğinizin artmasını sağlamış oluyoruz. İşletmenize ait kare logo ve yatay logo kullanılacaktır. Duyarlı reklam ağında 2 görsel kreatif, kare ve yatay formatta tasarlanacaktır. 1 adet slide video kare ve yatay formatlarda kreatif oluşturulacaktır. Reklamlarınıza ayrıca başlıklar, açıklamalar ve harekete geçirecek button eklenecektir.",
+      "span12": "Hedefleme",
+      "p9": "Hedefleme stratejilerimizle, reklamlarınızı doğru kitleye ulaştırarak etkili sonuçlar elde etmenizi sağlıyoruz. Demografik veriler, ilgi alanları ve davranış analizlerine dayalı olarak özelleştirilmiş hedefleme yöntemleri kullanarak, reklamlarınızın performansını maksimize ediyoruz.",
+      "span13": "Retergating Hedefleme",
+      "p10": "Retargeting hizmetimizle, web sitenizi ziyaret eden ancak dönüşüm sağlamayan kullanıcıları yeniden hedefleyerek, satış ve dönüşüm oranlarınızı artırıyoruz.",
+      "span14": "Dönüşüm Yapılanması",
+      "p11": "Web sitesi üzerinde kurulan dönüşüm yapılandırması ile makine öğrenimini sağlayarak potansiyel müşterilerinizin ürün/hizmet satın alımını artırmak hedeflenmektedir.",
+      "span15": "Öneri",
+      "p12": "Dijital reklam konularında çeşitli öneriler verilmektedir.",
+      "span16": "Reklam Raporu ve Optimizasyon",
+      "p13": "Aylık reklam raporu: Tıklama - Maliyet olarak size iletilmektedir.",
+      "span17": "Google ProBox İçeriği",
+      "p14": "ProBox içeriği; ilk olara Arama Ağı reklamı ile başlayarak müşterilerinin karşısına çıkar ve algoritmayı besler... Duyarlı Görüntülü Reklam ile sektörel bir marka bilinirliği kazanılmak hedeflenir. Ardından Maksimum Performans Reklamı ile dönüşüm ortalamasını artırmak hedeflenir. Bu kutu içeriğimizde oturmuş alt yapı ve algoritma ile sahip olduğumuz web sitesinden form - whatsapp veya telefon araması dönüşümlerini artırmak hedeflenmektedir.",
+      "span18": "Uygun Görülen Bütçe",
+      "p15": "Google ProBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 10.000(+) TL`dir.",
+      "span19": "Google Araçları",
+      "p16": "Google Analystic | Google Search Console",
+      "p17": "Optimizsayonu iyileştirimek daha iyi hedeflemeler yapabilmek için web sitenize bu araçların kodlarını (etiket) bağlıyoruz.",
+      "span20": "değerinde mevcut hizmet",
+      "span21": "Web Tasarım (opsiyonel)",
+      "p18": "◆MiniWeb - Temel Düzeyde Website Tasarım Web sitenizin olmaması durumunda işletmeniz için temel düzeyde bir web sitesi tasarlıyoruz. Bu kampanyada ilk yıl domain ücretinizi ve hosting barındırma hizmetinizin ücretini biz karşılıyoruz.",
+      "span22": "ÜCRETSİZ HİZMET"
+    },
+
+    "googleAdsCard": {
+      "howToMakeCart": {
+        "title": "Nasıl Yapıyoruz?",
+        "description": " Sektörlere özel dijital pazarlama metriklerini nasıl kullanıyoruz? Google ads reklam yönetimi ve google haritalara kayıt gibi işletmelerin hedef kitlelerine ulaşmasını sağlayan pazarlama metrikleri nelerdir? Sektörlere göre inceleyelim.",
+        "span1": "Referanslar",
+        "link": "/settobox-referanslar",
+        "span2": "Sektörler",
+        "p1": "Sektörünüz Nedir?",
+        "span3": "Hizmet Sektörü",
+        "link1": "/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
+        "span4": "Eğitim Sektörü",
+        "link2": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+        "span5": "Sağlık Sektörü",
+        "link3": "/dijital-pazarlama-donusum-kutusu/egitimsektoru"
+      },
+
+      "AdsCoastCart": {
+        "title": "Reklam Bütçesi Ne Kadar Olmalı?",
+        "description": " Potansiyel müşterileriniz sizi arama motorlarında nasıl arıyorlar? Örneğin &quot;Google Ads Reklam Yönetimi&quot; gibi bir anahtar kelimenin günlük, haftalık ve aylık maliyetini söyleyebiliriz.",
+        "span1": " Ücretsiz Bilgi Al"
+      }
+    }
+  },
+
+  "WebsitePage": {
+    "webDesignInfo": {
+      "title": "İhtiyacınıza Göre Web Site Tasarım Hizmeti",
+      "description": "İşletmenizin dijital dünyada öne çıkmasını sağlayacak web sitesi tasarımlarını ihtiyacınıza göre şekillendiriyoruz. Hedef kitlenize en etkili şekilde ulaşmak için özelleştirilebilir web tasarım paketlerimizle profesyonel ve kullanıcı dostu çözümler sunuyoruz."
+    },
+
+    "webDesignAdditional": {
+      "features1": {
+        "title": "SEO Yapısı",
+        "description": "Hizmet kutularımızda temel SEO alt yapısı uygulanmaktadır"
+      },
+      "features2": {
+        "title": "Üretsiz SSL Sertifikası",
+        "description": "Tarayıcılar tarafından güvenli olarak tespit edilen websitleri arama motorlarında ön planda olmaktadır"
+      },
+
+      "features3": {
+        "title": "Modern Teknoloji",
+        "description": "React teknolojisinin esnek yapısı ve geniş ekosistemi sayesinde, kullanıcı deneyimini zenginleştiren dinamik ve ölçeklenebilir arayüzler oluşturuyoruz"
+      },
+
+      "features4": {
+        "title": "Sabit Fiyat",
+        "description": "Fiyatlandırmalarda 1 yıl sabit fiyat garantisi uygulanır"
+      }
+    },
+
+    "webDesignProduct": {
+      "title": "Website Tasarım Hizmet Kutuları",
+      "subtitle": " Website tasarım ve fiyatlandırma listemiz aşağıdadır.",
+
+      "miniBox": {
+        "title": "MiniBox Web Tasarım Hizmeti",
+        "subtitle": "Temel Düzeyde Web Tasarım",
+        "description": "Başlangıç seviyesindeki bu paket küçük işletmeler ve bireysel projeler için idealdir. Hızlı kurulum, mobil uyumlu tasarım ve temel SEO optimizasyonu ile online varlığınızı hızlıca oluşturabiliriz.",
+
+        "businessMiniWeb": {
+          "span": "MiniBox Kimler Tercih Edebilir?",
+          "dialogTitle": "Temel Düzeyde Web Tasarım",
+          "description": "Temel tasarımı ve ek özelliklerle desteklenen yapısıyla başlangıç seviyesinde olan MiniWeb hizmetini aşağıda ki gibi ihtiyaç sahipleri tercih edebilir.",
+          "title": "Kimler için uygundur?",
+          "list": [
+            "Online varlığını oluşturarak hedef kitlesi ile bir köprü oluşturmak isyeyen işletmeler",
+            "Kişisel projelerini veya freelance çalışmalarını sergilemek isteyen bireyler."
+          ]
+        },
+
+        "startContactWeb": {
+          "mails": "Başvuru Formu Gönder",
+          "whatsapp": "WhatsApp Konuşması Başlat"
+        },
+
+        "discountWeb": " %10 İndirim Avantajı",
+        "span1": "Ücretsiz Domain - Ücretsiz Hosting (1 Yıl)",
+
+        "span2": "Detaylı bilgilendirme",
+        "span3": "Hareket Planı",
+        "p1": "Form ile tarafınızdan bilgiler alındıktan sonra web sitenizin tasarım ve içerik planlaması 2 gün içerisinde yapılır.",
+        "span4": "Ücretsiz Hosting ve Domain",
+        "p2": "İlk yıl domain ve hosting hizmetiniz için ücret ödemiyorsunuz. Daha sonra ki yıllarda hosting ve domain ücretlendirmesi için bilgilendirme yapılmaktadır.",
+        "span5": "Güvenlik Sertifikası",
+        "p3": "Tüm web sitelerimizde ücretsiz SSL sertifikası kullanılmaktadır.",
+        "span6": "Kullanılacak Teknoloji",
+        "p4": "React-Vite, Typescript ve Tailwind teknolojilerini kullanarak, Tek sayfa modern web tasarımınızda hız, esneklik ve şıklığı bir araya getiriyoruz.",
+        "span7": "Web Arayüz Tasarımı",
+        "p5": "Firmanızın konseptine ve sizlerin bize illettiğiniz bilgiler neticesinde özgün bir tasarım ortaya çıkarıyoruz. Özgün tasarım arama motorları ve kurumsal imajınız için önemlidir.",
+        "span8": "Ücretsiz İçerik Oluşturma",
+        "p6": "Oluşturulan web sitesi içerik planlamasında; sizlerin belirlediği başlıklar dışında bizlerde arama motorlarında ön planda olabilmeniz için gerekli metin ve görsel çalışmaları yapıyoruz. ( Web site konseptinine bağlı olarak )",
+        "span9": "SEO Altyapısı",
+        "p7": "Temel SEO yapısı oluşturulmaktadır.",
+        "span10": "Responsive Web Tasarım",
+        "p8": "Tüm website tasarım hizmetlerinde responsive(esnek) tasarım uygulanmaktadır. Mobil - tablet - geniş ekran",
+        "span11": "Sayfa Yapısı",
+        "p9": "Tek sayfa (Landing page) yapısı olarak oluşturulmaktadır.",
+
+        "contentMiniWeb": {
+          "span1": "Sayfa yapısı içeriği",
+
+          "description": "Tek sayfa (Landing page) yapısı olarak oluşturulmaktadır. İçerik yapısında hangi başlıkları kullanacağımıza bağlı olarak slider yapısı, çağrıya yönlendiren butonlar (Call-to-Action - CTA), ve kullanıcıyı bilgilendiren temel bölümler tasarlanabilmektedir. Bu tür bir sayfanın genel yapısında şu başlıklar yer alabilir:",
+          "subtitle1": "Hero Bölümü",
+          "list1": [
+            "Dikkat çekici bir başlık (Headline).",
+            "Destekleyici alt başlık (Subheadline).",
+            "Harekete geçirici bir buton (CTA).",
+            "Görsel veya arka plan videosu ile görsel etki yaratılması.."
+          ],
+          "subtitle2": "Hizmetler veya Ürünler Bölümü",
+          "list2": [
+            "Sunulan ürün veya hizmetlerin kısa ve öz açıklamaları.",
+            "Her bir ürün/hizmet için ikonlar veya görseller.",
+            "Detaylı bilgi için bir bağlantı veya yönlendirme."
+          ],
+          "subtitle3": "Özellikler ve Avantajlar",
+          "list3": [
+            "Kullanıcının ilgisini çekecek, çözümler sunan başlıklar.",
+            "Neden bu ürünü/hizmeti tercih etmeleri gerektiğine dair maddeler."
+          ],
+          "subtitle4": "Müşteri Yorumları (Testimonials)",
+          "list4": [
+            "Daha önce hizmet almış müşterilerin yorumları.",
+            "Güven oluşturmak adına isim, pozisyon ve görsel kullanılabilir."
+          ],
+          "subtitle5": "Referanslar veya İş Ortakları",
+          "list5": [
+            "İş birliği yapılan markaların logoları.",
+            "Önceki projelerden öne çıkan örnekler."
+          ],
+          "subtitle6": "Harekete Geçirici Bir Son Bölüm (Footer CTA)",
+          "list6": [
+            "İletişim bilgileri veya formu.",
+            "Sosyal medya bağlantıları.",
+            "Şimdi bizimle iletişime geçin gibi güçlü bir çağrı mesajı."
+          ],
+          "subtitle7": "Sıkça Sorulan Sorular (FAQ)",
+          "list7": [
+            "Kullanıcıların aklındaki temel sorulara cevap vererek güven oluşturmak."
+          ],
+          "subtitle8": "Avantajları nelerdir?",
+          "list8": [
+            "Kullanıcıyı doğrudan hedefe yönlendirme",
+            "Basit ve anlaşılır yapı ile yüksek dönüşüm oranı"
+          ],
+          "subtitle9": "Nasıl bir yapı ile hazırlanır?",
+          "list9": [
+            "Hedef kitlenin ihtiyaçlarına yönelik içerik planlaması",
+            "SEO uyumlu metinler ve hızlı yüklenen görseller",
+            "Harekete geçirici tasarım unsurları (CTA, formlar, görseller)"
+          ],
+
+          "description1": "Bu yapılar, kullanıcının dikkatini çekmek, site içi gezinmeyi kolaylaştırmak ve dönüşüm oranını artırmak için özenle düzenlenir.",
+          "description2": "Ayrıca renk paleti, yazı tipleri ve genel tasarım dilinin markanın kimliğiyle uyumlu olmasına dikkat etmekteyiz. Markanızın <strong> kurumsal kimlik </strong> yapısı yoksa oluşturmakta fayda vardır."
+        },
+
+        "span12": "MiniWeb İçeriği",
+        "p10": "Hızlı, ekonomik ve belirli standartlara bağlı kalarak bir web sitesi hizmetinize sunuyoruz. Basit yapısıyla ilgili hedef kitlenizin arama motorlarında sizlere rahatça ulaşmaları ve bilgi almaları sağlanmaktadır."
+      },
+
+      "megaBox": {
+        "title": "MegaBox Web Tasarım Hizmeti",
+        "subtitle": "Gelişmiş Özellikli Hedef Odaklı Web Site",
+        "description": "Dinamik içerik yönetimi, özelleştirilmiş SEO entegrasyonu ve kullanıcı deneyimini artıran özelliklerle hazırlanmaktadır. Bu web sitesi 10 - 20 gün içerisinde tasarlanabilmektedir. İlerleyen 3 ay boyunca optimizasyonlara devam edilmektedir.",
+
+        "businessMegaWeb": {
+          "span": "MegaBox Kimler Tercih Edebilir?",
+          "dialogContent": "Gelişmiş Özellikli Hedef Odaklı Web Site",
+          "description": "Gelişmekte olan veya belirli bir hedef doğrultusunda müşteri portföyünü artırmak isteyen firmalar, daha fazla içerik yönetimi, SEO optimizasyonu ve kullanıcı deneyimi gibi gelişmiş özelliklerle donatılmış web sitelerine ihtiyaç duyar.",
+          "title": "Hangi sektörler için uygundur?",
+          "list": ["Hizmet Sektörü", "Sağlık Sektörü", "Eğitim Sektörü"]
+        },
+
+        "megaWebDiscount": "Ücretsiz Domain - Ücretsiz Hosting (1 Yıl)",
+        "span": "Detaylı Bilgilendirme",
+        "span1": "Hareket Planı",
+        "p1": "Form ile tarafınızdan bilgiler alındıktan sonra web sitenizin tasarım ve içerik planlaması 2 gün içerisinde yapılır.",
+        "span2": "Ücretsiz Hosting ve Domain",
+        "p2": "İlk yıl domain ve hosting hizmetiniz için ücret ödemiyorsunuz. Daha sonra ki yıllarda hosting ve domain ücretlendirmesi için bilgilendirme yapılmaktadır.",
+        "span3": "Güvenlik Sertifikası",
+        "p3": "Tüm web sitelerimizde ücretsiz SSL sertifikası kullanılmaktadır.",
+        "span4": "Kullanılacak Teknoloji",
+        "p4": "Next.js TypeScript, Tailwindcss ve Shadcn-ui teknolojilerini kullanarak modern web tasarımınızda hız, esneklik ve şıklığı bir araya getiriyoruz.",
+        "span5": "Web Arayüz Tasarımı",
+        "p5": "Firmanızın konseptine ve sizlerin bize illettiğiniz bilgiler neticesinde özgün bir tasarım ortaya çıkarıyoruz. Özgün tasarım arama motorları ve kurumsal imajınız için önemlidir.",
+        "span6": "Ücretsiz İçerik Oluşturma",
+        "p6": "Oluşturulan web sitesi içerik planlamasında; sizlerin belirlediği başlıklar dışında bizlerde arama motorlarında ön planda olabilmeniz için gerekli metin ve görsel çalışmaları yapıyoruz. ( Web site konseptinine bağlı olarak )",
+        "spanS": "SEO Altyapısı",
+        "pS": "İyileştirilmiş SEO alt yapısı hedeflenmektedir. Bir çok önemli başlığı değerlendirirken Zeo.Org sıralama faktörlerini önemsiyoruz",
+        "span7": "Responsive Web Tasarım",
+        "p7": "Tüm website tasarım hizmetlerinde responsive(esnek) tasarım uygulanmaktadır. Mobil - tablet - geniş ekran",
+        "span8": "Google Search Console",
+        "p8": " Google Seacrh Console kullanarak web sitenizi google arama sonuçlarında gösterilmesi sağlıyoruz.",
+        "span9": "Google Analytics Setup",
+        "p9": "Google Analytics, web sitenizin trafiğini ve kullanıcı davranışlarını analiz etmek için kullanılan ücretsiz bir web analizi hizmetidir. Bu araç, ziyaretçi sayısı, kullanıcıların hangi sayfalara girdiği, ne kadar süreyle site üzerinde kaldığı, hangi cihazlardan veya coğrafi bölgelerden geldikleri gibi ayrıntılı verileri sunar.",
+        "span10": "Web Site Optimizasyonu",
+        "p10": "Özelleştirilmiş kodlama yöntemleri kullanarak açılış sayfası kod yapısını ve içerik yapısını optimize ediyoruz. Google Page Speed ve benzer uygulamalarda kullanarak hem mobil hem büyük ekranlarda ölçümleme yaparak sitenin hızını en olumlu seviyeye getiriyoruz.",
+        "span11": "Responsive Web Tasarım",
+        "p11": "Tüm ekranlara duyarlı tasarım yapılmaktadır.",
+        "span12": "Sayfa Yapısı",
+        "p12": "Temel düzeye ek olarak gelişmiş zengin içeriklere sahip sayfa yapıları oluşturulmaktadır.",
+        "span13": "MegaWeb İçeriği",
+        "p13": "Hizmet - Eğitim - Sağlık gibi bir çok sektörün kullanabileceği yapıda bir web site modelidir. Web sitesinde kullanılan yazılım teknolojileri, zengin içerikler (başlıklar, açıklamalar, görseller ve animasyonlar) ve kullanıcı deneyimi gibi konular ön planda tutulmaktadır. İşletmeler profesyonel hizmetlerinin tanıtımını MegaWeb ile yapabilirler. Ayrıca MegaWeb hizmetimizde dijital pazarlama araçlarımızla bağlantılıdır. Google Ads ve Meta entegrasyonları yaparak dijital pazarlama hizmetlerini de kullanabilirsiniz.Eğer dijital pazarlama konularında reklam ihtiyaçlarınız var ve bununla ilgili bütünsel bir çalışmaya ihtiyacınız var ise bizimle iletişime geçebilir veya  <a href=`/dijital-pazarlama-donusum-kutusu`> Dijital Dönüşüm Kutusu </a>  hizmetimizi inceleyebilirsiniz."
+      }
+    }
+  },
+
+  "DigitalConversion": {
+    "digitalConversiyonInfo": {
+      "title": "Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu <span>Dijital Dönüşüm Kutusu</span>",
+      "list": [
+        "Online Varlıkların Tümüyle Yönetimi",
+        "Kontrollu Bütçe Yönetimi",
+        "Planlama ve Raporlama"
+      ]
+    },
+
+    "digitalConversionStepToExplation": {
+      "span": "Plansız Adımlar Atmak Yerine",
+      "title": "Dijital Pazarlamayı Bir Strateji Haline Getirin",
+      "span1": "Yüksek Dönüşüm",
+      "description": " Müşteri çekmek, satışları artırmak, marka bilinirliği oluşturmak, hedef kitleye ulaşmak, rekabet avantajı sağlamak gibi pazarlama amaçlarımız, belirli bir hedef doğrultusunda kullandığımız dijital pazarlama araçlarıyla sağlanmaktadır. Dijital pazarlamayı bir strateji haline getirerek kontrollü reklam planlamaları yaparak orta ve uzun vadede hem bütçe optimizasyonu yapmış oluyoruz hem de marka bilinirliğini artırarak hedeflenen dönüşümü sağlamış oluyoruz. Dijital Dönüşüm Kutusu tamamen <span>küçük ve orta büyüklükteki işletmeler</span> için tasarlanmıştır."
+    },
+
+    "startContactConversion": {
+      "mail": "Başvuru Formu Gönder",
+      "whatsaAp": "Whatsaap Konuşması Başlat"
+    },
+
+    "dijitalMarketingConversionProduct": {
+      "span": "Dijital Dönüşüm Kutusu: Google, Meta ve Web Sitesi Bütünsel Yönetimi",
+      "title": "Google, Meta ve Web Sitesi Bütünsel Yönetimi",
+      "description": "Bu hizmette dijital pazarlamanın bir çok yönünü değerlendirerek dönüşüm odaklı bir hedef belirlenmektedir. Üç farklı platformun ihtiyacımız olan özelliklerini kullanarak bütünsel bir yaklaşımla orta ve uzun vadede istediğimiz noktaya ulaşabilmek hedeflenmektedir.",
+
+      "conversionBusiness": {
+        "span": "Dijital Dönüşüm Kutusu Kimler Tercih Edebilir?",
+        "dialogtitle": "Dijital Dönüşüm Kutusu: Google, Meta ve Web Sitesi Entegrasyonu ve Bütünsel Yönetimi",
+        "description": "İşletmenizin dijital dünyada sürdürülebilir başarıya ulaşmasını hedefleyen bu kutu hizmeti, Google ve Meta platformlarında stratejik reklam kampanyalarını profesyonel bir web sitesiyle entegre eder. Kısa vadeli kazançların ötesine geçerek, orta ve uzun vadede markanızın bilinirliğini artırmayı, müşteri kitlenizi genişletmeyi ve online varlığınızı güçlendirmeyi amaçlar. Dijital pazarlama uzmanlarımız, bütçenizi etkili bir şekilde yönetip uzun vadeli büyüme sağlayacak sonuçlar elde etmenizi sağlar. Dijital Dönüşüm Kutusu hizmetine aşağıda ki gibi firmalar etkin olarak katılabilir.",
+        "title": "Hangi Sektörker İçin Uygundur?",
+        "list": ["Hizmet Sektörü", "Eğitim Sektörü", "Sağlık Sektörü"],
+
+        "p": " <b> Not: </b> Orta ve uzun vadede online varlığını güçlendirmek isteyen işletmeler Dijital Dönüşüm kutusundan faydalanabilir."
+      },
+
+      "conversionDiscount": "Özel İndirim Fırsatı | Sınırlı",
+
+      "advantageConversion": {
+        "title": "Dijital Dönüşüm Kutusunun Avantajları",
+        "span": "Dijital Dönüşüm Kutusunun Avantajları",
+        "description": "Dijital Dönüşüm Kutusunda 3 farklı hizmetin bütünüyle ele alınarak işlenmesi ve yönetilmesi birçok avantaj sağlamıştır.",
+
+        "metaManage": "Meta Yönetmi",
+
+        "features1": {
+          "type": "Meta Setup",
+          "frequency": "2500₺ değerinde ücretsiz kurulum"
+        },
+        "features2": {
+          "type": "Reklam Türleri",
+          "frequency": "4 Adet"
+        },
+
+        "features3": {
+          "type": "Kurumsal Tasarım",
+          "frequency": "3750₺ değerinde ücretsiz tasarım"
+        },
+
+        "features4": {
+          "type": "Sosyal Medya İçerik Yönetimi",
+          "frequency": "Desteklenmektedir"
+        },
+
+        "link1": "/instagram-sponsorlu-reklam",
+        "span1": "ProBox Meta reklam kutusu referans alınmıştır.",
+
+        "googleAds": "Google Ads Yönetimi",
+
+        "features5": {
+          "type": "Google Ads Hesabı",
+          "frequency": "Ücretsiz kurulum"
+        },
+
+        "features6": {
+          "type": "Reklam Türleri",
+          "frequency": "4 adet reklam türü"
+        },
+
+        "features7": {
+          "type": "Google İşletmem Hesabı",
+          "frequency": "1500₺ değerinde ücretsiz kurulum"
+        },
+
+        "link2": "/google-ads-reklam-yonetimi",
+        "span3": "ProBox Google reklam kutusu referans alınmıştır.",
+
+        "features8": {
+          "type": "Website Tasarım",
+          "frequency": "Ücretsiz sunulmaktadır"
+        },
+
+        "webDesign": "Website Tasarım ve Geliştirme",
+
+        "features9": {
+          "type": "Domain - Hosting",
+          "frequency": "İlk sene ücretsiz"
+        },
+
+        "features10": {
+          "type": "SSL Sertifikası",
+          "frequency": "Ücretsiz"
+        },
+
+        "link3": "/web-sitesi-yaptirma",
+        "span4": "Meta - Instagram ve Facebook Yönetimi"
+      },
+
+      "span1": "Detaylı Bilgilendirme",
+      "span2": "Dengeli ve Aşamalı İlerleme",
+      "p1": "Dijital Dönüşüm Kutusunda 3 farklı derinlikte hizmet mevcut. Bu hizmetleri dengeli bir şekilde yöneterek aşamalı ilerleme planlanmaktadır.",
+      "span3": "Hareket Planı",
+      "p2": "Yedi gün hareket planı vardır. Yedi gün ardından uygulanacak birinci adım işleyişi başlar.",
+      "step1": "Birinci Adım",
+      "span4": "Birinci Adım | Online Varlıkların Kurulumu ve Yönetimi",
+      "list1": [
+        "Meta Hesap Kurulumları + Kurumsal Tasarım",
+        "İnstagram | Facebook Hesapları Yönetimi",
+        "İnstagram | Facebook Hesapları Reklam Yönetimi",
+        "Web Site Tasarımı"
+      ],
+      "span5": "Sosyal Medya Yönetimi",
+      "p3": "Sosyal medya yönetimi haftalık işlenen bir konudur. Hafalık toplam 2-3 adet görsel paylaşım ve video(reels) paylaşımı ile desteklenmektedir. Bizim tarafımızca özelleştirilmiş `merhaba` hikayeleri haftanın 4 gönü paylaşılmaktadır. Sosyal medya içerik planlaması tamamen kurumsal bir yapıya hizmet etmektedir. Sosyal medya, reklamlar ve website içerik yapılanması bir bütünsel çalışmadan ibarettir.",
+      "span6": "İnstagram | Facebook Kurumsal Tasarım",
+      "li": "◆Facebook & İnstagram profesyonel hesaplarının açılması ◆Meta hesapların biyografi bilgilerinin oluşturulması ◆profil ve kapak görsellerinin oluşturulması ◆CTA butonunun oluşturulması ◆görsel şablonu oluşturuyoruz ◆kalıcı hikayelerin ikonik yapılarını hazırlıyoruz",
+      "deg": "değerinde mevcut hizmet",
+
+      "span7": "Sosyal Medya Yapısal İçerik Planlaması",
+      "p4": "Bir internet kullanıcısının hesabımıza girdiğinde aradığı iletişim bilgilerine ulaşabilmesi sosyal medya düzeni, içerik planlaması ve işletmenin verdiği hizmetleri görebilmesini sağlamaktayız. Genel olarak detaylı bilgi edinmelerini sağlıyoruz. Tüm özellikleri beraber kullanarak aktif bir sosyal medya ile potansiyel müşterimizin güvenini kazanmak hedeflenir",
+      "spanY": "Sosyal Medya Özel Günler Paylaşımı",
+      "p5": "Birçok özel günün paylaşımı görsel olarak yapılmaktadır.",
+      "span8": "Sosyal Medya Kitle Artırmak Hakkında",
+      "p6": "Özellikle instagram işletme hesabınızda ki takipci kitlesi işletmenizle alakalı bir kitle olmalı. Bu kitle algoritmanızı beslemektedir. Algoritmanız mevcudiyedinizde kitlenin özelliklerine göre genişlemektedir. Tarafımızca oluşturulmuş reklam kreatifleri ile doğru kitleye ulaşıyoruz. Bu kitleleride mevcut sayfamızı takip etmelerini sağlatıyoruz.",
+      "span9": "Meta Kurulumları",
+      "li1": "◆Meta Business Suit kurulumu ◆Meta Business Manager kurulumu ◆Meta Pixel Kodu kurulumu",
+      "deg1": "değerinde mevcut hizmet",
+
+      "span10": "Meta Reklam Türleri",
+      "list4": [
+        "İnstagram Profiline Git",
+        "Yeniden Hedefleme (Retargeting)",
+        "Trafik Reklamı",
+        "Dönüşüm Kampanyası (Opsiyonel)"
+      ],
+      "span11": "Meta Kitle Araştırması",
+      "p7": "Kreatif odaklı yapay zeka destekli hedef kitleye ulaşıyor ve geliştiriyoruz..",
+      "span12": "Meta Özel Hedef Kitle",
+      "p8": "Meta reklam yönetiminde özel hedef kitle reklam stratejisine göre tercih edilebilir.",
+      "span13": "Meta Benzer Hedef Kitle",
+      "p9": "Meta reklam yönetiminde benzer hedef kitle kullanılmaktadır.",
+      "span14": "Reklam Süresi ve Optimizasyonu",
+      "p10": "Strateji odaklı reklam planlaması yapılmaktadır.Her reklam aylık bazda planlanır, haftalık değerlendirilir ve optimize edilir.",
+      "span15": "Meta Reklam İçeriği",
+      "p11": "Reklam içerik çalışması, çalışılan şirketin kurumsal kimliği baz alınarak ve trend kreatifler göz önünde bulundurularak yapılmaktadır. Aynı zamanda sektörel tecrübeler de dahil edilerek uygun görsel kreatifler farklı formatlarda ortaya çıkarılmaktadır. Ayrıca reklam içeriğinde kanca metin ve kanca görsel uygulanmaktadır.",
+      "span16": "Meta Reklam Metni Oluşturma",
+      "p12": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturulmaktadır..",
+      "span17": "Reklam Raporu ve Öneri",
+      "p13": "Haftalık reklam raporu: Gösterim - Erişim - Tıklama - Maliyet olarak size iletilmektedir. Reklam hedefi ve önerileri paylaşılmaktadır.",
+      "span18": "Google Hesap Kurulumları",
+      "li3": "Google Ads ◆ Google Analystic ◆ Google Tag Manager ◆ Google Search Console",
+      "deg2": "değerinde mevcut hizmet",
+
+      "span19": "Website Tasarım",
+      "p14": "Website Tasarım Dijital Dönüşüm Kutumuzda, Website Tasarım Hizmeti referans alınmaktadır, bu hizmette ücretsiz sunulmaktadır. Kısacası; dijital pazarlama araçları ile entegre kullanılarak dönüşüm odaklı bir web sitesi kurmak, işletmenizle alakalı gelişmiş içerik planlaması ve SEO hizmeti verilmek hedeflenmektedir.",
+      "span20": "Uygun Görülen Bütçe",
+      "p15": "Dijital Dönüşüm Kutusunda reklam bütçesi; meta reklamları ve google ads reklamlarını kapsamakatadır. Lakin bu hizmet küçük ve orta büyüklükteki firmalar için tasarlanmıştır. Hizmetin işleyişi ve bütçe yönetimi belirli bir stratejiye göre yapılmaktadır. Online varlıkları geliştirmeye bağlı olarak ilk zamanlarda Meta Reklamlarına bütçe ayrılması planlanır. <span> Bu bütçe minimum 10.000₺`dir. </span>",
+      "span21": "Google İşletme Hesabı Kurulumu",
+      "p16": "Google işletme hesabınız oluşturularak sizden aldığımız bilgiler neticesinde doldurulur. Organik aramalarda işletmenizin konum bilgisi vermesi çok önem arz etmektedir. Arama sonuçlarında logonuzun, iletişim bilgilerinizin ve işletmenizle alakalı görsellere yer verilmesi potansiyel müşterileriniz için fayda sağlamaktadır. Aynı zamanda google işletme kaydı olan işletmelerin google ads reklamlarında da konum gösteren reklamları yayınlanabilmesi münkün olabilmektedir.",
+
+      "span22": "İkinci Adım",
+      "span23": "İkinci Adım | Tüm Dijital Varlıkların Bütünsel Kullanımı",
+      "list6": [
+        "Website Dönüşümlerinin Kurulması",
+        "Google Ads Reklamlarının Yönetimi"
+      ],
+
+      "span24": "Bütçenin Kontollu Kullanımı",
+      "p17": "İşletmenin geliştirme adımı aşamasında oturmuş kurumsal bir kimlik olduğu işletmenin artık birçok pontasiyel müşterisinin olduğu çeşitli kampanyalarla desteklendiği bir süreç olduğu varsayılır. Geliştirme adımında mevcut bütçeyi meta reklamlarına ve google reklamlarına reklam stratejisine göre optimize etmek hedeflenir. İşletmenin hedefleri bu aşamada daha fazla potansiyel müşterilere ulaşmak olur.",
+      "span25": "Google Ads Reklam Türleri",
+      "list7": [
+        "Arama Ağı Reklmaları (PPC)",
+        "Yeniden Hedefleme (opsiyonel)",
+        "Görüntülü Reklam Ağı",
+        "Maksimum Performans Reklamları"
+      ],
+      "span26": "Bütünsel Yaklaşım",
+      "p18": "Pazarlama yöntemlerimizi tamamladıktan sonra nihai hedefimiz, potansiyel müşterilerimizle doğrudan etkileşim kurmaktır. Bu, müşterilerimizin bizi araması, WhatsApp üzerinden sohbet başlatması ya da form doldurarak başvuru veya randevu oluşturması gibi farklı yollarla gerçekleşebilir. Bu süreci desteklemek için bütçemizi Meta ve Google reklamlarında dengeli bir şekilde kullanarak adım adım ilerliyor, doğru hedeflemelerle etkili sonuçlar almayı amaçlıyoruz."
+    }
+  },
+
+  "ReferancePage": {
+    "span": "Neler Yaptık?",
+    "title": "SetToBox / Referanslarımız",
+
+    "durunetReferance": {
+      "span": "Hizmet Sektörü Dijital Pazarlama",
+      "span1": "Dijital Pazarlama Dönüşüm Kutusu",
+      "li1": "Facebook & Instagram Yönetimi",
+      "li2": "Google Ads Reklam Yönetimi",
+      "li3": "Web Tasarım Hizmeti",
+      "description": "Firmanın online varlıkları tümüyle <a> Dijital Pazarlama Dönüşüm Kutusu </a> içerik yapısı ile yönettik.",
+      "link": "/dijital-pazarlama-donusum-kutusu",
+      "span2": "Referans Amaçlı Paylaşılmıştır."
+    },
+
+    "ihcReferance": {
+      "span": "Eğitim Sektörü Dijital Pazarlama",
+      "span1": "ProBox Meta + Mega Web",
+      "li1": "Facebook & Instagram Yönetimi",
+      "li2": "Web Tasarım Hizmeti",
+
+      "description": "Firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.",
+      "link": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+      "span2":"<a> Detaylı İncele </a>",
+      "span3": "Referans Amaçlı Paylaşılmıştır."
+    },
+
+    "xrealnetReferance": {
+      "span": "Hizmet Sektörü Dijital Pazarlama",
+      "span1": "Mega Web",
+      "li1": "Web Tasarım Hizmeti",
+
+      "description": "Kuzey Kıbrısta bulunan firmanın kurumsal web tasarım hizmeti tasarlandı. İçerik planlaması ve SEO alt yapısı düzenlendi.",
+      "span2": "Detaylı İncele",
+      "link": "/#",
+      "span3": "Referans Amaçlı Paylaşılmıştır."
+    }
+  },
+
+  "InfoForm": {
+    "title":"Bilgi Formu",
+    "name":"Adınız",
+    "lastName":"Soy Adınız",
+    "selectService":"Hizmet Seçiniz",
+    "select":"Seçiniz",
+    "meta":
+      "İnstagram & Facebook Reklam Yönetimi",
+    "google":  "Google Ads Reklam Yönetimi",
+    "web":  "Web Site Tasarımı",
+    "conversionBox":  "Dijital Dönüşüm Kutusu",
+    "generalInfo":  "Genel Bilgilendirme",
+ 
+
+    "phone":"Telefon Numaranız",
+    "mail":"Email Adresiniz",
+    "send":"Gönder"
+  },
+
+  "DronePage": {
+
+    "manavgat": {
+
+      "header": {
+      "title":"Manavgat Drone Çekimleri İçin Bizimle İletişime Geçin",
+      "description":"Manavgat ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+      "callNow":"Şimdi Ara"
+      },
+
+      "droneAdditional":{
+        "features1": {
+          "title":"4K Yüksek Kalite",
+          "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
+        },
+        "features2": {
+          "title":"Sosyal Medya Uyumlu",
+          "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
+        },
+        "features3": {
+          "title":"2 Ay Data Garantisi",
+          "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
+        },
+        "features4": {
+          "title":"Ehliyetli Operatör",
+          "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
+        },
+        "features5":{
+          "title":"DJI Mini 3",
+          "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+        },
+        "features6":{
+          "title":"Opsiyonel Hizmetler",
+          "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
+        }
+      },
+
+      "droneBoxes": {
+        
+        "miniDroneBox": {
+          "title":"Drone Çekimi | Ham Video - Görsel",
+          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange":"2.500₺ - 4.000₺",
+
+          "list": {
+              "li1":"Yatay Drone Çekimi",
+              "li2":"Dikey Drone Çekim (story için)",
+              "li3":"Emlak ve Arsa Drone Çekimleri",
+              "li4":"Yapı İnşaat ve Sera Çekimleri",
+              "li5":"Öncesi ve Sonrası Çekimler",
+              "li6":"Projeye Drone Operatör Desteği"
+          },
+
+          "whatsaAppContact": "Whatsapp İletişim"
+        },
+        
+        "megaDroneBox":{
+          "title":"Drone Çekimi | Sosyal Medya İçerik",
+          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange":"6.500",
+
+          "list": {
+              "li1":"Yatay Drone Çekimi",
+              "li2":"Dikey Drone Çekim (story için)",
+              "li3":"Emlak ve Arsa Drone Çekimleri",
+              "li4":"Yapı İnşaat ve Sera Çekimleri",
+              "li5":"Öncesi ve Sonrası Çekimler",
+              "li6":"Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5":"3 Adet Story Video ve Görsel",
+            "li6":"Yatay ve Dikey Video 1 Adet"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
+        },
+
+        "proDroneBox":{
+          "title":"Drone Çekimi | Prodüksiyon | Özel Video",
+          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange":"7.000₺ + 5.000₺",
+
+          "list": {
+              "li1":"Yatay Drone Çekimi",
+              "li2":"Dikey Drone Çekim (story için)",
+              "li3":"Emlak ve Arsa Drone Çekimleri",
+              "li4":"Yapı İnşaat ve Sera Çekimleri",
+              "li5":"Öncesi ve Sonrası Çekimler",
+              "li6":"Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5":"3 Adet Story Video ve Görsel",
+            "li6":"Özelleştirilmiş Video",
+            "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
+            "li8":"İnstagram Sponsorlu Reklam Hizmeti"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
+        }
+      },
+
+      "droneVideoComponent":{
+        "title":"İşinizi Gösterin",
+        "list": [
+          "İş sürecinden video kesitleri",
+          "İş yerinizden + personelinizden video kesitleri",
+          "Konumsal bilgilendirmeler"
+        ],
+        "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>manavgat bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+        "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "mapVideoComponent": {
+        "title":"Adresiniz Tam Olarak Nerede?",
+        "list": [
+          "Video Animasyon","Kanca Metin", "Kanca Görsel"
+        ],
+        "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
+        "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "swiperExample":{
+        "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
+        "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+      },
+      
+      "accordionDrone": {
+        "span":"Sıkça Sorulanlar ve Merak Edilenler",
+        "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+        "list": [
+          "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
+          "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
+          "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
+          "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
+        ],
+        "subtitle2":"2025 Drone Çekim Fiyatları Manavgat",
+          "prices1":"Paket 1 :2.500 - 4.000₺",
+          "prices2":"Paket 2 :6.500₺",
+          "prices3":"Paket 3 :7.000₺ + 5.000₺ ",
+
+          "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+          "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+          "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+          "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+          "subtitle5":"Randevu Hakkında",
+          "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+          "subtitle6":"Güvenli Drone Uçurabilme Durumları",
+          "description7":"Hava şartlarının uygunluğu: Yağmurlu ve çok rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+          "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      }
+     
+    },
+
+    "alanya": {
+
+      "header": {
+        "title":"Alanya Drone Çekimleri İçin Bizimle İletişime Geçin",
+        "description":"Alanya ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+        "callNow":"Şimdi Ara"
+        },
+  
+        "droneAdditional":{
+          "features1": {
+            "title":"4K Yüksek Kalite",
+            "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
+          },
+          "features2": {
+            "title":"Sosyal Medya Uyumlu",
+            "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
+          },
+          "features3": {
+            "title":"2 Ay Data Garantisi",
+            "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
+          },
+          "features4": {
+            "title":"Ehliyetli Operatör",
+            "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
+          },
+          "features5":{
+            "title":"DJI Mini 3",
+            "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+          },
+          "features6":{
+            "title":"Opsiyonel Hizmetler",
+            "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
+          }
+        },
+  
+        "droneBoxes": {
+          
+          "miniDroneBox": {
+            "title":"Drone Çekimi | Ham Video - Görsel",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"2.500₺ - 4.000₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "whatsaAppContact": "Whatsapp İletişim"
+          },
+          
+          "megaDroneBox":{
+            "title":"Drone Çekimi | Sosyal Medya İçerik",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"6.500₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "list2": {
+              "li5":"3 Adet Story Video ve Görsel",
+              "li6":"Yatay ve Dikey Video 1 Adet"
+            },
+            "whatsaAppContact": "Whatsapp İletişim"
+          },
+  
+          "proDroneBox":{
+            "title":"Drone Çekimi | Prodüksiyon | Özel Video",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"7.000₺ + 5.000₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "list2": {
+              "li5":"3 Adet Story Video ve Görsel",
+              "li6":"Özelleştirilmiş Video",
+              "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
+              "li8":"İnstagram Sponsorlu Reklam Hizmeti"
+            },
+            "whatsaAppContact": "Whatsapp İletişim"
+          }
+        },
+  
+        "droneVideoComponent":{
+          "title":"İşinizi Gösterin",
+          "list": [
+            "İş sürecinden video kesitleri",
+            "İş yerinizden + personelinizden video kesitleri",
+            "Konumsal bilgilendirmeler"
+          ],
+          "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Alanya Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+  
+        "mapVideoComponent": {
+          "title":"Adresiniz Tam Olarak Nerede?",
+          "list": [
+            "Video Animasyon","Kanca Metin", "Kanca Görsel"
+          ],
+          "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Alanya İlçesinde</strong> reklam gösterimi yapabiliriz.",
+          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+  
+        "swiperExample":{
+          "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
+          "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+        },
+        
+        "accordionDrone": {
+          "span":"Sıkça Sorulanlar ve Merak Edilenler",
+          "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+          "list": [
+            "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
+            "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
+            "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
+            "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
+          ],
+          "subtitle2":"2025 Drone Çekim Fiyatları Alanya",
+            "prices1":"Paket 1 :2.500₺ - 4.000₺",
+            "prices2":"Paket 2 :6.500₺",
+            "prices3":"Paket 3 :7.000₺ + 5.000₺",
+  
+            "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+            "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+            "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+            "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+            "subtitle5":"Randevu Hakkında",
+            "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+            "subtitle6":"Güvenli Drone Uçurabilme Durumları",
+            "description7":"Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+            "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+        }
+      
+    },
+
+    "serik": {
+      "header": {
+        "title":"Serik Bölgesinde Drone Çekimleri İçin Bizimle İletişime Geçin",
+        "description":"Serik ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+        "callNow":"Şimdi Ara"
+        },
+  
+        "droneAdditional":{
+          "features1": {
+            "title":"4K Yüksek Kalite",
+            "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
+          },
+          "features2": {
+            "title":"Sosyal Medya Uyumlu",
+            "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
+          },
+          "features3": {
+            "title":"2 Ay Data Garantisi",
+            "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
+          },
+          "features4": {
+            "title":"Ehliyetli Operatör",
+            "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
+          },
+          "features5":{
+            "title":"DJI Mini 3",
+            "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+          },
+          "features6":{
+            "title":"Opsiyonel Hizmetler",
+            "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
+          }
+        },
+  
+        "droneBoxes": {
+          
+          "miniDroneBox": {
+            "title":"Drone Çekimi | Ham Video - Görsel",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"2.500₺ - 4.000₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "whatsaAppContact": "Whatsapp İletişim"
+          },
+          
+          "megaDroneBox":{
+            "title":"Drone Çekimi | Sosyal Medya İçerik",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"6.500₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "list2": {
+              "li5":"3 Adet Story Video ve Görsel",
+              "li6":"Yatay ve Dikey Video 1 Adet"
+            },
+            "whatsaAppContact": "Whatsapp İletişim"
+          },
+  
+          "proDroneBox":{
+            "title":"Drone Çekimi | Prodüksiyon | Özel Video",
+            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
+            "princeRange":"7.000₺ + 5.000₺",
+  
+            "list": {
+                "li1":"Yatay Drone Çekimi",
+                "li2":"Dikey Drone Çekim (story için)",
+                "li3":"Emlak ve Arsa Drone Çekimleri",
+                "li4":"Yapı İnşaat ve Sera Çekimleri",
+                "li5":"Öncesi ve Sonrası Çekimler",
+                "li6":"Projeye Drone Operatör Desteği"
+            },
+  
+            "list2": {
+              "li5":"3 Adet Story Video ve Görsel",
+              "li6":"Özelleştirilmiş Video",
+              "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
+              "li8":"İnstagram Sponsorlu Reklam Hizmeti"
+            },
+            "whatsaAppContact": "Whatsapp İletişim"
+          }
+        },
+  
+        "droneVideoComponent":{
+          "title":"İşinizi Gösterin",
+          "list": [
+            "İş sürecinden video kesitleri",
+            "İş yerinizden + personelinizden video kesitleri",
+            "Konumsal bilgilendirmeler"
+          ],
+          "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Serik Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+  
+        "mapVideoComponent": {
+          "title":"Adresiniz Tam Olarak Nerede?",
+          "list": [
+            "Video Animasyon","Kanca Metin", "Kanca Görsel"
+          ],
+          "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Serik İlçesinde</strong> reklam gösterimi yapabiliriz.",
+          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+  
+        "swiperExample":{
+          "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
+          "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+        },
+        
+        "accordionDrone": {
+          "span":"Sıkça Sorulanlar ve Merak Edilenler",
+          "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+          "list": [
+            "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
+            "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
+            "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
+            "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
+          ],
+          "subtitle2":"2025 Drone Çekim Fiyatları Serik",
+            "prices1":"Paket 1 :2.500 - 4.000₺",
+            "prices2":"Paket 2 :6.500₺",
+            "prices3":"Paket 3 :7.000₺ + 5.000₺",
+  
+            "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+            "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+            "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+            "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+            "subtitle5":"Randevu Hakkında",
+            "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+            "subtitle6":"Güvenli Drone Uçurabilme Durumları",
+            "description7":"Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+            "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+        }
+      
+    }
+
+  }
+
+}
