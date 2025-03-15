@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import IhcLogo from '../../../../../public/images/İhc/ihcLogo.png';
 import MetaProBox from '@/public/images/pro-box.webp';
 import MegaWeb from '@/public/images/megaWeb.webp';
 import { MdCircle, MdDoneAll } from 'react-icons/md';
@@ -14,7 +13,7 @@ const IhcReferance = () => {
     <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
-          <Image src={IhcLogo} className="max-w-[50px]" alt="Referans Görsel" />
+          <Image src="images/İhc/ihcLogo.png" className="max-w-[50px]" alt="Referans Görsel" />
         </div>
         <h3 className="mt-2 text-lg font-semibold">International Company</h3>
         <p className="text-sm text-gray-400">{t("ihcReferance.span")}</p>

@@ -1,7 +1,5 @@
 "use client";
 import Image from 'next/image';
-
-import BannerReferans from '../../../../../public/images/bannerReferans.jpg';
 import { useTranslations } from 'next-intl';
 import { Suspense } from 'react';
 import Loading from '../../_components/Loadling/Loading';
@@ -20,9 +18,11 @@ const BannerReferance = () => {
       <Suspense fallback={<Loading/>}>   {/* Loading çalışmıyor */}
         <div className='w-full'>
           <Image
-            src={BannerReferans}
+            src="/images/bannerReferans.jpg"
             className="w-full h-[400px] object-cover"
             alt="Referanslarımız Banner"
+            width={700}
+            height={500}
           />
         </div>
       </Suspense>

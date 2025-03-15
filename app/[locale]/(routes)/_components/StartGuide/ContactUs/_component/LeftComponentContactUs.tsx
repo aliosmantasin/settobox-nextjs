@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/card"
 
 import Image from "next/image"
-import TeamLeader from '../../../../../../../public/images/teamLeader.jpeg'
 import Link from "next/link"
 
 
@@ -20,7 +19,7 @@ import Link from "next/link"
     <Card className="w-[350px] border border-indigo-700">
       <div className="text-center">
       <CardHeader className="">
-        <Image className="rounded-full w-24 h-24 mx-auto" src={TeamLeader} alt="Takım Lideri" width={150} height={150}/>
+        <Image className="rounded-full w-24 h-24 mx-auto" src="/images/teamLeader.jpeg" alt="Takım Lideri" width={150} height={150}/>
         <CardTitle>Ali Osman Taşın</CardTitle>
         <CardDescription>Dijital Pazarlama Danışmanı</CardDescription>
       </CardHeader>

@@ -1,6 +1,3 @@
-
-
-import DurunetLogo from '../../../../../public/images/durunetGorsel/durunetLogo.png';
 import DijitalDonusumKutusu from '@/public/images/DigitalDonusumKutusu.webp';
 import Image from 'next/image';
 import { MdCircle, MdDoneAll } from 'react-icons/md';
@@ -14,7 +11,7 @@ const DurunetReferance = () => {
     <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
-          <Image src={DurunetLogo} className="max-w-[120px]" alt="Referans Görsel" />
+          <Image src="images/durunetGorsel/durunetLogo.png" className="max-w-[120px]" alt="Referans Görsel" />
         </div>
    
         <span className="text-sm text-gray-400 mt-3">{t("durunetReferance.span")}</span>

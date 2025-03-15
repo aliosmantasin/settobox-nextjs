@@ -298,7 +298,7 @@ const initialState: SectorState = {
         ],
 
         images: {
-          src : WebIhc.src,
+          src : "images/durunetGorsel/WebIhc.png",
           width : WebIhc.width,
           height: WebIhc.height,
           alt: "Website Tasarım Örneği",
