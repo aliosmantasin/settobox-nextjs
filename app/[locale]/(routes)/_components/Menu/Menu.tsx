@@ -13,8 +13,8 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
-
 import { useTranslations } from "next-intl";
+// import { FcShop } from "react-icons/fc";
 
 // ListItem bileşeni
 const ListItem = React.forwardRef<
@@ -33,7 +33,7 @@ const ListItem = React.forwardRef<
           {...props}
         >
           <div className="text-sm font-medium leading-none">{title}</div>
-          <div className="line-clamp-3 text-sm leading-snug text-muted-foreground cursor-pointer">
+          <div className="line-clamp-4 text-sm leading-snug text-muted-foreground cursor-pointer">
             {children}
           </div>
         </span>
@@ -53,7 +53,7 @@ export function Menu() {
     <div className="hidden sm:flex mx-auto items-center">
       <NavigationMenu>
         <NavigationMenuList>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="mr-5">
             <Link href="/" legacyBehavior passHref>
               <NavigationMenuLink 
               
@@ -111,24 +111,54 @@ export function Menu() {
 
                     <Link href={t("link2")}>
                       <ListItem className="flex-col">
-                      <span className="font-bold">{t("span2")}</span>
+                      <span className="font-semibold primary-light">{t("span2")}</span>
                       <p>{t("description2")}</p>
                     </ListItem>
                     </Link>
 
                     <Link href={t("link3")}>
                     <ListItem className="row-span-4">
-                      <span className="font-bold">{t("span3")}</span>
+                      <span className="font-semibold primary-light">{t("span3")}</span>
                       <p>{t("description3")}</p>
                     </ListItem>
                     </Link>
 
                     <Link href={t("link4")}>
                     <ListItem className="row-span-4">
-                      <span className="font-bold">{t("span4")}</span>
+                      <span className="font-semibold primary-light">{t("span4")}</span>
                       <p>{t("description4")}</p>
                     </ListItem>
                     </Link>
+
+                    {/* <Link href="/#" className="border border-indigo-100 rounded-lg">
+                    <ListItem className="row-span-4">
+                      <div className="flex item-center">
+                      <span>
+                      <FcShop className="text-5xl m-2"/>
+                      </span>
+                      <div>
+                      <span className="font-semibold">Bölgesel Hizmet Veren Firmalar</span>
+                      <p>Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin</p>
+                      </div>                     
+                      </div>                
+                    </ListItem>
+                    </Link>
+
+                    <Link href="/#" className="border border-indigo-100 rounded-lg">
+                    <ListItem className="row-span-4">
+                      <div className="flex item-center">
+                      <span>
+                      <FcShop className="text-5xl m-2"/>
+                      </span>
+                      <div>
+                      <span className="font-semibold">Bölgesel Hizmet Veren Firmalar</span>
+                      <p>Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin</p>
+                      </div>                     
+                      </div>                
+                    </ListItem>
+                    </Link> */}
+
+
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>

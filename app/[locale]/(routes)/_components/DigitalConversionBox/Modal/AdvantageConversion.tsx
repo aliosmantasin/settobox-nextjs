@@ -74,7 +74,6 @@ export default function AdvantageConversion() {
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogContent className="max-w-lg overflow-y-auto max-h-[80vh] sm:max-h-[%80] sm:h-auto">
             <DialogHeader>
-
               <DialogTitle className="flex items-center justify-between">
                 <span>{t("dijitalMarketingConversionProduct.advantageConversion.span")}</span> 
               </DialogTitle>

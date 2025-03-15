@@ -16,13 +16,14 @@ const nextConfig: NextConfig = {
     RECAPTCHA_SECRET_KEY: process.env.RECAPTCHA_SECRET_KEY,
   },
 
-
+ // Görsel
   images: {
+    domains: ['res.cloudinary.com'],
 
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'media.settobox.com',
+        hostname: 'res.cloudinary.com',
         port: '',
         pathname: '/images/**',
         search: '',

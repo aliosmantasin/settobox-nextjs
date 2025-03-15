@@ -26,10 +26,10 @@ export default function StartContactConversion() {
               <li   className='flex p-1'>
 
               <Button variant="ghost">
-                  <Link
-                      href="https://api.whatsapp.com/send?phone=05437214839&amp;text=Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
-                      target="_blank"
-                      rel="noopener noreferrer"
+                   <Link
+                       href="https://wa.me/905437214839?text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum.."
+                       target="_blank"
+                       rel="noopener noreferrer"
                       className='flex gap-2'
                   >
                       <MessageCircle className="h-5 w-5 text-green-500" /> {t("startContactConversion.whatsaAp")}

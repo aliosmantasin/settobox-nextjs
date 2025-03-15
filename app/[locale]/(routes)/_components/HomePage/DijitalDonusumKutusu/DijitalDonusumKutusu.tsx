@@ -1,9 +1,11 @@
+"use client"
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Loading from "../../Loadling/Loading";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 
 const DijitalDonusumKutusu = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
@@ -19,6 +21,12 @@ const DijitalDonusumKutusu = () => {
   const listItems = t.raw("list"); // 🔹 `t.raw` kullanarak JSON'daki diziyi al
 
   return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true, amount: 0.4 }} // Görünür olma koşulunu daha hassas yap
+    transition={{ duration: 3 }}
+  >
     <section className="my-20 flex">
       <div className="container my-20 flex flex-wrap mx-auto">
         {/* Mobile title */}
@@ -80,6 +88,7 @@ const DijitalDonusumKutusu = () => {
         </div>
       </div>
     </section>
+    </motion.div>
   );
 };
 

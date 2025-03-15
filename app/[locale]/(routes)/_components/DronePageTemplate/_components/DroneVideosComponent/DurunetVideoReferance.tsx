@@ -19,7 +19,7 @@ const DurunetVideoReferance = () => {
         onPlay={() => setIsPlaying(true)} 
       
       >
-        <source src="https://media.settobox.com/videos/PrivateVideo.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dydji2imy/video/upload/v1742061721/PrivateVideo_tzfbnu.mp4" type="video/mp4" />
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
 

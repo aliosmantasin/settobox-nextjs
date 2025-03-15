@@ -34,9 +34,17 @@ import Link from "next/link"
       <CardFooter className="flex justify-between">
         <Link href="/bilgi-alma-formu">
         <Button variant="outline">Bilgi Al</Button></Link>
-        <Button>
-        <a href="https://api.whatsapp.com/send?phone=05437214839&amp;text=Merhabalar SetToBox web sitesinden iletişime geçiyorum.." target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2  hover:underline"><span>WhatsApp İletişim</span></a>
-        </Button>
+          <Button>
+            <a
+              href="https://wa.me/905437214839?text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum.."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 hover:underline"
+            >
+              <span>WhatsApp İletişim</span>
+            </a>
+          </Button>
+
       </CardFooter>
       </div>
     </Card>

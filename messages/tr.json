@@ -31,6 +31,8 @@
     "sub1": "Kurumsal",
     "span1": "Ana Sayfa",
     "linkA1": "/",
+    "spanServices": "Hizmetlerimiz",
+    "linkServices": "/settobox-hizmetler",
     "span2": "Referanslar",
     "linkA2": "/settobox-referanslar",
 
@@ -41,9 +43,13 @@
     "linkB2": "/google-ads-reklam-yonetimi",
     "span5": "Website Tasarım Hizmeti",
     "linkB3": "/web-sitesi-yaptirma",
+    "spanConversion": "Dijital Dönüşüm Kutusu",
+    "linkConversion": "/dijital-pazarlama-donusum-kutusu",
 
     "sub3": "Size Yardımcı Olabiliriz?",
-    "span6": "Whatsapp Destek"
+    "span6": "Whatsapp Destek",
+    "span7":"© 2025 SetToBox | Dijital Pazarlamaya Bütünsel Yaklaşım ve Danışmanlık Hizmeti",
+    "span8":"Tüm Hakları Saklıdır."
   },
 
   "HomePage": {
@@ -150,7 +156,7 @@
     "span15": "Reklam Metni Oluşturma",
     "p14": "İşletmenizle alakalı hedef kitlenizi harekete geçirici metin çalışmaları oluşturma.(Satış odaklı metin yazarlığı) Ve bunu kreatifte uygulama",
     "span16": "Reklam Raporu",
-    "p15": "Haftalık reklam raporu: Gösterim - Erişim - Tıklama - Maliyet olarak size iletilmektedir.",
+    "p15": "Aylık reklam raporu: Gösterim - Erişim - Tıklama - Maliyet olarak size iletilmektedir.",
     "span17": "MiniBox İçeriği",
     "p16": "Başlangıç facebook/instagram reklam yönetimidir. İşletmeniz için hazırlanan kreatif ile temel olarak mesaj başlatmak, trafik çekmek ve etkileşim oluşturmak hedeflenir. Bu kutu içeriğinde detaylı hedefleme ve pazarlama yöntemleri kullanılmadığı için pixel koduna ihtiyaç yoktur. Daha çok web sitesi kullanmayan müşterilerimiz için planlanmıştır.",
     "span18": "Uygun Görülen Bütçe",
@@ -325,7 +331,7 @@
     "googleInfo": {
       "sub1": "Herkese Göre",
       "sub2": "Sponsorlu Reklam Hizmeti",
-      "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileriyle google ads`te reklam vererek potansiyel müşterilere ulaşın. Tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın."
+      "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileri ile google ads`te reklam vererek potansiyel müşterilere ulaşın. Google Haritalara kayıt da dahil olmak üzere tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın."
     },
 
     "googleAdditional": {
@@ -381,6 +387,7 @@
       },
 
       "span1": "%10 İndirim Avantajı",
+      "freeWebSupport": "Ücretsiz Web Tasarım Avantajı",
 
       "span2": "Detaylı Bilgilendirme",
       "spanHareketPlani": "Hareket Planı",
@@ -412,7 +419,7 @@
       "span13": "Google MiniBox İçeriği",
       "p11": "Reklamlar, kullanıcıların belirli anahtar kelimeleri aradığında sonuç sayfasının üstünde veya altında görünür. Temel olarak düşük bütçe ile doğrudan müşteriye odaklanan google arama ağı reklam türüne odaklanıyoruz.",
       "span14": "Uygun Görülen Bütçe",
-      "p12": "Arama Ağı reklamları aylık minumum 5.000TL bütçe uygun görülmektedir. Bütçe anahtar kelime fiyatına, rekabete ve talebe göre değişkenlik gösterir",
+      "p12": "Arama Ağı reklamları aylık minumum 7.500TL bütçe uygun görülmektedir. Bütçe anahtar kelime fiyatına, rekabete ve talebe göre değişkenlik gösterir",
       "span15": "Google Ads Setup",
       "p13": "Bir Google Ads hesabınız yok ise ücretsiz kurulum sağlıyoruz. Reklam yapılandırması google ads hesabı üzerinden yapılmaktadır. Bir web siteniz var ise web sitenize yönlendiren arama ağı reklamı da oluşturabiliriz."
     },
@@ -425,7 +432,7 @@
       "googleBusinessMega": {
         "p": "MegaBox Kimler Tercih Edebilir?",
         "subtitle1": "Dengeli Bütçe Marka Bilinirliği Artışı",
-        "description": "Dijital pazarlama hedeflerine ulaşmak isteyen, ancak daha geniş bir kitleye hitap etmeyi amaçlayan ve belirli bir bütçeyi bu işe ayırabilecek işletmeler tarafından tercih edilir. Bu paket, genellikle Arama Ağı Reklamları (Search Ads) ve Display (Görsel) Reklamlar gibi reklam türlerini içerir ve aşağıdaki sektörler için uygundur",
+        "description": "Dijital pazarlama hedeflerine ulaşmak isteyen, ancak daha geniş bir kitleye hitap etmeyi amaçlayan işletmeler tarafından tercih edilir. Bu paket, genellikle Arama Ağı Reklamları (Search Ads) ve Display (Görsel) Reklamlar gibi reklam türlerini içerir ve aşağıdaki sektörler için uygundur",
         "subtitle2": "Kimler için uygundur?",
         "list": ["Hizmet Sektörü", "Eğitim Sektörü", "Sağlık Sektörü"]
       },
@@ -557,7 +564,7 @@
 
       "AdsCoastCart": {
         "title": "Reklam Bütçesi Ne Kadar Olmalı?",
-        "description": " Potansiyel müşterileriniz sizi arama motorlarında nasıl arıyorlar? Örneğin &quot;Google Ads Reklam Yönetimi&quot; gibi bir anahtar kelimenin günlük, haftalık ve aylık maliyetini söyleyebiliriz.",
+        "description": " Potansiyel müşterileriniz sizi arama motorlarında nasıl arıyorlar? Örneğin ''Google Ads Reklam Yönetimi'' gibi bir anahtar kelimenin günlük, haftalık ve aylık maliyetini söyleyebiliriz.",
         "span1": " Ücretsiz Bilgi Al"
       }
     }
@@ -1055,7 +1062,7 @@
         "megaDroneBox":{
           "title":"Drone Çekimi | Sosyal Medya İçerik",
           "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange":"6.500",
+          "princeRange":"6.500₺",
 
           "list": {
               "li1":"Yatay Drone Çekimi",
@@ -1098,7 +1105,7 @@
       },
 
       "droneVideoComponent":{
-        "title":"İşinizi Gösterin",
+        "title":"İşinizi Gösterin...",
         "list": [
           "İş sürecinden video kesitleri",
           "İş yerinizden + personelinizden video kesitleri",
@@ -1115,6 +1122,11 @@
         ],
         "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
         "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "offerComponent":{
+        "title":"Markana Değer Kat",
+        "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
       },
 
       "swiperExample":{
@@ -1249,7 +1261,7 @@
         },
   
         "droneVideoComponent":{
-          "title":"İşinizi Gösterin",
+          "title":"İşinizi Gösterin...",
           "list": [
             "İş sürecinden video kesitleri",
             "İş yerinizden + personelinizden video kesitleri",
@@ -1266,6 +1278,11 @@
           ],
           "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Alanya İlçesinde</strong> reklam gösterimi yapabiliriz.",
           "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+
+        "offerComponent":{
+          "title":"Markana Değer Kat",
+          "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
         },
   
         "swiperExample":{
@@ -1399,7 +1416,7 @@
         },
   
         "droneVideoComponent":{
-          "title":"İşinizi Gösterin",
+          "title":"İşinizi Gösterin...",
           "list": [
             "İş sürecinden video kesitleri",
             "İş yerinizden + personelinizden video kesitleri",
@@ -1416,6 +1433,11 @@
           ],
           "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Serik İlçesinde</strong> reklam gösterimi yapabiliriz.",
           "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        },
+
+        "offerComponent":{
+          "title":"Markana Değer Kat",
+          "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
         },
   
         "swiperExample":{

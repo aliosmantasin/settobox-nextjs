@@ -4,7 +4,7 @@
     "Services": "Services",
     "span1": "Dijital Conversion Boxes",
     "descrition1": "The Planned and Economical Way to Reach Your Goals in Digital Marketing ",
-    "link1": "/digital-marketing-conversion-box",
+    "link1": "/dijital-pazarlama-donusum-kutusu",
 
     "span2": "Meta Manage",
     "description2": "You can choose the service you need by examining our MiniBox-Meta - MegaBox-Meta - ProBox-Meta service boxes.",
@@ -31,6 +31,8 @@
     "sub1": "Corporate",
     "span1": "Home Page",
     "linkA1": "/",
+    "spanServices": "Services",
+    "linkServices": "/#",
     "span2": "Referance",
     "linkA2": "/settobox-references",
 
@@ -41,9 +43,13 @@
     "linkB2": "/google-ads-management",
     "span5": "Website Design Service",
     "linkB3": "/website-development",
+    "spanConversion": "Dijital Conversion Box",
+    "linkConversion": "/dijital-pazarlama-donusum-kutusu",
 
     "sub3": "Can We Help You?",
-    "span6": "Whatsapp Support"
+    "span6": "Whatsapp Support",
+    "span7":"Holistic Approach and Consultancy Service to Digital Marketing.",
+    "span8":"All Rights Reserved."
   },
 
   "HomePage": {
@@ -150,7 +156,7 @@
     "span15": "Ad Copywriting",
     "p14": "Creating compelling ad texts for your business that engage your target audience (Sales-focused copywriting) and implementing them in creatives.",
     "span16": "Ad Report",
-    "p15": "Weekly ad report: Impressions - Reach - Clicks - Cost, provided to you.",
+    "p15": "Mountly ad report: Impressions - Reach - Clicks - Cost, provided to you.",
     "span17": "MiniBox Content",
     "p16": "Basic Facebook/Instagram advertising management. The goal is to initiate messages, drive traffic, and create engagement with the prepared creative for your business. Since detailed targeting and marketing methods are not used in this package, there is no need for a pixel code. It is mainly designed for customers who do not use websites.",
     "span18": "Recommended Budget",
@@ -329,8 +335,7 @@
     "googleInfo": {
       "sub1": "For Everyone",
       "sub2": "Sponsored Advertising Service",
-      "description": "We offer professional advertising services to make your business stand out on Google. Reach potential customers through Google Ads by leveraging search network ads, display ads, and maximum performance strategies. Achieve success in digital advertising with our full account setup support and personalized campaign management."
-    },
+      "description": "We offer professional advertising services that will make your business stand out on Google. Reach potential customers by advertising on search network ads, visual ads and maximum performance strategies ile Google Ads. Achieve success in digital advertising with full account setup support and personalized campaign management, including registration to Google Maps."    },
 
     "googleAdditional": {
       "span": "Call Now!",
@@ -384,6 +389,7 @@
       },
 
       "span1": "10% Discount Advantage",
+      "freeWebSupport": "Free Web Design Advantage",
 
       "span2": "Detailed Information",
       "spanHareketPlani": "Action Plan",
@@ -415,7 +421,7 @@
       "span13": "Google MiniBox Content",
       "p11": "Ads appear at the top or bottom of the search results page when users search for specific keywords. We focus on Google Search Network ads, which directly target customers with a low budget approach.",
       "span14": "Recommended Budget",
-      "p12": "A minimum budget of 5,000 TL per month is recommended for Search Network ads. The budget varies based on keyword costs, competition, and demand.",
+      "p12": "A minimum budget of 7,500 TL per month is recommended for Search Network ads. The budget varies based on keyword costs, competition, and demand.",
       "span15": "Google Ads Setup",
       "p13": "If you don’t have a Google Ads account, we provide free setup. Ad configuration is managed through a Google Ads account. If you have a website, we can also create search network ads directing traffic to your site."
     },
@@ -428,7 +434,7 @@
       "googleBusinessMega": {
         "p": "Who Can Benefit from MegaBox?",
         "subtitle1": "Balanced Budget - Brand Awareness Growth",
-        "description": "Preferred by businesses that aim to achieve digital marketing goals, target a wider audience, and allocate a specific budget for this purpose. This package typically includes Search Ads and Display Ads and is suitable for the following sectors:",
+        "description": "Preferred by businesses that aim to achieve digital marketing goals, target a wider audience. This package typically includes Search Ads and Display Ads and is suitable for the following sectors",
         "subtitle2": "Who is it suitable for?",
         "list": ["Service Sector", "Education Sector", "Healthcare Sector"]
       },
@@ -963,149 +969,152 @@
  "DronePage": {
 
    "manavgat": {
-  "header": {
-    "title": "Contact Us for Manavgat Drone Shoots",
-    "description": "We help businesses in and around Manavgat increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
-    "callNow": "Call Now"
-  },
+     "header": {
+       "title": "Contact Us for Manavgat Drone Shoots",
+       "description": "We help businesses in and around Manavgat increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
+       "callNow": "Call Now"
+     },
 
-  "droneAdditional": {
-    "features1": {
-      "title": "4K High Quality",
-      "description": "Shooting in 4K high quality is available upon request."
-    },
-    "features2": {
-      "title": "Social Media Compatible",
-      "description": "Video shooting service in social media-friendly quality."
-    },
-    "features3": {
-      "title": "2-Month Data Guarantee",
-      "description": "Guaranteed access to download raw and edited video and visual content for 2 months."
-    },
-    "features4": {
-      "title": "Licensed Operator",
-      "description": "A DJI drone operator who prioritizes safety and is skilled in drone usage."
-    },
-    "features5": {
-      "title": "DJI Mini 3",
-      "description": "We prefer DJI for our shoots, featuring a gimbal camera that provides excellent footage and story capture capabilities."
-    },
-    "features6": {
-      "title": "Optional Services",
-      "description": "You can choose additional services for your promotional videos."
-    }
-  },
+     "droneAdditional": {
+       "features1": {
+         "title": "4K High Quality",
+         "description": "Shooting in 4K high quality is available upon request."
+       },
+       "features2": {
+         "title": "Social Media Compatible",
+         "description": "Video shooting service in social media-friendly quality."
+       },
+       "features3": {
+         "title": "2-Month Data Guarantee",
+         "description": "Guaranteed access to download raw and edited video and visual content for 2 months."
+       },
+       "features4": {
+         "title": "Licensed Operator",
+         "description": "A DJI drone operator who prioritizes safety and is skilled in drone usage."
+       },
+       "features5": {
+         "title": "DJI Mini 3",
+         "description": "We prefer DJI for our shoots, featuring a gimbal camera that provides excellent footage and story capture capabilities."
+       },
+       "features6": {
+         "title": "Optional Services",
+         "description": "You can choose additional services for your promotional videos."
+       }
+     },
 
-  "droneBoxes": {
-    "miniDroneBox": {
-      "title": "Drone Shooting | Raw Video - Visuals",
-      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
-      "princeRange": "2,500₺ - 4,000₺",
-      "list": {
-        "li1": "Horizontal Drone Shooting",
-        "li2": "Vertical Drone Shooting (for stories)",
-        "li3": "Real Estate and Land Drone Shooting",
-        "li4": "Construction and Greenhouse Shooting",
-        "li5": "Before and After Shots",
-        "li6": "Project Drone Operator Support"
-      },
-      "whatsaAppContact": "WhatsApp Contact"
-    },
+     "droneBoxes": {
+       "miniDroneBox": {
+         "title": "Drone Shooting | Raw Video - Visuals",
+         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+         "princeRange": "2,500₺ - 4,000₺",
+         "list": {
+           "li1": "Horizontal Drone Shooting",
+           "li2": "Vertical Drone Shooting (for stories)",
+           "li3": "Real Estate and Land Drone Shooting",
+           "li4": "Construction and Greenhouse Shooting",
+           "li5": "Before and After Shots",
+           "li6": "Project Drone Operator Support"
+         },
+         "whatsaAppContact": "WhatsApp Contact"
+       },
 
-    "megaDroneBox": {
-      "title": "Drone Shooting | Social Media Content",
-      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
-      "princeRange": "6,500₺",
-      "list": {
-        "li1": "Horizontal Drone Shooting",
-        "li2": "Vertical Drone Shooting (for stories)",
-        "li3": "Real Estate and Land Drone Shooting",
-        "li4": "Construction and Greenhouse Shooting",
-        "li5": "Before and After Shots",
-        "li6": "Project Drone Operator Support"
-      },
-      "list2": {
-        "li5": "3 Story Videos and Visuals",
-        "li6": "1 Horizontal and Vertical Video"
-      },
-      "whatsaAppContact": "WhatsApp Contact"
-    },
+       "megaDroneBox": {
+         "title": "Drone Shooting | Social Media Content",
+         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+         "princeRange": "6,500₺",
+         "list": {
+           "li1": "Horizontal Drone Shooting",
+           "li2": "Vertical Drone Shooting (for stories)",
+           "li3": "Real Estate and Land Drone Shooting",
+           "li4": "Construction and Greenhouse Shooting",
+           "li5": "Before and After Shots",
+           "li6": "Project Drone Operator Support"
+         },
+         "list2": {
+           "li5": "3 Story Videos and Visuals",
+           "li6": "1 Horizontal and Vertical Video"
+         },
+         "whatsaAppContact": "WhatsApp Contact"
+       },
 
-    "proDroneBox": {
-      "title": "Drone Shooting | Production | Custom Video",
-      "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
-      "princeRange": "7,000₺ + 5,000₺",
-      "list": {
-        "li1": "Horizontal Drone Shooting",
-        "li2": "Vertical Drone Shooting (for stories)",
-        "li3": "Real Estate and Land Drone Shooting",
-        "li4": "Construction and Greenhouse Shooting",
-        "li5": "Before and After Shots",
-        "li6": "Project Drone Operator Support"
-      },
-      "list2": {
-        "li5": "3 Story Videos and Visuals",
-        "li6": "Customized Video",
-        "li7": "Social Media Corporate Design (Meta)",
-        "li8": "Instagram Sponsored Ad Service"
-      },
-      "whatsaAppContact": "WhatsApp Contact"
-    }
-  },
+       "proDroneBox": {
+         "title": "Drone Shooting | Production | Custom Video",
+         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
+         "princeRange": "7,000₺ + 5,000₺",
+         "list": {
+           "li1": "Horizontal Drone Shooting",
+           "li2": "Vertical Drone Shooting (for stories)",
+           "li3": "Real Estate and Land Drone Shooting",
+           "li4": "Construction and Greenhouse Shooting",
+           "li5": "Before and After Shots",
+           "li6": "Project Drone Operator Support"
+         },
+         "list2": {
+           "li5": "3 Story Videos and Visuals",
+           "li6": "Customized Video",
+           "li7": "Social Media Corporate Design (Meta)",
+           "li8": "Instagram Sponsored Ad Service"
+         },
+         "whatsaAppContact": "WhatsApp Contact"
+       }
+     },
 
-  "droneVideoComponent": {
-    "title": "Show Your Business",
-    "list": [
-      "Video clips from the work process",
-      "Video clips from your workplace and staff",
-      "Location-based information"
-    ],
-    "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Manavgat region</strong> through organic or paid advertisements to reach your target audience.",
-    "span": "This promotional video has been shared for reference purposes."
-  },
+     "droneVideoComponent": {
+       "title": "Show Your Business...",
+       "list": [
+         "Video clips from the work process",
+         "Video clips from your workplace and staff",
+         "Location-based information"
+       ],
+       "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Manavgat region</strong> through organic or paid advertisements to reach your target audience.",
+       "span": "This promotional video has been shared for reference purposes."
+     },
 
-  "mapVideoComponent": {
-    "title": "Where Exactly Is Your Address?",
-    "list": [
-      "Video Animation", "Hook Text", "Hook Visual"
-    ],
-    "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Manavgat district</strong>.",
-    "span": "This promotional video has been shared for reference purposes."
-  },
+     "mapVideoComponent": {
+       "title": "Where Exactly Is Your Address?",
+       "list": ["Video Animation", "Hook Text", "Hook Visual"],
+       "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Manavgat district</strong>.",
+       "span": "This promotional video has been shared for reference purposes."
+     },
 
-  "swiperExample": {
-    "span": "You Can Benefit from Optional Services",
-    "p": "In addition to drone and promotional videos, you can check out other services we offer."
-  },
+     "offerComponent": {
+       "title": "Add Value to Your Brand",
+       "description": "In order to ensure that regional service businesses are remembered regularly and stand out in the competitive environment, they need social media ads that support remembering. We can create ads for your business's products or services at certain times of the day, as you request, and contribute to your brand awareness."
+     },
 
-  "accordionDrone": {
-    "span": "Frequently Asked Questions and Curious Topics",
-    "subtitle": "Why Choose Optional Services?",
-    "list": [
-      "Brand awareness can be increased through promotional videos, reaching your potential target audience.",
-      "Brand awareness can be enhanced with regular Meta ads.",
-      "You can instantly reach potential customers with Google Ads.",
-      "With website design services, you can be continuously visible to your customers organically."
-    ],
-    "subtitle2": "2025 Drone Shooting Prices Manavgat",
-    "prices1": "Package 1: 2,500 - 4,000₺",
-    "prices2": "Package 2: 6,500₺",
-    "prices3": "Package 3: 7,000₺ + 5,000₺",
+     "swiperExample": {
+       "span": "You Can Benefit from Optional Services",
+       "p": "In addition to drone and promotional videos, you can check out other services we offer."
+     },
 
-    "subtitle3": "Drone Model Features and Equipment Used",
-    "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
+     "accordionDrone": {
+       "span": "Frequently Asked Questions and Curious Topics",
+       "subtitle": "Why Choose Optional Services?",
+       "list": [
+         "Brand awareness can be increased through promotional videos, reaching your potential target audience.",
+         "Brand awareness can be enhanced with regular Meta ads.",
+         "You can instantly reach potential customers with Google Ads.",
+         "With website design services, you can be continuously visible to your customers organically."
+       ],
+       "subtitle2": "2025 Drone Shooting Prices Manavgat",
+       "prices1": "Package 1: 2,500 - 4,000₺",
+       "prices2": "Package 2: 6,500₺",
+       "prices3": "Package 3: 7,000₺ + 5,000₺",
 
-    "subtitle4": "How Do You Edit Videos?",
-    "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
+       "subtitle3": "Drone Model Features and Equipment Used",
+       "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
 
-    "subtitle5": "About Appointments",
-    "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
+       "subtitle4": "How Do You Edit Videos?",
+       "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
 
-    "subtitle6": "Safe Drone Flying Conditions",
-    "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
-    "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
-  }
-  },
+       "subtitle5": "About Appointments",
+       "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
+
+       "subtitle6": "Safe Drone Flying Conditions",
+       "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
+       "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+     }
+   },
 
   "alanya": {
     "header": {
@@ -1113,7 +1122,7 @@
       "description": "We help businesses in and around Alanya increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
       "callNow": "Call Now"
     },
-  
+
     "droneAdditional": {
       "features1": {
         "title": "4K High Quality",
@@ -1140,7 +1149,7 @@
         "description": "You can choose additional services for your promotional videos."
       }
     },
-  
+
     "droneBoxes": {
       "miniDroneBox": {
         "title": "Drone Shooting | Raw Video - Visuals",
@@ -1156,7 +1165,7 @@
         },
         "whatsaAppContact": "WhatsApp Contact"
       },
-  
+
       "megaDroneBox": {
         "title": "Drone Shooting | Social Media Content",
         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
@@ -1175,7 +1184,7 @@
         },
         "whatsaAppContact": "WhatsApp Contact"
       },
-  
+
       "proDroneBox": {
         "title": "Drone Shooting | Production | Custom Video",
         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
@@ -1197,9 +1206,9 @@
         "whatsaAppContact": "WhatsApp Contact"
       }
     },
-  
+
     "droneVideoComponent": {
-      "title": "Show Your Business",
+      "title": "Show Your Business...",
       "list": [
         "Video clips from the work process",
         "Video clips from your workplace and staff",
@@ -1208,21 +1217,24 @@
       "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Alanya Region</strong> through organic or paid advertisements to reach your target audience.",
       "span": "This promotional video has been shared for reference purposes."
     },
-  
+
     "mapVideoComponent": {
       "title": "Where Exactly Is Your Address?",
-      "list": [
-        "Video Animation", "Hook Text", "Hook Visual"
-      ],
+      "list": ["Video Animation", "Hook Text", "Hook Visual"],
       "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Alanya district</strong>.",
       "span": "This promotional video has been shared for reference purposes."
     },
-  
+
+    "offerComponent": {
+      "title": "Add Value to Your Brand",
+      "description": "In order to ensure that regional service businesses are remembered regularly and stand out in the competitive environment, they need social media ads that support remembering. We can create ads for your business's products or services at certain times of the day, as you request, and contribute to your brand awareness."
+    },
+
     "swiperExample": {
       "span": "You Can Benefit from Optional Services",
       "p": "In addition to drone and promotional videos, you can check out other services we offer."
     },
-  
+
     "accordionDrone": {
       "span": "Frequently Asked Questions and Curious Topics",
       "subtitle": "Why Choose Optional Services?",
@@ -1236,21 +1248,21 @@
       "prices1": "Package 1: 2,500 - 4,000₺",
       "prices2": "Package 2: 6,500₺",
       "prices3": "Package 3: 7,000₺ + 5,000₺",
-  
+
       "subtitle3": "Drone Model Features and Equipment Used",
       "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
-  
+
       "subtitle4": "How Do You Edit Videos?",
       "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
-  
+
       "subtitle5": "About Appointments",
       "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
-  
+
       "subtitle6": "Safe Drone Flying Conditions",
       "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
       "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
     }
-    },
+  },
 
   "serik": {
     "header": {
@@ -1258,7 +1270,7 @@
       "description": "We help businesses in and around Serik increase their brand awareness with professional drone shoots, impressive video productions, and creative animation edits. Take your business one step ahead with high-quality visuals!",
       "callNow": "Call Now"
     },
-  
+
     "droneAdditional": {
       "features1": {
         "title": "4K High Quality",
@@ -1285,7 +1297,7 @@
         "description": "You can choose additional services for your promotional videos."
       }
     },
-  
+
     "droneBoxes": {
       "miniDroneBox": {
         "title": "Drone Shooting | Raw Video - Visuals",
@@ -1301,7 +1313,7 @@
         },
         "whatsaAppContact": "WhatsApp Contact"
       },
-  
+
       "megaDroneBox": {
         "title": "Drone Shooting | Social Media Content",
         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
@@ -1320,7 +1332,7 @@
         },
         "whatsaAppContact": "WhatsApp Contact"
       },
-  
+
       "proDroneBox": {
         "title": "Drone Shooting | Production | Custom Video",
         "subtitle": "Daily Drone Shooting (0 - 4 Hours)",
@@ -1342,9 +1354,9 @@
         "whatsaAppContact": "WhatsApp Contact"
       }
     },
-  
+
     "droneVideoComponent": {
-      "title": "Show Your Business",
+      "title": "Show Your Business...",
       "list": [
         "Video clips from the work process",
         "Video clips from your workplace and staff",
@@ -1353,21 +1365,24 @@
       "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Serik Region</strong> through organic or paid advertisements to reach your target audience.",
       "span": "This promotional video has been shared for reference purposes."
     },
-  
+
     "mapVideoComponent": {
       "title": "Where Exactly Is Your Address?",
-      "list": [
-        "Video Animation", "Hook Text", "Hook Visual"
-      ],
+      "list": ["Video Animation", "Hook Text", "Hook Visual"],
       "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Serik district</strong>.",
       "span": "This promotional video has been shared for reference purposes."
     },
-  
+
+    "offerComponent": {
+      "title": "Add Value to Your Brand",
+      "description": "In order to ensure that regional service businesses are remembered regularly and stand out in the competitive environment, they need social media ads that support remembering. We can create ads for your business's products or services at certain times of the day, as you request, and contribute to your brand awareness."
+    },
+
     "swiperExample": {
       "span": "You Can Benefit from Optional Services",
       "p": "In addition to drone and promotional videos, you can check out other services we offer."
     },
-  
+
     "accordionDrone": {
       "span": "Frequently Asked Questions and Curious Topics",
       "subtitle": "Why Choose Optional Services?",
@@ -1381,21 +1396,21 @@
       "prices1": "Package 1: 2,500 - 4,000₺",
       "prices2": "Package 2: 6,500₺",
       "prices3": "Package 3: 7,000₺ + 5,000₺",
-  
+
       "subtitle3": "Drone Model Features and Equipment Used",
       "description": "We prefer DJI brand drones. They can capture footage in 4K video quality. Horizontally and vertically recorded videos are available in 1920x1080 HD resolution, suitable for digital platforms such as social media and YouTube. In addition to drone footage, we use DJI Gimbal + iPhone 15 Pro Max for standard shooting. Using these two devices together helps stabilize video and prevent shaking due to movement. Additionally, we use Saramonic Blink 500 ProX microphones for professional sound recording in promotional and voice-over videos.",
-  
+
       "subtitle4": "How Do You Edit Videos?",
       "description2": "In raw videos, important cuts and color adjustments are made using Adobe Premiere Pro. Animations are created with Adobe After Effects. Campaign design visuals are prepared using Adobe Illustrator.",
-  
+
       "subtitle5": "About Appointments",
       "description3": "Due to ongoing projects, we cannot guarantee same-day appointments for drone and operator availability.",
-  
+
       "subtitle6": "Safe Drone Flying Conditions",
       "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
       "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
     }
-    }
+  }
 
  }
 

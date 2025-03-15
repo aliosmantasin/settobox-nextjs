@@ -1,6 +1,7 @@
-
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import {
   DropdownMenu,
@@ -20,11 +21,19 @@ export const GoogleAdsCard = () => {
   const t = useTranslations("GooglePage");
 
   return (
+
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true, amount: 0.4 }} // Görünür olma koşulunu daha hassas yap
+    transition={{ duration: 2 }}
+
+  >
     <section className="my-20 mx-2">
-      <div className="container flex flex-wrap justify-center mx-auto p-2">
+      <div className="container flex flex-wrap justify-center mx-auto p-2 ">
         {/* İlk Kart */}
-        <div className="w-3/4 sm:w-3/5 md:w-1/2">
-        <div className="w-96 h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
+        <div className="flex w-full sm:w-3/5 md:w-2/5 m-1">
+        <div className="w-96 min-h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
           <Image
             src="/images/HowToMake.webp"
             alt="Nasıl Yapıyoruz?"
@@ -76,8 +85,8 @@ export const GoogleAdsCard = () => {
         </div>
 
         {/* İkinci Kart */}
-        <div className="w-3/4 sm:w-3/5 md:w-1/2">
-        <div className="w-96 h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
+        <div className="flex w-full sm:w-3/5 md:w-2/5 m-1">
+        <div className="w-96 min-h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
           <Image
             src="/images/ReklamHarcamasi.webp"
             alt="Reklam Bütçesi Ne Kadar Olmalı?"
@@ -90,19 +99,22 @@ export const GoogleAdsCard = () => {
             <p className="text-sm text-gray-600 mt-2">
             {t("googleAdsCard.AdsCoastCart.description")}
             </p>
-            <div className="my-5">
-              <a
-                href="https://api.whatsapp.com/send?phone=05437214839&amp;text=Merhabalar SetToBox web sitesinden iletişime geçiyorum google ads reklam bütçesi hakkında bilgi edinebilir miyim?"
-                target="_blank"
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-              >
-                {t("googleAdsCard.AdsCoastCart.span1")}
-              </a>
-            </div>
+                <div className="my-5">
+                  <a
+                    href="https://wa.me/905437214839?text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum%20google%20ads%20reklam%20bütçesi%20hakkında%20bilgi%20edinebilir%20miyim?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+                  >
+                    {t("googleAdsCard.AdsCoastCart.span1")}
+                  </a>
+                </div>
+
           </div>
           </div>
         </div>
       </div>
     </section>
+    </motion.div>
   );
 };

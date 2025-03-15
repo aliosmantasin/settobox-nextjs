@@ -1,8 +1,8 @@
 import { MdKeyboardDoubleArrowDown } from "react-icons/md"
+import { useTranslations } from "next-intl"
+import ServiceSectorCard from "./SectoCard/ServiceSectorCard"
 import EducationSectorCard from "./SectoCard/EducationCard"
 import HealtySectorCard from "./SectoCard/HealtyCard"
-import ServiceSectorCard from "./SectoCard/ServiceSectorCard"
-import { useTranslations } from "next-intl"
 
 
 
@@ -11,6 +11,7 @@ const SectorAll = () => {
   const t = useTranslations("HomePage")
 
   return (
+
     <section className="py-10 flex">
         <div className="container mx-auto">
             <div className="flex max-w-xxl bg-[#373737] rounded-lg mx-2">

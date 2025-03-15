@@ -1,6 +1,8 @@
-"use client"
+"use client";
 
-import { useState, ChangeEvent, FormEvent } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Input } from "@/components/ui/input";
@@ -9,182 +11,151 @@ import { Select, SelectContent, SelectItem, SelectTrigger } from "@/components/u
 import { Button } from "@/components/ui/button";
 import { Toast, ToastAction } from "@/components/ui/toast";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { toast } from "@/hooks/use-toast";
 
-interface FormData {
-  firstName: string;
-  lastName: string;
-  phone: string;
-  email: string;
-  service?: string;
-  recaptchaToken?: string;
-}
+
+// ✅ Zod Schema ile Form Validasyonu
+const formSchema = z.object({
+  firstName: z.string().min(3, "İsim en az 3 karakter olmalı"),
+  lastName: z.string().min(3, "Soyisim en az 3 karakter olmalı"),
+  phone: z.string().regex(/^\d{10,15}$/, "Geçerli bir telefon numarası girin"),
+  email: z.string().email("Geçerli bir email girin"),
+  service: z.string().min(1, "Hizmet seçimi zorunludur"),
+  recaptchaToken: z.string().min(1, "Lütfen reCAPTCHA doğrulamasını yapın"),
+});
 
 const InfoForm = () => {
-  const [formData, setFormData] = useState<FormData>({
-    firstName: "",
-    lastName: "",
-    phone: "",
-    email: "",
-    service: "",
-    recaptchaToken: "",
-  });
-  const [loading, setLoading] = useState(false);
+  const t = useTranslations("InfoForm");
   const [toastOpen, setToastOpen] = useState(false);
-  const [toastMessage, setToastMessage] = useState("");
-  const [toastSeverity, setToastSeverity] = useState<"default" | "destructive">("default");
+  const [toastMessage] = useState("");
+  const [toastSeverity] = useState<"default" | "destructive">("default");
+  const [selectedService, setSelectedService] = useState("");
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      [name]: value,
-    }));
-  };
 
-  const handleReCAPTCHAChange = (token: string | null) => {
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      recaptchaToken: token || "",
-    }));
-  };
+  
+  const {
+    register,
+    handleSubmit,
+    setValue,
+    formState: { errors, isSubmitting },
+  } = useForm({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      firstName: "",
+      lastName: "",
+      phone: "",
+      email: "",
+      service: "",
+      recaptchaToken: "",
+    },
+  });
 
-  const sendEmail = async (e: FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
+  
+const sendEmail = async (data: z.infer<typeof formSchema>) => {
+  try {
+    const res = await axios.post("/api/send-email", data, {
+      headers: { "Content-Type": "application/json" },
+    });
 
-    const apiUrl = "/api/send-email";
-
-    try {
-      const res = await axios.post(apiUrl, formData, {
-        headers: { "Content-Type": "application/json" },
+    if (res.status === 200) {
+      toast({
+        title: "Başarılı",
+        description: "✅ Email başarıyla gönderildi.",
+        variant: "default",
       });
-
-      if (res.status === 200) {
-        setToastMessage("Email başarıyla gönderildi");
-        setToastSeverity("default");
-        setToastOpen(true);
-
-        setFormData({
-          firstName: "",
-          lastName: "",
-          phone: "",
-          email: "",
-          service: "",
-          recaptchaToken: "",
-        });
-      } else {
-        setToastMessage("Email gönderilirken hata oluştu");
-        setToastSeverity("destructive");
-        setToastOpen(true);
-      }
-    } catch (error) {
-      setToastMessage("Email gönderilirken hata oluştu");
-      setToastSeverity("destructive");
-      setToastOpen(true);
-      console.error("Error:", error);
-    } finally {
-      setLoading(false);
+    } else {
+      throw new Error();
     }
-  };
-
-  const handleToastClose = () => {
-    setToastOpen(false);
-  };
-
-  const t = useTranslations("InfoForm")
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (erro) {
+    toast({
+      title: "Hata",
+      description: "❌ Email gönderilirken bir hata oluştu.",
+      variant: "destructive",
+    });
+  }
+};
 
   return (
-    <section className="flex items-center justify-center relative mt-10">
-      <div className="w-full max-w-md p-6 rounded shadow-md">
-        <h2 className="text-2xl font-bold text-center mb-4">{t("title")}</h2>
 
-        <form onSubmit={sendEmail}>
-          <div className="mb-4">
-            <Label htmlFor="firstName">{t("name")}</Label>
-            <Input
-              name="firstName"
-              type="text"
-              value={formData.firstName}
-              onChange={handleChange}
-              required
-            />
-          </div>
+      <section className="flex items-center justify-center relative my-20">
+        <div className="w-full max-w-md p-6 rounded shadow-md">
+          <h2 className="text-2xl font-bold text-center mb-4">{t("title")}</h2>
 
-          <div className="mb-4">
-            <Label htmlFor="lastName">{t("lastName")}</Label>
-            <Input
-              name="lastName"
-              type="text"
-              value={formData.lastName}
-              onChange={handleChange}
-              required
-            />
-          </div>
+          <form onSubmit={handleSubmit(sendEmail)}>
+            <div className="mb-4">
+              <Label htmlFor="firstName">{t("name")}</Label>
+              <Input {...register("firstName")} />
+              {errors.firstName && <p className="text-red-500">{errors.firstName.message}</p>}
+            </div>
 
-          <div className="mb-4">
-            <Label htmlFor="service">{t("selectService")}</Label>
-            <Select
-              name="service"
-              value={formData.service || ""}
-              onValueChange={(value) =>
-                setFormData((prev) => ({ ...prev, service: value }))
-              }
-            >
+            <div className="mb-4">
+              <Label htmlFor="lastName">{t("lastName")}</Label>
+              <Input {...register("lastName")} />
+              {errors.lastName && <p className="text-red-500">{errors.lastName.message}</p>}
+            </div>
+
+            <div className="mb-4">
+              <Label htmlFor="service">{t("selectService")}</Label>
+
+            <Select onValueChange={(value) => {
+              setValue("service", value);
+              setSelectedService(value); // Seçili hizmeti güncelle
+            }}>
               <SelectTrigger>
-                <span>{formData.service || t("select")}</span>
+                <span>{selectedService || t("select")}</span>
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="meta">{t("meta")}</SelectItem>
-                <SelectItem value="google">{t("google")}</SelectItem>
-                <SelectItem value="web">{t("web")}</SelectItem>
-                <SelectItem value="donusumKutusu">{t("conversionBox")}</SelectItem>
-                <SelectItem value="general">{t("generalInfo")}</SelectItem>
+                <SelectItem value="Meta Yönetimi">{t("meta")}</SelectItem>
+                <SelectItem value="Google Yönetimi">{t("google")}</SelectItem>
+                <SelectItem value="Web Tasarim">{t("web")}</SelectItem>
+                <SelectItem value="Dijital Dönüşüm Kutusu">{t("conversionBox")}</SelectItem>
+                <SelectItem value="Genel Bilgilendirme">{t("generalInfo")}</SelectItem>
               </SelectContent>
             </Select>
-          </div>
+              
+              {errors.service && <p className="text-red-500">{errors.service.message}</p>}
+            </div>
 
-          <div className="mb-4">
-            <Label htmlFor="phone">{t("phone")}</Label>
-            <Input
-              name="phone"
-              type="tel"
-              value={formData.phone}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div className="mb-4">
+              <Label htmlFor="phone">{t("phone")}</Label>
+              <Input {...register("phone")} type="tel" />
+              {errors.phone && <p className="text-red-500">{errors.phone.message}</p>}
+            </div>
 
-          <div className="mb-4">
-            <Label htmlFor="email">{t("mail")}</Label>
-            <Input
-              name="email"
-              type="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
+            <div className="mb-4">
+              <Label htmlFor="email">{t("mail")}</Label>
+              <Input {...register("email")} type="email" />
+              {errors.email && <p className="text-red-500">{errors.email.message}</p>}
+            </div>
 
-          <div className="mb-4">
-            <ReCAPTCHA
-              sitekey={process.env.RECAPTCHA_SITE_KEY || ""}
-              onChange={handleReCAPTCHAChange}
-            />
-          </div>
+            <div className="mb-4">
+              <ReCAPTCHA
+                sitekey={process.env.RECAPTCHA_SITE_KEY || ""}
+                onChange={(token) => setValue("recaptchaToken", token || "")}
+              />
+              {errors.recaptchaToken && <p className="text-red-500">{errors.recaptchaToken.message}</p>}
+            </div>
 
-          <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? "Gönderiliyor..." : t("send")}
-          </Button>
-        </form>
-      </div>
+            <Button type="submit" className="w-full" disabled={isSubmitting} id="formSubmission">
+              {isSubmitting ? "Gönderiliyor..." : t("send")}
+            </Button>
+          </form>
+        </div>
 
-      <Toast open={toastOpen} onOpenChange={setToastOpen} variant={toastSeverity}>
-        {toastMessage}
-        <ToastAction altText="Kapat" onClick={handleToastClose}>
-          Kapat
-        </ToastAction>
-      </Toast>
-    </section>
+        {toastOpen && (
+          <Toast open={toastOpen} onOpenChange={setToastOpen} variant={toastSeverity}>
+            {toastMessage}
+            <ToastAction altText="Kapat" onClick={() => setToastOpen(false)}>
+              Kapat
+            </ToastAction>
+          </Toast>
+        )}
+
+      
+      </section>
+   
   );
 };
 

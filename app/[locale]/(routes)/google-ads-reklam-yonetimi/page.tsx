@@ -1,3 +1,4 @@
+
 import GoogleInfo from '../_components/GoogleAds/GoogleInfo/GoogleInfo'
 import { MaskSvg } from '../_components/libs/Mask/Mask'
 import GoogleAdditional from '../_components/GoogleAds/GoogleAdditional/GoogleAdditional'
@@ -39,6 +40,7 @@ const GoogleAdsPage = () => {
         <title>Test Başlığı</title>
         <meta name="description" content="Bu bir test açıklamasıdır." />
       </Head>
+        
         <GoogleInfo/>
         <MaskSvg/>
         <GoogleAdditional/>

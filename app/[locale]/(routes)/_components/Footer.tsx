@@ -19,9 +19,9 @@ const Footer = () => {
             <Link href="/" className="flex items-center space-x-2">
               <Image src="/logoImage/SetToBoxLogo.webp" alt="SetToBox Logo" width={100} height={100}/>
             </Link>
-            <p className="mt-4 text-sm footerHeaderColor">
+            <span className="mt-4 text-sm footerTextColor">
               {t("slogan")}
-            </p>
+            </span>
           </div>
 
           {/* Pages */}
@@ -36,6 +36,13 @@ const Footer = () => {
                     {t("span1")}
                   </Link>
                 </li>
+
+                 <li >
+                  <Link href={t("linkServices")} className="footerTextColor hover:underline">
+                    {t("spanServices")}
+                  </Link>
+                </li>
+
 
                 <li >
                   <Link href={t("linkA2")} className="footerTextColor hover:underline">
@@ -70,6 +77,13 @@ const Footer = () => {
                     {t("span5")}
                   </Link>
                 </li>
+
+                <li>
+                  <Link href={t("linkConversion")} className="footerTextColor hover:underline">
+                    {t("spanConversion")}
+                  </Link>
+                </li>
+         
          
             
          
@@ -85,7 +99,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="https://api.whatsapp.com/send?phone=05437214839&amp;text=Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
+                  href="https://wa.me/905437214839?text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum.."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 footerTextColor hover:underline"
@@ -125,8 +139,11 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="mt-10 text-center text-sm text-gray-500">
-          <p>© 2025 SetToBox Dijital Pazarlama Ajansı. Tüm Hakları Saklıdır.</p>
+        <div className="mt-10 text-center text-sm text-gray-500 ">
+          <p>{t("span7")}</p>
+          <div>
+          <span>{t("span8")}</span>
+          </div>
         </div>
       </div>
     </footer>

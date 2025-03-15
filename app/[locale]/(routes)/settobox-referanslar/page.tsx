@@ -1,12 +1,11 @@
-
-import Image from 'next/image';
-import BannerReferans from '@/public/images/bannerReferans.jpg';
 import DurunetReferance from './_component/durunetReference';
 import IhcReferance from './_component/ihcReferance';
 import XrealnetReferance from './_component/xrealnetReferance';
 import Head from 'next/head';
 import { seoData } from '@/lib/seo';
-import { useTranslations } from 'next-intl';
+import BannerReferance from './_component/bannerReferance';
+
+
 
 export async function generateMetadata() {
   const pagePath = "settobox-referanslar"; // Sayfanın adı belirleniyor
@@ -36,9 +35,6 @@ export async function generateMetadata() {
 
 const ReferancePage = () => {
 
-
-  const t = useTranslations("ReferancePage")
-
   return (
     <>
       <Head>
@@ -46,18 +42,8 @@ const ReferancePage = () => {
         <meta name="description" content="Bu bir test açıklamasıdır." />
       </Head>
       <section className="w-full my-10">
-        <div className="relative w-full flex">
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-            <span className="text-white font-extrabold text-3xl md:text-4xl">{t("span")}</span>
-            <h1 className="text-white text-sm md:text-base">{t("title")}</h1>
-          </div>
-          <Image
-            src={BannerReferans}
-            className="w-full h-[500px] object-cover"
-            alt="Referanslarımız Banner"
-          />
-        </div>
-        <div className="flex flex-wrap justify-center gap-10 mt-10">
+          <BannerReferance/>
+          <div className="flex flex-wrap justify-center gap-10 mt-10">
           <div className="w-full sm:w-4/5 md:w-1/2 flex justify-center p-2 sm:p-0">
             <DurunetReferance />
           </div>

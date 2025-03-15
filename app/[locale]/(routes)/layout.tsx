@@ -11,6 +11,8 @@ import trMessages from "@/messages/tr.json";
 import enMessages from "@/messages/en.json";
 import { Metadata } from "next";
 import Head from "next/head";
+import { ToastProvider } from "@radix-ui/react-toast";
+import { Toaster } from "@/components/ui/toaster";
 
 // 🌍 Desteklenen diller
 const locales = ["tr", "en"];
@@ -54,42 +56,18 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
 
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
-          <div className="min-h-screen">
-            {children}
+          <ToastProvider>
+              <Toaster/>
+              {children}
+          </ToastProvider>
             <ScrollTop>
               <MdKeyboardArrowUp />
             </ScrollTop>
-          </div>
           <Footer />
         </NextIntlClientProvider>
-    
     </>
   );
 }
-
-
-
-// ✅ Statik olarak desteklenen dilleri belirle
-// export function generateStaticParams() {
-//   return locales.map((locale) => ({ locale }));
-// }
-
-
-   // console.log("Kullanıcı dili:", locale);
-  // console.log("Yüklenen mesajlar:", messages);
-
-// export default async function RoutesLayout({
-//   children,
-// }: {
-//   children: ReactNode;
-// }) {
-//   const headersList = headers(); 
-//   const acceptLanguage = (await headersList).get("accept-language") || "tr"; 
-
-
-//   const locale = acceptLanguage.split(",")[0].split(";")[0]; 
-
-//   const messages = messagesMap[locale] || trMessages; 
 
  
 

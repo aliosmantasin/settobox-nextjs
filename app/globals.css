@@ -93,11 +93,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .ocean-Cardshadow {
-    box-shadow: rgba(93, 198, 255, 0.247) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    box-shadow: rgba(93, 198, 255, 0.247) 0px 10px 10px -7px;
   }
 
 }
-
 
 
 @layer base {
@@ -211,11 +211,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .footerTextColor {
-    @apply text-blue-600;
+    @apply text-gray-500;
   }
   
   .dark .footerTextColor {
-    @apply text-gray-300;
+    @apply text-gray-400;
   }
 
   .footerIconColor {

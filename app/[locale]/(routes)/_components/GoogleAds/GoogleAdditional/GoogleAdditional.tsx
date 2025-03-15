@@ -46,20 +46,20 @@ const GoogleAdditional = () => {
       {/* Header Section */}
       <div className="flex justify-center text-center mb-8">
         <div>
-          <h3 className="text-primary text-xl mb-4">
+          <h3 className="text-primary text-xl mb-4 font-thin text-gray-900 dark:text-white">
             {t('googleAdditional.description')}
           </h3>
           <Button>
             <Link href="tel:+905437214839" target="_blank" className="flex items-center justify-center">
               <MdOutlinePhoneForwarded className="w-4 h-4 mr-2" />
-              <p>{t('googleAdditional.span')}</p>
+              <span>{t('googleAdditional.span')}</span>
             </Link>
           </Button>
         </div>
       </div>
 
       {/* Scrollable Grid Section */}
-      <div className="flex overflow-x-auto space-x-20 ">
+      <div className="flex overflow-x-auto space-x-20">
         {features.map((feature, index) => (
           <div
             key={index}
@@ -68,10 +68,10 @@ const GoogleAdditional = () => {
             <div className="w-10 h-10 flex items-center justify-center text-primary">
               <feature.icon className="text-3xl primary-light" />
             </div>
-            <h6 className="mt-4 text-primary text-lg font-semibold text-center">
+            <h6 className="mt-4 primary text-lg font-semibold text-center">
               {feature.title}
             </h6>
-            <p className="mt-2 text-center text-sm text-gray-600">
+            <p className="mt-2 text-center tracking-tight text-gray-500 md:text-md dark:text-gray-400">
               {feature.description}
             </p>
           </div>

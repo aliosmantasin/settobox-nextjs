@@ -1,16 +1,25 @@
-
+"use client"
 import Image from 'next/image';
 import { MdArrowOutward } from 'react-icons/md';
 import ServiceSectorImg from '@/public/images/HealtySector.webp';
 import './SectorCard.css'
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { motion } from "framer-motion";
 
 const HealtySectorCard = () => {
 
   const t = useTranslations("HomePage");
 
   return (
+
+    <motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true, amount: 0.3 }} // Görünür olma koşulunu daha hassas yap
+    transition={{ duration: 2 }}
+    className="flex col-span-12"
+  >
     <div className="sector-section flex flex-col items-center ">
       <div className="cardInclusive w-full max-w-4xl rounded-lg overflow-hidden">
         <div className="card">
@@ -55,6 +64,7 @@ const HealtySectorCard = () => {
         </div>
       </div>
     </div>
+   </motion.div>
   );
 };
 

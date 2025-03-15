@@ -1,19 +1,27 @@
-import React, { useEffect, useRef } from "react";
+"use client"
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Mail, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import lottie from "lottie-web";
 import { useTranslations } from "next-intl";
+import Loading from "../Loadling/Loading";
+import { motion } from "framer-motion";
 
-// import dynamic from "next/dynamic"; 
-// const Lottie = dynamic(() => import("lottie-web"), { ssr: false });
+
 
 interface FirstGlanceProps {
   onLoad?: () => void;
 }
 
+
+
+
 const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   const animationContainer = useRef<HTMLDivElement>(null);
+  const [isLoading, setIsLoading] = useState(true); // Başlangıçta yüklenme durumu true
+  
+
 
   useEffect(() => {
     if (animationContainer.current) {
@@ -24,6 +32,11 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
         autoplay: true, 
         path: "/data/All-in-SetToBox.json", 
       });
+
+      animInstance.addEventListener("DOMLoaded", () => {
+        setIsLoading(false); // Animasyon yüklenince Loading'i kaldır
+      });
+
 
       if (onLoad) {
         onLoad();
@@ -40,7 +53,13 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   const t = useTranslations("HomePage");
 
   return (
-    <section>
+
+    <motion.div
+    initial={{ opacity: 0 }} // Başlangıçta görünmüyor
+    animate={{ opacity: 1 }}  // Yavaşça görünür olacak
+    transition={{ duration: 2 }} // Geçiş süresi
+  >
+    <section className=" min-h-auto sm:min-h-[600]">
       <div className="container mx-auto text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="styled-h1 text-2xl sm:text-2xl md:text-3xl my-5 relative">
@@ -70,14 +89,19 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
         </div>
 
         <div className="flex justify-center mt-10">
+          {isLoading && <Loading/>}
           <div
             ref={animationContainer}
             className="w-96 max-w-md relative"
-            style={{ height: "400px" }}
+            style={{ height: "400px",
+              display: isLoading ? "none" : "block",
+             }}
+            
           />
         </div>
       </div>
     </section>
+    </motion.div>
   );
 };
 

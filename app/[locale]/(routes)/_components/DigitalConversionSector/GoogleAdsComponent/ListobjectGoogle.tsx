@@ -4,8 +4,7 @@ import Lottie from 'lottie-web';
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Dialog } from '@radix-ui/react-dialog';
-import { DialogContent, DialogTitle } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 
 const ListedObjectGoogle = () => {
   const animationContainer = useRef<HTMLDivElement>(null);

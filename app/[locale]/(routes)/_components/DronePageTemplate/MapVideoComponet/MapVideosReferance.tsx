@@ -18,7 +18,7 @@ const MapVideoReference = () => {
         onEnded={() => setIsPlaying(false)} 
         onPlay={() => setIsPlaying(true)} 
       >
-        <source src="https://media.settobox.com/videos/MapVideo.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dydji2imy/video/upload/v1742061627/MapVideo_hrdmpn.mp4" type="video/mp4" />
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
 

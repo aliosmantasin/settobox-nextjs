@@ -39,10 +39,17 @@ const MiniDroneBox: React.FC<MiniDroneProps> = ({ teritory }) => {
         ))}
       </ul>
       <div className="px-6 py-4 ocean-shadow">
-        <Link href="https://api.whatsapp.com/send?phone=05437214839&text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum..">
-          <Button className="w-full">{t(`${teritory}.droneBoxes.miniDroneBox.whatsaAppContact`)}</Button>
+        <Link
+          href="https://wa.me/905437214839?text=Merhabalar%20SetToBox%20web%20sitesinden%20iletişime%20geçiyorum.."
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="w-full">
+            {t(`${teritory}.droneBoxes.miniDroneBox.whatsaAppContact`)}
+          </Button>
         </Link>
       </div>
+
       </div>
    
   );

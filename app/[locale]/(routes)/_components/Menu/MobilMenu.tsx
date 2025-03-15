@@ -1,5 +1,4 @@
 "use client"
-
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -131,11 +130,19 @@ export function MobilMenu() {
                     </Link>
 
                     <Link href={t("link4")}>
-                    <ListItem className="row-span-4 onClick={handleClose}">
+                    <ListItem className="row-span-4" onClick={handleClose}>
                       <span className="font-semibold primary-light">{t("span4")}</span>
                       <p>{t("description4")}</p>
                     </ListItem>
                     </Link>
+
+                    {/* <Link href={t("link4")}>
+                    <ListItem className="row-span-4" onClick={handleClose}>
+                      <span className="font-bold">{t("span4")}</span>
+                      <p>Bölgesel Hizmet Veren İşletmeler</p>
+                    </ListItem>
+                    </Link> */}
+
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
