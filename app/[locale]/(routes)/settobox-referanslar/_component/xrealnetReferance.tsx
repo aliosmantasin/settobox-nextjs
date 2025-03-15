@@ -2,9 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { MdCircle, MdDoneAll } from 'react-icons/md';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-
-import XrealnetLogo from '@/public/images/xrealnet/logo.png';
-import MiniWeb from '@/public/images/miniWeb.webp';
 import { useTranslations } from 'next-intl';
 
 const XrealnetReferance = () => {
@@ -15,7 +12,7 @@ const XrealnetReferance = () => {
     <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
-          <Image src={XrealnetLogo} className="max-w-[100px]" alt="XrealNet Logo" />
+          <Image src="/images/xrealnet/logo.png" className="max-w-[100px]" alt="XrealNet Logo" />
         </div>
         <p className="text-sm text-gray-400 mt-3">{t("xrealnetReferance.span")}</p>
       </div>
@@ -43,7 +40,7 @@ const XrealnetReferance = () => {
 
         <div className="hidden md:flex justify-center">
           <Image
-            src={MiniWeb}
+            src="/images/miniWeb.webp"
             className="w-[100px] object-contain"
             alt="Web Tasarım Hizmeti - SetToBox"
           />

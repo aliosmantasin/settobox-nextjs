@@ -1,7 +1,5 @@
 
 import Image from 'next/image';
-import BannerReferans from '@/public/images/bannerReferans.jpg';
-
 import Head from 'next/head';
 import { seoData } from '@/lib/seo';
 import { useTranslations } from 'next-intl';
@@ -53,7 +51,7 @@ const ReferancePage = () => {
             <h1 className="text-white text-sm md:text-base">{t("title")}</h1>
           </div>
           <Image
-            src={BannerReferans}
+            src="/images/bannerReferans.jpg"
             className="w-full h-[500px] object-cover"
             alt="Referanslarımız Banner"
           />

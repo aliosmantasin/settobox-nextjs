@@ -2,7 +2,6 @@
 import ArrangementInstagram from '@/public/data/InstagramService.json'
 import ManageGoogleAnimation from '@/public/data//ManageGoogleAnimation.json'
 import ReferansWebDurunet from '@/public/images/durunetGorsel/WebDurunet.webp'
-import WebIhc from '../public/images/durunetGorsel/WebIhc.png'
 import GoogleDurunetAnimation from '@/public/data/GoogleDurunetAnimation.json'
 import WebSiteManage from '@/public/data/WebsiteManage.json'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
@@ -298,9 +297,9 @@ const initialState: SectorState = {
         ],
 
         images: {
-          src : "images/durunetGorsel/WebIhc.png",
-          width : WebIhc.width,
-          height: WebIhc.height,
+          src : "/images/durunetGorsel/WebIhc.png",
+          width : 500,
+          height: 500,
           alt: "Website Tasarım Örneği",
         },
         webname: 'Referans Websitesi',
@@ -406,13 +405,13 @@ const initialState: SectorState = {
           }   
         ],
         images: {
-          src : WebIhc.src,
-          width : WebIhc.width,
-          height: WebIhc.height,
+          src : "images/durunetGorsel/WebIhc.png",
+          width : 500,
+          height: 500,
           alt: "Website Tasarım Örneği",
         },
         webname: '',
-        webUrl : '#'
+        webUrl : '/#'
       }
     },
 
