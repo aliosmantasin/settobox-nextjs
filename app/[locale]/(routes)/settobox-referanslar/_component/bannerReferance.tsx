@@ -1,7 +1,7 @@
 "use client";
 import Image from 'next/image';
 
-import BannerReferans from '@/public/images/bannerReferans.jpg';
+import BannerReferans from '../../../../../public/images/bannerReferans.jpg';
 import { useTranslations } from 'next-intl';
 import { Suspense } from 'react';
 import Loading from '../../_components/Loadling/Loading';

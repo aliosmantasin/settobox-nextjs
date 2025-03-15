@@ -2,7 +2,7 @@
 import ArrangementInstagram from '@/public/data/InstagramService.json'
 import ManageGoogleAnimation from '@/public/data//ManageGoogleAnimation.json'
 import ReferansWebDurunet from '@/public/images/durunetGorsel/WebDurunet.webp'
-import WebIhc from '@/public/images/durunetGorsel/WebIhc.png'
+import WebIhc from '../public/images/durunetGorsel/WebIhc.png'
 import GoogleDurunetAnimation from '@/public/data/GoogleDurunetAnimation.json'
 import WebSiteManage from '@/public/data/WebsiteManage.json'
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'

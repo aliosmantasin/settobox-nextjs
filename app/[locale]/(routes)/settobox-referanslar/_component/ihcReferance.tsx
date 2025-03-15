@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import IhcLogo from '@/public/images/İhc/ihcLogo.png';
+import IhcLogo from '../../../../../public/images/İhc/ihcLogo.png';
 import MetaProBox from '@/public/images/pro-box.webp';
 import MegaWeb from '@/public/images/megaWeb.webp';
 import { MdCircle, MdDoneAll } from 'react-icons/md';

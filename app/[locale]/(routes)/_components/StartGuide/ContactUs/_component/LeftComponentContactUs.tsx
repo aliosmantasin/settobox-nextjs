@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card"
 
 import Image from "next/image"
-import TeamLeader from '@/public/images/teamLeader.jpeg'
+import TeamLeader from '../../../../../../../public/images/teamLeader.jpeg'
 import Link from "next/link"
 
 

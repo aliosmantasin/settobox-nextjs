@@ -1,6 +1,6 @@
 
 
-import DurunetLogo from '@/public/images/durunetGorsel/durunetLogo.png';
+import DurunetLogo from '../../../../../public/images/durunetGorsel/durunetLogo.png';
 import DijitalDonusumKutusu from '@/public/images/DigitalDonusumKutusu.webp';
 import Image from 'next/image';
 import { MdCircle, MdDoneAll } from 'react-icons/md';
