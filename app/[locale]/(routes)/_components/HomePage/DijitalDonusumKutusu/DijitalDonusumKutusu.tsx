@@ -27,7 +27,7 @@ const DijitalDonusumKutusu = () => {
     viewport={{ once: true, amount: 0.4 }} // Görünür olma koşulunu daha hassas yap
     transition={{ duration: 3 }}
   >
-    <section className="my-20 flex">
+    <section className=" flex">
       <div className="container my-20 flex flex-wrap mx-auto">
         {/* Mobile title */}
         <div className="block sm:hidden text-center mb-6">

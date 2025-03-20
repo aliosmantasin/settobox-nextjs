@@ -42,15 +42,13 @@ const ListItem = React.forwardRef<
   );
 });
 ListItem.displayName = "ListItem";
-
 // Menu bileşeni
 export function Menu() {
 
   const t = useTranslations("Navbar")
 
-
   return (
-    <div className="hidden sm:flex mx-auto items-center">
+    <div className="hidden sm:flex mx-auto items-center relative">
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem className="mr-5">
@@ -79,9 +77,6 @@ export function Menu() {
                 className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                 >
             
-        
-              
-
                     <div className="mb-2 mt-4 text-lg font-medium text-center flex justify-center">
                       {/*Dijital Donusum */}
                 
@@ -102,8 +97,6 @@ export function Menu() {
                         </div>
                         
                         </ListItem>
-                
-
                     </div>
                
                   </Link>

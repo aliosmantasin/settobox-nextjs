@@ -1,11 +1,13 @@
 
 import FirstGlance from "../_components/HomePage/FirstGlance";
-import { MaskSvg } from "../_components/libs/Mask/Mask";
+
 import ServiceSlider from "../_components/HomePage/SliderShadcn/SliderShadcn";
 import SectorAll from "../_components/HomePage/Sector/SectorAll";
 import DijitalDonusumKutusu from "../_components/HomePage/DijitalDonusumKutusu/DijitalDonusumKutusu";
 import type { Metadata } from "next";
 import { seoData } from "@/lib/seo";
+import ContactUs from "../_components/StartGuide/ContactUs/ContactUs";
+import BlobsAnimations from "../_components/DigitalConversionSector/AllinBoxComponents/BlobsAnimations";
 
 type Props = {
   params: Promise<{ locale?: string }>; // ✅ params artık Promise olarak tanımlandı
@@ -36,11 +38,14 @@ export default function HomePage() {
 
   return (
     <>
-      <FirstGlance />
-      <MaskSvg />
+      <FirstGlance />  
       <ServiceSlider />
       <DijitalDonusumKutusu/>
       <SectorAll />
+      <section className='py-20 relative'>
+      <ContactUs/>
+      <BlobsAnimations/>
+      </section>
     </>
   );
 }

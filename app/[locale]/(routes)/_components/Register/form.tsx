@@ -79,11 +79,11 @@ const sendEmail = async (data: z.infer<typeof formSchema>) => {
 
   return (
 
-      <section className="flex items-center justify-center relative my-20">
+      <section className="flex items-center justify-center relative my-10">
         <div className="w-full max-w-md p-6 rounded shadow-md">
           <h2 className="text-2xl font-bold text-center mb-4">{t("title")}</h2>
 
-          <form onSubmit={handleSubmit(sendEmail)}>
+          <form onSubmit={handleSubmit(sendEmail)}  id="formSubmission">
             <div className="mb-4">
               <Label htmlFor="firstName">{t("name")}</Label>
               <Input {...register("firstName")} />
@@ -138,7 +138,7 @@ const sendEmail = async (data: z.infer<typeof formSchema>) => {
               {errors.recaptchaToken && <p className="text-red-500">{errors.recaptchaToken.message}</p>}
             </div>
 
-            <Button type="submit" className="w-full" disabled={isSubmitting} id="formSubmission">
+            <Button type="submit" className="w-full" disabled={isSubmitting}>
               {isSubmitting ? "Gönderiliyor..." : t("send")}
             </Button>
           </form>

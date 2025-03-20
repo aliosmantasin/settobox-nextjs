@@ -6,6 +6,8 @@ import GoogleProduct from '../_components/GoogleAds/GoogleProduct/GoogleProduct'
 import Head from 'next/head'
 import { seoData } from '@/lib/seo'
 import { GoogleAdsCard } from '../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard'
+import ContactUs from '../_components/StartGuide/ContactUs/ContactUs'
+import BlobsAnimations from '../_components/DigitalConversionSector/AllinBoxComponents/BlobsAnimations'
 
 export async function generateMetadata() {
   const pagePath = "google-ads-reklam-yonetimi"; // Sayfanın adı belirleniyor
@@ -46,6 +48,10 @@ const GoogleAdsPage = () => {
         <GoogleAdditional/>
         <GoogleProduct/>
         <GoogleAdsCard/>
+        <section className='py-20 relative'>
+        <ContactUs/>
+        <BlobsAnimations/>
+      </section>
     </>
   )
 }

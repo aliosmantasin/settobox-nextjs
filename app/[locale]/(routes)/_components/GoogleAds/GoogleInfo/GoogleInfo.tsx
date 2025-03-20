@@ -47,7 +47,7 @@ const GoogleInfo: React.FC<GoogleInfoProps> = ({ onLoad }) => {
   return (
     <>
       <DiscountModal />
-      <section className="pt-14 sm:pt-20 relative">
+      <section className="pt-14 sm:pt-10 relative">
         <div className="container mx-auto">
           {/* Başlık ve Açıklama */}
           <motion.div

@@ -5,7 +5,7 @@ import WebDesignManageAnimasyonJson from '../AnimasyonData/WebDesignManageAnimas
 const FreeWebSite = () => {
   return (
 
-<section className="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
+<section className="bg-white dark:bg-gray-900 ">
 
 
 <div className='container   dark:bg-black  flex flex-wrap justify-center mx-auto ocean-shadow m-5 rounded-md'>
@@ -32,6 +32,9 @@ const FreeWebSite = () => {
     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
         <li>
             Google Ads hizmet kutularını tercih etmiş markalar bu hizmetten faydalanabilir.
+        </li>
+        <li>
+            MegaBox ve ProBox Google Ads reklam hizmetini seçmiş işletmeler ücretsiz faydalanabilir.
         </li>
         <li>
            Bu kampanya 30 Nisan 2025 tarihine kadar geçerlidir.

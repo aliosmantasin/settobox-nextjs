@@ -55,8 +55,29 @@
   "HomePage": {
     "title1": "We Manage and Grow the Digital Presence of Brands!",
     "description1": "We highlight your brand with Facebook, Instagram, and Google ads, strengthen your corporate identity by planning your website content, and reach your target audience more effectively with social media management that increases engagement. We manage digital marketing not with random steps but with a strategic roadmap.",
+    
+    "features1": {
+      "title": "Google Management",
+      "description": "Be Visible to Potential Customers with Google Applications"
+    },
+
+    "features2": {
+      "title": "Meta Management",
+      "description": "Stand Out Your Brand with Meta Power"
+    },
+
+    "features3": {
+      "title": "Website Design Service",
+      "description": "Strengthen Your Corporate Identity"
+    },
+
+    "features4": {
+      "title": "Digital Conversion Box",
+      "description": "Complete Management of Online Assets"
+    },
+
     "form": "Contact Form",
-    "formLink":"/information-form",
+    "formLink": "/information-form",
     "contact": "Call Now!",
     "subtitle2A": "SetToBox Service Contents",
     "description2": "You can direct your digital media channels by selecting the meta, Google, or website service box that suits you.",
@@ -68,7 +89,7 @@
     ],
     "description3": "<strong>Digital Conversion Box</strong> is designed for small and medium-sized businesses.",
     "LinkButton": "Explore More",
-    "moreİnfoLink":"/digital-marketing-conversion-box",
+    "moreİnfoLink": "/digital-marketing-conversion-box",
 
     "subtitle3": "What Is Your Industry?",
     "description4": "Discover how we manage online presence based on different industries with the digital transformation service box",
@@ -78,21 +99,21 @@
     "span1": "META MANAGEMENT",
     "span2": "GOOGLE MANAGEMENT",
     "span3": "WEBSITE MANAGEMENT",
-    "linkToService":"/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
+    "linkToService": "/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
 
     "subtitle4B": "Digital Marketing for the Education Industry",
     "description7": "How to manage digital marketing in the education industry: We show it with references.",
     "span4": "META MANAGEMENT",
     "span5": "GOOGLE MANAGEMENT",
     "span6": "WEBSITE MANAGEMENT",
-    "linkToEducation":"/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+    "linkToEducation": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
 
     "subtitle4C": "Digital Marketing for the Healthcare Industry",
     "description8": "How to manage digital marketing in the healthcare industry: We show it with references.",
     "span7": "META MANAGEMENT",
     "span8": "GOOGLE MANAGEMENT",
     "span9": "WEBSITE MANAGEMENT",
-    "linkToHealty":"/#"
+    "linkToHealty": "/#"
   },
 
   "MetaPage": {
@@ -1412,6 +1433,13 @@
     }
   }
 
- }
+ },
+
+ "BottomNavigation": {
+  "span1":"Home Page",
+  "span2":"Phone",
+  "span3":"Whatsapp"
+}
+
 
 }

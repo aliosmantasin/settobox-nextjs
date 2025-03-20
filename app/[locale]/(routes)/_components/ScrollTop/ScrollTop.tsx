@@ -32,7 +32,7 @@ const ScrollTop: React.FC<ScrollTopProps> = ({ children }) => {
   return (
     <div
       onClick={handleClick}
-      className={`fixed bottom-8 right-4 z-50 cursor-pointer p-3 rounded-full shadow-md transition-opacity duration-300 bg-primary scrollTopColor ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+      className={`fixed bottom-20 right-4 z-50 cursor-pointer p-3 rounded-full shadow-md transition-opacity duration-300 bg-primary scrollTopColor ${isVisible ? 'opacity-100' : 'opacity-0'}`}
       role="button"
       aria-label="Scroll to top"
     >

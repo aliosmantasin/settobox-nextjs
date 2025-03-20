@@ -55,6 +55,27 @@
   "HomePage": {
     "title1": "Markaların Dijital Varlıklarını Yönetiyor ve Büyütüyoruz!",
     "description1": "Markanızı Facebook, Instagram ve Google reklamlarıyla öne çıkarıyor, web sitenizin içerik planlamasını yaparak kurumsal kimliğinizi güçlendiriyoruz. Etkileşimi artıran sosyal medya yönetimiyle hedef kitlenize daha etkili ulaşıyoruz. Dijital pazarlamayı plansız adımlarla değil, stratejik bir yol haritasıyla yönetiyoruz.",
+   
+        "features1":{
+          "title":"Google Yönetimi",
+          "description":"Google Uygulamalarıyla Potansiyel Müşterilerine Görünür Ol"
+        },
+
+        "features2":{
+          "title":"Meta Yönetimi",
+          "description":"Markanızı Meta Gücüyle Yönlendirmesiyle Öne Çıkarın"
+        },
+
+        "features3":{
+          "title":"Website Tasarım Hizmeti",
+          "description":"Kurumsal Kimliğinizi Güçlendirin"
+        },
+
+        "features4":{
+          "title":"Dijital Dönüşüm Kutusu",
+          "description":"Online Varlıklarınızın Bütünüyle Yönetimi"
+        },
+   
     "form": "Form İletişim",
     "formLink":"/bilgi-alma-formu",
     "contact": "Şimdi Ara!",
@@ -387,7 +408,7 @@
       },
 
       "span1": "%10 İndirim Avantajı",
-      "freeWebSupport": "Ücretsiz Web Tasarım Avantajı",
+      "freeWebSupport": "Kurumsal Web Tasarım 6.000₺ yerine 4.500₺",
 
       "span2": "Detaylı Bilgilendirme",
       "spanHareketPlani": "Hareket Planı",
@@ -1472,6 +1493,12 @@
       
     }
 
+  },
+
+  "BottomNavigation": {
+    "span1":"Ana Sayfa",
+    "span2":"Telefon",
+    "span3":"Whatsapp"
   }
 
 }

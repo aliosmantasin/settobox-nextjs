@@ -45,7 +45,7 @@ export default function DiscountModal() {
       <div className="bg-white rounded-lg shadow-lg dark:bg-gray-700 w-96 sm:w-[400px] md:w-[500px] p-5">
         <div className="flex justify-between items-center border-b pb-3">
           <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Yeni Başlayan | <span className="primary-light">Hoşgeldin Kampanyası</span> 
+           <span className="primary-light">Google Ads Fırsat Kampanyası</span> 
           </h3>
           <button
             onClick={handleClose}
@@ -62,21 +62,23 @@ export default function DiscountModal() {
         <div className=" space-y-3">
           <a href="#" className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
             <span className="flex-1">Başlagıç Paketi <span className="text-xs primary">(MiniBox Google)</span></span>
-            <span> <span className="text-red-500 dark:text-red-400 line-through text-xs">4500₺</span> <span className="text-lg text-green-500 dark:text-green-400">2500₺</span></span>
+            <span>  <span className="text-lg text-green-500 dark:text-green-400">4.500₺</span> <span className="text-[12px] text-gray-700 dark:text-green-400">(Aylık)</span>  </span>
           </a>
           <a href="#" className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
-            <span className="flex-1">Ücretsiz Web Tasarım Hizmeti</span>
+            <span className="flex-1">Web Tasarım Hizmeti</span>
+            <span> <span className="text-red-500 dark:text-red-400 line-through text-xs">6.000₺</span> <span className="text-lg text-green-500 dark:text-green-400">4.500₺</span></span>
+
           </a>
         </div>
         <div className="my-1 ml-1">
-          <Link href="/settobox-kampanyalar" className="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400">
+          <Link href="/settobox-kampanyalar" className="inline-flex items-center text-xs font-normal text-blue-500 hover:underline dark:text-blue-400">
             Tüm kampanyaları incele!</Link>
         </div>
         <div className="flex item-center justify-evenly border-t-2 pt-2">
           <p className="flex my-auto tracking-widest text-gray-500 md:text-lg dark:text-gray-400">Başvuru İçin:</p>
           <Button variant="ghost">
             <Link
-              href="https://wa.me/905437214839?text=Merhaba%20Hoşgeldin%20Kampanyasından%20faydalanmak%20istiyorum."
+              href="https://wa.me/905437214839?text=Merhaba%20Google%20Ads%20Fırsat%20Kampanyasından%20faydalanmak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-2"

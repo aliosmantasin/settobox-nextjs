@@ -13,6 +13,7 @@ import { Metadata } from "next";
 import Head from "next/head";
 import { ToastProvider } from "@radix-ui/react-toast";
 import { Toaster } from "@/components/ui/toaster";
+import BottomNavigation from "./_components/libs/BottomNavigation";
 
 // 🌍 Desteklenen diller
 const locales = ["tr", "en"];
@@ -63,6 +64,7 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
             <ScrollTop>
               <MdKeyboardArrowUp />
             </ScrollTop>
+            <BottomNavigation/>
           <Footer />
         </NextIntlClientProvider>
     </>

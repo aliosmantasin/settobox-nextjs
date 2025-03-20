@@ -33,7 +33,7 @@ const ServiceSlider = () => {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 2 }}
     >
-      <section className="flex flex-col items-center pb-10">
+      <section className="flex flex-col items-center py-20 ">
         <div className="BgColorGradient text-white text-center mx-auto font-semibold text-xl sm:text-2xl md:text-2xl px-4 py-2 shadow-lg max-w-md">
           <h2>{t("subtitle2A")}</h2>
         </div>
