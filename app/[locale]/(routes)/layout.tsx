@@ -4,7 +4,7 @@ import Navbar from "./_components/Menu/Navbar";
 import ScrollTop from "./_components/ScrollTop/ScrollTop";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { ReactNode } from "react";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // 🌍 Tüm çeviri dosyalarını içe aktar
 import trMessages from "@/messages/tr.json";
@@ -65,6 +65,7 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
               <MdKeyboardArrowUp />
             </ScrollTop>
             <BottomNavigation/>
+            <SpeedInsights />
           <Footer />
         </NextIntlClientProvider>
     </>
