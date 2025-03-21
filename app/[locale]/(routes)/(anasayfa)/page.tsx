@@ -1,6 +1,3 @@
-
-import FirstGlance from "../_components/HomePage/FirstGlance";
-
 import ServiceSlider from "../_components/HomePage/SliderShadcn/SliderShadcn";
 import SectorAll from "../_components/HomePage/Sector/SectorAll";
 import DijitalDonusumKutusu from "../_components/HomePage/DijitalDonusumKutusu/DijitalDonusumKutusu";
@@ -8,6 +5,7 @@ import type { Metadata } from "next";
 import { seoData } from "@/lib/seo";
 import ContactUs from "../_components/StartGuide/ContactUs/ContactUs";
 import BlobsAnimations from "../_components/DigitalConversionSector/AllinBoxComponents/BlobsAnimations";
+import FirstGlanceNew from "../_components/HomePage/FirstGlanceNew";
 
 type Props = {
   params: Promise<{ locale?: string }>; // ✅ params artık Promise olarak tanımlandı
@@ -38,7 +36,8 @@ export default function HomePage() {
 
   return (
     <>
-      <FirstGlance />  
+      {/* <FirstGlance />   */}
+      <FirstGlanceNew/>
       <ServiceSlider />
       <DijitalDonusumKutusu/>
       <SectorAll />
