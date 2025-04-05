@@ -8,11 +8,11 @@ const ArmutCampaign = () => {
 <section className="bg-white dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')] p-2">
 
 
-<div className='container  dark:bg-transparent  flex flex-wrap justify-center mx-auto  dark:shadow-blue-800/80 m-5 rounded-md my-20'>
+<div className='container dark:bg-transparent flex flex-wrap justify-center mx-auto dark:shadow-blue-800/80 m-5 rounded-md my-20'>
 
 
 
-<div className='flex w-full sm:w-3/7 md:w-5/12 mx-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-5/12 mx-auto p-2'>
 
   <div className='flex'>
     <Image className='mx-auto object-contain w-[200] h-[200] sm:w-[300px] sm:h-[300px]' src="/images/armut.webp" alt="Armut Görsel" width={200} height={200}></Image>
@@ -22,7 +22,7 @@ const ArmutCampaign = () => {
    
 </div>
 
-<div className='flex w-full sm:w-3/7 md:w-6/12 m-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-6/12 m-auto p-2'>
 
     <div>
     <h2 className='font-bold text-3xl py-3 primary'>Armut Uygulamasına Özel İndirim</h2>

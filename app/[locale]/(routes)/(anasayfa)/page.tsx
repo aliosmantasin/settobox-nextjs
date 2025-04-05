@@ -1,6 +1,4 @@
-
 import FirstGlance from "../_components/HomePage/FirstGlance";
-
 import ServiceSlider from "../_components/HomePage/SliderShadcn/SliderShadcn";
 import SectorAll from "../_components/HomePage/Sector/SectorAll";
 import DijitalDonusumKutusu from "../_components/HomePage/DijitalDonusumKutusu/DijitalDonusumKutusu";
@@ -48,4 +46,12 @@ export default function HomePage() {
       </section>
     </>
   );
+}
+
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+    
+  ]
 }

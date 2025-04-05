@@ -19,7 +19,7 @@ const GradientEffect = () => {
   return (
     <>
       {showEffect && (
-        <div className="hidden items-center ">
+        <div className="flex items-center ">
           <div  className={`${currentTheme === "dark" ? "b-gridlineDark" : "b-gridline"}`}></div>
           <div className="gradient-efect ">
             <div className="boxPurple purple-grad"></div>

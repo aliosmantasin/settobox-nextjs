@@ -16,7 +16,7 @@ const WelcomeCampaign = () => {
 
 
 
-<div className='flex w-full sm:w-3/7 md:w-5/12 justify-center items-center mx-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-5/12 justify-center items-center mx-auto p-2'>
 <div className='flex'>
   <Image className='mx-auto object-contain w-[200] h-[200] sm:w-[300px] sm:h-[300px]' src="/GoogleMiniBox.webp" alt="Armut Görsel" width={200} height={200}></Image>
       <span className='flex m-auto text-xl font-extrabold'>+</span>
@@ -25,7 +25,7 @@ const WelcomeCampaign = () => {
     
 </div>
 
-<div className='flex w-full sm:w-3/7 md:w-6/12 m-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-6/12 m-auto p-2'>
 
     <div>
     <h2 className='font-bold text-3xl py-3 primary'>Hoşgeldin Kampanyası</h2>

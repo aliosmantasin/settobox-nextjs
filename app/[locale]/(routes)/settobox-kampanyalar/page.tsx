@@ -8,7 +8,6 @@ import Opportunity from '../_components/CampaignComponents/Oppornity'
 const page = () => {
   return (
     <>
-       
         <InfoCampaign/>
         <Opportunity/>
         <WelcomeCampaign/>

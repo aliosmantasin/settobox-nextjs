@@ -16,13 +16,13 @@ const Opportunity = () => {
 
 
 
-<div className='flex w-full sm:w-3/7 md:w-5/12 mx-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-5/12 mx-auto p-2'>
 
     <Image className='mx-auto' src="/GoogleMiniBox.webp" alt="Armut Görsel" width={500} height={500}></Image>
    
 </div>
 
-<div className='flex w-full sm:w-3/7 md:w-6/12 m-auto p-2'>
+<div className='flex w-full sm:w-3/7 lg:w-6/12 m-auto p-2'>
 
     <div>
     <h2 className='font-bold text-3xl py-3 primary'>Google Ads Fırsat Kampanyası</h2>

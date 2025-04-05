@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { FcShop } from "react-icons/fc";
 // import { FcShop } from "react-icons/fc";
 
 // ListItem bileşeni
@@ -135,21 +136,21 @@ export function Menu() {
                       </div>                     
                       </div>                
                     </ListItem>
-                    </Link>
+                    </Link> */}
 
-                    <Link href="/#" className="border border-indigo-100 rounded-lg">
+                    <Link href="/#" className="border border-indigo-100 rounded-lg ">
                     <ListItem className="row-span-4">
                       <div className="flex item-center">
                       <span>
                       <FcShop className="text-5xl m-2"/>
                       </span>
                       <div>
-                      <span className="font-semibold">Bölgesel Hizmet Veren Firmalar</span>
+                      <span className="font-semibold">Yerel/Mikro Dijital Pazarlama</span>
                       <p>Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin</p>
                       </div>                     
                       </div>                
                     </ListItem>
-                    </Link> */}
+                    </Link>
 
 
               </ul>

@@ -30,7 +30,7 @@
 
 .purple-grad {
 	background-image: linear-gradient(to right, #74e9f4, white);
-    filter: brightness(0) saturate(22%) invert(82%) sepia(67%) saturate(2646%) hue-rotate(203deg) brightness(112%) contrast(54%) blur(90px);
+    filter: brightness(0) saturate(22%) invert(82%) sepia(67%) saturate(2646%) hue-rotate(203deg) brightness(100%) contrast(90%) blur(90px);
 	opacity: 0.7;
 }
 

@@ -203,7 +203,7 @@ const page = () => {
                           <a href="#" className="bg-purple-100 text-purple-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-purple-400 mb-2">
                               E-Ticaret
                           </a>
-                          <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">E-Ticaret Pazarlarma Yönetimi</h2>
+                          <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">E-Ticaret Pazarlama Yönetimi</h2>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
                               E-ticaret pazarlamasına girecek yeni işletmeler için planlanmaktadır.
                           </p>

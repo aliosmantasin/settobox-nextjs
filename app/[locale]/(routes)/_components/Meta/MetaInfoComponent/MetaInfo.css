@@ -1,32 +1,3 @@
-@keyframes upDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-
-  .callToAction svg {
-    max-width: 350px;
-    width: 300px;
-  }
-  
-  
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    animation: upDown 4s ease-in-out infinite;
-  }
-
-/* Animasyonu eklemek için ImageContainer'a özel sınıf */
-.image-container {
-  animation: upDown 4s ease-in-out infinite;
-}
-
-  
   .callToAction h2 {
     font-size: x-large;
     font-weight: 400;

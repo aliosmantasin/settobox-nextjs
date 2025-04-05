@@ -174,9 +174,33 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .dark .productListColor {
-    @apply border-blue-300  bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800;
+    @apply border-blue-300 bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800;
   }
 }
+
+
+
+@layer base {
+  .listStyle {
+    @apply text-[#373737] bg-white hover:bg-gray-50 shadow-lg;
+  }
+
+  .dark .listStyle {
+    @apply bg-blue-50 dark:bg-slate-900 hover:bg-gray-50  dark:text-slate-400 shadow-lg;
+  }
+}
+
+@layer base {
+  .paragraphStyle {
+    @apply text-[#373737];
+  }
+
+  .dark .paragraphStyle {
+    @apply dark:text-slate-400 ;
+  }
+}
+
+
 
 @layer base {
   .ocean-shadow {
@@ -258,6 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Grid Box Styles */
 @layer base {
   .gridBox {
@@ -298,3 +323,67 @@ h1, h2, h3, h4, h5, h6 {
   }
   
 }
+
+/* Image Container Animation */
+@layer base {
+
+  @keyframes upDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .callToAction svg {
+    max-width: 350px;
+    width: 300px;
+  }
+  
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: upDown 4s ease-in-out infinite;
+  }
+
+/* Animasyonu eklemek için ImageContainer'a özel sınıf */
+.image-container {
+  animation: upDown 4s ease-in-out infinite;
+}
+  
+}
+
+/* Scroll Özelleştirilmiş Alan */
+@layer base {
+
+/* Scrollbar genel tasarımı */
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Scrollbar track (arka plan) */
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #e2e8f0; /* Tailwind gray-200 */
+  border-radius: 10px;
+
+}
+
+/* Scrollbar thumb (kaydırma çubuğu) */
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #2962e5; /* Tailwind blue-600 */
+  border-radius: 10px;
+
+}
+
+/* Hover durumunda thumb rengi */
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #1e40af; /* Tailwind blue-800 */
+}
+  
+}
+

@@ -25,7 +25,7 @@ const MetaProduct = () => {
     <section className=" my-28 productBgColor mx-1 sm:m-10">
         
   
-     <div className="">
+     <div>
       <h2 className=" text-center mx-auto font-semibold text-xl sm:text-2xl md:text-3xl px-4 py-2 ">
       {t("sub1")}
       </h2>
