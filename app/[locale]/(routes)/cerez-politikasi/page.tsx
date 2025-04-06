@@ -1,6 +1,4 @@
-"use client";
 import { Card } from "@/components/ui/card";
-
 
 export default function CookiePolicyPage() {
   return (
@@ -39,4 +37,10 @@ export default function CookiePolicyPage() {
       </footer>
     </div>
   );
+}
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+  ]
 }

@@ -1,4 +1,4 @@
-"use client"
+
 import DigitalConversiyonInfo from "../_components/DigitalConversionBox/DigitalConversiyonInfo/DigitalConversiyonInfo";
 import DigitalConversionStepToExplation from "../_components/DigitalConversionBox/DigitalConversionSteoToExplation.tsx/DigitalConversionStepToExplation";
 import DijitalConversionProduct from "../_components/DigitalConversionBox/DijitalConversionProduct/DijitalMarketingConversionProduct";
@@ -19,3 +19,10 @@ const Page = () => {
 export default Page;
 
 
+
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+  ]
+}

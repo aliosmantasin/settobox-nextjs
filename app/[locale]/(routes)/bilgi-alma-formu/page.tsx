@@ -38,3 +38,10 @@ const InfoFormPage = () => {
 }
 
 export default InfoFormPage
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+    { locale: 'en' },
+  ]
+}

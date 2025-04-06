@@ -46,3 +46,9 @@ const StartGuide = () => {
 }
 
 export default StartGuide
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+  ]
+}

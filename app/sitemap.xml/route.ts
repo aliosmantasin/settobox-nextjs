@@ -14,19 +14,19 @@ const urlMap: Record<string, { tr: string; en: string; changefreq: string; prior
   },
   "dijital-pazarlama-donusum-kutusu/hizmetsektoru": { 
     tr: "dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
-    en: "digital-marketing-conversion-box/service-sector", 
+    en: "dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
     changefreq: "weekly", 
     priority: 0.7 
   },
   "dijital-pazarlama-donusum-kutusu/egitimsektoru": { 
     tr: "dijital-pazarlama-donusum-kutusu/egitimsektoru", 
-    en: "digital-marketing-conversion-box/education-sector", 
+    en: "dijital-pazarlama-donusum-kutusu/egitimsektoru", 
     changefreq: "weekly", 
     priority: 0.7 
   },
   "dijital-pazarlama-donusum-kutusu/sagliksektoru": { 
     tr: "dijital-pazarlama-donusum-kutusu/sagliksektoru", 
-    en: "digital-marketing-conversion-box/health-sector", 
+    en: "dijital-pazarlama-donusum-kutusu/sagliksektoru", 
     changefreq: "weekly", 
     priority: 0.7 
   },
@@ -56,7 +56,7 @@ const urlMap: Record<string, { tr: string; en: string; changefreq: string; prior
   },
   "dijital-pazarlama-baslagic-kilavuzu": { 
     tr: "dijital-pazarlama-baslagic-kilavuzu", 
-    en: "digital-marketing-beginner-guide", 
+    en: "dijital-pazarlama-baslagic-kilavuzu", 
     changefreq: "weekly", 
     priority: 0.5 
   }

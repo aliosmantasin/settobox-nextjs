@@ -32,7 +32,8 @@ function MetaInfo() {
                 height={70}
                 style={{ rotate: "-45deg" }}
                 alt="Instagram"
-            
+                quality={90}
+                loading="lazy"
               />
             </div>
             <div className="absolute image-container" style={{ bottom: "15%", left: "-5%" }}>
@@ -42,6 +43,8 @@ function MetaInfo() {
                 height={70}
                 style={{ rotate: "-45deg" }}
                 alt="Facebook"
+                quality={90}
+                loading="lazy"
               />
             </div>
             <div className="absolute image-container" style={{ right: "-5%" }}>
@@ -51,6 +54,8 @@ function MetaInfo() {
                 height={70}
                 style={{ rotate: "45deg" }}
                 alt="WhatsApp"
+                quality={90}
+                loading="lazy"
               />
             </div>
 

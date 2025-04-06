@@ -49,6 +49,9 @@ const FirstGlance: React.FC = () => {
           alt="Dijital Dönüşüm Kutusu"
           width={66}
           height={66}
+          priority={true}
+          loading="eager"
+          quality={90}
         />
       ),
     },

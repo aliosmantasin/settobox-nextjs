@@ -54,9 +54,7 @@ export function Menu() {
         <NavigationMenuList>
           <NavigationMenuItem className="mr-5">
             <Link href="/" legacyBehavior passHref>
-              <NavigationMenuLink 
-              
-              >
+              <NavigationMenuLink>
                 {t("HomePage")}
               </NavigationMenuLink>
             </Link>
@@ -74,32 +72,28 @@ export function Menu() {
             <NavigationMenuContent>
               <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[800px] lg:grid-cols-[.75fr_1fr]">
                 <span className="row-span-3">
-                <Link href={t("link1")}  
-                className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                >
-            
+                  <Link href={t("link1")}  
+                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                  >
                     <div className="mb-2 mt-4 text-lg font-medium text-center flex justify-center">
-                      {/*Dijital Donusum */}
-                
-                        <ListItem>
-
-                          <Image
-                            src="/DigitalDonusumKutusu.webp"
-                            alt="Dijital Dönüşüm Kutusu"
-                            width={200}
-                            height={200}
-                            className="mx-auto"
-                          />
+                      <ListItem>
+                        <Image
+                          src="/DigitalDonusumKutusu.webp"
+                          alt="Dijital Dönüşüm Kutusu"
+                          width={200}
+                          height={200}
+                          className="mx-auto"
+                          priority
+                          quality={90}
+                        />
                         <div className="mt-3">
-                        <span className="text-lg font-semibold primary">{t("span1")}</span>
+                          <span className="text-lg font-semibold primary">{t("span1")}</span>
                           <p className="text-sm leading-tight text-muted-foreground text-center">
                             {t("descrition1")}
                           </p>
                         </div>
-                        
-                        </ListItem>
+                      </ListItem>
                     </div>
-               
                   </Link>
                 </span>
 
@@ -138,7 +132,7 @@ export function Menu() {
                     </ListItem>
                     </Link> */}
 
-                    <Link href="/#" className="border border-indigo-100 rounded-lg ">
+                    <Link href="/yerel-dijital-pazarlama" className="border border-indigo-100 rounded-lg ">
                     <ListItem className="row-span-4">
                       <div className="flex item-center">
                       <span>

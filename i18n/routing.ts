@@ -1,9 +1,12 @@
 import {defineRouting} from 'next-intl/routing';
 import {createNavigation} from 'next-intl/navigation';
  
+// URL yönlendirme kuralları
+
 export const routing = defineRouting({
   locales: ['tr', 'en'], // ✅ Desteklenen diller tam kodlarıyla tanımlandı
-  defaultLocale: 'tr'
+  defaultLocale: 'tr',
+ 
 });
  
 // Lightweight wrappers around Next.js' navigation APIs

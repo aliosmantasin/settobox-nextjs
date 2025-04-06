@@ -6,7 +6,6 @@ import { MdKeyboardArrowDown } from 'react-icons/md'
 const page = () => {
   return (
       <>
-
           <section className='my-20 relative'>
               <div className='w-full mx-auto mb-4'>
                   <h1 className='text-center text-4xl'>SetToBox Hizmetler</h1>
@@ -226,6 +225,12 @@ const page = () => {
 }
 
 export default page
+
+export async function generateStaticParams() {
+    return [
+      { locale: 'tr' },
+    ]
+  }
 
 
 

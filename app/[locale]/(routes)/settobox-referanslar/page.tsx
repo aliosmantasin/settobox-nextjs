@@ -70,3 +70,10 @@ const ReferancePage = () => {
 };
 
 export default ReferancePage;
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+    { locale: 'en' },
+  ]
+}

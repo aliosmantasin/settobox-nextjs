@@ -52,6 +52,6 @@ export default function HomePage() {
 export async function generateStaticParams() {
   return [
     { locale: 'tr' },
-    
+    { locale: 'en' }
   ]
 }

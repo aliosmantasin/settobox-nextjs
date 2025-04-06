@@ -21,3 +21,10 @@ const LocalDigitalMarketing = () => {
 }
 
 export default LocalDigitalMarketing
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+    { locale: 'en' },
+  ]
+}

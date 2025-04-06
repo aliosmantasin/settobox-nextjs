@@ -18,3 +18,10 @@ const page = () => {
 }
 
 export default page
+
+export async function generateStaticParams() {
+  return [
+    { locale: 'tr' },
+    { locale: 'en' },
+  ]
+}

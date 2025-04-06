@@ -17,11 +17,11 @@
     "link4": "/web-sitesi-yaptirma",
 
     "Referance": "Referanslar",
-    "refLink":"/settobox-referanslar",
+    "refLink": "/settobox-referanslar",
     "light": "Aydınlık Mod",
     "dark": "Karanlık Mod",
     "Guide": "Başlangıç Klavuzu",
-    "guideLink":"/dijital-pazarlama-baslagic-kilavuzu",
+    "guideLink": "/dijital-pazarlama-baslagic-kilavuzu",
     "menu": "Menü"
   },
 
@@ -48,36 +48,36 @@
 
     "sub3": "Size Yardımcı Olabiliriz?",
     "span6": "Whatsapp Destek",
-    "span7":"© 2025 SetToBox | Dijital Pazarlamaya Bütünsel Yaklaşım ve Danışmanlık Hizmeti",
-    "span8":"Tüm Hakları Saklıdır."
+    "span7": "© 2025 SetToBox | Dijital Pazarlamaya Bütünsel Yaklaşım ve Danışmanlık Hizmeti",
+    "span8": "Tüm Hakları Saklıdır."
   },
 
   "HomePage": {
     "title1": "Markaların Dijital Varlıklarını Yönetiyor ve Büyütüyoruz!",
     "description1": "Markanızı Facebook, Instagram ve Google reklamlarıyla öne çıkarıyor, web sitenizin içerik planlamasını yaparak kurumsal kimliğinizi güçlendiriyoruz. Etkileşimi artıran sosyal medya yönetimiyle hedef kitlenize daha etkili ulaşıyoruz. Dijital pazarlamayı plansız adımlarla değil, stratejik bir yol haritasıyla yönetiyoruz.",
-   
-        "features1":{
-          "title":"Google Yönetimi",
-          "description":"Google Uygulamalarıyla Potansiyel Müşterilerine Görünür Ol"
-        },
 
-        "features2":{
-          "title":"Meta Yönetimi",
-          "description":"Markanızı Meta Gücüyle Yönlendirmesiyle Öne Çıkarın"
-        },
+    "features1": {
+      "title": "Google Yönetimi",
+      "description": "Google Uygulamalarıyla Potansiyel Müşterilerine Görünür Ol"
+    },
 
-        "features3":{
-          "title":"Website Tasarım Hizmeti",
-          "description":"Kurumsal Kimliğinizi Güçlendirin"
-        },
+    "features2": {
+      "title": "Meta Yönetimi",
+      "description": "Markanızı Meta Gücüyle Yönlendirmesiyle Öne Çıkarın"
+    },
 
-        "features4":{
-          "title":"Dijital Dönüşüm Kutusu",
-          "description":"Online Varlıklarınızın Bütünüyle Yönetimi"
-        },
-   
+    "features3": {
+      "title": "Website Tasarım Hizmeti",
+      "description": "Kurumsal Kimliğinizi Güçlendirin"
+    },
+
+    "features4": {
+      "title": "Dijital Dönüşüm Kutusu",
+      "description": "Online Varlıklarınızın Bütünüyle Yönetimi"
+    },
+
     "form": "Form İletişim",
-    "formLink":"/bilgi-alma-formu",
+    "formLink": "/bilgi-alma-formu",
     "contact": "Şimdi Ara!",
     "subtitle2A": "SetToBox Hizmet İçerikleri",
     "description2": "Size uygun olan meta, google veya web sitesi hizmet kutusunu seçerek dijital medya kanallarınıza yön verebilirsiniz.",
@@ -89,7 +89,7 @@
     ],
     "description3": "<strong>Dijital Dönüşüm Kutusu</strong> küçük ve orta büyüklükteki işletmeler için tasarlanmıştır.",
     "LinkButton": "Daha Fazla İncele",
-    "moreİnfoLink":"/dijital-pazarlama-donusum-kutusu",
+    "moreİnfoLink": "/dijital-pazarlama-donusum-kutusu",
 
     "subtitle3": "Sektörünüz Nedir?",
     "description4": "Dijital dönüşüm hizmet kutusu ile sektörlere göre online varlıkları nasıl yönettiğimizi inceleyin...",
@@ -99,22 +99,21 @@
     "span1": "META YÖNETİMİ",
     "span2": "GOOGLE YÖNETİMİ",
     "span3": "WEBSİTE YÖNETİMİ",
-    "linkToService":"/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
-
+    "linkToService": "/dijital-pazarlama-donusum-kutusu/hizmetsektoru",
 
     "subtitle4B": "Eğitim Sektörüne Göre Dijital Pazarlama",
     "description7": "Eğitim sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
     "span4": "META YÖNETİMİ",
     "span5": "GOOGLE YÖNETİMİ",
     "span6": "WEBSİTE YÖNETİMİ",
-    "linkToEducation":"/dijital-pazarlama-donusum-kutusu/egitimsektoru",
+    "linkToEducation": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
 
     "subtitle4C": "Sağlık Sektörüne Göre Dijital Pazarlama",
     "description8": "Sağlık sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
     "span7": "META YÖNETİMİ",
     "span8": "GOOGLE YÖNETİMİ",
     "span9": "WEBSİTE YÖNETİMİ",
-    "linkToHealty":"/#"
+    "linkToHealty": "/#"
   },
 
   "MetaPage": {
@@ -149,7 +148,7 @@
     "p2": "<span>Not:</span> Reklam öğrenim süresi belirli bir zaman alır. Belirli zaman aralıklarında bir reklam gösterimi planlıyorsanız <strong>7 gün</strong> önceden planlanması gerekmektedir.",
 
     "span2": "Başvuru Formu Gönder",
-    "formLink":"/bilgi-alma-formu",
+    "formLink": "/bilgi-alma-formu",
     "span3": "WhatsApp Konuşması Başlat",
     "span4": "%10 İndirim Avantajı",
 
@@ -989,7 +988,7 @@
 
       "description": "Firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.",
       "link": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
-      "span2":"<a> Detaylı İncele </a>",
+      "span2": "<a> Detaylı İncele </a>",
       "span3": "Referans Amaçlı Paylaşılmıştır."
     },
 
@@ -1006,499 +1005,492 @@
   },
 
   "InfoForm": {
-    "title":"Bilgi Formu",
-    "name":"Adınız",
-    "lastName":"Soy Adınız",
-    "selectService":"Hizmet Seçiniz",
-    "select":"Seçiniz",
-    "meta":
-      "İnstagram & Facebook Reklam Yönetimi",
-    "google":  "Google Ads Reklam Yönetimi",
-    "web":  "Web Site Tasarımı",
-    "conversionBox":  "Dijital Dönüşüm Kutusu",
-    "generalInfo":  "Genel Bilgilendirme",
- 
+    "title": "Bilgi Formu",
+    "name": "Adınız",
+    "lastName": "Soy Adınız",
+    "selectService": "Hizmet Seçiniz",
+    "select": "Seçiniz",
+    "meta": "İnstagram & Facebook Reklam Yönetimi",
+    "google": "Google Ads Reklam Yönetimi",
+    "web": "Web Site Tasarımı",
+    "conversionBox": "Dijital Dönüşüm Kutusu",
+    "generalInfo": "Genel Bilgilendirme",
 
-    "phone":"Telefon Numaranız",
-    "mail":"Email Adresiniz",
-    "send":"Gönder"
+    "phone": "Telefon Numaranız",
+    "mail": "Email Adresiniz",
+    "send": "Gönder"
   },
 
   "DronePage": {
-
     "manavgat": {
-
       "header": {
-      "title":"Manavgat Drone Çekimleri İçin Bizimle İletişime Geçin",
-      "description":"Manavgat ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
-      "callNow":"Şimdi Ara"
+        "title": "Manavgat Drone Çekimleri İçin Bizimle İletişime Geçin",
+        "description": "Manavgat ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+        "callNow": "Şimdi Ara"
       },
 
-      "droneAdditional":{
+      "droneAdditional": {
         "features1": {
-          "title":"4K Yüksek Kalite",
-          "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
+          "title": "4K Yüksek Kalite",
+          "description": "İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
         },
         "features2": {
-          "title":"Sosyal Medya Uyumlu",
-          "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
+          "title": "Sosyal Medya Uyumlu",
+          "description": "Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
         },
         "features3": {
-          "title":"2 Ay Data Garantisi",
-          "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
+          "title": "2 Ay Data Garantisi",
+          "description": "Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
         },
         "features4": {
-          "title":"Ehliyetli Operatör",
-          "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
+          "title": "Ehliyetli Operatör",
+          "description": "Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
         },
-        "features5":{
-          "title":"DJI Mini 3",
-          "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+        "features5": {
+          "title": "DJI Mini 3",
+          "description": "Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
         },
-        "features6":{
-          "title":"Opsiyonel Hizmetler",
-          "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
+        "features6": {
+          "title": "Opsiyonel Hizmetler",
+          "description": "Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
         }
       },
 
       "droneBoxes": {
-        
         "miniDroneBox": {
-          "title":"Drone Çekimi | Ham Video - Görsel",
-          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange":"2.500₺ - 4.000₺",
+          "title": "Drone Çekimi | Ham Video - Görsel",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "2.500₺ - 4.000₺",
 
           "list": {
-              "li1":"Yatay Drone Çekimi",
-              "li2":"Dikey Drone Çekim (story için)",
-              "li3":"Emlak ve Arsa Drone Çekimleri",
-              "li4":"Yapı İnşaat ve Sera Çekimleri",
-              "li5":"Öncesi ve Sonrası Çekimler",
-              "li6":"Projeye Drone Operatör Desteği"
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
           },
 
           "whatsaAppContact": "Whatsapp İletişim"
         },
-        
-        "megaDroneBox":{
-          "title":"Drone Çekimi | Sosyal Medya İçerik",
-          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange":"6.500₺",
+
+        "megaDroneBox": {
+          "title": "Drone Çekimi | Sosyal Medya İçerik",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "6.500₺",
 
           "list": {
-              "li1":"Yatay Drone Çekimi",
-              "li2":"Dikey Drone Çekim (story için)",
-              "li3":"Emlak ve Arsa Drone Çekimleri",
-              "li4":"Yapı İnşaat ve Sera Çekimleri",
-              "li5":"Öncesi ve Sonrası Çekimler",
-              "li6":"Projeye Drone Operatör Desteği"
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
           },
 
           "list2": {
-            "li5":"3 Adet Story Video ve Görsel",
-            "li6":"Yatay ve Dikey Video 1 Adet"
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Yatay ve Dikey Video 1 Adet"
           },
           "whatsaAppContact": "Whatsapp İletişim"
         },
 
-        "proDroneBox":{
-          "title":"Drone Çekimi | Prodüksiyon | Özel Video",
-          "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange":"7.000₺ + 5.000₺",
+        "proDroneBox": {
+          "title": "Drone Çekimi | Prodüksiyon | Özel Video",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "7.000₺ + 5.000₺",
 
           "list": {
-              "li1":"Yatay Drone Çekimi",
-              "li2":"Dikey Drone Çekim (story için)",
-              "li3":"Emlak ve Arsa Drone Çekimleri",
-              "li4":"Yapı İnşaat ve Sera Çekimleri",
-              "li5":"Öncesi ve Sonrası Çekimler",
-              "li6":"Projeye Drone Operatör Desteği"
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
           },
 
           "list2": {
-            "li5":"3 Adet Story Video ve Görsel",
-            "li6":"Özelleştirilmiş Video",
-            "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
-            "li8":"İnstagram Sponsorlu Reklam Hizmeti"
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Özelleştirilmiş Video",
+            "li7": "Sosyal Medya Kurumsal Tasarım (Meta)",
+            "li8": "İnstagram Sponsorlu Reklam Hizmeti"
           },
           "whatsaAppContact": "Whatsapp İletişim"
         }
       },
 
-      "droneVideoComponent":{
-        "title":"İşinizi Gösterin...",
+      "droneVideoComponent": {
+        "title": "İşinizi Gösterin...",
         "list": [
           "İş sürecinden video kesitleri",
           "İş yerinizden + personelinizden video kesitleri",
           "Konumsal bilgilendirmeler"
         ],
-        "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>manavgat bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
-        "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "description": "Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>manavgat bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
       },
 
       "mapVideoComponent": {
-        "title":"Adresiniz Tam Olarak Nerede?",
-        "list": [
-          "Video Animasyon","Kanca Metin", "Kanca Görsel"
-        ],
-        "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
-        "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "title": "Adresiniz Tam Olarak Nerede?",
+        "list": ["Video Animasyon", "Kanca Metin", "Kanca Görsel"],
+        "description": "Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
       },
 
-      "offerComponent":{
-        "title":"Markana Değer Kat",
-        "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
+      "offerComponent": {
+        "title": "Markana Değer Kat",
+        "description": "Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
       },
 
-      "swiperExample":{
-        "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
-        "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+      "swiperExample": {
+        "span": "Opsiyonel Hizmetlerden Faydalanabilirsin",
+        "p": " Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
       },
-      
+
       "accordionDrone": {
-        "span":"Sıkça Sorulanlar ve Merak Edilenler",
-        "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+        "span": "Sıkça Sorulanlar ve Merak Edilenler",
+        "subtitle": "Opsiyonel Hizmetler Neden Tercih Edilebilir?",
         "list": [
           "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
           "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
           "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
           "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
         ],
-        "subtitle2":"2025 Drone Çekim Fiyatları Manavgat",
-          "prices1":"Paket 1 :2.500 - 4.000₺",
-          "prices2":"Paket 2 :6.500₺",
-          "prices3":"Paket 3 :7.000₺ + 5.000₺ ",
+        "subtitle2": "2025 Drone Çekim Fiyatları Manavgat",
+        "prices1": "Paket 1 :2.500 - 4.000₺",
+        "prices2": "Paket 2 :6.500₺",
+        "prices3": "Paket 3 :7.000₺ + 5.000₺ ",
 
-          "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
-          "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
-          "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
-          "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
-          "subtitle5":"Randevu Hakkında",
-          "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
-          "subtitle6":"Güvenli Drone Uçurabilme Durumları",
-          "description7":"Hava şartlarının uygunluğu: Yağmurlu ve çok rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
-          "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+        "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+        "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+        "subtitle4": "Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+        "description2": "Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+        "subtitle5": "Randevu Hakkında",
+        "description3": "Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+        "subtitle6": "Güvenli Drone Uçurabilme Durumları",
+        "description7": "Hava şartlarının uygunluğu: Yağmurlu ve çok rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+        "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
       }
-     
     },
 
     "alanya": {
-
       "header": {
-        "title":"Alanya Drone Çekimleri İçin Bizimle İletişime Geçin",
-        "description":"Alanya ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
-        "callNow":"Şimdi Ara"
+        "title": "Alanya Drone Çekimleri İçin Bizimle İletişime Geçin",
+        "description": "Alanya ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+        "callNow": "Şimdi Ara"
+      },
+
+      "droneAdditional": {
+        "features1": {
+          "title": "4K Yüksek Kalite",
+          "description": "İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
         },
-  
-        "droneAdditional":{
-          "features1": {
-            "title":"4K Yüksek Kalite",
-            "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
-          },
-          "features2": {
-            "title":"Sosyal Medya Uyumlu",
-            "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
-          },
-          "features3": {
-            "title":"2 Ay Data Garantisi",
-            "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
-          },
-          "features4": {
-            "title":"Ehliyetli Operatör",
-            "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
-          },
-          "features5":{
-            "title":"DJI Mini 3",
-            "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
-          },
-          "features6":{
-            "title":"Opsiyonel Hizmetler",
-            "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
-          }
+        "features2": {
+          "title": "Sosyal Medya Uyumlu",
+          "description": "Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
         },
-  
-        "droneBoxes": {
-          
-          "miniDroneBox": {
-            "title":"Drone Çekimi | Ham Video - Görsel",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"2.500₺ - 4.000₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "whatsaAppContact": "Whatsapp İletişim"
-          },
-          
-          "megaDroneBox":{
-            "title":"Drone Çekimi | Sosyal Medya İçerik",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"6.500₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "list2": {
-              "li5":"3 Adet Story Video ve Görsel",
-              "li6":"Yatay ve Dikey Video 1 Adet"
-            },
-            "whatsaAppContact": "Whatsapp İletişim"
-          },
-  
-          "proDroneBox":{
-            "title":"Drone Çekimi | Prodüksiyon | Özel Video",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"7.000₺ + 5.000₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "list2": {
-              "li5":"3 Adet Story Video ve Görsel",
-              "li6":"Özelleştirilmiş Video",
-              "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
-              "li8":"İnstagram Sponsorlu Reklam Hizmeti"
-            },
-            "whatsaAppContact": "Whatsapp İletişim"
-          }
+        "features3": {
+          "title": "2 Ay Data Garantisi",
+          "description": "Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
         },
-  
-        "droneVideoComponent":{
-          "title":"İşinizi Gösterin...",
-          "list": [
-            "İş sürecinden video kesitleri",
-            "İş yerinizden + personelinizden video kesitleri",
-            "Konumsal bilgilendirmeler"
-          ],
-          "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Alanya Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
-          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "features4": {
+          "title": "Ehliyetli Operatör",
+          "description": "Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
         },
-  
-        "mapVideoComponent": {
-          "title":"Adresiniz Tam Olarak Nerede?",
-          "list": [
-            "Video Animasyon","Kanca Metin", "Kanca Görsel"
-          ],
-          "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Alanya İlçesinde</strong> reklam gösterimi yapabiliriz.",
-          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "features5": {
+          "title": "DJI Mini 3",
+          "description": "Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+        },
+        "features6": {
+          "title": "Opsiyonel Hizmetler",
+          "description": "Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
+        }
+      },
+
+      "droneBoxes": {
+        "miniDroneBox": {
+          "title": "Drone Çekimi | Ham Video - Görsel",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "2.500₺ - 4.000₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "whatsaAppContact": "Whatsapp İletişim"
         },
 
-        "offerComponent":{
-          "title":"Markana Değer Kat",
-          "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
+        "megaDroneBox": {
+          "title": "Drone Çekimi | Sosyal Medya İçerik",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "6.500₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Yatay ve Dikey Video 1 Adet"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
         },
-  
-        "swiperExample":{
-          "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
-          "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
-        },
-        
-        "accordionDrone": {
-          "span":"Sıkça Sorulanlar ve Merak Edilenler",
-          "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
-          "list": [
-            "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
-            "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
-            "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
-            "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
-          ],
-          "subtitle2":"2025 Drone Çekim Fiyatları Alanya",
-            "prices1":"Paket 1 :2.500₺ - 4.000₺",
-            "prices2":"Paket 2 :6.500₺",
-            "prices3":"Paket 3 :7.000₺ + 5.000₺",
-  
-            "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
-            "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
-            "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
-            "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
-            "subtitle5":"Randevu Hakkında",
-            "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
-            "subtitle6":"Güvenli Drone Uçurabilme Durumları",
-            "description7":"Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
-            "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+
+        "proDroneBox": {
+          "title": "Drone Çekimi | Prodüksiyon | Özel Video",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "7.000₺ + 5.000₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Özelleştirilmiş Video",
+            "li7": "Sosyal Medya Kurumsal Tasarım (Meta)",
+            "li8": "İnstagram Sponsorlu Reklam Hizmeti"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
         }
-      
+      },
+
+      "droneVideoComponent": {
+        "title": "İşinizi Gösterin...",
+        "list": [
+          "İş sürecinden video kesitleri",
+          "İş yerinizden + personelinizden video kesitleri",
+          "Konumsal bilgilendirmeler"
+        ],
+        "description": "Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Alanya Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "mapVideoComponent": {
+        "title": "Adresiniz Tam Olarak Nerede?",
+        "list": ["Video Animasyon", "Kanca Metin", "Kanca Görsel"],
+        "description": "Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Alanya İlçesinde</strong> reklam gösterimi yapabiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "offerComponent": {
+        "title": "Markana Değer Kat",
+        "description": "Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
+      },
+
+      "swiperExample": {
+        "span": "Opsiyonel Hizmetlerden Faydalanabilirsin",
+        "p": " Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+      },
+
+      "accordionDrone": {
+        "span": "Sıkça Sorulanlar ve Merak Edilenler",
+        "subtitle": "Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+        "list": [
+          "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
+          "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
+          "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
+          "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
+        ],
+        "subtitle2": "2025 Drone Çekim Fiyatları Alanya",
+        "prices1": "Paket 1 :2.500₺ - 4.000₺",
+        "prices2": "Paket 2 :6.500₺",
+        "prices3": "Paket 3 :7.000₺ + 5.000₺",
+
+        "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+        "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+        "subtitle4": "Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+        "description2": "Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+        "subtitle5": "Randevu Hakkında",
+        "description3": "Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+        "subtitle6": "Güvenli Drone Uçurabilme Durumları",
+        "description7": "Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+        "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      }
     },
 
     "serik": {
       "header": {
-        "title":"Serik Bölgesinde Drone Çekimleri İçin Bizimle İletişime Geçin",
-        "description":"Serik ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
-        "callNow":"Şimdi Ara"
-        },
-  
-        "droneAdditional":{
-          "features1": {
-            "title":"4K Yüksek Kalite",
-            "description":"İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
-          },
-          "features2": {
-            "title":"Sosyal Medya Uyumlu",
-            "description":"Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
-          },
-          "features3": {
-            "title":"2 Ay Data Garantisi",
-            "description":"Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
-          },
-          "features4": {
-            "title":"Ehliyetli Operatör",
-            "description":"Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
-          },
-          "features5":{
-            "title":"DJI Mini 3",
-            "description":"Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
-          },
-          "features6":{
-            "title":"Opsiyonel Hizmetler",
-            "description":"Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
-          }
-        },
-  
-        "droneBoxes": {
-          
-          "miniDroneBox": {
-            "title":"Drone Çekimi | Ham Video - Görsel",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"2.500₺ - 4.000₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "whatsaAppContact": "Whatsapp İletişim"
-          },
-          
-          "megaDroneBox":{
-            "title":"Drone Çekimi | Sosyal Medya İçerik",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"6.500₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "list2": {
-              "li5":"3 Adet Story Video ve Görsel",
-              "li6":"Yatay ve Dikey Video 1 Adet"
-            },
-            "whatsaAppContact": "Whatsapp İletişim"
-          },
-  
-          "proDroneBox":{
-            "title":"Drone Çekimi | Prodüksiyon | Özel Video",
-            "subtitle":"0 - 4 Saat Arası Günlük Drone Çekimi",
-            "princeRange":"7.000₺ + 5.000₺",
-  
-            "list": {
-                "li1":"Yatay Drone Çekimi",
-                "li2":"Dikey Drone Çekim (story için)",
-                "li3":"Emlak ve Arsa Drone Çekimleri",
-                "li4":"Yapı İnşaat ve Sera Çekimleri",
-                "li5":"Öncesi ve Sonrası Çekimler",
-                "li6":"Projeye Drone Operatör Desteği"
-            },
-  
-            "list2": {
-              "li5":"3 Adet Story Video ve Görsel",
-              "li6":"Özelleştirilmiş Video",
-              "li7":"Sosyal Medya Kurumsal Tasarım (Meta)",
-              "li8":"İnstagram Sponsorlu Reklam Hizmeti"
-            },
-            "whatsaAppContact": "Whatsapp İletişim"
-          }
-        },
-  
-        "droneVideoComponent":{
-          "title":"İşinizi Gösterin...",
-          "list": [
-            "İş sürecinden video kesitleri",
-            "İş yerinizden + personelinizden video kesitleri",
-            "Konumsal bilgilendirmeler"
-          ],
-          "description":"Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Serik Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
-          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
-        },
-  
-        "mapVideoComponent": {
-          "title":"Adresiniz Tam Olarak Nerede?",
-          "list": [
-            "Video Animasyon","Kanca Metin", "Kanca Görsel"
-          ],
-          "description":"Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Serik İlçesinde</strong> reklam gösterimi yapabiliriz.",
-          "span":"Bu tanıtım videosu referans amaçlı paylaşılmıştır."
-        },
+        "title": "Serik Bölgesinde Drone Çekimleri İçin Bizimle İletişime Geçin",
+        "description": "Serik ilçesi ve çevresindeki işletmeler için profesyonel drone çekimleri, etkileyici video prodüksiyonları ve kreatif animasyon düzenlemeleriyle marka bilinirliğinizi artırmanıza yardımcı oluyoruz. Kaliteli görsellerle işinizi bir adım öne taşıyın!",
+        "callNow": "Şimdi Ara"
+      },
 
-        "offerComponent":{
-          "title":"Markana Değer Kat",
-          "description":"Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
+      "droneAdditional": {
+        "features1": {
+          "title": "4K Yüksek Kalite",
+          "description": "İsteğe bağlı olarak 4K yüksek kalitede çekim yapılabilmektedir."
         },
-  
-        "swiperExample":{
-          "span":"Opsiyonel Hizmetlerden Faydalanabilirsin",
-          "p":" Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+        "features2": {
+          "title": "Sosyal Medya Uyumlu",
+          "description": "Sosyal medya uyarlu görüntü kalitesinde video çekim hizmeti"
         },
-        
-        "accordionDrone": {
-          "span":"Sıkça Sorulanlar ve Merak Edilenler",
-          "subtitle":"Opsiyonel Hizmetler Neden Tercih Edilebilir?",
-          "list": [
-            "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
-            "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
-            "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
-            "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
-          ],
-          "subtitle2":"2025 Drone Çekim Fiyatları Serik",
-            "prices1":"Paket 1 :2.500 - 4.000₺",
-            "prices2":"Paket 2 :6.500₺",
-            "prices3":"Paket 3 :7.000₺ + 5.000₺",
-  
-            "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
-            "description":"Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
-            "subtitle4":"Video Düzenlemeyi Nasıl Yapıyorsunuz?",
-            "description2":"Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
-            "subtitle5":"Randevu Hakkında",
-            "description3":"Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
-            "subtitle6":"Güvenli Drone Uçurabilme Durumları",
-            "description7":"Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
-            "description8":"Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+        "features3": {
+          "title": "2 Ay Data Garantisi",
+          "description": "Ham ve işlenmiş video ve görsel içerikleri 2 Ay süresince indirebilme garantisi."
+        },
+        "features4": {
+          "title": "Ehliyetli Operatör",
+          "description": "Önce güvenlik prensibini benimseyerek Dji drone kullanımına hakim operatör."
+        },
+        "features5": {
+          "title": "DJI Mini 3",
+          "description": "Çok iyi görüntüler sağlayan gimble kamerası ve story çekebilme özelliği ile çekimlerimizde Dji tercih ediyoruz."
+        },
+        "features6": {
+          "title": "Opsiyonel Hizmetler",
+          "description": "Tanıtım videolarınıza ek olarak opsiyonel hizmet tercihi yapabilirsiniz."
         }
-      
-    }
+      },
 
+      "droneBoxes": {
+        "miniDroneBox": {
+          "title": "Drone Çekimi | Ham Video - Görsel",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "2.500₺ - 4.000₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "whatsaAppContact": "Whatsapp İletişim"
+        },
+
+        "megaDroneBox": {
+          "title": "Drone Çekimi | Sosyal Medya İçerik",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "6.500₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Yatay ve Dikey Video 1 Adet"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
+        },
+
+        "proDroneBox": {
+          "title": "Drone Çekimi | Prodüksiyon | Özel Video",
+          "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+          "princeRange": "7.000₺ + 5.000₺",
+
+          "list": {
+            "li1": "Yatay Drone Çekimi",
+            "li2": "Dikey Drone Çekim (story için)",
+            "li3": "Emlak ve Arsa Drone Çekimleri",
+            "li4": "Yapı İnşaat ve Sera Çekimleri",
+            "li5": "Öncesi ve Sonrası Çekimler",
+            "li6": "Projeye Drone Operatör Desteği"
+          },
+
+          "list2": {
+            "li5": "3 Adet Story Video ve Görsel",
+            "li6": "Özelleştirilmiş Video",
+            "li7": "Sosyal Medya Kurumsal Tasarım (Meta)",
+            "li8": "İnstagram Sponsorlu Reklam Hizmeti"
+          },
+          "whatsaAppContact": "Whatsapp İletişim"
+        }
+      },
+
+      "droneVideoComponent": {
+        "title": "İşinizi Gösterin...",
+        "list": [
+          "İş sürecinden video kesitleri",
+          "İş yerinizden + personelinizden video kesitleri",
+          "Konumsal bilgilendirmeler"
+        ],
+        "description": "Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>Serik Bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "mapVideoComponent": {
+        "title": "Adresiniz Tam Olarak Nerede?",
+        "list": ["Video Animasyon", "Kanca Metin", "Kanca Görsel"],
+        "description": "Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>Serik İlçesinde</strong> reklam gösterimi yapabiliriz.",
+        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+      },
+
+      "offerComponent": {
+        "title": "Markana Değer Kat",
+        "description": "Bölgesel hizmet veren işletmelerin düzenli olarak hatırlanması ve rekabet ortamında ön planda olmasını sağlayabilmek adına hatırlanmayı destekleyen sosyal medya reklamlarına ihtiyaç duyar. İşletmenizin ürünleri veya hizmetleri için sizlerin isteği doğrultusunda belirli zaman dilimlerinde reklam oluşturabilir ve marka bilinirliğinize katkı sağlamış oluruz."
+      },
+
+      "swiperExample": {
+        "span": "Opsiyonel Hizmetlerden Faydalanabilirsin",
+        "p": " Drone ve tanıtım videolarına ek olarak temin edebileceğiniz diğer hizmetlerimizi inceleyebilirsiniz"
+      },
+
+      "accordionDrone": {
+        "span": "Sıkça Sorulanlar ve Merak Edilenler",
+        "subtitle": "Opsiyonel Hizmetler Neden Tercih Edilebilir?",
+        "list": [
+          "Tanıtım videoları ile marka bilinirliği artırılabilir potansiyel hedef kitlenize ulaşabilirsiniz.",
+          "Meta reklamlarıyla düzenli reklamlar ile marka bilinirliği artırılabilir.",
+          "Google Ads reklamlarıyla potansiyel müşterilerinize anlık ulaşabilirsiniz.",
+          "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
+        ],
+        "subtitle2": "2025 Drone Çekim Fiyatları Serik",
+        "prices1": "Paket 1 :2.500 - 4.000₺",
+        "prices2": "Paket 2 :6.500₺",
+        "prices3": "Paket 3 :7.000₺ + 5.000₺",
+
+        "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
+        "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
+        "subtitle4": "Video Düzenlemeyi Nasıl Yapıyorsunuz?",
+        "description2": "Ham videolarda önemli kesitler ve renk ayarları Adobe Premiere Pro kullanılarak yapılmaktadır. Animasyonlar için Adobe After Effects kullanılmaktadır. Kampanya tasarım görselleri de Adobe Illustrator kullanılmaktadır.",
+        "subtitle5": "Randevu Hakkında",
+        "description3": "Drone ve operatörün uygunluğu halihazırda yapılan işlerden dolayı özellikle aynı gün içerisinde randevu veremiyoruz.",
+        "subtitle6": "Güvenli Drone Uçurabilme Durumları",
+        "description7": "Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
+        "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      }
+    }
   },
 
   "BottomNavigation": {
-    "span1":"Ana Sayfa",
-    "span2":"Telefon",
-    "span3":"Whatsapp"
-  }
+    "span1": "Ana Sayfa",
+    "span2": "Telefon",
+    "span3": "Whatsapp"
+  },
 
+  
+    "ContactCard": {
+      "name": "Ali Osman Taşın",
+      "title": "Dijital Pazarlama Danışmanı",
+      "description": "Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.",
+      "infoButton": "Bilgi Al",
+      "whatsappButton": "WhatsApp İletişim",
+      "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
+    }
+  
+  
 }
