@@ -5,7 +5,6 @@ import ScrollTop from "./_components/ScrollTop/ScrollTop";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { ReactNode } from "react";
 import { Metadata } from "next";
-import Head from "next/head";
 import { ToastProvider } from "@radix-ui/react-toast";
 import { Toaster } from "@/components/ui/toaster";
 import BottomNavigation from "./_components/libs/BottomNavigation";
@@ -23,6 +22,18 @@ export const metadata: Metadata = {
   description: "Küçük ve orta büyüklükte firmalar için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, pazarlama danışmanlığı ve havadan drone çekimleri gibi özelleştirilmiş hizmetler veriyoruz.",
   verification: {
     google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
+  },
+  metadataBase: new URL('https://settobox.com'),
+  authors: [{ name: 'SetToBox | Ali Osman Taşın' }],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
   },
   icons: {
     icon: [
@@ -66,14 +77,6 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
 
   return (
     <>
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="robots" content="index,follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <link rel="shortcut icon" href="/favicon.ico"></link>
-        <meta name="author" content="SetToBox | Ali Osman Taşın" />
-      </Head>
-
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           <ToastProvider>
