@@ -349,7 +349,7 @@
 
   "GooglePage": {
     "googleInfo": {
-      "sub1": "Herkese Göre",
+      "sub1": "Her Markaya Göre",
       "sub2": "Sponsorlu Reklam Hizmeti",
       "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileri ile google ads`te reklam vererek potansiyel müşterilere ulaşın. Google Haritalara kayıt da dahil olmak üzere tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın."
     },
@@ -1127,14 +1127,14 @@
           "Konumsal bilgilendirmeler"
         ],
         "description": "Referans olarak gösterdiğimiz videoda işletmenin marka bilinirliğini artırmak için kısa bir video oluşturduk. Bu süreçte <strong>markanın havadan drone çekimi</strong> dahil iş sürecini ele aldık ve bu işin hangi sempte yapıldığını betimlemiş olduk. Bu tarz videolar ve görseller <strong>manavgat bölgesinde</strong> organik veya ücretli reklamlar ile markanızı hedef kitlenize gösterebiliriz.",
-        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "span": "Videonun tamamını izlemek için bizimle iletişime geçin"
       },
 
       "mapVideoComponent": {
         "title": "Adresiniz Tam Olarak Nerede?",
         "list": ["Video Animasyon", "Kanca Metin", "Kanca Görsel"],
-        "description": "Bu örnek videoda bölgesel olarak hizmet veren internet servis sağlayıcısı firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. Bölgede yaşayanlar tarafından bilinen Manavgat Köprüsü baz alınarak ve yine ilçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
-        "span": "Bu tanıtım videosu referans amaçlı paylaşılmıştır."
+        "description": "Bu örnek videoda bölgesel olarak hizmet veren firmanın, hizmet verdiği bölgede konumunu tam olarak gösteren bir animasyon tasarlandı. İlçenin ismini kullanarak yani 'Manavgat' kanca başlığı kullanılmıştır. Bu videonun benzerinde tasarladığımız videoları belirli zaman dilimlerinde marka bilinirliğini artırmak maksatlı <strong>manavgat ilçesinde</strong> reklam gösterimi yapabiliriz.",
+        "span": "Videonun tamamını izlemek için bizimle iletişime geçin"
       },
 
       "offerComponent": {
@@ -1488,6 +1488,16 @@
       "title": "Dijital Pazarlama Danışmanı",
       "description": "Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.",
       "infoButton": "Bilgi Al",
+      "whatsappButton": "WhatsApp İletişim",
+      "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
+    },
+
+
+    "ExplationVideoGoogle": {
+      "name": "Ali Osman Taşın",
+      "title": "Dijital Pazarlama Danışmanı",
+      "description": "Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.",
+      "videoButton": "Video İzle",
       "whatsappButton": "WhatsApp İletişim",
       "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
     }

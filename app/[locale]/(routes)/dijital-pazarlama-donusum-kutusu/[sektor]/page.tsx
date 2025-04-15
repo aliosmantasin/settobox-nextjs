@@ -1,10 +1,19 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setSector } from "@/store/sectorSlice";
 import { RootState } from "@/store";
-import SectorTemplate from "../../_components/DigitalConversionSector/SectorTemplate";
+import dynamic from 'next/dynamic';
+
+// Lazy load SectorTemplate
+const SectorTemplate = dynamic(
+  () => import("../../_components/DigitalConversionSector/SectorTemplate"),
+  {
+    loading: () => <div>Yükleniyor...</div>,
+    ssr: false
+  }
+);
 
 type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
 
@@ -37,7 +46,11 @@ const SectorPage = ({ params }: PageProps) => {
     return <div>404 - Sektör Bulunamadı</div>;
   }
 
-  return <SectorTemplate />;
+  return (
+    <Suspense fallback={<div>Yükleniyor...</div>}>
+      <SectorTemplate />
+    </Suspense>
+  );
 };
 
 export default SectorPage;

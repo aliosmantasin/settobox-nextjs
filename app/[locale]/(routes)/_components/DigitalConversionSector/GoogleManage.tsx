@@ -1,38 +1,14 @@
-import { useEffect, useRef } from 'react';
-
-import Lottie from 'lottie-web';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store';
 import { FcGoogle } from 'react-icons/fc';
 import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
+import GoogleManageAnimasyonJson from '../AnimasyonData/GoogleManageAnimasyonJson';
 
-
-  const GoogleManage: React.FC = () => {
-  const animationContainer = useRef<HTMLDivElement>(null);
+const GoogleManage: React.FC = () => {
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
   const data = sectorData[selectedSector]?.googleManage;
 
-
-  useEffect(() => {
-    if (data?.animation && animationContainer.current) {
-      // Deep clone the animationData to avoid immutability issues
-      const animationData = JSON.parse(JSON.stringify(data.animation));
-      
-      const animInstance = Lottie.loadAnimation({
-        container: animationContainer.current,
-        animationData, // Use the cloned data
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-      });
-  
-      return () => animInstance.destroy();
-    }
-  }, [data]);
-
   if (!data) return null;
-
-
 
   return (
     <section className="theme py-10 px-2">
@@ -41,9 +17,7 @@ import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           <div className="flex items-center mb-4">
             <div className="w-12 h-12 bg-white border border-blue-500 p-2 rounded-md flex items-center justify-center mr-4">
-            
-            <FcGoogle className='text-3xl'/>
-
+              <FcGoogle className='text-3xl'/>
             </div>
             <h3 className="text-2xl font-bold">{data.title}</h3>
           </div>
@@ -61,23 +35,22 @@ import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
             <h4 className="text-sm font-semibold">{data.metricsTitle}</h4>
             {data.googleMetrics.map((metric, index) => (
               <li key={index} className="flex items-center space-x-2">
-                              
                 {index + 1} - {metric}
-
               </li>
             ))}
           </ul>
         </div>
 
         {/* Animation */}
-        <div
-          className="w-full sm:w-2/3 md:w-2/4 mx-auto"
-          ref={animationContainer}
-          style={{ height: 500 }}
-        />
+        <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
+          {data?.animation && (
+            <GoogleManageAnimasyonJson 
+              animationData={JSON.parse(JSON.stringify(data.animation))} 
+            />
+          )}
+        </div>
       </div>
 
-    
       <div className="mt-10">
         <ReferanceGoogle/>
       </div>

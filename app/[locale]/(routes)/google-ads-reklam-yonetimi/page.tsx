@@ -1,13 +1,11 @@
 import GoogleInfo from '../_components/GoogleAds/GoogleInfo/GoogleInfo'
-import { MaskSvg } from '../_components/libs/Mask/Mask'
 import GoogleAdditional from '../_components/GoogleAds/GoogleAdditional/GoogleAdditional'
 import GoogleProduct from '../_components/GoogleAds/GoogleProduct/GoogleProduct'
 import Head from 'next/head'
 import { seoData } from '@/lib/seo'
 import { GoogleAdsCard } from '../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard'
-import ContactUs from '../_components/StartGuide/ContactUs/ContactUs'
-import BlobsAnimations from '../_components/DigitalConversionSector/AllinBoxComponents/BlobsAnimations'
 import { Metadata } from 'next'
+import GoogleAnimation from '../_components/GoogleAds/GoogleAnimation'
 
 
 type Props = {
@@ -53,13 +51,19 @@ const GoogleAdsPage = () => {
       </Head>
         
         <GoogleInfo/>
-        <MaskSvg/>
+      
+        <GoogleAnimation/>
         <GoogleAdditional/>
-        <GoogleProduct/>
-        <GoogleAdsCard/>
+     
         <section className='py-20 relative'>
-        <ContactUs/>
-        <BlobsAnimations/>
+
+        <GoogleAdsCard/>
+
+
+        <GoogleProduct/>
+
+               
+        {/* <BlobsAnimations/> */}
       </section>
     </>
   )

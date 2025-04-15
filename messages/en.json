@@ -354,9 +354,9 @@
 
   "GooglePage": {
     "googleInfo": {
-      "sub1": "For Everyone",
+      "sub1": "For each brand",
       "sub2": "Sponsored Advertising Service",
-      "description": "We offer professional advertising services that will make your business stand out on Google. Reach potential customers by advertising on search network ads, visual ads and maximum performance strategies ile Google Ads. Achieve success in digital advertising with full account setup support and personalized campaign management, including registration to Google Maps."
+      "description": "We offer professional advertising services that will make your business stand out on Google. Reach potential customers by advertising on search network ads, visual ads and maximum performance strategies with Google Ads. Achieve success in digital advertising with full account setup support and personalized campaign management, including registration to Google Maps."
     },
 
     "googleAdditional": {
@@ -1086,14 +1086,14 @@
           "Location-based information"
         ],
         "description": "In the reference video we showcased, we created a short video to increase the brand awareness of the business. During this process, we included the <strong>brand's aerial drone footage</strong>, covered the work process, and depicted the district where this work is conducted. Similar videos and visuals can be used for <strong>Manavgat region</strong> through organic or paid advertisements to reach your target audience.",
-        "span": "This promotional video has been shared for reference purposes."
+        "span": "Contact us to watch the full video"
       },
 
       "mapVideoComponent": {
         "title": "Where Exactly Is Your Address?",
         "list": ["Video Animation", "Hook Text", "Hook Visual"],
         "description": "In this sample video, an animation was designed to show the exact location of the regional internet service provider within its service area. The well-known Manavgat Bridge was used as a reference, and the district name 'Manavgat' was used as a hook title. Similar videos can be created and displayed as advertisements at specific intervals to increase brand awareness in <strong>Manavgat district</strong>.",
-        "span": "This promotional video has been shared for reference purposes."
+        "span": "Contact us to watch the full video"
       },
 
       "offerComponent": {
@@ -1443,6 +1443,15 @@
     "title": "Digital Marketing Consultant",
     "description": "We can create a roadmap with you on topics such as introduction to digital marketing and management of your online assets.",
     "infoButton": "Get Information",
+    "whatsappButton": "WhatsApp Contact",
+    "whatsappText": "Hello, I am contacting you from the SetToBox website.."
+  },
+
+  "ExplationVideoGoogle": {
+    "name": "Ali Osman Taşın",
+    "title": "Digital Marketing Consultant",
+    "description": "We can create a roadmap with you on topics such as introduction to digital marketing and management of your online assets.",
+    "videoButton": "Watch Video",
     "whatsappButton": "WhatsApp Contact",
     "whatsappText": "Hello, I am contacting you from the SetToBox website.."
   }

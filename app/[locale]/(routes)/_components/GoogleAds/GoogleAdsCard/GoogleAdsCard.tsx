@@ -33,55 +33,55 @@ export const GoogleAdsCard = () => {
       <div className="container flex flex-wrap justify-center mx-auto p-2 ">
         {/* İlk Kart */}
         <div className="flex w-full sm:w-3/5 md:w-2/5 m-1">
-        <div className="w-96 min-h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
-          <Image
-            src="/images/HowToMake.webp"
-            alt="Nasıl Yapıyoruz?"
-            className="w-full h-36 object-cover rounded-t-lg"
-            width={400}
-            height={400}
-          />
-                  <div className="p-4 text-center mx-auto">
-                      <h5 className="text-xl font-semibold text-gray-900">{t("googleAdsCard.howToMakeCart.title")}</h5>
-                      <p className="text-sm text-gray-600 mt-2">
-                      {t("googleAdsCard.howToMakeCart.description")}
-                      </p>
+            <div className="w-96 min-h-96 bg-white border border-gray-200 rounded-lg shadow-sm p-4 mx-auto">
+              <Image
+                src="/images/HowToMake.webp"
+                alt="Nasıl Yapıyoruz?"
+                className="w-full h-36 object-cover rounded-t-lg"
+                width={400}
+                height={400}
+              />
+              <div className="p-4 text-center mx-auto">
+                <h5 className="text-xl font-semibold text-gray-900">{t("googleAdsCard.howToMakeCart.title")}</h5>
+                <p className="text-sm text-gray-600 mt-2">
+                  {t("googleAdsCard.howToMakeCart.description")}
+                </p>
 
-                      <div className="flex justify-between items-center mt-5">
-                      <div className="flex">
-                          <Link
-                              href={t("googleAdsCard.howToMakeCart.link")}
-                              target="_blank"
-                              className="text-blue-600 hover:underline"
-                          >
-                              {t("googleAdsCard.howToMakeCart.span1")}
-                          </Link>
-                      </div>
-
-                      <DropdownMenu>
-                          <DropdownMenuTrigger >
-                             <span className="flex items-center gap-2">{t("googleAdsCard.howToMakeCart.span2")}<MdOutlineMoreVert />
-                             </span>
-                          </DropdownMenuTrigger>
-                          <DropdownMenuContent className="w-56">
-                              <DropdownMenuLabel>{t("googleAdsCard.howToMakeCart.span3")}</DropdownMenuLabel>
-                              <DropdownMenuSeparator />
-                              <DropdownMenuRadioGroup>
-                       
-                              <Link  href={t("googleAdsCard.howToMakeCart.link1")}><DropdownMenuRadioItem className="cursor-pointer" value="top">{t("googleAdsCard.howToMakeCart.span3")}</DropdownMenuRadioItem></Link>
-                             
-                              <Link href={t("googleAdsCard.howToMakeCart.link2")}><DropdownMenuRadioItem className="cursor-pointer" value="bottom">{t("googleAdsCard.howToMakeCart.span4")}</DropdownMenuRadioItem></Link>
-
-                              <Link href={t("googleAdsCard.howToMakeCart.link3")}><DropdownMenuRadioItem className="cursor-pointer" value="bottom">{t("googleAdsCard.howToMakeCart.span5")}</DropdownMenuRadioItem></Link>
-
-                              
-                              </DropdownMenuRadioGroup>
-                          </DropdownMenuContent>
-                      </DropdownMenu>
-                      </div>
-                      </div>
-
+                <div className="flex justify-between items-center mt-5">
+                  <div className="flex">
+                    <Link
+                      href={t("googleAdsCard.howToMakeCart.link")}
+                      target="_blank"
+                      className="text-blue-600 hover:underline"
+                    >
+                      {t("googleAdsCard.howToMakeCart.span1")}
+                    </Link>
                   </div>
+
+                  <DropdownMenu>
+                    <DropdownMenuTrigger >
+                      <span className="flex items-center gap-2">{t("googleAdsCard.howToMakeCart.span2")}<MdOutlineMoreVert />
+                      </span>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent className="w-56">
+                      <DropdownMenuLabel>{t("googleAdsCard.howToMakeCart.span3")}</DropdownMenuLabel>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuRadioGroup>
+
+                        <Link href={t("googleAdsCard.howToMakeCart.link1")}><DropdownMenuRadioItem className="cursor-pointer" value="top">{t("googleAdsCard.howToMakeCart.span3")}</DropdownMenuRadioItem></Link>
+
+                        <Link href={t("googleAdsCard.howToMakeCart.link2")}><DropdownMenuRadioItem className="cursor-pointer" value="bottom">{t("googleAdsCard.howToMakeCart.span4")}</DropdownMenuRadioItem></Link>
+
+                        <Link href={t("googleAdsCard.howToMakeCart.link3")}><DropdownMenuRadioItem className="cursor-pointer" value="bottom">{t("googleAdsCard.howToMakeCart.span5")}</DropdownMenuRadioItem></Link>
+
+
+                      </DropdownMenuRadioGroup>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </div>
+              </div>
+
+            </div>
         </div>
 
         {/* İkinci Kart */}

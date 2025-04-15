@@ -4,22 +4,22 @@ import Navbar from "./_components/Menu/Navbar";
 import ScrollTop from "./_components/ScrollTop/ScrollTop";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { ReactNode } from "react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
-// 🌍 Tüm çeviri dosyalarını içe aktar
-import trMessages from "@/messages/tr.json";
-import enMessages from "@/messages/en.json";
 import { Metadata } from "next";
 import Head from "next/head";
 import { ToastProvider } from "@radix-ui/react-toast";
 import { Toaster } from "@/components/ui/toaster";
 import BottomNavigation from "./_components/libs/BottomNavigation";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // 🌍 Desteklenen diller
 const locales = ["tr", "en"];
 
+// 🌍 Tüm çeviri dosyalarını içe aktar
+import trMessages from "@/messages/tr.json";
+import enMessages from "@/messages/en.json";
+
 export const metadata: Metadata = {
-  title: "SetToBox | Dijital Pazarlama Ajansı",
+  title: "SetToBox | Kurumsal Dijital Pazarlama Ajansı",
   description: "Küçük ve orta büyüklükte firmalar için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, pazarlama danışmanlığı ve havadan drone çekimleri gibi özelleştirilmiş hizmetler veriyoruz.",
   verification: {
     google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
@@ -84,8 +84,8 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
               <MdKeyboardArrowUp />
             </ScrollTop>
             <BottomNavigation/>
-            <SpeedInsights />
           <Footer />
+          <SpeedInsights />
         </NextIntlClientProvider>
     </>
   );

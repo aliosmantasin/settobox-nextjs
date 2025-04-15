@@ -66,7 +66,7 @@ const DijitalMarketingConversionProduct = () => {
 
                               <div className="p-3 border border-green-500 rounded-[5px]">
                                   <h6 className="text-green-500 flex justify-center">
-                                      20.000₺
+                                      25.000₺
                                   </h6>
                               </div>
                               

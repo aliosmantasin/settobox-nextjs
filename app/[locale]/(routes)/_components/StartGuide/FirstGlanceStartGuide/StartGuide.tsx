@@ -27,7 +27,7 @@ const FirstGlanceBrandId = () => {
         <span className='font-semibold secondary font-mono uppercase'> - Başlangıç ​​Kılavuzu - </span>
         <h1 className='text-2xl sm:text-3xl mt-2'>Bir Markanın Dijital Pazarlamaya Girişi</h1>
         <p className='mt-3 max-w-[700] mx-auto styled-paragraph'>Öncelikle bir markayla işbirliğine girmeden önce nasıl bir stratejiye ihtiyacı olduğunu anlamaya çalışıyoruz.
-          Ardından sistememizde mevcut olan hizmetlerle markanın ihtiyaçları örtüşüyorsa hizmetmizi belirtiyor ve plan doğrultusunda ilerliyoruz.</p>
+          Ardından sistememizde mevcut olan hizmetlerle markanın ihtiyaçları örtüşüyorsa hizmetimizi belirtiyor ve plan doğrultusunda ilerliyoruz.</p>
         </div>
 
          

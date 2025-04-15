@@ -7,14 +7,14 @@ interface FirstGlanceProps {
   onLoad?: () => void;
 }
 
-const WebDesignManageAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad }) => {
+const DigitalMarketingAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   return (
     <LottiePlayer
-      animationPath={ANIMATION_PATHS.WEBSITE_MANAGE}
+      animationPath={ANIMATION_PATHS.DIGITAL_MARKETING}
       width="600px"
       onLoad={onLoad}
     />
   )
 }
 
-export default WebDesignManageAnimasyonJson
+export default DigitalMarketingAnimasyonJson 

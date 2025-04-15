@@ -1,33 +1,16 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { RootState } from '@/store';
-import Lottie from 'lottie-web';
 import Image from 'next/image';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
+import ListedObjectGoogleAnimasyonJson from '../../AnimasyonData/ListedObjectGoogleAnimasyonJson';
 
 const ListedObjectGoogle = () => {
-  const animationContainer = useRef<HTMLDivElement>(null);
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
   const data = sectorData[selectedSector]?.referanceGoogle;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [isPlaying, setIsPlaying] = useState(true); // Animasyon oynatma kontrolü
-
-  useEffect(() => {
-    if (data?.animation && animationContainer.current) {
-      const animationData = JSON.parse(JSON.stringify(data.animation));
-
-      const animInstance = Lottie.loadAnimation({
-        container: animationContainer.current,
-        animationData,
-        renderer: 'svg',
-        loop: true,
-        autoplay: isPlaying, // State'e göre başlat
-      });
-
-      return () => animInstance.destroy();
-    }
-  }, [data, isPlaying]);
 
   if (!data) return null;
 
@@ -43,7 +26,14 @@ const ListedObjectGoogle = () => {
 
         {/* Animasyon Sekmesi */}
         <TabsContent value="animation" className="m-1 sm:m-0">
-          <div className="w-full p-2" ref={animationContainer} style={{ height: 500, display: isPlaying ? 'block' : 'none' }} />
+          <div className="w-full p-2">
+            {data?.animation && (
+              <ListedObjectGoogleAnimasyonJson 
+                animationData={JSON.parse(JSON.stringify(data.animation))}
+                isPlaying={isPlaying}
+              />
+            )}
+          </div>
         </TabsContent>
 
         {/* Görsel Sekmesi */}

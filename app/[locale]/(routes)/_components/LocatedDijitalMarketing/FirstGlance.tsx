@@ -39,7 +39,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({onLoad}) => {
               <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg  flex justify-center items-center">
                   <div
                       ref={animationContainer}
-                      style={{ maxWidth: "500px" }}
+                      style={{ maxWidth: "400px" }}
                   />
               </div>
 
@@ -62,7 +62,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({onLoad}) => {
                                   </li>
                     
                                   <li className='text-sm listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-between cursor-pointer rounded-lg items-center'>
-                                   Planlama ve Raporlama<MdCheckCircleOutline className='text-green-700 text-xl' />                 
+                                   Raporlama ve Öneri<MdCheckCircleOutline className='text-green-700 text-xl' />                 
                                   </li>
                     
                                   <li className='text-sm listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-between cursor-pointer rounded-lg items-center'>

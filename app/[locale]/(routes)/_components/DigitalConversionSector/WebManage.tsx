@@ -1,31 +1,12 @@
-import { useEffect, useRef } from 'react';
-import Lottie from 'lottie-web';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store';
 import { FcTemplate } from 'react-icons/fc';
 import ReferanceWeb from './WebsiteComponent/ReferanceWebsite';
-
+import WebManageAnimasyonJson from '../AnimasyonData/WebManageAnimasyonJson';
 
 const WebManage: React.FC = () => {
-  const animationContainer = useRef<HTMLDivElement>(null);
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
   const data = sectorData[selectedSector]?.webManage;
-
-  useEffect(() => {
-    if (data?.animation && animationContainer.current) {
-      const animationData = JSON.parse(JSON.stringify(data.animation));
-
-      const animInstance = Lottie.loadAnimation({
-        container: animationContainer.current,
-        animationData,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-      });
-
-      return () => animInstance.destroy();
-    }
-  }, [data]);
 
   if (!data) return null;
 
@@ -61,11 +42,13 @@ const WebManage: React.FC = () => {
         </div>
 
         {/* Animation */}
-        <div
-          className="w-full sm:w-2/3 md:w-2/4 mx-auto"
-          ref={animationContainer}
-          style={{ height: 500 }}
-        />
+        <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
+          {data?.animation && (
+            <WebManageAnimasyonJson 
+              animationData={JSON.parse(JSON.stringify(data.animation))} 
+            />
+          )}
+        </div>
       </div>
 
       <div className="mt-10">

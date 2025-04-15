@@ -19,7 +19,7 @@ const DurunetVideoReferance = () => {
         onPlay={() => setIsPlaying(true)} 
       
       >
-        <source src="https://res.cloudinary.com/dydji2imy/video/upload/v1742061721/PrivateVideo_tzfbnu.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/dydji2imy/video/upload/v1744536518/Tan%C4%B1t%C4%B1mVideosu_f4srvr.mp4" type="video/mp4" />
         Tarayıcınız bu videoyu desteklemiyor.
       </video>
 
