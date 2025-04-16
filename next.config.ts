@@ -31,6 +31,10 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 64, 96, 128, 256],
     formats: ['image/webp', 'image/avif'],
     minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    unoptimized: process.env.NODE_ENV === 'production',
   },
 
   experimental: {
@@ -69,7 +73,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/:all*(svg|jpg|png)',
+        source: '/:all*(svg|jpg|jpeg|png|webp)',
         locale: false,
         headers: [
           {

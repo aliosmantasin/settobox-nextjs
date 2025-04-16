@@ -28,16 +28,18 @@ const LeftComponentContactUs = () => {
       <Card className="w-[350px] border border-indigo-700">
         <div className="text-center">
           <CardHeader>
-            <Image
-              className="rounded-full w-24 h-24 mx-auto"
-              src="/images/teamLeader.jpeg"
-              alt={t("name")}
-              width={150}
-              height={150}
-              priority
-              loading="eager"
-              quality={90}
-            />
+            <div className="relative w-24 h-24 mx-auto rounded-full overflow-hidden">
+              <Image
+                className="rounded-full object-cover"
+                src="/images/teamLeader.jpeg"
+                alt={t("name")}
+                width={96}
+                height={96}
+                priority
+                unoptimized={true}
+                sizes="(max-width: 768px) 96px, 96px"
+              />
+            </div>
             <CardTitle>{t("name")}</CardTitle>
             <CardDescription>{t("title")}</CardDescription>
           </CardHeader>

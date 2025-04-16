@@ -32,11 +32,10 @@ const RightComponentContactUs = () => {
               className="rounded-full w-24 h-24 mx-auto"
               src="/images/teamLeader.jpeg"
               alt={t("name")}
-              width={150}
-              height={150}
-              priority
-              loading="eager"
-              quality={90}
+              width={96}
+              height={96}
+              unoptimized={true}
+              sizes="(max-width: 768px) 96px, 96px"
             />
             <CardTitle>{t("name")}</CardTitle>
             <CardDescription>{t("title")}</CardDescription>
@@ -70,10 +69,10 @@ const RightComponentContactUs = () => {
           <DialogTitle className="text-lg font-bold">Video Önizlemesi</DialogTitle>
           <div className="relative rounded-lg p-4 shadow-lg max-w-xl w-full">
             <video
-              src="https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.mp4" // Replace with your actual video path
+              src="https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.mp4"
               className="w-full h-auto rounded-lg"
               controls
-              autoPlay
+              preload="none"
             >
               Tarayıcınız video formatını desteklemiyor.
             </video>
