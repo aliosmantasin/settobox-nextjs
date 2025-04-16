@@ -1,3 +1,4 @@
+//App Layout
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleTagManager } from '@next/third-parties/google'
 import "./globals.css";

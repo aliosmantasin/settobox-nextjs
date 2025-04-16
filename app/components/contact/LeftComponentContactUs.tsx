@@ -1,18 +1,19 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useTranslation } from 'react-i18next';
-import { Button } from '@nextui-org/react';
+import { useTranslations } from 'next-intl';
+import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { MdWhatsapp } from 'react-icons/md';
+import { MessageCircle } from 'lucide-react';
 
 export function LeftComponentContactUs() {
-  const { t } = useTranslation('dashboard');
+  const t = useTranslations('dashboard');
 
   return (
     <Card
       className="h-full w-full dark:bg-default-50/5 flex flex-col items-center justify-center space-y-3 py-5 p-4 min-h-[300px]"
-      radius="lg"
     >
       <div className="w-full flex flex-col items-center justify-center space-y-2">
         <div className="relative w-32 h-32 overflow-hidden rounded-full border-2 border-primary">
@@ -38,24 +39,26 @@ export function LeftComponentContactUs() {
       </div>
       <div className="w-full flex flex-col space-y-2 mt-3">
         <Button
-          color="primary"
-          as={Link}
-          href="/contact-us/form"
+          variant="default"
+          asChild
           className="w-full"
-          variant="flat"
         >
-          {t('contactForm.btnInfo')}
+          <Link href="/bilgi-alma-formu">
+            {t('contactForm.btnInfo')}
+          </Link>
         </Button>
         <Button
-          as={Link}
-          href="https://wa.me/905077313514"
-          target="_blank"
+          variant="outline"
+          asChild
           className="w-full"
-          color="success"
-          variant="flat"
-          startContent={<MdWhatsapp className="text-xl" />}
         >
-          Whatsapp
+          <Link
+            href="https://wa.me/905077313514"
+            target="_blank"
+            className="flex items-center gap-2"
+          >
+            <MessageCircle className="h-5 w-5" /> Whatsapp
+          </Link>
         </Button>
       </div>
     </Card>

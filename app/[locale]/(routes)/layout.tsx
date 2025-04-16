@@ -1,3 +1,4 @@
+//Routes Layout
 import { NextIntlClientProvider } from "next-intl";
 import Footer from "./_components/Footer";
 import Navbar from "./_components/Menu/Navbar";
