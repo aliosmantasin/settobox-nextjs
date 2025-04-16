@@ -35,9 +35,7 @@ const LeftComponentContactUs = () => {
                 alt={t("name")}
                 width={96}
                 height={96}
-                priority
-                unoptimized={true}
-                sizes="(max-width: 768px) 96px, 96px"
+               
               />
             </div>
             <CardTitle>{t("name")}</CardTitle>
