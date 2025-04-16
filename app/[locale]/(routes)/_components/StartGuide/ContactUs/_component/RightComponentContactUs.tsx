@@ -28,15 +28,17 @@ const RightComponentContactUs = () => {
       <Card className="w-[350px] border border-indigo-700 mx-auto">
         <div className="text-center">
           <CardHeader>
-            <Image
-              className="rounded-full w-24 h-24 mx-auto"
-              src="/images/teamLeader.jpeg"
-              alt={t("name")}
-              width={96}
-              height={96}
-              unoptimized={true}
-              sizes="(max-width: 768px) 96px, 96px"
-            />
+            <div className="w-24 h-24 mx-auto overflow-hidden rounded-full">
+              <Image
+                className="object-cover w-full h-full"
+                src="/images/teamLeader.jpeg"
+                alt={t("name")}
+                width={96}
+                height={96}
+                priority
+                sizes="96px"
+              />
+            </div>
             <CardTitle>{t("name")}</CardTitle>
             <CardDescription>{t("title")}</CardDescription>
           </CardHeader>
