@@ -12,12 +12,14 @@ export const metadata = {
   verification: {
     google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
+};
+
+// Viewport ayarlarını ayrı bir export olarak tanımlayın
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 // Client componenti server komponentinden ayırıyoruz
