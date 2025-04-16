@@ -4,7 +4,6 @@ import Navbar from "./_components/Menu/Navbar";
 import ScrollTop from "./_components/ScrollTop/ScrollTop";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { ReactNode } from "react";
-import { Metadata } from "next";
 import { ToastProvider } from "@radix-ui/react-toast";
 import { Toaster } from "@/components/ui/toaster";
 import BottomNavigation from "./_components/libs/BottomNavigation";
@@ -16,14 +15,6 @@ const locales = ["tr", "en"];
 // 🌍 Tüm çeviri dosyalarını içe aktar
 import trMessages from "@/messages/tr.json";
 import enMessages from "@/messages/en.json";
-
-export const metadata: Metadata = {
-  title: "SetToBox | Kurumsal Dijital Pazarlama Ajansı",
-  description: "Küçük ve orta büyüklükte firmalar için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, pazarlama danışmanlığı ve havadan drone çekimleri gibi özelleştirilmiş hizmetler veriyoruz.",
-  verification: {
-    google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
-  },
-};
 
 // 🌍 Çeviri mesajlarını haritaya ekle
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

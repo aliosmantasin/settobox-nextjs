@@ -8,24 +8,14 @@ export const metadata = {
   description: "Küçük ve orta büyüklükte firmalar için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, pazarlama danışmanlığı ve havadan drone çekimleri gibi özelleştirilmiş hizmetler veriyoruz.",
   authors: [{ name: "Ali Osman Taşın", url: "https://settobox.com" }],
   robots: "index, follow",
+  verification: {
+    google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
+  },
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
     userScalable: false,
-  },
-  icons: {
-    icon: [
-      { rel: 'icon', url: '/images/favicon.ico/favicon.ico' },
-      { rel: 'icon', url: '/images/favicon.ico/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { rel: 'icon', url: '/images/favicon.ico/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    shortcut: [
-      { rel: 'shortcut icon', url: '/images/favicon.ico/favicon.ico' },
-    ],
-    apple: [
-      { rel: 'apple-touch-icon', url: '/images/favicon.ico/apple-icon-180x180.png', sizes: '180x180' },
-    ],
   },
 };
 
@@ -41,6 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={params.locale}>
+      <head>
+        <link rel="icon" href="/images/favicon.ico/favicon.ico" sizes="any" />
+        <link rel="icon" href="/images/favicon.ico/favicon-16x16.png" sizes="16x16" type="image/png" />
+        <link rel="icon" href="/images/favicon.ico/favicon-32x32.png" sizes="32x32" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/favicon.ico/apple-icon-180x180.png" sizes="180x180" />
+      </head>
       <GoogleTagManager gtmId="GTM-NRSTMB28" />
       <body>
         <ClientProviders>
