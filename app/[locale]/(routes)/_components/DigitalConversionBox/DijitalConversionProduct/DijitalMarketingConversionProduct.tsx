@@ -1,4 +1,3 @@
-
 import MetaProBox from "@/public/images/pro-box.webp";
 import Image from "next/image";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -157,7 +156,7 @@ const DijitalMarketingConversionProduct = () => {
                                       <li>
                                       {t("dijitalMarketingConversionProduct.li")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                       <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   3750₺
@@ -195,7 +194,7 @@ const DijitalMarketingConversionProduct = () => {
                                       <li>
                                       {t("dijitalMarketingConversionProduct.li1")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                       <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   2500₺
@@ -282,11 +281,11 @@ const DijitalMarketingConversionProduct = () => {
                                       {t("dijitalMarketingConversionProduct.span18")}
                                       </li>
                                       <li>
-                                        <div  style={{display:"block"}}>
+                                        <div className="display-block">
                                         {t("dijitalMarketingConversionProduct.li3")}
                                         </div> 
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   2500₺

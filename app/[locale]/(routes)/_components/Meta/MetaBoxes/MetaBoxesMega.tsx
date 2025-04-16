@@ -1,4 +1,3 @@
-
 import MegaBox from "@/public/images/megaWeb.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -193,7 +192,7 @@ const MetaBoxesMega = () => {
                                       <li><span><ArrowBigRightDash /></span>{t("megaBox.span14")}</li>
                                       <li> {t("megaBox.p13")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   2500₺
@@ -213,7 +212,7 @@ const MetaBoxesMega = () => {
                                       <li>
                                       {t("megaBox.p15")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   3750₺
@@ -230,7 +229,7 @@ const MetaBoxesMega = () => {
                                       <li> 
                                       {t("megaBox.p17")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "megaBox.center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                               {t("megaBox.p18")}

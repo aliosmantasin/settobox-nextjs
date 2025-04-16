@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, memo } from 'react';
 import type { AnimationItem } from 'lottie-web';
 import { getAnimationUrl } from './AnimationUrls';
 
@@ -35,7 +35,7 @@ interface LottiePlayerProps {
  * useBlob=true olduğunda, animasyonları Vercel Blob'dan çeker.
  * useBlob=false olduğunda (varsayılan), animasyonları yerel dosyalardan çeker.
  */
-const LottiePlayer = ({ 
+const LottiePlayer = memo(({ 
   animationPath, 
   width = '100%', 
   height = '100%', 
@@ -50,6 +50,9 @@ const LottiePlayer = ({
 
   // Lottie'yi dynamic import ile yükle
   useEffect(() => {
+    // Performans için mevcut bir instance varsa yeniden yükleme
+    if (lottie) return;
+    
     import('lottie-web')
       .then((LottieModule) => {
         setLottie(LottieModule);
@@ -58,7 +61,7 @@ const LottiePlayer = ({
         console.error("Failed to load lottie-web:", err);
         setError("Animasyon kütüphanesi yüklenemedi");
       });
-  }, []);
+  }, [lottie]);
 
   // Animasyon yükleme ve konfigürasyon
   useEffect(() => {
@@ -148,32 +151,20 @@ const LottiePlayer = ({
   return (
     <div 
       ref={containerRef} 
-      style={{ width, height }}
       className="relative"
+      style={{ width, height }}
       data-loaded={isLoaded}
     >
       {error && (
-        <div style={{ 
-          position: 'absolute', 
-          top: 0, 
-          left: 0, 
-          width: '100%', 
-          height: '100%', 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'center',
-          color: 'red',
-          background: 'rgba(255,255,255,0.8)',
-          fontSize: '14px',
-          textAlign: 'center',
-          padding: '8px',
-          borderRadius: '4px'
-        }}>
+        <div className="absolute inset-0 flex items-center justify-center text-red-500 bg-white/80 text-sm text-center p-2 rounded">
           {error}
         </div>
       )}
     </div>
   );
-};
+});
+
+// displayName ekleyerek debugging için isim verelim
+LottiePlayer.displayName = "LottiePlayer";
 
 export default LottiePlayer; 

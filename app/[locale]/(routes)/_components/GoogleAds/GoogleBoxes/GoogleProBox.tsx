@@ -1,4 +1,3 @@
-
 import GoogleProBox from "@/public/images/pro-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -203,12 +202,12 @@ const GoogleBoxesPro = () => {
                         <ul>
                                       <li><span><ArrowBigRightDash /></span>{t("proBox.span19")}</li>
                                       <li>
-                                        <div  style={{display:"block"}}>
+                                        <div className="display-block">
                                         <p><strong>{t("proBox.p16")}</strong></p> <br />
                                         <p>{t("proBox.p17")}</p> 
                                         </div> 
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   1500₺
@@ -225,7 +224,7 @@ const GoogleBoxesPro = () => {
                                       <li>
                                       {t("proBox.p18")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                               {t("proBox.span22")}

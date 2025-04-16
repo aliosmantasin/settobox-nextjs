@@ -1,4 +1,3 @@
-
 import miniBox from "@/public/images/mini-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -190,7 +189,7 @@ const MetaBoxesMini = () => {
                           <li><span><ArrowBigRightDash/></span>{t("span19")}</li>
                           <li> {t("p18")}
                           </li>
-                          <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                          <li className="flex-center-full">
                           <div className="p-[0.3rem] rounded-[5px]">
                             <h6 className="mx-auto flex justify-center">
                                 2500₺
@@ -209,7 +208,7 @@ const MetaBoxesMini = () => {
                             {t("p20")}
                           </li>
                           
-                          <li style={{ width: "100%", display: "flex", justifyContent: "center",}}>
+                          <li className="flex-center-full">
                           <div className="p-[0.3rem] rounded-[5px]">
                             
                           <p className="mx-auto flex justify-center">

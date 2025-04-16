@@ -1,4 +1,3 @@
-
 import GoogleMegaBox from "@/public/images/mega-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -193,12 +192,12 @@ const GoogleBoxesMega = () => {
                         <ul>
                                       <li><span><ArrowBigRightDash /></span>{t("megaBox.span19")}</li>
                                       <li>
-                                        <div  style={{display:"block"}}>
+                                        <div className="display-block">
                                         <p><strong>{t("megaBox.p15")}</strong></p> <br />
                                         <p>{t("megaBox.p16")}</p> 
                                         </div> 
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   1500₺
@@ -215,7 +214,7 @@ const GoogleBoxesMega = () => {
                                       <li> 
                                       {t("megaBox.p17")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                               {t("megaBox.span22")}

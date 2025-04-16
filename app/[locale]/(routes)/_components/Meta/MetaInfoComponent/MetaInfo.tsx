@@ -25,34 +25,34 @@ function MetaInfo() {
 
 
           <div className="relative flex justify-center items-center mt-5 size-3/4 sm:w-1/4 lg:w-3/7 bg">
-            <div className="absolute image-container" style={{ top: "15%", left: "-5%" }}>
+            <div className="absolute image-container top-[15%] left-[-5%]">
               <Image
                 src="/images/instagram.webp"
                 width={70}
                 height={70}
-                style={{ rotate: "-45deg" }}
+                className="-rotate-45"
                 alt="Instagram"
                 quality={90}
                 loading="lazy"
               />
             </div>
-            <div className="absolute image-container" style={{ bottom: "15%", left: "-5%" }}>
+            <div className="absolute image-container bottom-[15%] left-[-5%]">
               <Image
                 src="/images/facebook.webp"
                 width={70}
                 height={70}
-                style={{ rotate: "-45deg" }}
+                className="-rotate-45"
                 alt="Facebook"
                 quality={90}
                 loading="lazy"
               />
             </div>
-            <div className="absolute image-container" style={{ right: "-5%" }}>
+            <div className="absolute image-container right-[-5%]">
               <Image
                 src="/images/whatsapp.webp"
                 width={70}
                 height={70}
-                style={{ rotate: "45deg" }}
+                className="rotate-45"
                 alt="WhatsApp"
                 quality={90}
                 loading="lazy"

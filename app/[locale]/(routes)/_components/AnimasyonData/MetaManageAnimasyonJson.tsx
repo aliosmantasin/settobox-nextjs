@@ -81,7 +81,7 @@ const MetaManageAnimasyonJson: React.FC<MetaManageAnimasyonProps> = ({
     <div className="relative">
       <div
         ref={containerRef}
-        style={{ height: 500 }}
+        className="height-500"
       />
       {isBlobLoaded && (
         <div className="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full">

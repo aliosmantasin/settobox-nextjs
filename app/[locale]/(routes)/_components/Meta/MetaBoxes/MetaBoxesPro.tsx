@@ -1,4 +1,3 @@
-
 import ProBox from "@/public/images/pro-box.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -224,7 +223,7 @@ const MetaBoxesPro = () => {
                                       <li><span><ArrowBigRightDash /></span>{t("proBox.span17")}</li>
                                       <li>{t("proBox.p18")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   2500₺
@@ -243,7 +242,7 @@ const MetaBoxesPro = () => {
                                       <li><span><ArrowBigRightDash /></span>{t("proBox.span18")}</li>
                                       <li>{t("proBox.p20")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                                   3750₺
@@ -260,7 +259,7 @@ const MetaBoxesPro = () => {
                                       <li>
                                       {t("proBox.p22")}
                                       </li>
-                                      <li style={{ width: "100%", display: "flex", justifyContent: "center"}}>
+                                      <li className="flex-center-full">
                                           <div className="p-[0.3rem] rounded-[5px]">
                                               <p className="mx-auto flex justify-center">
                                               {t("proBox.p23")}

@@ -1,37 +1,27 @@
-"use client"
-
-import { ThemeProvider } from "@/components/theme-provider";
-import { Provider } from "react-redux";
-import store from "@/store";
-import "./globals.css";
-// import TrackingScripts from "./[locale]/(routes)/_components/libs/Cookies/TrackingScripts";
-// import CookieConsent from "./[locale]/(routes)/_components/libs/Cookies/CookieConsent";
-import { GoogleTagManager } from '@next/third-parties/google'
 import { Toaster } from "@/components/ui/toaster";
-import { LanguageProvider } from "@/components/LanguageProvider";
+import { GoogleTagManager } from '@next/third-parties/google'
+import "./globals.css";
+import ClientProviders from "./ClientProviders";
+
+// Client componenti server komponentinden ayırıyoruz
+
 
 export default function RootLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };  // 🟢 Server'dan gelen locale bilgisini al
+  params: { locale: string };
 }>) {
   return (
     <html lang={params.locale}>
       <GoogleTagManager gtmId="GTM-NRSTMB28" />
-      <Provider store={store}>
-        <body>
-        
-          {/* <TrackingScripts />  
-          <CookieConsent />   */}
-          <LanguageProvider/>
-            <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-              {children}
-              <Toaster />
-          </ThemeProvider>
-        </body>
-      </Provider>
+      <body>
+        <ClientProviders>
+          {children}
+          <Toaster />
+        </ClientProviders>
+      </body>
     </html>
   );
 }
