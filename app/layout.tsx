@@ -26,7 +26,7 @@ export default function RootLayout({
           {/* <TrackingScripts />  
           <CookieConsent />   */}
           <LanguageProvider/>
-            <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
               {children}
               <Toaster />
           </ThemeProvider>
