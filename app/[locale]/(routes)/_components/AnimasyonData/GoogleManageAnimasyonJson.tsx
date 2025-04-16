@@ -1,40 +1,36 @@
 "use client"
 
-import React, { useEffect, useRef } from 'react';
-import Lottie from 'lottie-web';
+import React, { useState } from 'react'
+import LottiePlayer, { ANIMATION_PATHS } from '../libs/LottiePlayer'
+import Loading from '../Loadling/Loading'
 
 interface GoogleManageAnimasyonProps {
-  animationData: Record<string, unknown>;
   onLoad?: () => void;
+  useBlob?: boolean;
 }
 
-const GoogleManageAnimasyonJson: React.FC<GoogleManageAnimasyonProps> = ({ animationData, onLoad }) => {
-  const animationContainer = useRef<HTMLDivElement>(null);
+const GoogleManageAnimasyonJson: React.FC<GoogleManageAnimasyonProps> = ({ onLoad, useBlob = true }) => {
+  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    if (animationData && animationContainer.current) {
-      const animInstance = Lottie.loadAnimation({
-        container: animationContainer.current,
-        animationData,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-      });
-
-      if (onLoad) {
-        onLoad();
-      }
-
-      return () => animInstance.destroy();
-    }
-  }, [animationData, onLoad]);
+  const handleAnimationLoad = () => {
+    setIsLoading(false);
+    if (onLoad) onLoad();
+  };
 
   return (
-    <div
-      ref={animationContainer}
-      style={{ height: 500 }}
-    />
-  );
-};
+    <div className="w-full flex justify-center items-center">
+      {isLoading && <Loading />}
+      <div style={{ display: isLoading ? "none" : "block", width: "100%" }}>
+        <LottiePlayer
+          animationPath={ANIMATION_PATHS.GOOGLE_MANAGE}
+          width="600px"
+          height="auto"
+          onLoad={handleAnimationLoad}
+          useBlob={useBlob}
+        />
+      </div>
+    </div>
+  )
+}
 
-export default GoogleManageAnimasyonJson; 
+export default GoogleManageAnimasyonJson 

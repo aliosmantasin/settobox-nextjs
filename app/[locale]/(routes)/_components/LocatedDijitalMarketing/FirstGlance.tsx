@@ -1,46 +1,23 @@
 "use client"
-import React, { useEffect, useRef } from "react";
-import Lottie from "lottie-web";
+import React from "react";
 import StartContactLocated from "./StartContactLocated";
 import { MdCheckCircleOutline } from "react-icons/md";
 import { motion } from "framer-motion";
+import AllInSetToBoxAnimasyonJson from "../AnimasyonData/AllInSetToBoxAnimasyonJson";
 
 interface FirstGlanceProps {
     onLoad?: () => void;
   }
 
 const FirstGlance: React.FC<FirstGlanceProps> = ({onLoad}) => {
-    const animationContainer = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        if (animationContainer.current) {
-          const animInstance = Lottie.loadAnimation({
-            container: animationContainer.current, 
-            renderer: "svg", 
-            loop: false, 
-            autoplay: true, 
-            path: "/data/All-in-SetToBox.json", 
-          });
-    
-          if (onLoad) {
-            onLoad();
-          }
-    
-          return () => {
-            animInstance.destroy(); 
-          };
-        }
-      }, [onLoad]);
-
-
   return (
     <section className="relative ocean-shadow">
       <div className="container flex m-auto flex-wrap relative justify-evenly py-20">
-              <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg  flex justify-center items-center">
-                  <div
-                      ref={animationContainer}
-                      style={{ maxWidth: "400px" }}
-                  />
+              <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg flex justify-center items-center">
+                <AllInSetToBoxAnimasyonJson 
+                  onLoad={onLoad}
+                  useBlob={true}
+                />
               </div>
 
        

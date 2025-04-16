@@ -1,5 +1,9 @@
+"use client"
+
+import React from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/store';
+import { Badge } from '@/components/ui/badge';
 import { FcGoogle } from 'react-icons/fc';
 import ReferanceGoogle from './GoogleAdsComponent/RefereanceGoogle';
 import GoogleManageAnimasyonJson from '../AnimasyonData/GoogleManageAnimasyonJson';
@@ -17,7 +21,7 @@ const GoogleManage: React.FC = () => {
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           <div className="flex items-center mb-4">
             <div className="w-12 h-12 bg-white border border-blue-500 p-2 rounded-md flex items-center justify-center mr-4">
-              <FcGoogle className='text-3xl'/>
+              <FcGoogle className="text-3xl" />
             </div>
             <h3 className="text-2xl font-bold">{data.title}</h3>
           </div>
@@ -31,28 +35,29 @@ const GoogleManage: React.FC = () => {
           <hr className="my-6" />
 
           {/* Metrics List */}
-          <ul className="space-y-3">
+          <div className="space-y-3">
             <h4 className="text-sm font-semibold">{data.metricsTitle}</h4>
-            {data.googleMetrics.map((metric, index) => (
-              <li key={index} className="flex items-center space-x-2">
-                {index + 1} - {metric}
-              </li>
+            {data.googleMetrics?.map((metric, index) => (
+              <div key={index} className="flex items-center justify-between">
+                <span className="text-sm text-gray-600">{metric}</span>
+                <Badge variant="secondary">{index + 1}</Badge>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
         {/* Animation */}
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           {data?.animation && (
             <GoogleManageAnimasyonJson 
-              animationData={JSON.parse(JSON.stringify(data.animation))} 
+              useBlob={true}
             />
           )}
         </div>
       </div>
 
       <div className="mt-10">
-        <ReferanceGoogle/>
+        <ReferanceGoogle />
       </div>
     </section>
   );

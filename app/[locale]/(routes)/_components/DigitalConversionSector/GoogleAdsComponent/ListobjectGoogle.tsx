@@ -31,6 +31,7 @@ const ListedObjectGoogle = () => {
               <ListedObjectGoogleAnimasyonJson 
                 animationData={JSON.parse(JSON.stringify(data.animation))}
                 isPlaying={isPlaying}
+                useBlob={true} // Vercel Blob kullanımını etkinleştir
               />
             )}
           </div>

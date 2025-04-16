@@ -45,7 +45,7 @@ const WebManage: React.FC = () => {
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           {data?.animation && (
             <WebManageAnimasyonJson 
-              animationData={JSON.parse(JSON.stringify(data.animation))} 
+              useBlob={true}
             />
           )}
         </div>

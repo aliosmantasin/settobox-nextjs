@@ -25,7 +25,9 @@ const WebDesignInfo = () => {
         {/* Animation Section */}
         <div className="flex col-span-12 my-5">
         <div className='flex w-2/2 sm:w-2/2'>
-        <WebDesignManageAnimasyonJson/>
+          <WebDesignManageAnimasyonJson 
+            useBlob={true}
+          />
         </div>
         </div>   
       </div>

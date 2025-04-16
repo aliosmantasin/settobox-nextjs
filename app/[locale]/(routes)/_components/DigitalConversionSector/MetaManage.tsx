@@ -39,7 +39,7 @@ const MetaManage: React.FC = () => {
         <div className="w-full sm:w-2/3 md:w-2/4 mx-auto">
           {data?.animation && (
             <MetaManageAnimasyonJson 
-              animationData={JSON.parse(JSON.stringify(data.animation))} 
+              useBlob={true}
             />
           )}
         </div>

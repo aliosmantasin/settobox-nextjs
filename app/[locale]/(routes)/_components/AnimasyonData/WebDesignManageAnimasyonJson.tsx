@@ -3,17 +3,22 @@
 import React from 'react'
 import LottiePlayer, { ANIMATION_PATHS } from '../libs/LottiePlayer'
 
-interface FirstGlanceProps {
+interface WebDesignManageProps {
   onLoad?: () => void;
+  useBlob?: boolean;
 }
 
-const WebDesignManageAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad }) => {
+const WebDesignManageAnimasyonJson: React.FC<WebDesignManageProps> = ({ onLoad, useBlob = true }) => {
   return (
-    <LottiePlayer
-      animationPath={ANIMATION_PATHS.WEBSITE_MANAGE}
-      width="600px"
-      onLoad={onLoad}
-    />
+    <div className="flex justify-center items-center">
+      <LottiePlayer
+        animationPath={ANIMATION_PATHS.WEBSITE_MANAGE}
+        width="600px"
+        height="auto"
+        onLoad={onLoad}
+        useBlob={useBlob}
+      />
+    </div>
   )
 }
 

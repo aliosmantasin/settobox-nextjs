@@ -16,6 +16,7 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
     // Redux store'dan verileri çekiyoruz
     const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
     const data = sectorData[selectedSector].allInBox;
+    
 
     // `data` yüklendi mi diye kontrol edelim
     if (!data) return null;
@@ -24,7 +25,14 @@ const AllinBox: React.FC<AllinBoxProps> = ({ onSubjectSelect, onLoad }) => {
         <section className="my-10 relative">
             <div className="max-w-screen-xl flex flex-wrap mx-auto items-center">
                 <div className="w-full sm:w-3/4 md:w-1/2 flex mx-auto p-5">
-                    <ConversionAnimasyonJson onLoad={onLoad} />
+                {data?.animation && (
+                    <div className="w-full">
+                        <ConversionAnimasyonJson 
+                            useBlob={true}
+                            onLoad={onLoad}
+                        />
+                    </div>
+                )}
                 </div>
                 <div className="w-full md:w-2/4 items-center sm:items-start sm:text-center md:text-left mx-auto">
                     <h1         
