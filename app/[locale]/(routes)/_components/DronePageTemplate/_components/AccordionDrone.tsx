@@ -45,13 +45,7 @@ const AccordionDrone: React.FC<AccordionDroneProps> = ({teritory }) => {
                   {t(`${teritory}.accordionDrone.prices1`)}
                   </li>
 
-                  <li>
-                  {t(`${teritory}.accordionDrone.prices2`)}
-                  </li>
-
-                  <li>
-                  {t(`${teritory}.accordionDrone.prices3`)}
-                  </li>
+          
               </ul>
               </AccordionContent>
             </AccordionItem>

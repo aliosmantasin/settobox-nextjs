@@ -445,7 +445,7 @@
       "span14": "Recommended Budget",
       "p12": "A minimum budget of 7,500 TL per month is recommended for Search Network ads. The budget varies based on keyword costs, competition, and demand.",
       "span15": "Google Ads Setup",
-      "p13": "If you don’t have a Google Ads account, we provide free setup. Ad configuration is managed through a Google Ads account. If you have a website, we can also create search network ads directing traffic to your site."
+      "p13": "If you don't have a Google Ads account, we provide free setup. Ad configuration is managed through a Google Ads account. If you have a website, we can also create search network ads directing traffic to your site."
     },
 
     "megaBox": {
@@ -546,7 +546,7 @@
       "span10": "Site Links & Additional Snippets",
       "p7": "With site links and additional snippets, we enhance ad visibility and direct users to relevant pages, optimizing ad performance and increasing conversion rates.",
       "span11": "Responsive Display Ads",
-      "p8": "With our responsive display ad service, your ads are automatically optimized across different devices and platforms, ensuring maximum reach. Your business’s square and horizontal logos will be used. Two visual creatives (square and horizontal) and one slide video creative (square and horizontal) will be designed. Headlines, descriptions, and call-to-action buttons will be included in your ads.",
+      "p8": "With our responsive display ad service, your ads are automatically optimized across different devices and platforms, ensuring maximum reach. Your business's square and horizontal logos will be used. Two visual creatives (square and horizontal) and one slide video creative (square and horizontal) will be designed. Headlines, descriptions, and call-to-action buttons will be included in your ads.",
       "span12": "Targeting",
       "p9": "Our targeting strategies ensure your ads reach the right audience for effective results. We use demographic data, interests, and behavioral analysis to optimize ad performance.",
       "span13": "Retargeting Targeting",
@@ -563,10 +563,10 @@
       "p15": "Google ProBox includes Search Network, Responsive Display, and Retargeting Ads. Considering various campaign factors, the minimum required monthly budget is 10,000(+) TL.",
       "span19": "Google Tools",
       "p16": "Google Analytics | Google Search Console",
-      "p17": "To improve optimization and targeting, we integrate these tools’ tracking codes (tags) into your website.",
+      "p17": "To improve optimization and targeting, we integrate these tools' tracking codes (tags) into your website.",
       "span20": "Value of Existing Service",
       "span21": "Web Design (Optional)",
-      "p18": "◆ MiniWeb - Basic Website Design: If you don’t have a website, we provide a basic website for your business. In this campaign, we cover the first-year domain and hosting fees.",
+      "p18": "◆ MiniWeb - Basic Website Design: If you don't have a website, we provide a basic website for your business. In this campaign, we cover the first-year domain and hosting fees.",
       "span22": "FREE SERVICE"
     },
 
@@ -1132,6 +1132,23 @@
         "subtitle6": "Safe Drone Flying Conditions",
         "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
         "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+      },
+      "dronePricingTable": {
+        "title": "Drone Shooting | Raw Video - Visuals",
+        "subtitle": "Daily Drone Shooting (0-4 Hours)",
+        "priceRange": "3,000₺ - 4,800₺ VAT Included",
+        "tableHeader": "Service Features",
+        "features": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "3 Story Videos and Visuals",
+          "li7": "1 Horizontal and Vertical Video",
+          "li8": "Project Drone Operator Support"
+        },
+        "whatsappContact": "WhatsApp Contact"
       }
     },
 
@@ -1280,6 +1297,23 @@
         "subtitle6": "Safe Drone Flying Conditions",
         "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
         "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+      },
+      "dronePricingTable": {
+        "title": "Drone Shooting | Raw Video - Visuals",
+        "subtitle": "Daily Drone Shooting (0-4 Hours)",
+        "priceRange": "3,000₺ - 4,800₺ VAT Included",
+        "tableHeader": "Service Features",
+        "features": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "3 Story Videos and Visuals",
+          "li7": "1 Horizontal and Vertical Video",
+          "li8": "Project Drone Operator Support"
+        },
+        "whatsappContact": "WhatsApp Contact"
       }
     },
 
@@ -1428,6 +1462,23 @@
         "subtitle6": "Safe Drone Flying Conditions",
         "description7": "Weather conditions: We cannot shoot in rainy or very windy weather. To capture positive content, we film during the optimal daylight hours, specifically before and after noon.",
         "description8": "Flight-permitted areas: We follow safety protocols for areas requiring permission from the General Directorate of Civil Aviation. Even in permitted areas, we always assess potential risks before flying."
+      },
+      "dronePricingTable": {
+        "title": "Drone Shooting | Raw Video - Visuals",
+        "subtitle": "Daily Drone Shooting (0-4 Hours)",
+        "priceRange": "3,000₺ - 4,800₺ VAT Included",
+        "tableHeader": "Service Features",
+        "features": {
+          "li1": "Horizontal Drone Shooting",
+          "li2": "Vertical Drone Shooting (for stories)",
+          "li3": "Real Estate and Land Drone Shooting",
+          "li4": "Construction and Greenhouse Shooting",
+          "li5": "Before and After Shots",
+          "li6": "3 Story Videos and Visuals",
+          "li7": "1 Horizontal and Vertical Video",
+          "li8": "Project Drone Operator Support"
+        },
+        "whatsappContact": "WhatsApp Contact"
       }
     }
   },

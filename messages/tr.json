@@ -1060,7 +1060,7 @@
         "miniDroneBox": {
           "title": "Drone Çekimi | Ham Video - Görsel",
           "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange": "2.500₺ - 4.000₺",
+          "princeRange": "3.000₺ - 4.800₺ KDV Dahil",
 
           "list": {
             "li1": "Yatay Drone Çekimi",
@@ -1077,7 +1077,7 @@
         "megaDroneBox": {
           "title": "Drone Çekimi | Sosyal Medya İçerik",
           "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange": "6.500₺",
+          "princeRange": "7.800₺ KDV Dahil",
 
           "list": {
             "li1": "Yatay Drone Çekimi",
@@ -1096,9 +1096,9 @@
         },
 
         "proDroneBox": {
-          "title": "Drone Çekimi | Prodüksiyon | Özel Video",
+          "title": "Drone Çekimi | Tanıtım | Reklam Desteği",
           "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
-          "princeRange": "7.000₺ + 5.000₺",
+          "princeRange": "8.400₺ + 6.000₺ KDV Dahil",
 
           "list": {
             "li1": "Yatay Drone Çekimi",
@@ -1118,6 +1118,8 @@
           "whatsaAppContact": "Whatsapp İletişim"
         }
       },
+
+      
 
       "droneVideoComponent": {
         "title": "İşinizi Gösterin...",
@@ -1157,9 +1159,8 @@
           "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
         ],
         "subtitle2": "2025 Drone Çekim Fiyatları Manavgat",
-        "prices1": "Paket 1 :2.500 - 4.000₺",
-        "prices2": "Paket 2 :6.500₺",
-        "prices3": "Paket 3 :7.000₺ + 5.000₺ ",
+        "prices1": "3.000₺ - 4.800₺ KDV Dahil",
+     
 
         "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
         "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
@@ -1170,6 +1171,23 @@
         "subtitle6": "Güvenli Drone Uçurabilme Durumları",
         "description7": "Hava şartlarının uygunluğu: Yağmurlu ve çok rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
         "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      },
+      "dronePricingTable": {
+        "title": "Drone Çekimi | Ham Video - Görsel",
+        "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+        "priceRange": "3.000₺ - 4.800₺ KDV Dahil",
+        "tableHeader": "Hizmet Özellikleri",
+        "features": {
+          "li1": "Yatay Drone Çekimi",
+          "li2": "Dikey Drone Çekim (story için)",
+          "li3": "Emlak ve Arsa Drone Çekimleri",
+          "li4": "Yapı İnşaat ve Sera Çekimleri",
+          "li5": "Öncesi ve Sonrası Çekimler",
+          "li6": "3 Adet Story Video ve Görsel",
+          "li7": "Yatay ve Dikey Video 1 Adet",
+          "li8": "Projeye Drone Operatör Desteği"
+        },
+        "whatsappContact": "Whatsapp İletişim"
       }
     },
 
@@ -1308,9 +1326,8 @@
           "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
         ],
         "subtitle2": "2025 Drone Çekim Fiyatları Alanya",
-        "prices1": "Paket 1 :2.500₺ - 4.000₺",
-        "prices2": "Paket 2 :6.500₺",
-        "prices3": "Paket 3 :7.000₺ + 5.000₺",
+        "prices1": "3.000₺ - 4.800₺ KDV Dahil",
+      
 
         "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
         "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
@@ -1321,6 +1338,23 @@
         "subtitle6": "Güvenli Drone Uçurabilme Durumları",
         "description7": "Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
         "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      },
+      "dronePricingTable": {
+        "title": "Drone Çekimi | Ham Video - Görsel",
+        "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+        "priceRange": "3.000₺ - 4.800₺ KDV Dahil",
+        "tableHeader": "Hizmet Özellikleri",
+        "features": {
+          "li1": "Yatay Drone Çekimi",
+          "li2": "Dikey Drone Çekim (story için)",
+          "li3": "Emlak ve Arsa Drone Çekimleri",
+          "li4": "Yapı İnşaat ve Sera Çekimleri",
+          "li5": "Öncesi ve Sonrası Çekimler",
+          "li6": "3 Adet Story Video ve Görsel",
+          "li7": "Yatay ve Dikey Video 1 Adet",
+          "li8": "Projeye Drone Operatör Desteği"
+        },
+        "whatsappContact": "Whatsapp İletişim"
       }
     },
 
@@ -1459,9 +1493,8 @@
           "Website tasarım hizmeti ile organik olarak müşterilerinize sürekli görünür olunabilir."
         ],
         "subtitle2": "2025 Drone Çekim Fiyatları Serik",
-        "prices1": "Paket 1 :2.500 - 4.000₺",
-        "prices2": "Paket 2 :6.500₺",
-        "prices3": "Paket 3 :7.000₺ + 5.000₺",
+        "prices1": "3.000₺ - 4.800₺ KDV Dahil",
+       
 
         "subtitle3": "Drone Model Özellikleri ve Kullanılan Ekipmanlar",
         "description": "Drone olarak DJI marka tercih etmekteyiz. 4k video kalitesinde görüntü alabilmektedir. İçerik bakımından sosyal medya ve YouTube gibi dijital platformlarda paylaşabileceğiniz 1920*1080 HD ölçülerinde yatay ve dikey çekim yapılmaktadır. Drone çekimlerinin dışında Dji Gimble + iPhone 15 Pro Max normal çekimler için kullanılmaktadır. Bu iki cihazı beraber kullanarak hareketten kaynaklı videoda titreşim gibi olumsuz durumları stabilize etmiş oluyoruz. Ayrıca profesiyonel ses kaydı amaçlı tanıtım ve seslendirme videoları için Saramonic Blink 500 ProX mikrofon kullanmaktayız.",
@@ -1472,6 +1505,23 @@
         "subtitle6": "Güvenli Drone Uçurabilme Durumları",
         "description7": "Hava şartlarının uygunluğu: Yağmurlu ve rüzgarlı havalarda çekim yapamıyoruz. Drone çekimlerimizde olumlu içerikler oluşturabilmek için gün içerisinde ışık kırılma anlarında görüntü alıyoruz. Yani öğleden önce ve öğleden sonra.",
         "description8": "Uçuşa uygun bölgeler: Sivil Havacılık Genel Müdürlüğü`nün izne tabi tuttuğu yerlerde güvenli uçuş tedbirlerini göz önünde bulundurmaktayız. Bu bölgeler izne tabi tutulan yerler olsa bile risk unsurlarını göz önünde bulundurmaktayız."
+      },
+      "dronePricingTable": {
+        "title": "Drone Çekimi | Ham Video - Görsel",
+        "subtitle": "0 - 4 Saat Arası Günlük Drone Çekimi",
+        "priceRange": "3.000₺ - 4.800₺ KDV Dahil",
+        "tableHeader": "Hizmet Özellikleri",
+        "features": {
+          "li1": "Yatay Drone Çekimi",
+          "li2": "Dikey Drone Çekim (story için)",
+          "li3": "Emlak ve Arsa Drone Çekimleri",
+          "li4": "Yapı İnşaat ve Sera Çekimleri",
+          "li5": "Öncesi ve Sonrası Çekimler",
+          "li6": "3 Adet Story Video ve Görsel",
+          "li7": "Yatay ve Dikey Video 1 Adet",
+          "li8": "Projeye Drone Operatör Desteği"
+        },
+        "whatsappContact": "Whatsapp İletişim"
       }
     }
   },
@@ -1491,7 +1541,6 @@
       "whatsappButton": "WhatsApp İletişim",
       "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
     },
-
 
     "ExplationVideoGoogle": {
       "name": "Ali Osman Taşın",

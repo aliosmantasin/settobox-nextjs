@@ -6,7 +6,6 @@ import { MdCircle } from "react-icons/md";
 interface MiniDroneProps {
   teritory: string 
 }
-
 const MiniDroneBox: React.FC<MiniDroneProps> = ({ teritory }) => {
 
   const t = useTranslations("DronePage")
