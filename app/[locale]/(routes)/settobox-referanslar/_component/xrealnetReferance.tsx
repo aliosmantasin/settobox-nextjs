@@ -12,7 +12,7 @@ const XrealnetReferance = () => {
     <div className="max-w-screen-sm mt-5 border border-gray-300 p-4 rounded-md shadow-md">
       <div className="text-center mb-4">
         <div className="flex justify-center">
-          <Image src="/images/xrealnet/logo.png" width={100} height={100} className="max-w-[100px]" alt="XrealNet Logo" />
+          <Image src="/images/xrealnet/xrealnetLogo.webp" width={100} height={100} className="max-w-[100px]" alt="XrealNet Logo" />
         </div>
         <p className="text-sm text-gray-400 mt-3">{t("xrealnetReferance.span")}</p>
       </div>

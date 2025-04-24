@@ -49,6 +49,12 @@ const Footer = () => {
                     {t("span2")}
                   </Link>
                 </li>
+
+                <li >
+                  <Link href={t("spanCampaignsLink")} className="footerTextColor hover:underline">
+                    {t("spanCampaigns")}
+                  </Link>
+                </li>
           
             </ul>
           </div>
@@ -81,6 +87,12 @@ const Footer = () => {
                 <li>
                   <Link href={t("linkConversion")} className="footerTextColor hover:underline">
                     {t("spanConversion")}
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href={t("linkLocalMarketing")} className="footerTextColor hover:underline">
+                    {t("spanLocalMarketing")}
                   </Link>
                 </li>
          

@@ -110,7 +110,8 @@ const sendEmail = async (data: z.infer<typeof formSchema>) => {
                 <SelectItem value="Meta Yönetimi">{t("meta")}</SelectItem>
                 <SelectItem value="Google Yönetimi">{t("google")}</SelectItem>
                 <SelectItem value="Web Tasarim">{t("web")}</SelectItem>
-                <SelectItem value="Dijital Dönüşüm Kutusu">{t("conversionBox")}</SelectItem>
+                <SelectItem value="Makro | Dijital Dönüşüm Kutusu Yönetim">{t("conversionBox")}</SelectItem>
+                <SelectItem value="Mikro | Yerel Dijital Pazarlama Yönetim">{t("mikroMarketing1")}</SelectItem>
                 <SelectItem value="Genel Bilgilendirme">{t("generalInfo")}</SelectItem>
               </SelectContent>
             </Select>

@@ -55,6 +55,24 @@ const FirstGlance: React.FC = () => {
         />
       ),
     },
+
+    {
+      title: t('features5.title'),
+      description: t('features5.description'),
+      url: "yerel-dijital-pazarlama",
+      icon: (
+        <Image
+          className="rounded-lg border border-gray-100 shadow-sm p-3"
+          src="/images/yerelGorseller/isletme.webp"
+          alt="Dijital Dönüşüm Kutusu"
+          width={66}
+          height={66}
+          priority={true}
+          loading="eager"
+          quality={90}
+        />
+      ),
+    },
   ];
 
   return (
@@ -86,7 +104,7 @@ const FirstGlance: React.FC = () => {
 
           <div className="flex justify-center sm:justify-between items-center mt-6  space-x-4 max-w-xl mx-5 sm:mx-auto p-6 rounded-lg m-2  bg-gray-50 dark:bg-black">
           <Link href={t("formLink")}>
-            <Button className="relative">
+            <Button className="relative cursor-pointer">
               <Mail />{t("form")}
             </Button>
           </Link>
@@ -94,7 +112,7 @@ const FirstGlance: React.FC = () => {
           <Link href="tel:+905437214839" target="_blank">
             <Button
               variant="ghost"
-              className="flex items-center gap-3 border rounded border-r-8 border-blue-700 hover:text-blue-800 py-5 relative"
+              className="flex items-center gap-3 border rounded border-r-8 border-blue-700 hover:text-blue-800 py-5 relative cursor-pointer"
             >
               <PhoneCall size={14} className="relative" />
               {t("contact")}

@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { FcShop } from "react-icons/fc";
+
 // import { FcShop } from "react-icons/fc";
 
 // ListItem bileşeni
@@ -132,15 +132,23 @@ export function Menu() {
                     </ListItem>
                     </Link> */}
 
-                    <Link href="/yerel-dijital-pazarlama" className="border border-indigo-100 rounded-lg ">
+                    <Link href={t("mikroLink")} className="border border-indigo-100 rounded-lg ">
                     <ListItem className="row-span-4">
                       <div className="flex item-center">
                       <span>
-                      <FcShop className="text-5xl m-2"/>
+                      <Image
+                          src="/images/yerelGorseller/isletme.webp"
+                          alt="Dijital Dönüşüm Kutusu"
+                          width={100}
+                          height={100}
+                          className="m-auto p-1"
+                          priority
+                          quality={90}
+                        />
                       </span>
                       <div>
-                      <span className="font-semibold">Yerel/Mikro Dijital Pazarlama</span>
-                      <p>Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin</p>
+                      <span className="font-semibold">{t("mikroTitle")}</span>
+                      <p>{t("mikroDescription")}</p>
                       </div>                     
                       </div>                
                     </ListItem>

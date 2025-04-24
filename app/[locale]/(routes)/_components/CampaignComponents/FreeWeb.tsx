@@ -31,7 +31,7 @@ const FreeWebSite = () => {
     <div className='w-full sm:w-2/3 border-b-2 border-indigo-200 my-2'></div>
     <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
         <li>
-            Google Ads hizmet kutularını tercih etmiş markalar bu hizmetten faydalanabilir.
+            Google Ads hizmet kutularını (megabox veya probox) tercih etmiş markalar bu hizmetten faydalanabilir.
         </li>
         <li>
             MegaBox ve ProBox Google Ads reklam hizmetini seçmiş işletmeler ücretsiz faydalanabilir.

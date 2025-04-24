@@ -69,7 +69,10 @@ const CardService = () => {
 
           
             <div className="flex text-2xl text-center primary my-4 justify-center">
-              Kurumsal Dijital Pazarlama
+  
+                  <h2>360° Dijital Pazarlama</h2>
+          
+                 
             </div>
           </div>
 

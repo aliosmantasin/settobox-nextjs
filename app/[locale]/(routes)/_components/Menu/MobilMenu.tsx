@@ -115,6 +115,12 @@ export function MobilMenu() {
                
                   </Link>
                     </span>
+                    <Link href={t("mikroLink")}>
+                      <ListItem className="flex-col" onClick={handleClose}>
+                      <span className="font-semibold primary-light">{t("mikroTitle")}</span>
+                      <p>{t("mikroDescription")}</p>
+                    </ListItem>
+                    </Link>
                     <Link href={t("link2")}>
                       <ListItem className="flex-col" onClick={handleClose}>
                       <span className="font-semibold primary-light">{t("span2")}</span>

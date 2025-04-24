@@ -1,32 +1,32 @@
 import GoogleInfo from '../_components/GoogleAds/GoogleInfo/GoogleInfo'
 import GoogleAdditional from '../_components/GoogleAds/GoogleAdditional/GoogleAdditional'
 import GoogleProduct from '../_components/GoogleAds/GoogleProduct/GoogleProduct'
-import Head from 'next/head'
 import { seoData } from '@/lib/seo'
 import { GoogleAdsCard } from '../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard'
 import { Metadata } from 'next'
 import GoogleAnimation from '../_components/GoogleAds/GoogleAnimation'
-
+import GoogleAdsContent from '../_components/GoogleAds/GoogleAdsContent'
+import GoogleCTA from '../_components/GoogleAds/GoogleCTA'
 
 type Props = {
-  params: Promise<{ locale: string }>; // ✅ params artık Promise olarak tanımlandı
+  params: Promise<{ locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  // Dil parametresine göre doğru sayfa yolunu belirle
-  const resolvedParams = await params; // ✅ Promise olan params'ı çöz
-  const locale = resolvedParams.locale ?? "tr"; // ✅ Varsayılan dili "tr" yap
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale ?? "tr";
   const pagePath = locale === "en" ? "google-ads-management" : "google-ads-reklam-yonetimi";
   
-  console.log("generateMetadata Çalışıyor! Sayfa:", pagePath);
-  console.log("Dil:", locale);
-
-  const seo = seoData[pagePath] || {
-    title: locale === "en" ? "Google Ads Management" : "Google Ads Reklam Yönetimi",
-    description: locale === "en" ? "Professional Google Ads Management Services" : "Profesyonel Google Ads Reklam Yönetimi Hizmetleri",
+  const defaultSeo = {
+    title: locale === "en" 
+      ? "Professional Google Ads Management | PPC Advertising Services" 
+      : "Google Ads Reklam Yönetimi | Profesyonel PPC Reklamcılık Hizmetleri",
+    description: locale === "en" 
+      ? "Expert Google Ads management services to boost your online visibility and ROI. Get targeted traffic, lead generation, and sales with our PPC advertising strategies." 
+      : "Çevrimiçi görünürlüğünüzü ve yatırım getirinizi artıran uzman Google Ads yönetim hizmetleri. PPC reklam stratejilerimizle hedefli trafik, müşteri kazanımı ve satış elde edin.",
   };
 
-  console.log("Bulunan SEO:", seo);
+  const seo = seoData[pagePath] || defaultSeo;
 
   return {
     title: seo.title,
@@ -34,38 +34,52 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: seo.title,
       description: seo.description,
+      type: "website",
+      locale: locale,
+      siteName: locale === "en" ? "Settobox Digital Marketing" : "Settobox Dijital Pazarlama",
+      images: [
+        {
+          url: '/thumbnails/google-ads-animation-thumbnail.png',
+          width: 1200,
+          height: 630,
+          alt: locale === "en" ? "Google Ads Management Services" : "Google Ads Yönetim Hizmetleri",
+        },
+      ],
     },
     twitter: {
       title: seo.title,
       description: seo.description,
+      card: "summary_large_image",
+      images: ['/thumbnails/google-ads-animation-thumbnail.png'],
+    },
+    keywords: locale === "en" 
+      ? "Google Ads, PPC Advertising, Google Ads Management, Digital Marketing, Search Engine Marketing, Display Ads, Remarketing, Google Ads Campaign, AdWords, Online Advertising"
+      : "Google Ads, PPC Reklamcılık, Google Ads Yönetimi, Dijital Pazarlama, Arama Motoru Pazarlamacılığı, Görüntülü Reklamlar, Yeniden Pazarlama, Google Ads Kampanyası, AdWords, Online Reklamcılık",
+    alternates: {
+      canonical: `/${pagePath}`,
+      languages: {
+        'en': `/en/google-ads-management`,
+        'tr': `/tr/google-ads-reklam-yonetimi`,
+      },
     },
   };
 }
 
 const GoogleAdsPage = () => {
   return (
-    <>
-      <Head>
-        <title>Test Başlığı</title>
-        <meta name="description" content="Bu bir test açıklamasıdır." />
-      </Head>
-        
+    <main aria-label="Google Ads Management Page">
+      <article className="google-ads-content">
         <GoogleInfo/>
-      
-        <GoogleAnimation/>
         <GoogleAdditional/>
-     
-        <section className='py-20 relative'>
-
-        <GoogleAdsCard/>
-
-
-        <GoogleProduct/>
-
-               
-        {/* <BlobsAnimations/> */}
-      </section>
-    </>
+        <section className='py-20 relative' aria-label="Google Ads Services">
+          <GoogleAdsCard/>
+          <GoogleProduct/>
+          <GoogleAnimation/>
+        </section>
+        <GoogleCTA />
+        <GoogleAdsContent />
+      </article>
+    </main>
   )
 }
 
@@ -74,5 +88,6 @@ export default GoogleAdsPage
 export async function generateStaticParams() {
   return [
     { locale: 'tr' },
+    { locale: 'en' },
   ]
 }

@@ -2,10 +2,12 @@
   "Navbar": {
     "HomePage": "Ana Sayfa",
     "Services": "Hizmetler",
-    "span1": "Dijital Dönüşüm Kutusu",
+    "span1": "Makro | Dijital Dönüşüm Kutusu",
     "descrition1": "Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu",
     "link1": "/dijital-pazarlama-donusum-kutusu",
-
+    "mikroTitle":"Mikro | Yerel Dijital Pazarlama",
+    "mikroDescription":"Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin",
+    "mikroLink":"/yerel-dijital-pazarlama",
     "span2": "Meta Yönetimi",
     "description2": "MiniBox-Meta - MegaBox-Meta - ProBox-Meta olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
     "link2": "/instagram-sponsorlu-reklam",
@@ -35,6 +37,8 @@
     "linkServices": "/settobox-hizmetler",
     "span2": "Referanslar",
     "linkA2": "/settobox-referanslar",
+    "spanCampaigns": "Kampanyalar",
+    "spanCampaignsLink": "/settobox-kampanyalar",
 
     "sub2": "Hizmetlerimiz",
     "span3": "İnstagram Sponsorlu Reklam",
@@ -43,12 +47,14 @@
     "linkB2": "/google-ads-reklam-yonetimi",
     "span5": "Website Tasarım Hizmeti",
     "linkB3": "/web-sitesi-yaptirma",
-    "spanConversion": "Dijital Dönüşüm Kutusu",
+    "spanConversion": "Makro | Dijital Dönüşüm Kutusu",
     "linkConversion": "/dijital-pazarlama-donusum-kutusu",
+    "spanLocalMarketing": "Mikro | Yerel Dijital Pazarlama",
+    "linkLocalMarketing": "/yerel-dijital-pazarlama",
 
     "sub3": "Size Yardımcı Olabiliriz?",
     "span6": "Whatsapp Destek",
-    "span7": "© 2025 SetToBox | Dijital Pazarlamaya Bütünsel Yaklaşım ve Danışmanlık Hizmeti",
+    "span7": "© 2025 SetToBox | 360° Kurumsal Dijital Pazarlama Hizmetleri",
     "span8": "Tüm Hakları Saklıdır."
   },
 
@@ -72,8 +78,13 @@
     },
 
     "features4": {
-      "title": "Dijital Dönüşüm Kutusu",
-      "description": "Online Varlıklarınızın Bütünüyle Yönetimi"
+      "title": "Makro | Dijital Dönüşüm Kutusu",
+      "description": "Geniş Müşteri Segmentine Özel 360° Dijital Pazarlama Yönetimi "
+    },
+
+    "features5": {
+      "title": "Mikro | Yerel Dijital Pazarlama",
+      "description": "Dar Müşteri Segmentine Özel 360° Dijital Pazarlama Yönetimi "
     },
 
     "form": "Form İletişim",
@@ -92,7 +103,7 @@
     "moreİnfoLink": "/dijital-pazarlama-donusum-kutusu",
 
     "subtitle3": "Sektörünüz Nedir?",
-    "description4": "Dijital dönüşüm hizmet kutusu ile sektörlere göre online varlıkları nasıl yönettiğimizi inceleyin...",
+    "description4": "Sektörlere göre 360° Dijital Pazarlama nasıl yönettiğimizi inceleyin...",
 
     "subtitle4A": "Hizmet Sektörüne Göre Dijital Pazarlama",
     "description5": "Hizmet sektöründe dijital pazarlama yönetimi nasıl yapılır : Referans ile gösteriyoruz",
@@ -350,13 +361,36 @@
   "GooglePage": {
     "googleInfo": {
       "sub1": "Her Markaya Göre",
-      "sub2": "Sponsorlu Reklam Hizmeti",
-      "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileri ile google ads`te reklam vererek potansiyel müşterilere ulaşın. Google Haritalara kayıt da dahil olmak üzere tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın."
+      "sub2": "Ads Reklam Yönetimi",
+      "description": "İşletmenizin Google`da öne çıkmasını sağlayacak profesyonel reklam hizmetleri sunuyoruz. Arama ağı reklamları, görsel reklamlar ve maksimum performans stratejileri ile google ads`te reklam vererek potansiyel müşterilere ulaşın. Google Haritalara kayıt da dahil olmak üzere tam hesap kurulum desteği ve kişiselleştirilmiş kampanya yönetimimizle, dijital reklamcılıkta başarıya ulaşın.",
+      "features": [
+        {
+          "title": "Google Arama Motorunda İlk Sıralar",
+          "description": "İlk sayfa görünür olup anlık potansiyel müşterilerine ulaşmak isteyen markalar."
+        },
+        {
+          "title": "Marka Bilinirliği Reklamları",
+          "description": "Derinlemesine reklam teknikleri kullanarak dönüşümleri artırma"
+        },
+        {
+          "title": "Google İşletme Profili Kaydı",
+          "description": "Müşteri yorumları, işletme konum bilgisi, Google Ads harita reklamları"
+        },
+        {
+          "title": "Website Dijital Pazarlama Entegrasyonu",
+          "description": "Google Ads yeniden pazarlama ve dönüşüm etiketlerini kurma"
+        },
+        {
+          "title": "Google Ads Başlangıç Fiyatı + Web Site Kampanyası",
+          "description": "Aylık Yönetim: 4.500₺ KDV dahil + Kurumsal Website: 4.500₺"
+        }
+      ]
     },
 
     "googleAdditional": {
       "span": "Şimdi Ara!",
       "description": "Potansiyel Müşterilerinize Ulaşmak İçin Bir Google Ads Uzmanı ile İletişime Geçin",
+      "callUsAriaLabel": "Google Ads uzmanımız ile hemen iletişime geçin",
 
       "feature1": {
         "title": "Ücretsiz Kurulum",
@@ -586,6 +620,46 @@
         "title": "Reklam Bütçesi Ne Kadar Olmalı?",
         "description": " Potansiyel müşterileriniz sizi arama motorlarında nasıl arıyorlar? Örneğin ''Google Ads Reklam Yönetimi'' gibi bir anahtar kelimenin günlük, haftalık ve aylık maliyetini söyleyebiliriz.",
         "span1": " Ücretsiz Bilgi Al"
+      }
+    },
+
+    "googleAnimation": {
+      "title": "Başarılı Reklam Zeminleri",
+      "description": "Google, kullanıcı deneyimini iyileştirmek için, reklam verenlerin sundukları ürün ya da hizmet hakkında net ve doğru bilgiler paylaşmasını bekler.",
+      "features": {
+        "mobile": "Mobil Uyumlu Hızlı Web Site",
+        "seo": "SEO",
+        "businessProfile": "Google İşletme Profili",
+        "adsManagement": "Profesyonel Google Ads Yönetimi"
+      }
+    },
+    "googleCTA": {
+      "title": "Google Ads ile Satışlarınızı",
+      "highlight": "Hemen Artırın!",
+      "description": "Oturmuş bir marka kimliğiniz var mı? Eğer oturmuş bir marka kimliğiniz var ise, Google üzerinden potansiyel müşterilerinize ulaşarak satışlarınızı artırabiliriz.",
+      "features": [
+        {
+          "title": "Uzman Yönetim",
+          "description": "Sektör uzmanlarıyla çalışın"
+        },
+        {
+          "title": "Hızlı Sonuçlar",
+          "description": "İlk gün itibariyle trafik"
+        },
+        {
+          "title": "Ölçülebilir ROI",
+          "description": "Net yatırım getirisi"
+        },
+        {
+          "title": "Özelleştirilmiş",
+          "description": "İşletmenize özel stratejiler"
+        }
+      ],
+      "cta": {
+        "title": "Ücretsiz Danışmanlık",
+        "description": "Sizleri dinleyerek isteğiniz doğrultusunda markanız için neler yapabileceğimizi ifade edelim.",
+        "button": "Hemen Başlayın",
+        "phone": "Veya hemen arayın: 0543 721 48 39"
       }
     }
   },
@@ -1012,8 +1086,9 @@
     "select": "Seçiniz",
     "meta": "İnstagram & Facebook Reklam Yönetimi",
     "google": "Google Ads Reklam Yönetimi",
-    "web": "Web Site Tasarımı",
-    "conversionBox": "Dijital Dönüşüm Kutusu",
+    "web": "Kurumsal Website Tasarımı",
+    "conversionBox": "Makro | Dijital Dönüşüm Kutusu",
+    "mikroMarketing1": "Mikro | Yerel Dijital Pazarlama",
     "generalInfo": "Genel Bilgilendirme",
 
     "phone": "Telefon Numaranız",

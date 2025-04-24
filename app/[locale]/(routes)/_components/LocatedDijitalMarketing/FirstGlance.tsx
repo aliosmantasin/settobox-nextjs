@@ -72,7 +72,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({onLoad}) => {
                 <div className="my-10">
                 <StartContactLocated/>
                 </div>
-                 
+         
               </div>
               </motion.div>
                  

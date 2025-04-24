@@ -5,7 +5,9 @@
     "span1": "Dijital Conversion Boxes",
     "descrition1": "The Planned and Economical Way to Reach Your Goals in Digital Marketing ",
     "link1": "/dijital-pazarlama-donusum-kutusu",
-
+    "mikroTitle":"Local | Micro Digital Marketing",
+    "mikroDescription":"Examine our methods that can put your brand ahead of regional competition",
+    "mikroLink":"/yerel-dijital-pazarlama",
     "span2": "Meta Manage",
     "description2": "You can choose the service you need by examining our MiniBox-Meta - MegaBox-Meta - ProBox-Meta service boxes.",
     "link2": "/instagram-sponsored-ads",
@@ -35,6 +37,8 @@
     "linkServices": "/#",
     "span2": "Referance",
     "linkA2": "/settobox-references",
+    "spanCampaigns": "Campaigns",
+    "spanCampaignsLink": "/settobox-kampanyalar",
 
     "sub2": "Services",
     "span3": "Instagram Sponsored Ad",
@@ -43,8 +47,10 @@
     "linkB2": "/google-ads-management",
     "span5": "Website Design Service",
     "linkB3": "/website-development",
-    "spanConversion": "Dijital Conversion Box",
+    "spanConversion": "Makro | Dijital Conversion Box",
     "linkConversion": "/dijital-pazarlama-donusum-kutusu",
+    "spanLocalMarketing": "Micro | Local Digital Marketing",
+    "linkLocalMarketing": "/yerel-dijital-pazarlama",
 
     "sub3": "Can We Help You?",
     "span6": "Whatsapp Support",
@@ -72,8 +78,13 @@
     },
 
     "features4": {
-      "title": "Digital Conversion Box",
-      "description": "Complete Management of Online Assets"
+      "title": "Makro | Digital Transformation Box",
+      "description": "360° Digital Marketing Management for Wide Customer Segment"
+    },
+
+    "features5": {
+      "title": "Micro | Local Digital Marketing",
+      "description": "360° Digital Marketing Management for Narrow Customer Segment"
     },
 
     "form": "Contact Form",
@@ -354,18 +365,41 @@
 
   "GooglePage": {
     "googleInfo": {
-      "sub1": "For each brand",
-      "sub2": "Sponsored Advertising Service",
-      "description": "We offer professional advertising services that will make your business stand out on Google. Reach potential customers by advertising on search network ads, visual ads and maximum performance strategies with Google Ads. Achieve success in digital advertising with full account setup support and personalized campaign management, including registration to Google Maps."
+      "sub1": "Customized for Every Brand",
+      "sub2": "Ad Service Manage",
+      "description": "We provide professional advertising services to make your business stand out on Google. Reach potential customers by advertising on Google Ads with search network ads, display ads, and maximum performance strategies. Achieve success in digital advertising with our full account setup support, including Google Maps registration, and personalized campaign management.",
+      "features": [
+        {
+          "title": "Top Rankings in Google Search Engine",
+          "description": "For brands that want to be visible on the first page and reach potential customers instantly."
+        },
+        {
+          "title": "Brand Awareness Ads",
+          "description": "Increasing conversions using in-depth advertising techniques"
+        },
+        {
+          "title": "Google Business Profile Registration",
+          "description": "Customer reviews, business location information, Google Ads map ads"
+        },
+        {
+          "title": "Website Digital Marketing Integration",
+          "description": "Setting up Google Ads remarketing and conversion tags"
+        },
+        {
+          "title": "Google Ads Starting Price + Website Campaign",
+          "description": "Monthly Management: 4,500₺ including VAT + Corporate Website: 4,500₺"
+        }
+      ]
     },
 
     "googleAdditional": {
       "span": "Call Now!",
-      "description": "Connect with a Google Ads Expert to Reach Your Potential Customers",
+      "description": "Contact a Google Ads Expert to Reach Your Potential Customers",
+      "callUsAriaLabel": "Contact our Google Ads expert immediately",
 
       "feature1": {
         "title": "Free Setup",
-        "description": "Google Ads setup support is provided for all packages."
+        "description": "Google Ads setup support is provided in all packages."
       },
       "feature2": {
         "title": "Optimized Keywords",
@@ -411,7 +445,7 @@
       },
 
       "span1": "10% Discount Advantage",
-      "freeWebSupport": "Free Web Design Advantage",
+      "freeWebSupport": "Corporate Web Design 4,500₺ instead of 6,000₺",
 
       "span2": "Detailed Information",
       "spanHareketPlani": "Action Plan",
@@ -590,6 +624,47 @@
         "title": "How Much Should Your Advertising Budget Be?",
         "description": "How do potential customers search for you on search engines? For example, we can estimate the daily, weekly, and monthly cost of a keyword like 'Google Ads Campaign Management.'",
         "span1": "Get Free Information"
+      }
+    },
+
+    "googleAnimation": {
+      "title": "Successful Advertising Grounds",
+      "description": "Google expects advertisers to share clear and accurate information about the products or services they offer to improve user experience.",
+      "features": {
+        "mobile": "Mobile Compatible Fast Website",
+        "seo": "SEO",
+        "businessProfile": "Google Business Profile",
+        "adsManagement": "Professional Google Ads Management"
+      }
+    },
+
+    "googleCTA": {
+      "title": "Increase Your Sales with",
+      "highlight": "Google Ads Now!",
+      "description": "Do you have an established brand identity? If you have an established brand identity, we can help you reach potential customers through Google and increase your sales.",
+      "features": [
+        {
+          "title": "Expert Management",
+          "description": "Work with industry experts"
+        },
+        {
+          "title": "Fast Results",
+          "description": "Traffic from day one"
+        },
+        {
+          "title": "Measurable ROI",
+          "description": "Net investment return"
+        },
+        {
+          "title": "Customized",
+          "description": "Strategies tailored to your business"
+        }
+      ],
+      "cta": {
+        "title": "Free Consultation",
+        "description": "Let us explain what we can do for your brand by listening to your needs.",
+        "button": "Get Started Now",
+        "phone": "Or call now: 0543 721 48 39"
       }
     }
   },
@@ -977,8 +1052,9 @@
     "select": "Select",
     "meta": "İnstagram & Facebook Advertising Management",
     "google": "Google Ads Advertising Management",
-    "web": "Web Site Tasarımı",
-    "conversionBox": "Digital Conversion Box",
+    "web": "Corporate Website Design",
+    "conversionBox": "Makro | Digital Conversion Box Management",
+    "mikroMarketing1": "Mikro | Local Digital Marketing Micro Management",
     "generalInfo": "Genaral Information",
 
     "phone": "Phone Number",

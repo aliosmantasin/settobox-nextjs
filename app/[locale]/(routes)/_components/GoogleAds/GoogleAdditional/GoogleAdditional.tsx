@@ -1,8 +1,7 @@
 "use client";
 
-import { Button } from '@/components/ui/button';
-import { MdAccessTime, MdAddToQueue, MdBalance, MdHourglassTop, MdKeyboard, MdOutlinePhoneForwarded, MdSupervisorAccount } from "react-icons/md";
-import Link from 'next/link';
+import { MdAccessTime, MdAddToQueue, MdBalance, MdHourglassTop, MdKeyboard, MdSupervisorAccount } from "react-icons/md";
+
 import { useTranslations } from 'next-intl';
 
 const GoogleAdditional = () => {
@@ -44,19 +43,7 @@ const GoogleAdditional = () => {
   return (
     <section className="p-4 mx-auto max-w-7xl">
       {/* Header Section */}
-      <div className="flex justify-center text-center mb-8">
-        <div>
-          <h3 className="text-primary text-xl mb-4 font-thin text-gray-900 dark:text-white">
-            {t('googleAdditional.description')}
-          </h3>
-          <Button>
-            <Link href="tel:+905437214839" target="_blank" className="flex items-center justify-center">
-              <MdOutlinePhoneForwarded className="w-4 h-4 mr-2" />
-              <span>{t('googleAdditional.span')}</span>
-            </Link>
-          </Button>
-        </div>
-      </div>
+   
 
       {/* Scrollable Grid Section */}
       <div className="flex overflow-x-auto space-x-20">

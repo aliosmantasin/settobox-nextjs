@@ -8,7 +8,10 @@ import dynamic from 'next/dynamic';
 
 // Lazy load SectorTemplate
 const SectorTemplate = dynamic(
-  () => import("../../_components/DigitalConversionSector/SectorTemplate"),
+  () => import("../../_components/DigitalConversionSector/SectorTemplate").then(mod => {
+    console.log('SectorTemplate component yüklendi');
+    return mod;
+  }),
   {
     loading: () => <div>Yükleniyor...</div>,
     ssr: false
@@ -18,31 +21,36 @@ const SectorTemplate = dynamic(
 type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
 
 interface PageProps {
-  params: Promise<{ sektor: Sector }>; // 🚨 `params` artık bir Promise
+  params: { sektor: Sector };
 }
 
 const SectorPage = ({ params }: PageProps) => {
   const dispatch = useDispatch();
   const [sektor, setSektor] = useState<Sector | null>(null);
 
-  // ✅ `params` bir Promise olduğu için `React.use()` ile çöz
-  const resolvedParams = React.use(params);
+  console.log('Page Component - Gelen params:', params);
 
   useEffect(() => {
-    if (resolvedParams) {
-      setSektor(resolvedParams.sektor);
+    console.log('useEffect[params] - params değişti:', params);
+    if (params?.sektor) {
+      console.log('useEffect[params] - Sektör state\'i güncelleniyor:', params.sektor);
+      setSektor(params.sektor);
     }
-  }, [resolvedParams]);
+  }, [params]);
 
   useEffect(() => {
+    console.log('useEffect[sektor] - sektor değişti:', sektor);
     if (sektor) {
+      console.log('useEffect[sektor] - Redux store güncelleniyor:', sektor);
       dispatch(setSector(sektor));
     }
   }, [sektor, dispatch]);
 
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
+  console.log('Redux store\'dan alınan veriler:', { sectorData, selectedSector });
 
   if (!sectorData || !selectedSector) {
+    console.log('Hata: Sektör verileri bulunamadı');
     return <div>404 - Sektör Bulunamadı</div>;
   }
 

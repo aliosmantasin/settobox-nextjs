@@ -166,12 +166,12 @@ const page = () => {
               <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
                   <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12 mb-8">
                       <Link href="/dijital-pazarlama-donusum-kutusu" className="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-blue-400 mb-2">
-                          Dijital Pazarlama Dönüşüm Kutusu
+                         Makro | Dijital Pazarlama Dönüşüm Kutusu
                       </Link>
                       <h1 className="text-gray-900 dark:text-white text-3xl md:text-3xl font-extrabold mb-2">Dijital Pazarlama da Hedeflerinize Ulaşmanın Planlı ve Ekonomik Yolu</h1>
                       <p className="text-md font-normal text-gray-500 dark:text-gray-400 mb-6">
-                          Üç farklı platformun ihtiyacımız olan özelliklerini kullanarak yüksek dönüşüm elde edilmesi planlanmaktadır. Özellikle orta büyüklükteki firmaların tercih edebileceği
-                          çok yönlü planlı bir hizmettir.
+                            Makro dijital pazarlama, daha geniş bir hedef kitleye ulaşmak ve markanın genel bilinirliğini artırmak için yapılan daha büyük ölçekli çalışmaları ifade eder. 360° Dijital Pazarlama içerikleri olarak
+                            Google - Meta ve Website yönetimi hizmetleri ile birlikte bütünsel bir yaklaşım ile uzun vadeli stratejik planlama yapılır. 
                       </p>
                       <Link href="/dijital-pazarlama-donusum-kutusu" className="inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                           Daha Fazla İncele
@@ -186,13 +186,13 @@ const page = () => {
                               <svg className="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
                                   <path d="M17 11h-2.722L8 17.278a5.512 5.512 0 0 1-.9.722H17a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1ZM6 0H1a1 1 0 0 0-1 1v13.5a3.5 3.5 0 1 0 7 0V1a1 1 0 0 0-1-1ZM3.5 15.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2ZM16.132 4.9 12.6 1.368a1 1 0 0 0-1.414 0L9 3.55v9.9l7.132-7.132a1 1 0 0 0 0-1.418Z" />
                               </svg>
-                              Yerel/Mikro Dijital Pazarlama
+                              Mikro | Yerel Dijital Pazarlama
                           </a>
                           <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Yerel Hizmet Veren İşletmelere Özel </h2>
-                          <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Yerelde tanınırlığınızı artırmak ve rakip firmaların önüne geçebilecek tekniklerle online varlıklarınızı yönetiyoruz.
+                          <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">Yerelde tanınırlığınızı artırmak ve rakip firmaların önüne geçebilecek tekniklerle 360° Dijital Pazarlama içerikleri ile online varlıklarınızı temel seviyede yönetiyoruz.
 
                           </p>
-                          <Link href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-xs inline-flex items-center">Yakında Hizmdete Sunulacak
+                          <Link href="/yerel-dijital-pazarlama" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-xs inline-flex items-center">Daha Fazla İncele
                               {/* <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg> */}
@@ -204,9 +204,10 @@ const page = () => {
                           </a>
                           <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">E-Ticaret Pazarlama Yönetimi</h2>
                           <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                              E-ticaret pazarlamasına girecek yeni işletmeler için planlanmaktadır.
+                              E-ticaret pazarlamasına girecek yeni işletmeler için planlanmaktadır. Google Ads Merchant Center ve Maksimum Performans reklamları üzeriine odaklanarak potansiyel müşterilere satış odaklı
+                              bir yaklaşım ile her işletmenin ulaşabileği bir yönetim modeli ortaya koymayı planlıyoruz..
                           </p>
-                          <Link href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-xs inline-flex items-center">Planlanma Aşamasında
+                          <Link href="#" className="text-orange-600 dark:text-orange-500 hover:underline font-medium text-xs inline-flex items-center animate-pulse">Planlanma Aşamasında
                               {/* <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg> */}

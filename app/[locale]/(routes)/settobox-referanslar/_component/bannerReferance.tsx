@@ -18,7 +18,7 @@ const BannerReferance = () => {
       <Suspense fallback={<Loading/>}>   {/* Loading çalışmıyor */}
         <div className='w-full'>
           <Image
-            src="/images/bannerReferans.jpg"
+            src="/images/bannerReferans.webp"
             className="w-full h-[400px] object-cover"
             alt="Referanslarımız Banner"
             width={700}

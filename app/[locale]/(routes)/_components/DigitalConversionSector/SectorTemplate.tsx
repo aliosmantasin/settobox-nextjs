@@ -1,9 +1,8 @@
 "use client"
 
-import React, { useRef, useEffect, Suspense } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React, { useRef, Suspense } from 'react';
+import { useSelector } from 'react-redux';
 import dynamic from 'next/dynamic';
-import { setSector } from '@/store/sectorSlice';
 import { RootState } from '@/store';
 
 // Lazy load components
@@ -36,13 +35,8 @@ const WebManage = dynamic(() => import('../../_components/DigitalConversionSecto
 });
 
 const SectorTemplate: React.FC = () => {
-    const dispatch = useDispatch();
     const sectorData = useSelector((state: RootState) => state.sector.sectorData);
     const selectedSector = useSelector((state: RootState) => state.sector.selectedSector);
-
-    useEffect(() => {
-        dispatch(setSector('hizmetsektoru'));
-    }, [dispatch]);
 
     const sector = sectorData[selectedSector];
     const hasMetaManage = sector?.metaManage;
