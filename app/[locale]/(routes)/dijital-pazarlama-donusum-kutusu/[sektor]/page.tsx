@@ -5,13 +5,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { setSector } from "@/store/sectorSlice";
 import { RootState } from "@/store";
 import dynamic from 'next/dynamic';
+import { use } from "react";
 
 // Lazy load SectorTemplate
 const SectorTemplate = dynamic(
-  () => import("../../_components/DigitalConversionSector/SectorTemplate").then(mod => {
-    console.log('SectorTemplate component yüklendi');
-    return mod;
-  }),
+  () => import("../../_components/DigitalConversionSector/SectorTemplate"),
   {
     loading: () => <div>Yükleniyor...</div>,
     ssr: false
@@ -21,36 +19,31 @@ const SectorTemplate = dynamic(
 type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
 
 interface PageProps {
-  params: { sektor: Sector };
+  params: Promise<{ sektor: Sector }>;
 }
 
 const SectorPage = ({ params }: PageProps) => {
   const dispatch = useDispatch();
   const [sektor, setSektor] = useState<Sector | null>(null);
-
-  console.log('Page Component - Gelen params:', params);
+  
+  // params bir Promise olduğu için use hook'u ile çözümleyelim
+  const resolvedParams = use(params);
 
   useEffect(() => {
-    console.log('useEffect[params] - params değişti:', params);
-    if (params?.sektor) {
-      console.log('useEffect[params] - Sektör state\'i güncelleniyor:', params.sektor);
-      setSektor(params.sektor);
+    if (resolvedParams?.sektor) {
+      setSektor(resolvedParams.sektor);
     }
-  }, [params]);
+  }, [resolvedParams]);
 
   useEffect(() => {
-    console.log('useEffect[sektor] - sektor değişti:', sektor);
     if (sektor) {
-      console.log('useEffect[sektor] - Redux store güncelleniyor:', sektor);
       dispatch(setSector(sektor));
     }
   }, [sektor, dispatch]);
 
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
-  console.log('Redux store\'dan alınan veriler:', { sectorData, selectedSector });
 
   if (!sectorData || !selectedSector) {
-    console.log('Hata: Sektör verileri bulunamadı');
     return <div>404 - Sektör Bulunamadı</div>;
   }
 

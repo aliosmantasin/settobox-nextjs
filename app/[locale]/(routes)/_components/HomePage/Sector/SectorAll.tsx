@@ -11,24 +11,21 @@ const SectorAll = () => {
   const t = useTranslations("HomePage")
 
   return (
-
-    <section className="py-10 flex">
-        <div className="container mx-auto">
-            <div className="flex max-w-xxl bg-[#373737] rounded-lg mx-2">
-            <h2 className="text-white text-2xl p-2 text-center mx-auto">
-              {t("subtitle3")}
-              </h2>
-            </div>
-
-            <div className="mx-auto text-center mt-5">
-            <h6  className="text-2xl primary mt-3">
-            {t.rich("description4", {
-                u: (chunks) => <span className="primary">{chunks}</span>, // <strong> etiketini işleme
-              })}
-            </h6>
-            <MdKeyboardDoubleArrowDown className="text-4xl primary-light mx-auto mt-3 animate-pulse"/>
-            </div>
-      
+    <section className="py-10">
+      <div className="w-full bg-[#373737] rounded-lg">
+        <h2 className="text-white text-2xl p-2 text-center mx-auto">
+          {t("subtitle3")}
+        </h2>
+      </div>
+      <div className="mx-auto text-center mt-5">
+        <h6 className="text-2xl primary mt-3">
+          {t.rich("description4", {
+            u: (chunks) => <span className="primary">{chunks}</span>, // <strong> etiketini işleme
+          })}
+        </h6>
+        <MdKeyboardDoubleArrowDown className="text-4xl primary-light mx-auto mt-3 animate-pulse" />
+      </div>
+        <div className="container mx-auto flex flex-wrap">
         <ServiceSectorCard/>
         <EducationSectorCard/>
         <HealtySectorCard/>

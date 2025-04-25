@@ -17,6 +17,9 @@
     "span4": "Web Tasarım Hizmeti",
     "description4": "MiniWeb - MegaWeb olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
     "link4": "/web-sitesi-yaptirma",
+    "allServices": "Tüm Hizmetler",
+    "allServicesDescription": "SettoBox hizmetleri arasında tekil hizmetler ve 360° Dijital Pazarlama Hizmetleri arasında seçim yapabilirsiniz.",
+    "allServicesLink": "/settobox-hizmetler",
 
     "Referance": "Referanslar",
     "refLink": "/settobox-referanslar",

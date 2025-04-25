@@ -7,10 +7,19 @@ interface LayoutProps {
 }
 
 export default async function Layout({ children, params }: LayoutProps) {
-  const resolvedParams = await params; // ✅ params artık Promise değil
+  const resolvedParams = await params;
   console.log("Layout için params:", resolvedParams);
 
   return <>{children}</>;
+}
+
+// generateStaticParams ekleyerek statik yolları önceden oluşturacağız
+export function generateStaticParams() {
+  return [
+    { sektor: 'hizmetsektoru' },
+    { sektor: 'egitimsektoru' },
+    { sektor: 'sagliksektoru' }
+  ];
 }
 
 export async function generateMetadata({
@@ -18,7 +27,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ sektor: "hizmetsektoru" | "egitimsektoru" | "sagliksektoru" }>;
 }): Promise<Metadata> {
-  const resolvedParams = await params; // ✅ Promise çözümlendi
+  const resolvedParams = await params;
   const sectorKey = `dijital-pazarlama-donusum-kutusu/${resolvedParams.sektor}`;
 
   if (seoData[sectorKey]) {
@@ -33,3 +42,4 @@ export async function generateMetadata({
     description: `${resolvedParams.sektor} için dijital pazarlama hizmetleri hakkında bilgi alın.`,
   };
 }
+

@@ -4,6 +4,7 @@ import SectorAll from "../_components/HomePage/Sector/SectorAll";
 import DijitalDonusumKutusu from "../_components/HomePage/DijitalDonusumKutusu/DijitalDonusumKutusu";
 import type { Metadata } from "next";
 import { seoData } from "@/lib/seo";
+import HomePageCTA from "../_components/HomePage/HomePageCTA";
 
 type Props = {
   params: Promise<{ locale?: string }>; // ✅ params artık Promise olarak tanımlandı
@@ -38,6 +39,7 @@ export default function HomePage() {
       <ServiceSlider />
       <DijitalDonusumKutusu/>
       <SectorAll />
+      <HomePageCTA/>
     </>
   );
 }

@@ -20,7 +20,7 @@ const t = useTranslations("HomePage");
     whileInView={{ opacity: 1 }}
     viewport={{ once: true, amount: 0.3 }} // Görünür olma koşulunu daha hassas yap
     transition={{ duration: 2 }}
-    className="flex col-span-12"
+    className="flex sm-full md:w-1/2"
   >
     <div className="sector-section flex flex-col items-center ">
       <div className="cardInclusive w-full max-w-4xl rounded-lg overflow-hidden">

@@ -118,20 +118,6 @@ export function Menu() {
                     </ListItem>
                     </Link>
 
-                    {/* <Link href="/#" className="border border-indigo-100 rounded-lg">
-                    <ListItem className="row-span-4">
-                      <div className="flex item-center">
-                      <span>
-                      <FcShop className="text-5xl m-2"/>
-                      </span>
-                      <div>
-                      <span className="font-semibold">Bölgesel Hizmet Veren Firmalar</span>
-                      <p>Markanızı bölgesel rekabetin önüne geçirebilecek yöntemlerimizi inceleyin</p>
-                      </div>                     
-                      </div>                
-                    </ListItem>
-                    </Link> */}
-
                     <Link href={t("mikroLink")} className="border border-indigo-100 rounded-lg ">
                     <ListItem className="row-span-4">
                       <div className="flex item-center">
@@ -141,16 +127,23 @@ export function Menu() {
                           alt="Dijital Dönüşüm Kutusu"
                           width={100}
                           height={100}
-                          className="m-auto p-1"
+                          className="m-auto p-1 "
                           priority
                           quality={90}
                         />
                       </span>
-                      <div>
+                      <div className="border-l-2 pl-2">
                       <span className="font-semibold">{t("mikroTitle")}</span>
                       <p>{t("mikroDescription")}</p>
                       </div>                     
                       </div>                
+                    </ListItem>
+                    </Link>
+
+                    <Link href={t("allServicesLink")}>
+                    <ListItem className="row-span-4">
+                      <span className="font-semibold ">{t("allServices")}</span>
+                      <p>{t("allServicesDescription")}</p>
                     </ListItem>
                     </Link>
 
