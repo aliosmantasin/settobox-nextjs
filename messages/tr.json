@@ -127,7 +127,38 @@
     "span7": "META YÖNETİMİ",
     "span8": "GOOGLE YÖNETİMİ",
     "span9": "WEBSİTE YÖNETİMİ",
-    "linkToHealty": "/#"
+    "linkToHealty": "/#",
+
+    "homePageCTA": {
+      "name":"Takım Lideri",
+      "title": "Google Ads ile Satışlarınızı",
+      "highlight": "Hemen Artırın!",
+      "description": "Oturmuş bir marka kimliğiniz var mı? Eğer oturmuş bir marka kimliğiniz var ise, Google üzerinden potansiyel müşterilerinize ulaşarak satışlarınızı artırabiliriz.",
+      "features": [
+        {
+          "title": "Uzman Yönetim",
+          "description": "Sektör uzmanlarıyla çalışın"
+        },
+        {
+          "title": "Hızlı Sonuçlar",
+          "description": "İlk gün itibariyle trafik"
+        },
+        {
+          "title": "Ölçülebilir ROI",
+          "description": "Net yatırım getirisi"
+        },
+        {
+          "title": "Özelleştirilmiş",
+          "description": "İşletmenize özel stratejiler"
+        }
+      ],
+      "cta": {
+        "title": "Ücretsiz Danışmanlık",
+        "description": "Sizleri dinleyerek isteğiniz doğrultusunda markanız için neler yapabileceğimizi ifade edelim.",
+        "button": "Hemen Başlayın",
+        "phone": "Veya hemen arayın: 0543 721 48 39"
+      }
+    }
   },
 
   "MetaPage": {
@@ -636,6 +667,7 @@
         "adsManagement": "Profesyonel Google Ads Yönetimi"
       }
     },
+    
     "googleCTA": {
       "title": "Google Ads ile Satışlarınızı",
       "highlight": "Hemen Artırın!",

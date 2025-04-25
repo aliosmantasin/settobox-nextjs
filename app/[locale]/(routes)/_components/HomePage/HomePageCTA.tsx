@@ -13,7 +13,8 @@ interface Feature {
 }
 
 const HomePageCTA = () => {
-  const t = useTranslations("GooglePage.googleCTA");
+  const t = useTranslations("HomePage.homePageCTA");
+
 
   return (
     <section className="py-12 md:py-16" >
@@ -89,9 +90,9 @@ const HomePageCTA = () => {
               className="mx-auto flex max-w-md flex-col items-center justify-center rounded-xl bg-white/10 p-8 text-center backdrop-blur-sm lg:ml-auto"
               style={{backgroundColor: 'rgba(255, 255, 255, 0.1)'}}
             >
-              <div className="mb-4 inline-flex  items-center justify-center rounded-full bg-white">
+              <div className="mb-4 inline-flex w-32 h-32 items-center justify-center rounded-full bg-white">
               <Image
-                className="object-cover w-full h-full rounded-full"
+                className="object-cover  rounded-full"
                 src="/images/teamLeader.webp"
                 alt={t("name")}
                 width={120}

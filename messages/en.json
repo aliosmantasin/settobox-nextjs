@@ -124,7 +124,38 @@
     "span7": "META MANAGEMENT",
     "span8": "GOOGLE MANAGEMENT",
     "span9": "WEBSITE MANAGEMENT",
-    "linkToHealty": "/#"
+    "linkToHealty": "/#",
+
+    "homePageCTA": {
+      "name":"Team Leader",
+      "title": "Increase Your Sales with",
+      "highlight": "Google Ads Now!",
+      "description": "Do you have an established brand identity? If you have an established brand identity, we can help you reach potential customers through Google and increase your sales.",
+      "features": [
+        {
+          "title": "Expert Management",
+          "description": "Work with industry experts"
+        },
+        {
+          "title": "Fast Results",
+          "description": "Traffic from day one"
+        },
+        {
+          "title": "Measurable ROI",
+          "description": "Net investment return"
+        },
+        {
+          "title": "Customized",
+          "description": "Strategies tailored to your business"
+        }
+      ],
+      "cta": {
+        "title": "Free Consultation",
+        "description": "Let us explain what we can do for your brand by listening to your needs.",
+        "button": "Get Started Now",
+        "phone": "Or call now: 0543 721 48 39"
+      }
+    }
   },
 
   "MetaPage": {

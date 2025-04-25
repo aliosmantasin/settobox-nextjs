@@ -25,7 +25,7 @@ const SectorAll = () => {
         </h6>
         <MdKeyboardDoubleArrowDown className="text-4xl primary-light mx-auto mt-3 animate-pulse" />
       </div>
-        <div className="container mx-auto flex flex-wrap">
+        <div className="container mx-auto flex flex-wrap justify-center">
         <ServiceSectorCard/>
         <EducationSectorCard/>
         <HealtySectorCard/>
