@@ -1041,13 +1041,24 @@
     "span": "What Have We Done?",
     "title": "SetToBox / Our References",
 
+    "parisyolcusuReferance": {
+      "span": "Service Industry 360° Digital Marketing",
+      "span1": "Mikro | Locale Dijital Marketing",
+      "li1": "Facebook & Instagram Management",
+      "li2": "Google Ads Campaign Management",
+      "li3": "Web Design Service",
+      "description": "We managed the online assets of the company located in France entirely with the <a> Micro Digital Marketing </a> content structure.",
+      "link": "/yerel-dijital-pazarlama",
+      "span2": "Shared for Reference Purposes."
+    },
+
     "durunetReferance": {
-      "span": "Service Industry Digital Marketing",
+      "span": "Service Industry 360° Digital Marketing",
       "span1": "Digital Marketing Conversion Box",
       "li1": "Facebook & Instagram Management",
       "li2": "Google Ads Campaign Management",
       "li3": "Web Design Service",
-      "description": "The company's online assets were fully managed using the <a> Digital Marketing Conversion Box </a> content structure.",
+      "description": "We managed the online assets of the company located in Antalya entirely with the <a> Digital Marketing Conversion Box </a> content structure.",
       "link": "/digital-marketing-conversion-box",
       "span2": "Shared for Reference Purposes."
     },

@@ -1,57 +1,43 @@
-"use client";
-
-import React, { useEffect, useState, Suspense } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setSector } from "@/store/sectorSlice";
-import { RootState } from "@/store";
-import dynamic from 'next/dynamic';
-import { use } from "react";
-
-// Lazy load SectorTemplate
-const SectorTemplate = dynamic(
-  () => import("../../_components/DigitalConversionSector/SectorTemplate"),
-  {
-    loading: () => <div>Yükleniyor...</div>,
-    ssr: false
-  }
-);
-
-type Sector = "hizmetsektoru" | "egitimsektoru" | "sagliksektoru";
+import { Suspense } from 'react';
+import SectorClientPage from "./SectorClientPage";
+import { generateStaticParams, validSectors, type Sector } from '../_lib/generateParams';
 
 interface PageProps {
-  params: Promise<{ sektor: Sector }>;
+  params: Promise<{ sektor: string; locale: string }>;
 }
 
-const SectorPage = ({ params }: PageProps) => {
-  const dispatch = useDispatch();
-  const [sektor, setSektor] = useState<Sector | null>(null);
+export default async function Page({ params }: PageProps) {
+  const resolvedParams = await params;
+  console.log('Debug - Page component params:', resolvedParams);
   
-  // params bir Promise olduğu için use hook'u ile çözümleyelim
-  const resolvedParams = use(params);
+  // Server-side validation
+  const isValidSector = validSectors.includes(resolvedParams.sektor as Sector);
+  console.log('Debug - Server-side validation:', { 
+    sektor: resolvedParams.sektor, 
+    isValid: isValidSector,
+    validSectors 
+  });
 
-  useEffect(() => {
-    if (resolvedParams?.sektor) {
-      setSektor(resolvedParams.sektor);
-    }
-  }, [resolvedParams]);
-
-  useEffect(() => {
-    if (sektor) {
-      dispatch(setSector(sektor));
-    }
-  }, [sektor, dispatch]);
-
-  const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
-
-  if (!sectorData || !selectedSector) {
-    return <div>404 - Sektör Bulunamadı</div>;
+  // If invalid on server-side, redirect properly
+  if (!isValidSector) {
+    const notFoundPath = `/${resolvedParams.locale}/dijital-pazarlama-donusum-kutusu/404`;
+    return (
+      <div>
+        <p>Redirecting to 404...</p>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.location.href = '${notFoundPath}'`
+          }}
+        />
+      </div>
+    );
   }
-
+  
   return (
-    <Suspense fallback={<div>Yükleniyor...</div>}>
-      <SectorTemplate />
+    <Suspense fallback={<div>Loading...</div>}>
+      <SectorClientPage params={resolvedParams} />
     </Suspense>
   );
-};
+}
 
-export default SectorPage;
+export { generateStaticParams };

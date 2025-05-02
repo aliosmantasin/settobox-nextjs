@@ -94,7 +94,8 @@ const ListedObjectGoogleAnimasyonJson: React.FC<ListedObjectGoogleAnimasyonProps
       <div
         ref={containerRef}
         style={{
-          height: 500,
+          width:400,
+          height: 400,
           display: isPlaying ? 'block' : 'none',
         }}
       />

@@ -1078,13 +1078,24 @@
     "span": "Neler Yaptık?",
     "title": "SetToBox / Referanslarımız",
 
-    "durunetReferance": {
-      "span": "Hizmet Sektörü Dijital Pazarlama",
-      "span1": "Dijital Pazarlama Dönüşüm Kutusu",
+    "parisyolcusuReferance": {
+      "span": "Hizmet Sektörü 360° Dijital Pazarlama",
+      "span1": "Mikro | Yerel Dijital Pazarlama",
       "li1": "Facebook & Instagram Yönetimi",
       "li2": "Google Ads Reklam Yönetimi",
       "li3": "Web Tasarım Hizmeti",
-      "description": "Firmanın online varlıkları tümüyle <a> Dijital Pazarlama Dönüşüm Kutusu </a> içerik yapısı ile yönettik.",
+      "description": "Fransada bulunan firmanın online varlıkları tümüyle <a> Mikro Dijital Pazarlama </a> içerik yapısı ile yönettik.",
+      "link": "/yerel-dijital-pazarlama",
+      "span2": "Referans Amaçlı Paylaşılmıştır."
+    },
+
+    "durunetReferance": {
+      "span": "Hizmet Sektörü 360° Dijital Pazarlama",
+      "span1": "Makro | Dönüşüm Kutusu",
+      "li1": "Facebook & Instagram Yönetimi",
+      "li2": "Google Ads Reklam Yönetimi",
+      "li3": "Web Tasarım Hizmeti",
+      "description": "Antalya'da bulunan firmanın online varlıkları tümüyle <a> Dijital Pazarlama Dönüşüm Kutusu </a> içerik yapısı ile yönettik.",
       "link": "/dijital-pazarlama-donusum-kutusu",
       "span2": "Referans Amaçlı Paylaşılmıştır."
     },
@@ -1095,7 +1106,7 @@
       "li1": "Facebook & Instagram Yönetimi",
       "li2": "Web Tasarım Hizmeti",
 
-      "description": "Firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.",
+      "description": "Almanya - Türkiye menşeili firmanın Facebook - Instagram hesapları yönetildi ve sponsorlu reklam verildi. Web tasarım hizmeti sağlandı.",
       "link": "/dijital-pazarlama-donusum-kutusu/egitimsektoru",
       "span2": "<a> Detaylı İncele </a>",
       "span3": "Referans Amaçlı Paylaşılmıştır."

@@ -55,7 +55,7 @@ export default function DiscountModal() {
           </button>
         </div>
         <div className="mt-4 text-gray-500 dark:text-gray-400 text-sm">
-          <p>Yeni başlayan veya bütçesi sınırlı markalar için Google Ads Reklamlarına ilk adımı atabilmeleri için özelleştirilmiş bir kampanya düzenledik <span className="text-xl"> &#128521; </span> </p>
+          <p>Yeni başlayan veya bütçesi sınırlı markalar için Google Ads Reklamlarına ilk adımı atabilmeleri için özelleştirilmiş bir kampanya düzenledik </p>
         </div>
 
         <span className="mt-4 flex justify-end uppercase text-[0.5rem] p-2 text-red-500 dark:text-red-300 animate-pulse">sınırlı süreli</span>

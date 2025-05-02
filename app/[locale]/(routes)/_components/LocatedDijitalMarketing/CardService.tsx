@@ -15,7 +15,7 @@ const CardService = () => {
   return (
     <section className='my-20'>
       <div className="w-full max-w-lg flex justify-center items-center mx-auto">
-        <div className='w-full mx-atuo relative flex justify-center '>
+        <div className='w-full mx-atuo relative flex justify-center'>
 
           <div className="absolute image-container top-20 left-0 animate-float">
             <Image

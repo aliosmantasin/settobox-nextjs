@@ -12,7 +12,7 @@ const GoogleAdsAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad, useBlob = 
   return (
     <LottiePlayer
       animationPath={ANIMATION_PATHS.GOOGLE_ADS}
-      width="600px"
+      max-width="600px"
       onLoad={onLoad}
       useBlob={useBlob}
     />

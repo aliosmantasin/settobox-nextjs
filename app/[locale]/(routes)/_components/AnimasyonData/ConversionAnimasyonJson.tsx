@@ -13,7 +13,7 @@ const ConversionAnimasyonJson: React.FC<ConversionAnimasyonProps> = ({ onLoad, u
     <div className="w-full h-full flex justify-center items-center">
       <LottiePlayer
         animationPath={ANIMATION_PATHS.CONVERSION}
-        width="100%"
+        max-width="600px"
         height="100%"
         onLoad={onLoad}
         useBlob={useBlob}

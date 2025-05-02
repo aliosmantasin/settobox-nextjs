@@ -4,6 +4,7 @@ import XrealnetReferance from './_component/xrealnetReferance';
 import Head from 'next/head';
 import { seoData } from '@/lib/seo';
 import BannerReferance from './_component/bannerReferance';
+import ParisYolcusuReferance from './_component/parisyolcusuReferance';
 
 
 
@@ -44,6 +45,9 @@ const ReferancePage = () => {
       <section className="w-full my-10">
           <BannerReferance/>
           <div className="flex flex-wrap justify-center gap-10 mt-10">
+          <div className="w-full sm:w-4/5 md:w-1/2 flex justify-center p-2 sm:p-0">
+            <ParisYolcusuReferance/>
+          </div>
           <div className="w-full sm:w-4/5 md:w-1/2 flex justify-center p-2 sm:p-0">
             <DurunetReferance />
           </div>
