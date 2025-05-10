@@ -151,7 +151,7 @@ const GoogleBoxesMini = () => {
                           </li>
                         </ul>
                         <ul>
-                          <li><span><ArrowBigRightDash/></span>{t("miniBox.span8")}</li>
+                          <li><span><ArrowBigRightDash/></span>{t("miniBox.span9")}</li>
                           <li>{t("miniBox.p7")}</li>
                         </ul>
                         <ul>

@@ -60,7 +60,7 @@ export const seoData: Record<string, { title: string; description: string }> = {
       title: "Google Ads Reklam Yönetimi | SetToBox",
       description: "Tecrübeli reklam uzmanlarımız ile Google Ads reklam yönetiminde hedef kitlenize ulaşın. Hizmetlerimiz hakkında daha fazla bilgi edinmek ve başarılı reklam stratejileri oluşturmak için bizimle iletişime geçin.",
     },
-    "web-sitesi-yaptırma": {
+    "web-sitesi-yaptirma": {
       title: "Web Sitesi Yaptırma | SetToBox",
       description: "Kurumsal web site tasarımı ile potansiyel müşterilerinize ulaşın.",
     },

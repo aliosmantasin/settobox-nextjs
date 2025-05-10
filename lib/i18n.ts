@@ -25,8 +25,8 @@ export const urlMap: Record<string, { tr: string; en: string }> = {
       tr: "google-ads-reklam-yonetimi", 
       en: "google-ads-management" 
     },
-    "web-sitesi-yaptırma": { 
-      tr: "web-sitesi-yaptırma", 
+    "web-sitesi-yaptirma": { 
+      tr: "web-sitesi-yaptirma", 
       en: "website-development" 
     },
     "settobox-referanslar": { 

@@ -15,6 +15,42 @@ const FirstGlance: React.FC = () => {
 
   const features = [
     {
+      title: t('features5.title'),
+      description: t('features5.description'),
+      url: "yerel-dijital-pazarlama",
+      icon: (
+        <Image
+          className="rounded-lg border border-gray-100 shadow-sm p-3"
+          src="/images/yerelGorseller/isletme.webp"
+          alt="Dijital Dönüşüm Kutusu"
+          width={66}
+          height={66}
+          priority={true}
+          loading="eager"
+          quality={90}
+        />
+      ),
+    },
+
+    {
+      title: t('features4.title'),
+      description: t('features4.description'),
+      url: "/dijital-pazarlama-donusum-kutusu",
+      icon: (
+        <Image
+          className="rounded-lg border border-gray-100 shadow-sm p-3"
+          src="/images/DigitalDonusumKutusu.webp"
+          alt="Dijital Dönüşüm Kutusu"
+          width={66}
+          height={66}
+          priority={true}
+          loading="eager"
+          quality={90}
+        />
+      ),
+    },
+
+    {
       title: t('features1.title'),
       description: t('features1.description'),
       url: "/google-ads-reklam-yonetimi",
@@ -38,41 +74,9 @@ const FirstGlance: React.FC = () => {
       url: "/web-sitesi-yaptirma",
       icon: <FcTemplate className="w-16 h-16 rounded-lg border border-gray-100 shadow-sm p-3" />,
     },
-    {
-      title: t('features4.title'),
-      description: t('features4.description'),
-      url: "/dijital-pazarlama-donusum-kutusu",
-      icon: (
-        <Image
-          className="rounded-lg border border-gray-100 shadow-sm p-3"
-          src="/images/DigitalDonusumKutusu.webp"
-          alt="Dijital Dönüşüm Kutusu"
-          width={66}
-          height={66}
-          priority={true}
-          loading="eager"
-          quality={90}
-        />
-      ),
-    },
+ 
 
-    {
-      title: t('features5.title'),
-      description: t('features5.description'),
-      url: "yerel-dijital-pazarlama",
-      icon: (
-        <Image
-          className="rounded-lg border border-gray-100 shadow-sm p-3"
-          src="/images/yerelGorseller/isletme.webp"
-          alt="Dijital Dönüşüm Kutusu"
-          width={66}
-          height={66}
-          priority={true}
-          loading="eager"
-          quality={90}
-        />
-      ),
-    },
+ 
   ];
 
   return (

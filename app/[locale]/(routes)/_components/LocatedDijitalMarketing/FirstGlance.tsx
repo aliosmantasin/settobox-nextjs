@@ -11,7 +11,7 @@ interface FirstGlanceProps {
 
 const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   return (
-    <section className="relative ocean-shadow">
+    <section className="relative my-20">
       <div className="container flex m-auto flex-wrap relative justify-evenly pb-10">
         <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg flex justify-center items-center">
           <AllInSetToBoxAnimasyonJson
@@ -21,7 +21,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
         </div>
 
 
-        <div className="w-full relative max-w-lg  flex justify-center  bg-slate-50 dark:bg-black p-2 shadow-sm dark:ocean-shadow rounded-sm">
+        <div className="w-full relative max-w-lg  flex justify-center   dark:bg-black p-2 shadow-sm dark:ocean-shadow rounded-sm">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 4 }}>
             <div>
               <h1 className="text-3xl text-center  dark:bg-slate-800 primary dark:text-slate-400 rounded-sm p-2">
@@ -62,7 +62,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
 
                   <div className="p-1 border border-green-500 rounded-[5px]">
                     <h6 className="text-green-500 flex justify-center">
-                      10.000₺
+                      12.500₺
                     </h6>
                   </div>
 
@@ -72,6 +72,7 @@ const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
               <div className="my-10">
                 <StartContactLocated />
               </div>
+              <div className="absolute bottom-2 right-2 bg-blue-300 text-white text-xs px-2 py-1 rounded-full">KDV DAHİL</div>
 
             </div>
           </motion.div>

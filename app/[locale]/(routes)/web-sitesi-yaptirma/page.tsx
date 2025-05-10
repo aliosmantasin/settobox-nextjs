@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Dil parametresine göre doğru sayfa yolunu belirle
   const resolvedParams = await params; // ✅ Promise olan params'ı çöz
   const locale = resolvedParams.locale ?? "tr"; // ✅ Varsayılan dili "tr" yap
-  const pagePath = locale === "en" ? "website-development" : "web-sitesi-yaptırma";
+  const pagePath = locale === "en" ? "website-development" : "web-sitesi-yaptirma";
   
   console.log("generateMetadata Çalışıyor! Sayfa:", pagePath);
   console.log("Dil:", locale);

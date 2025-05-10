@@ -98,7 +98,7 @@ export default function AdvantageConversion() {
               <Link
                 href= {t('dijitalMarketingConversionProduct.advantageConversion.link1')}
                 target="_blank"
-                className="text-blue-600 flex items-center"
+                className="flex items-center"
               >
                 <MdAdsClick className="mr-2 rotate-12 text-blue-600" />
                 {t("dijitalMarketingConversionProduct.advantageConversion.span1")}
@@ -119,7 +119,7 @@ export default function AdvantageConversion() {
             <Link
                 href= {t('dijitalMarketingConversionProduct.advantageConversion.link2')}
                 target="_blank"
-                className="text-blue-600 flex items-center"
+                className="flex items-center"
               >
                 <MdAdsClick className="mr-2 rotate-12 text-blue-600" />
                 {t("dijitalMarketingConversionProduct.advantageConversion.span3")}
@@ -140,7 +140,7 @@ export default function AdvantageConversion() {
             <Link
                 href= {t('dijitalMarketingConversionProduct.advantageConversion.link3')}
                 target="_blank"
-                className="text-blue-600 flex items-center"
+                className="flex items-center"
               >
                 <MdAdsClick className="mr-2 rotate-12 text-blue-600" />
                 {t("dijitalMarketingConversionProduct.advantageConversion.span4")}

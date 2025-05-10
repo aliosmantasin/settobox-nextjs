@@ -41,7 +41,7 @@ const ShowLocationVideo = () => {
       {/* Modal Dialog */}
       <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
         <DialogContent>
-          <DialogTitle className="text-lg font-bold">Video Önizlemesi</DialogTitle>
+          <DialogTitle className="text-lg font-bold">Örnek Video Önizlemesi</DialogTitle>
           <div className="relative rounded-lg p-4 shadow-lg max-w-xl w-full">
             <video
               src="https://res.cloudinary.com/dydji2imy/video/upload/v1745931170/AirplaneTOEifelVideos_p62lnz.mp4"

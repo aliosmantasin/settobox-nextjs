@@ -42,8 +42,8 @@ const urlMap: Record<string, { tr: string; en: string; changefreq: string; prior
     changefreq: "weekly", 
     priority: 0.8 
   },
-  "web-sitesi-yaptırma": { 
-    tr: "web-sitesi-yaptırma", 
+  "web-sitesi-yaptirma": { 
+    tr: "web-sitesi-yaptirma", 
     en: "website-development", 
     changefreq: "monthly", 
     priority: 0.8 

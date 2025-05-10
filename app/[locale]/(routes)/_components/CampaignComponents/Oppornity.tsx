@@ -39,7 +39,7 @@ const Opportunity = () => {
         </li>
 
         <li>
-          30 Nisan 2025 tarihine kadar geçerlidir.
+          31 Aralık 2025 tarihine kadar geçerlidir.
         </li>
 
         <li>

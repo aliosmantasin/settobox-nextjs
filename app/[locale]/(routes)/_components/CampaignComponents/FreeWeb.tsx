@@ -37,7 +37,7 @@ const FreeWebSite = () => {
             MegaBox ve ProBox Google Ads reklam hizmetini seçmiş işletmeler ücretsiz faydalanabilir.
         </li>
         <li>
-           Bu kampanya 30 Nisan 2025 tarihine kadar geçerlidir.
+           Bu kampanya 30 Eylül 2025 tarihine kadar geçerlidir.
         </li>
 
       
