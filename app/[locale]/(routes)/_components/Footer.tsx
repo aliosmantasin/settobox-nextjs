@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Brand and Description */}
           <div>
             <Link href="/" className="flex items-center space-x-2">
-              <Image src="/logoImage/SetToBoxLogo.webp" alt="SetToBox Logo" width={100} height={100}/>
+              <Image src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/logo/SetToBoxLogo-ljDLmFPfU54gx46FHgdJxBm346DVAu.webp" alt="SetToBox Logo" width={100} height={100}/>
             </Link>
             <span className="mt-4 text-sm footerTextColor">
               {t("slogan")}

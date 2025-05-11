@@ -93,7 +93,7 @@ const HomePageCTA = () => {
               <div className="mb-4 inline-flex w-32 h-32 items-center justify-center rounded-full bg-white">
               <Image
                 className="object-cover  rounded-full"
-                src="/images/teamLeader.webp"
+                src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/HomePageCTA/teamLeader-ASgXgQk7hWf5aggc3Qzk4rGV8Gzzzn.webp"
                 alt={t("name")}
                 width={120}
                 height={120}

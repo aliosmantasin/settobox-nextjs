@@ -10,12 +10,12 @@ import { AnimationPathKey } from './LottiePlayer';
 export const ANIMATION_URLS: Record<AnimationPathKey, string> = {
   WEBSITE_MANAGE: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/WebsiteManage-QvCLZCtd2FzvxdNjAugCAyoVwoNCJ7.json',
   GOOGLE_ADS: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/GoogleDurunetAnimation-R62PfIuDub5D0aJXIPuh8TYUWiahdv.json',
-  META_ADS: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/InstagramService-NUO0oXUJTsDJh4XNy6aAAIwVZzBmiY.json', // Meta reklamları için Instagram animasyonunu kullanıyoruz
+  META_ADS: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/InstagramService-NUO0oXUJTsDJh4XNy6aAAIwVZzBmiY.json',
   GOOGLE_MANAGE: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/GoogleManageAnimation-zlTS1QTvdYkiMkarhz5zmgz79DfhLq.json',
   INSTAGRAM_SERVICE: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/InstagramService-NUO0oXUJTsDJh4XNy6aAAIwVZzBmiY.json',
-  CONVERSION: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/Conversion-TGkc87UevTltozMQSfyudqu6IbXfUZ.json', // Conversion animasyonu için Vercel Blob URL'si
+  CONVERSION: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/Conversion-TGkc87UevTltozMQSfyudqu6IbXfUZ.json',
   ALL_IN_SETTOBOX: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/All-in-SetToBox-SI4sKFVVbJUfexEmbRovjcIgCV0fpj.json',
-  LOADER_BOX: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/loaderBox-O0UM5vmblBJHww4RQqoHPbKmnoCRJx.json',
+  LOADER_BOX: 'https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/animationJson/loaderBox-O0UM5vmblBJHww4RQqoHPbKmnoCRJx.json'
 };
 
 /**
@@ -26,7 +26,8 @@ export const ANIMATION_URLS: Record<AnimationPathKey, string> = {
 export function getAnimationUrl(key: AnimationPathKey): string {
   const url = ANIMATION_URLS[key];
   if (!url) {
-    console.warn(`Animation URL not found for key: ${key}`);
+    console.error(`Animation URL not found for key: ${key}`);
+    return '';
   }
   return url;
 } 

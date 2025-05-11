@@ -5,14 +5,15 @@ import LottiePlayer, { ANIMATION_PATHS } from '../libs/LottiePlayer'
 
 interface FirstGlanceProps {
   onLoad?: () => void;
-  useBlob?: boolean; // Vercel Blob kullanılıp kullanılmayacağını belirten prop
+  useBlob?: boolean;
 }
 
-const GoogleAdsAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad, useBlob = false }) => {
+const GoogleAdsAnimasyonJson: React.FC<FirstGlanceProps> = ({ onLoad, useBlob = true }) => {
   return (
     <LottiePlayer
       animationPath={ANIMATION_PATHS.GOOGLE_ADS}
-      max-width="600px"
+      maxWidth="600px"
+      height="auto"
       onLoad={onLoad}
       useBlob={useBlob}
     />

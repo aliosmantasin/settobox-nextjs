@@ -23,11 +23,11 @@ const GoogleManageAnimasyonJson: React.FC<GoogleManageAnimasyonProps> = ({ onLoa
       <div style={{ display: isLoading ? "none" : "block", width: "100%", margin: "auto"}}>
         <LottiePlayer
           animationPath={ANIMATION_PATHS.GOOGLE_MANAGE}
-          max-width="600px"
+          maxWidth="600px"
           height="auto"
           onLoad={handleAnimationLoad}
           useBlob={useBlob}
-          
+          loop={true}
         />
       </div>
     </div>

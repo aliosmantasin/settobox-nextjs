@@ -42,7 +42,7 @@ const DijitalDonusumKutusu = () => {
         >
           {!isImageLoaded && <Loading />}
           <Image
-            src="/DigitalDonusumKutusu.webp"
+            src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/360DigitalMarketing/DigitalDonusumKutusu-b3gNKhVW7pjFYWYDR5esja7FAdwXMN.webp"
             alt="Dijital Donusum Kutusu"
             className={`flex mx-auto w-[450px] p-10 sm:w-[400px] md:w-[450px] lg:w-[500px] transition-opacity duration-300 ease-in-out  ${
               isImageLoaded ? "opacity-100" : "opacity-0"

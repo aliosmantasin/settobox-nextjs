@@ -1,0 +1,57 @@
+/* Kritik CSS - İlk yüklemede gerekli olan stiller */
+@layer critical {
+  /* Temel tipografi */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Ana başlıklar */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  /* Temel renkler ve tema değişkenleri */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+  }
+
+  /* Layout için kritik sınıflar */
+  .theme {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  /* Kritik UI bileşenleri */
+  .primary {
+    color: #1f77bb;
+  }
+
+  /* Hero section için kritik stiller */
+  .hero-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  /* Navigation için kritik stiller */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  /* Responsive için kritik stiller */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+    }
+  }
+} 

@@ -20,8 +20,8 @@ const FirstGlance: React.FC = () => {
       url: "yerel-dijital-pazarlama",
       icon: (
         <Image
-          className="rounded-lg border border-gray-100 shadow-sm p-3"
-          src="/images/yerelGorseller/isletme.webp"
+          className="rounded-lg border border-gray-100 shadow-sm p-3 min-w-[66px] min-h-[66px]"
+          src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/isletme-z5AqEl04sVBHS7Ock835oMslPdsDy7.webp"
           alt="Dijital Dönüşüm Kutusu"
           width={66}
           height={66}
@@ -38,8 +38,8 @@ const FirstGlance: React.FC = () => {
       url: "/dijital-pazarlama-donusum-kutusu",
       icon: (
         <Image
-          className="rounded-lg border border-gray-100 shadow-sm p-3"
-          src="/images/DigitalDonusumKutusu.webp"
+          className="rounded-lg border border-gray-100 shadow-sm p-3 min-w-[66px] min-h-[66px]"
+          src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/DigitalDonusumKutusu-mIaSRRtWmEmhV7m7YlhMzbG2cXpup5.webp"
           alt="Dijital Dönüşüm Kutusu"
           width={66}
           height={66}
@@ -56,6 +56,7 @@ const FirstGlance: React.FC = () => {
       url: "/google-ads-reklam-yonetimi",
       icon: <FcGoogle className="w-16 h-16 rounded-lg border border-gray-100 shadow-sm p-3" />,
     },
+
     {
       title: t('features2.title'),
       description: t('features2.description'),
@@ -68,6 +69,7 @@ const FirstGlance: React.FC = () => {
       </svg>
       ),
     },
+
     {
       title: t('features3.title'),
       description: t('features3.description'),
@@ -81,8 +83,8 @@ const FirstGlance: React.FC = () => {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
-      <section className="min-h-auto sm:min-h-[600] ocean-shadow">
-        <div className="container mx-auto my-10 pb-5">
+      <section className="min-h-auto sm:min-h-[600]">
+        <div className="container mx-auto my-10 pb-5 ocean-shadow">
           <div className="max-w-2xl mx-auto relative">
             <h1 className="text-2xl sm:text-2xl md:text-3xl my-5 text-center primary">
               {t("title1")}

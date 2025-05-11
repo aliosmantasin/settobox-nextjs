@@ -13,7 +13,7 @@ const AllInSetToBoxAnimasyonJson: React.FC<AllInSetToBoxProps> = ({ onLoad, useB
     <div className="flex justify-center items-center mx-auto w-[350px] sm:w-[400px]">
       <LottiePlayer
         animationPath={ANIMATION_PATHS.ALL_IN_SETTOBOX}
-        max-width="600px"
+        maxWidth="600px"
         height="auto"
         onLoad={onLoad}
         useBlob={useBlob}

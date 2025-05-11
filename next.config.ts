@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
   },
 
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['res.cloudinary.com', 'vr3j8vmadakibxk6.public.blob.vercel-storage.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/images/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'vr3j8vmadakibxk6.public.blob.vercel-storage.com',
+        port: '',
+        pathname: '/**',
+      }
     ],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 64, 96, 128, 256],

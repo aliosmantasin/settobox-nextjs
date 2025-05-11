@@ -12,7 +12,7 @@ const SectorAll = () => {
 
   return (
     <section className="py-10">
-      <div className="w-full bg-[#373737] rounded-lg">
+      <div className="container mx-auto bg-[#373737] sm:rounded-lg ">
         <h2 className="text-white text-2xl p-2 text-center mx-auto">
           {t("subtitle3")}
         </h2>

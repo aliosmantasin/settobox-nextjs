@@ -16,14 +16,15 @@ const ServiceSlider = () => {
   const t = useTranslations("HomePage");
 
   const images = [
-    "/MetaMiniBox.webp",
-    "/MetaMegaBox.webp",
-    "/MetaProBox.webp",
-    "/GoogleMiniBox.webp",
-    "/GoogleMegaBox.webp",
-    "/GoogleProBox.webp",
-    "/BasicWeb.webp",
-    "/BusinessWeb.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/MetaMiniBox-zoZnqLjkIZbZG6dXbJHQIMalG196wh.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/MetaMegaBox-qaBvvpEUrA5a5pnqlCqYoGdiXFn5ps.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/MetaProBox-in265HGb1Ufved3JrN0QRvy6JY2IFc.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/GoogleMiniBox-t9axIUn8PRvhoszEa7S8wK5F3XCRg8.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/GoogleMegaBox-SFNaIbrH2NCaQGHhZggfer7kjVVr6x.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/GoogleProBox-21mnw3pyKhy1fleFD7X4lhkkyDF0AE.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/BasicWeb-PJFJ4BmQiAcLVTqOT5XEfX7uLwZs4h.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/BusinessWeb-nE554B3RNWAYQ393YyUoaGj8vHiEJ7.webp",
+    "https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/drone-produksiyon-isM6NcKICdm5pyvcLhrobPQzJSKwFM.webp"
   ];
 
   return (

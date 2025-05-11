@@ -1,93 +1,69 @@
 "use client"
 
-import React, { useEffect, useRef, useState } from 'react';
-import type { AnimationItem } from 'lottie-web';
-import { getAnimationUrl } from '../libs/AnimationUrls';
+import React, { useState, useCallback } from 'react'
+import LottiePlayer, { ANIMATION_PATHS } from '../libs/LottiePlayer'
+import Loading from '../Loadling/Loading'
 
 interface MetaManageAnimasyonProps {
-  animationData?: Record<string, unknown>;
   onLoad?: () => void;
-  useBlob?: boolean; // Vercel Blob kullanılıp kullanılmayacağını belirten prop
+  useBlob?: boolean;
 }
 
-const MetaManageAnimasyonJson: React.FC<MetaManageAnimasyonProps> = ({ 
-  animationData, 
-  onLoad,
-  useBlob = false // Varsayılan olarak false
-}) => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [lottie, setLottie] = useState<typeof import('lottie-web') | null>(null);
-  const [isBlobLoaded, setIsBlobLoaded] = useState(false);
+const MetaManageAnimasyonJson: React.FC<MetaManageAnimasyonProps> = ({ onLoad, useBlob = true }) => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
+  const [errorDetails, setErrorDetails] = useState<string | null>(null);
 
-  // Lottie'yi dynamic import ile yükle
-  useEffect(() => {
-    import('lottie-web').then((LottieModule) => {
-      setLottie(LottieModule);
-    });
+  const handleLoad = useCallback(() => {
+    console.log('MetaManage: Animation loaded successfully');
+    setIsLoading(false);
+    setHasError(false);
+    setErrorDetails(null);
+    if (onLoad) onLoad();
+  }, [onLoad]);
+
+  const handleError = useCallback((error?: string) => {
+    console.error('MetaManage: Animation error:', error);
+    setIsLoading(false);
+    setHasError(true);
+    setErrorDetails(error || null);
   }, []);
 
-  useEffect(() => {
-    if (!lottie || !containerRef.current) return;
-    
-    // useBlob true ise animationData kontrolünü atla
-    if (!useBlob && !animationData) return;
-
-    let anim: AnimationItem | null = null;
-
-    if (useBlob) {
-      // Vercel Blob URL'sini kullan
-      const blobUrl = getAnimationUrl('META_ADS');
-      console.log('Vercel Blob URL kullanılıyor:', blobUrl);
-      
-      if (blobUrl) {
-        anim = lottie.default.loadAnimation({
-          container: containerRef.current,
-          renderer: 'svg',
-          loop: true,
-          autoplay: true,
-          path: blobUrl,
-        });
-        
-        // Blob URL başarıyla yüklendiğinde
-        anim.addEventListener('DOMLoaded', () => {
-          setIsBlobLoaded(true);
-        });
-      }
-    } else if (animationData) {
-      // Yerel animasyon verisini kullan
-      console.log('Yerel animasyon verisi kullanılıyor');
-      
-      anim = lottie.default.loadAnimation({
-        container: containerRef.current,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-      });
-    }
-
-    if (onLoad) {
-      onLoad();
-    }
-
-    return () => {
-      if (anim) {
-        anim.destroy();
-      }
-    };
-  }, [lottie, animationData, onLoad, useBlob]);
-
   return (
-    <div className="relative">
-      <div
-        ref={containerRef}
-        className="height-500"
-      />
-      {isBlobLoaded && (
-        <div className="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded-full">
-          Vercel Blob
-        </div>
-      )}
+    <div className="w-full flex justify-center items-center">
+      <div className="relative w-full" style={{ maxWidth: '600px' }}>
+        {isLoading && (
+          <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 z-10">
+            <Loading />
+          </div>
+        )}
+        {hasError ? (
+          <div className="flex flex-col items-center justify-center text-red-500 p-4 space-y-2">
+            <div>Animasyon yüklenemedi</div>
+            {errorDetails && (
+              <div className="text-xs bg-red-50 p-2 rounded w-full">
+                Hata detayı: {errorDetails}
+              </div>
+            )}
+          </div>
+        ) : (
+          <LottiePlayer
+            animationPath={ANIMATION_PATHS.META_ADS}
+            width="100%"
+            height="auto"
+            useBlob={useBlob}
+            loop={true}
+            onLoad={handleLoad}
+            onError={handleError}
+            rendererSettings={{
+              preserveAspectRatio: 'xMidYMid meet',
+              clearCanvas: true,
+              progressiveLoad: true,
+              hideOnTransparent: false
+            }}
+          />
+        )}
+      </div>
     </div>
   );
 };

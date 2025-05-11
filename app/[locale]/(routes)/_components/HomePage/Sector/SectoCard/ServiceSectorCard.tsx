@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image';
 import { MdArrowOutward } from 'react-icons/md';
-import ServiceSectorImg from '@/public/images/ServiceSector.webp';
 import './SectorCard.css'
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
@@ -30,7 +29,7 @@ const ServiceSectorCard = () => {
               <div className="imgBox relative">
              
                 <Image
-                  src={ServiceSectorImg}
+                  src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/SektorAll/ServiceSector-VS5LSVZR3pr0lvyyuFGYf10cllLZ6z.webp"
                   alt="Dijital Pazarlama Hizmet Sektörü"
                   width={400}
                   height={400}

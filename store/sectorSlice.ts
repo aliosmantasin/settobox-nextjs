@@ -114,7 +114,7 @@ const initialState: SectorState = {
       allInBox : {
         headerTitle: 'Hizmet Sektörü Dijital Pazarlama',
         headerDescription: 'Hizmet sektörü için planladığımız online varlıklarla, orta ve uzun vadede bütçe optimizasyonunu sağlayarak kontrollü bir yönetim süreci hedefliyoruz. Bilgilendirme ve referans dokümanlarımızı inceleyerek izlediğimiz stratejiyi daha ayrıntılı görebilirsiniz.',
-        animation: getAnimationUrl('INSTAGRAM_SERVICE'), 
+        animation: getAnimationUrl('ALL_IN_SETTOBOX'), 
       },
       metaManage: {
         title: 'Meta Yönetimi <span style="color:#1f77bb; font-size: 0.7em;">"Facebook & Instagram"</span>',
@@ -122,7 +122,7 @@ const initialState: SectorState = {
         description: 'Hizmet satın alma veya abonelik gibi kavramlardan önce potansiyel bir müşteri öncelikle online varlıklarınızı inceleyerek güvenilirliğinizi anlamaya çalışır. Yorumlar, referanslar ve bilgi alma gibi güven kazanma aşamalarından sonra satın alma aşaması gerçekleşir. Dolayısıyla potansiyel müşterilerinize ilk aşamada güven vermek için aşağıda ki adımları gerçekleştiriyoruz.',
         metricsTitle:'Kullanılan Facebook | Instagram Metrikleri',
         metaMetrics: ['Kurumsal Kimlik', 'Sosyal Medya Yönetimi', 'Meta Reklamları'],
-        animation: getAnimationUrl('INSTAGRAM_SERVICE'), 
+        animation: getAnimationUrl('GOOGLE_MANAGE'), 
       },
       referanceMeta: {
         title:'Referans',

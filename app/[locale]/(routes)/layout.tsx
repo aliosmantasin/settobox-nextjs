@@ -7,7 +7,7 @@ import { MdKeyboardArrowUp } from "react-icons/md";
 import { ReactNode } from "react";
 import { ToastProvider } from "@radix-ui/react-toast";
 import { Toaster } from "@/components/ui/toaster";
-import BottomNavigation from "./_components/libs/BottomNavigation";
+// import BottomNavigation from "./_components/libs/BottomNavigation";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react"
 
@@ -48,7 +48,7 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
             <ScrollTop>
               <MdKeyboardArrowUp />
             </ScrollTop>
-            <BottomNavigation/>
+            {/* <BottomNavigation/> */}
           <Footer />
           <Analytics/>
           <SpeedInsights />

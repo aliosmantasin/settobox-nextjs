@@ -13,10 +13,11 @@ const WebDesignManageAnimasyonJson: React.FC<WebDesignManageProps> = ({ onLoad, 
     <div className="flex justify-center items-center">
       <LottiePlayer
         animationPath={ANIMATION_PATHS.WEBSITE_MANAGE}
-        max-width="600px"
+        maxWidth="600px"
         height="auto"
         onLoad={onLoad}
         useBlob={useBlob}
+        loop={true}
       />
     </div>
   )
