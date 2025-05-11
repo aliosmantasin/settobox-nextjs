@@ -20,7 +20,8 @@ const GoogleInfo: React.FC = () => {
     <>
       <DiscountModal />
       <section className="my-10 relative ocean-shadow pb-10">
-        <h1 className="text-3xl font-extrabold primary tracking-wider text-center">
+        <h1 className="text-3xl font-extrabold primary tracking-wider text-center sr-only">{t("googleInfo.srOnlyh1")}</h1>
+        <p className="text-3xl font-extrabold primary tracking-wider text-center">
           {t("googleInfo.sub1")} {""}
           <span className="google-span">G</span>
           <span className="google-span">o</span>
@@ -28,7 +29,7 @@ const GoogleInfo: React.FC = () => {
           <span className="google-span">g</span>
           <span className="google-span">l</span>
           <span className="google-span">e</span> {t("googleInfo.sub2")}
-        </h1>
+        </p>
         <div className="container mx-auto justify-center items-center">
           <motion.div
             initial={{ opacity: 0 }}

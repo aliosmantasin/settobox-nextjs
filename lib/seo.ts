@@ -56,10 +56,17 @@ export const seoData: Record<string, { title: string; description: string }> = {
       title: "İnstagram Sponsorlu Reklam Verme ve Reklam Fiyatları | SetToBox",
       description: "İnstagram, facebook sosyal medya ve reklam yönetimi. Fiyat listesi ve daha fazla detay için web sitemizi inceleyebilirsin.",
     },
+
     "google-ads-reklam-yonetimi": {
-      title: "Google Ads Reklam Yönetimi | SetToBox",
-      description: "Tecrübeli reklam uzmanlarımız ile Google Ads reklam yönetiminde hedef kitlenize ulaşın. Hizmetlerimiz hakkında daha fazla bilgi edinmek ve başarılı reklam stratejileri oluşturmak için bizimle iletişime geçin.",
+      title: "Google Ads Reklam Yönetimi ve Danışmanlığı | SetToBox",
+      description: "Tecrübeli reklam uzmanlarımız ile Google Ads reklam yönetiminde hedef kitlenize ulaşın, potansiyel müşterilerinize artırın. Hizmetlerimiz hakkında daha fazla bilgi edinmek ve başarılı reklam stratejileri oluşturmak için Google Ads Danışmanlarımızla iletişime geçin.",
     },
+
+    "google-ads-management": {
+    title: "Google Ads Ad Management and Consultancy | SetToBox",
+    description: "Reach your target audience in Google Ads ad management with our experienced advertising experts. Contact our Google Ads Consultants to learn more about our services and create successful advertising strategies.",
+    },
+
     "web-sitesi-yaptirma": {
       title: "Web Sitesi Yaptırma | SetToBox",
       description: "Kurumsal web site tasarımı ile potansiyel müşterilerinize ulaşın.",

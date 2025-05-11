@@ -73,9 +73,34 @@ const RightComponentContactUs = () => {
               className="w-full h-auto rounded-lg"
               controls
               preload="none"
+              title="Google Ads Reklam Yönetimi Tanıtım Videosu"
+              aria-label="Google Ads reklam yönetimi hizmetlerimizin bilgilendime videosu"
+              poster="https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.jpg"
             >
+              <track
+                kind="captions"
+                label="Türkçe"
+                srcLang="tr"
+                src="/captions/google-ads-tanitim.vtt"
+                default
+              />
               Tarayıcınız video formatını desteklemiyor.
             </video>
+
+            {/* Video Schema Markup */}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": "Google Ads Reklam Yönetimi - Tanıtım Videosu",
+                "description": "Google Ads reklam yönetimi hizmetlerimizin bilgilendime videosu",
+                "thumbnailUrl": "https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.jpg",
+                "uploadDate": "2025-05-01",
+                "contentUrl": "https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.mp4",
+                "duration": "PT2M30S",
+                "inLanguage": "tr"
+              })
+            }} />
           </div>
         </DialogContent>
       </Dialog>
