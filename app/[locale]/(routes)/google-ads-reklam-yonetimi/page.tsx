@@ -1,12 +1,36 @@
-import GoogleInfo from '../_components/GoogleAds/GoogleInfo/GoogleInfo'
-import GoogleAdditional from '../_components/GoogleAds/GoogleAdditional/GoogleAdditional'
-import GoogleProduct from '../_components/GoogleAds/GoogleProduct/GoogleProduct'
+import dynamic from 'next/dynamic'
 import { seoData } from '@/lib/seo'
-import { GoogleAdsCard } from '../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard'
 import { Metadata } from 'next'
-import GoogleAnimation from '../_components/GoogleAds/GoogleAnimation'
-import GoogleAdsContent from '../_components/GoogleAds/GoogleAdsContent'
-import GoogleCTA from '../_components/GoogleAds/GoogleCTA'
+import Loading from '../_components/Loadling/Loading'
+
+// Lazy loaded components
+const GoogleInfo = dynamic(() => import('../_components/GoogleAds/GoogleInfo/GoogleInfo'), {
+  loading: () => <div>Loading...</div>
+})
+
+const GoogleAdditional = dynamic(() => import('../_components/GoogleAds/GoogleAdditional/GoogleAdditional'), {
+  loading: () => <div><Loading/></div>
+})
+
+const GoogleProduct = dynamic(() => import('../_components/GoogleAds/GoogleProduct/GoogleProduct'), {
+  loading: () => <div><Loading/></div>
+})
+
+const GoogleAdsCard = dynamic(() => import('../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard').then(mod => mod.GoogleAdsCard), {
+  loading: () => <div><Loading/></div>
+})
+
+const GoogleAnimation = dynamic(() => import('../_components/GoogleAds/GoogleAnimation'), {
+  loading: () => <div><Loading/></div>
+})
+
+const GoogleAdsContent = dynamic(() => import('../_components/GoogleAds/GoogleAdsContent'), {
+  loading: () => <div><Loading/></div>
+})
+
+const GoogleCTA = dynamic(() => import('../_components/GoogleAds/GoogleCTA'), {
+  loading: () => <div><Loading/></div>
+})
 
 type Props = {
   params: Promise<{ locale: string }>;

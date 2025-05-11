@@ -1,29 +1,40 @@
+import dynamic from 'next/dynamic'
 import { seoData } from "@/lib/seo";
-import WebDesignInfo from "../_components/WebDesign/WebDesignInfo/WebDesignInfo";
-import { MaskSvg } from "../_components/libs/Mask/Mask";
-import WebDesignAdditional from "../_components/WebDesign/WebDesignAdditional/WebDesignAdditional";
-import WebDesignProduct from "../_components/WebDesign/WebDesignProduct/WebDesignProduct";
 import { Metadata } from "next";
+import Loading from '../_components/Loadling/Loading'
+
+// Lazy loaded components
+const WebDesignInfo = dynamic(() => import("../_components/WebDesign/WebDesignInfo/WebDesignInfo"), {
+  loading: () => <div><Loading/></div>
+})
+
+const MaskSvg = dynamic(() => import("../_components/libs/Mask/Mask").then(mod => mod.MaskSvg), {
+  loading: () => <div><Loading/></div>
+})
+
+const WebDesignAdditional = dynamic(() => import("../_components/WebDesign/WebDesignAdditional/WebDesignAdditional"), {
+  loading: () => <div><Loading/></div>
+})
+
+const WebDesignProduct = dynamic(() => import("../_components/WebDesign/WebDesignProduct/WebDesignProduct"), {
+  loading: () => <div><Loading/></div>
+})
 
 type Props = {
-  params: Promise<{ locale: string }>; // ✅ params artık Promise olarak tanımlandı
+  params: Promise<{ locale: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  // Dil parametresine göre doğru sayfa yolunu belirle
-  const resolvedParams = await params; // ✅ Promise olan params'ı çöz
-  const locale = resolvedParams.locale ?? "tr"; // ✅ Varsayılan dili "tr" yap
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale ?? "tr";
   const pagePath = locale === "en" ? "website-development" : "web-sitesi-yaptirma";
-  
-  console.log("generateMetadata Çalışıyor! Sayfa:", pagePath);
-  console.log("Dil:", locale);
 
-  const seo = seoData[pagePath] || {
-    title: locale === "en" ? "SetToBox | Website Development" : "SetToBox | Web Sitesi Yaptırma",
-    description: locale === "en" ? "Get information about our website development services." : "Web sitesi yaptırma hizmetlerimiz hakkında bilgi alın.",
+  const defaultSeo = {
+    title: locale === "en" ? "Professional Website Development Services | SetToBox" : "Profesyonel Web Sitesi Yaptırma Hizmetleri | SetToBox",
+    description: locale === "en" ? "Create your professional website with modern design and SEO-friendly structure. Mobile compatible websites, e-commerce solutions and corporate web design services." : "Modern tasarım ve SEO dostu yapıya sahip profesyonel web sitenizi oluşturun. Mobil uyumlu web siteleri, e-ticaret çözümleri ve kurumsal web tasarım hizmetleri.",
   };
 
-  console.log("Bulunan SEO:", seo);
+  const seo = seoData[pagePath] || defaultSeo;
 
   return {
     title: seo.title,
@@ -31,31 +42,55 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: seo.title,
       description: seo.description,
+      type: "website",
+      locale: locale,
+      siteName: locale === "en" ? "Settobox Digital Marketing" : "Settobox Dijital Pazarlama",
+      images: [
+        {
+          url: '/thumbnails/web-design-thumbnail.png',
+          width: 1200,
+          height: 630,
+          alt: locale === "en" ? "Website Development Services" : "Web Sitesi Geliştirme Hizmetleri",
+        },
+      ],
     },
     twitter: {
       title: seo.title,
       description: seo.description,
+      card: "summary_large_image",
+      images: ['/thumbnails/web-design-thumbnail.png'],
+    },
+    keywords: locale === "en" 
+      ? "Website Development, Web Design, E-commerce Website, Corporate Website, Mobile Compatible Website, SEO Friendly Website, Professional Web Design, Website Solutions"
+      : "Web Sitesi Yaptırma, Web Tasarım, E-ticaret Sitesi, Kurumsal Web Sitesi, Mobil Uyumlu Web Sitesi, SEO Dostu Web Sitesi, Profesyonel Web Tasarım, Web Site Çözümleri",
+    alternates: {
+      canonical: `/${pagePath}`,
+      languages: {
+        'en': `/en/website-development`,
+        'tr': `/tr/web-sitesi-yaptirma`,
+      },
     },
   };
 }
 
 const WebDesignPage = () => {
   return (
-    <>
-       <WebDesignInfo/>
-       <MaskSvg/>
-       <WebDesignAdditional/>
-       <WebDesignProduct/>
-    </>
+    <main aria-label="Website Development Page">
+      <article className="web-design-content">
+        <WebDesignInfo/>
+        <MaskSvg/>
+        <WebDesignAdditional/>
+        <WebDesignProduct/>
+      </article>
+    </main>
   );
 };
 
 export default WebDesignPage;
 
-
 export async function generateStaticParams() {
   return [
-    { locale: 'tr' },
-    { locale: 'en' },
-  ]
+    { locale: "tr" },
+    { locale: "en" },
+  ];
 }
