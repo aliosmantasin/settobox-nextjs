@@ -10,7 +10,7 @@ const ListedObjectGoogle = () => {
   const { sectorData, selectedSector } = useSelector((state: RootState) => state.sector);
   const data = sectorData[selectedSector]?.referanceGoogle;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [isPlaying, setIsPlaying] = useState(true); // Animasyon oynatma kontrolü
+  const [isPlaying, setIsPlaying] = useState(true);
 
   if (!data) return null;
 
@@ -27,13 +27,10 @@ const ListedObjectGoogle = () => {
         {/* Animasyon Sekmesi */}
         <TabsContent value="animation" className="m-1 sm:m-0">
           <div className="w-full p-2">
-            {data?.animation && (
-              <ListedObjectGoogleAnimasyonJson 
-                animationData={JSON.parse(JSON.stringify(data.animation))}
-                isPlaying={isPlaying}
-                useBlob={true} // Vercel Blob kullanımını etkinleştir
-              />
-            )}
+            <ListedObjectGoogleAnimasyonJson 
+              isPlaying={isPlaying}
+              useBlob={true}
+            />
           </div>
         </TabsContent>
 
@@ -42,7 +39,7 @@ const ListedObjectGoogle = () => {
           <div className="w-full p-2">
             <div
               className="cursor-pointer rounded-lg overflow-hidden shadow-md"
-              onClick={() => setSelectedImage(data.images.src)}
+              onClick={() => data?.images?.src && setSelectedImage(data.images.src)}
             >
               {data?.images && (
                 <Image src={data.images} width={data.images.width} height={data.images.height} alt={data.images.alt} />
