@@ -2,17 +2,17 @@ export const seoData: Record<string, { title: string; description: string }> = {
     //Ana Sayfa
     "/tr": {
       title: "Settobox | Dijital Pazarlama Ajansı",
-      description: "Küçük ve orta büyüklükte firmalar için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, pazarlama danışmanlığı ve havadan drone çekimleri gibi özelleştirilmiş hizmetler veriyoruz.",
+      description: "KOBİ'ler için sosyal medya yönetimi, instagram sponsorlu reklam, google adwords reklam, profesyonel web tasarım, dijital pazarlama danışmanlığı gibi 360° dijital pazarlama hizmetleri sunuyoruz.",
     },
 
     "/en": {
       title: "Settobox | Digital Marketing Agency",
-      description: "We provide customized services to small and medium-sized companies, including social media management, Instagram sponsored advertising, Google AdWords advertising, professional web design, marketing consulting, and aerial drone footage.",
+      description: "We offer 360° digital marketing services for SMEs, such as social media management, Instagram sponsored advertising, Google AdWords advertising, professional web design, and digital marketing consultancy.",
     },
      //Dijital Pazarlama Hizmet Kutusu
     "dijital-pazarlama-donusum-kutusu": {
       title: "Dijital Pazarlama Dönüşüm Kutusu | SetToBox",
-      description: "Küçük ve orta büyüklükteki firmaların Instagram, Facebook, Google Ads ve web site tasarım gibi ihtiyaçlarını karşılayarak tüm online varlıklarını yönetiyoruz.",
+      description: "Derinlemesine 360° dijital pazarlama hizmetleri ile işletmenizin görünürlüğünü artırıyor ve potansiyel müşterilerinizide artırıyoruz.",
     },
     "dijital-pazarlama-donusum-kutusu/hizmetsektoru": {
       title: "Hizmet Sektörü Dijital Pazarlama | SetToBox",

@@ -5,41 +5,41 @@ const CACHE_DURATION = 24 * 60 * 60; // 24 hours in seconds
 
 // URL listesi (TR & EN)
 const urlMap: Record<string, { tr: string; en: string; changefreq: string; priority: number }> = {
-  anasayfa: { tr: "/tr", en: "/en", changefreq: "yearly", priority: 1.0 },
+  anasayfa: { tr: "/tr", en: "/en", changefreq: "weekly", priority: 1.0 },
   "dijital-pazarlama-donusum-kutusu": { 
     tr: "/tr/dijital-pazarlama-donusum-kutusu", 
     en: "/en/digital-marketing-conversion-box", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.8 
   },
   "dijital-pazarlama-donusum-kutusu/hizmetsektoru": { 
     tr: "/tr/dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
     en: "/en/dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.7 
   },
   "dijital-pazarlama-donusum-kutusu/egitimsektoru": { 
     tr: "/tr/dijital-pazarlama-donusum-kutusu/egitimsektoru", 
     en: "/en/dijital-pazarlama-donusum-kutusu/egitimsektoru", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.7 
   },
   "dijital-pazarlama-donusum-kutusu/sagliksektoru": { 
     tr: "/tr/dijital-pazarlama-donusum-kutusu/sagliksektoru", 
     en: "/en/dijital-pazarlama-donusum-kutusu/sagliksektoru", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.7 
   },
   "instagram-sponsorlu-reklam": { 
     tr: "/tr/instagram-sponsorlu-reklam", 
     en: "/en/instagram-sponsored-ads", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.8 
   },
   "google-ads-reklam-yonetimi": { 
     tr: "/tr/google-ads-reklam-yonetimi", 
     en: "/en/google-ads-management", 
-    changefreq: "weekly", 
+    changefreq: "monthly", 
     priority: 0.8 
   },
   "web-sitesi-yaptirma": { 

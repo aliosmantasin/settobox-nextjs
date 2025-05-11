@@ -86,9 +86,10 @@ const FirstGlance: React.FC = () => {
       <section className="min-h-auto sm:min-h-[600]">
         <div className="container mx-auto my-10 pb-5 ocean-shadow">
           <div className="max-w-2xl mx-auto relative">
-            <h1 className="text-2xl sm:text-2xl md:text-3xl my-5 text-center primary">
+            <h1 className="sr-only">Settobox Dijital Pazarlama Ajansı</h1>
+            <p className="text-2xl sm:text-2xl md:text-3xl text-center my-5 primary">
               {t("title1")}
-            </h1>
+            </p>
 
             <div className="max-w-xl mt-10 space-y-3 mx-auto dark:ocean-shadow">
               {features.map((feature, index) => (
@@ -134,52 +135,3 @@ const FirstGlance: React.FC = () => {
 };
 
 export default FirstGlance;
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/* <p className="mt-4 text-muted-foreground styled-paragraph relative">
-            {t("description1")}
-          </p> */}
-
-
-
-
-        {/* <div className="flex justify-center items-center mt-6 space-x-4">
-          <Link href={t("formLink")}>
-            <Button className="relative">
-              <Mail />{t("form")}
-            </Button>
-          </Link>
-
-          <Link href="tel:+905437214839" target="_blank">
-            <Button
-              variant="ghost"
-              className="flex items-center gap-3 border rounded border-r-8 border-blue-700 hover:text-blue-800 py-5 relative"
-            >
-              <PhoneCall size={14} className="relative" />
-              {t("contact")}
-            </Button>
-          </Link>
-        </div> */}
-
-        {/* <div className="flex justify-center mt-10">
-          {isLoading && <Loading/>}
-          <div
-            ref={animationContainer}
-            className="w-96 max-w-md relative"
-            style={{ height: "400px",
-              display: isLoading ? "none" : "block",
-             }}
-            
-          />
-        </div> */}
