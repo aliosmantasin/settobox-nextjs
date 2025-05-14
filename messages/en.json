@@ -419,7 +419,7 @@
         },
         {
           "title": "Google Ads Starting Price + Website Campaign",
-          "description": "Monthly Management: 4,500₺ including VAT + Corporate Website: 4,500₺"
+          "description": "Monthly Management: 4,500₺ including VAT + Corporate Website: 4,500₺ (discount price)"
         }
       ]
     },
@@ -477,7 +477,7 @@
       },
 
       "span1": "10% Discount Advantage",
-      "freeWebSupport": "Corporate Web Design 4,500₺ instead of 6,000₺",
+      "freeWebSupport": "Corporate Web Design 4,500₺ instead of 10,000₺",
 
       "span2": "Detailed Information",
       "spanHareketPlani": "Action Plan",
@@ -743,6 +743,7 @@
           "description": "With its basic design and additional features, the MiniWeb service is suitable for those who need a beginner-level web presence, as listed below.",
           "title": "Who is it suitable for?",
           "list": [
+            "Businesses that want to present their brand to potential customers at a corporate level",
             "Businesses that want to create an online presence and establish a bridge with their target audience.",
             "Individuals who want to showcase their personal projects or freelance work."
           ]

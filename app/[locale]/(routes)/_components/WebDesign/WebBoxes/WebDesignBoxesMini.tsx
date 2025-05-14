@@ -49,7 +49,7 @@ const WebDesignBoxesMini = () => {
 
                               <div className="p-3 border border-green-500 rounded-[5px]">
                                   <h6 className="text-green-500 flex justify-center">
-                                      6.000₺
+                                      10.000₺
                                   </h6>
                               </div>
                               

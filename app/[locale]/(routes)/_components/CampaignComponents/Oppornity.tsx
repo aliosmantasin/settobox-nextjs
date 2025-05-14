@@ -43,7 +43,7 @@ const Opportunity = () => {
         </li>
 
         <li>
-          Bu kampanyada <u>web tasarım hizmeti</u> 6.000₺ yerine 4.500₺ fiyatta olup, ilk yıl domain ve hosting hizmetinizi 
+          Bu kampanyada <u>web tasarım hizmeti</u> 10.000₺ yerine 4.500₺ fiyatta olup, ilk yıl domain ve hosting hizmetinizi 
           biz karşılıyoruz.
         </li>
   

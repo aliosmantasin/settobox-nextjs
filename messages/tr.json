@@ -417,7 +417,7 @@
         },
         {
           "title": "Google Ads Başlangıç Fiyatı + Web Site Kampanyası",
-          "description": "Aylık Yönetim: 4.500₺ KDV dahil + Kurumsal Website: 4.500₺"
+          "description": "Aylık Yönetim: 4.500₺ KDV dahil + Kurumsal Website: 4.500₺ (indirimli fiyat)"
         }
       ]
     },
@@ -476,7 +476,7 @@
       },
 
       "span1": "%10 İndirim Avantajı",
-      "freeWebSupport": "Kurumsal Web Tasarım 6.000₺ yerine 4.500₺",
+      "freeWebSupport": "Kurumsal Web Tasarım 10.000₺ yerine 4.500₺",
 
       "span2": "Detaylı Bilgilendirme",
       "spanHareketPlani": "Hareket Planı",
@@ -742,6 +742,7 @@
           "description": "Temel tasarımı ve ek özelliklerle desteklenen yapısıyla başlangıç seviyesinde olan MiniWeb hizmetini aşağıda ki gibi ihtiyaç sahipleri tercih edebilir.",
           "title": "Kimler için uygundur?",
           "list": [
+            "Markasını kurumsal düzeyde potansiyel müşterilerinin karşısına çıkarmak isteyen işletmeler",
             "Online varlığını oluşturarak hedef kitlesi ile bir köprü oluşturmak isyeyen işletmeler",
             "Kişisel projelerini veya freelance çalışmalarını sergilemek isteyen bireyler."
           ]
