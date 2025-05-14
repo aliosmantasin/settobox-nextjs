@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic'
 import { seoData } from "@/lib/seo"
 import { Metadata } from "next"
 import Loading from '../_components/Loadling/Loading'
+import LocatedContact from '../_components/LocatedDijitalMarketing/LocatedContact/LocatedContact'
 
 // Lazy loaded components
 const FirstGlance = dynamic(() => import("../_components/LocatedDijitalMarketing/FirstGlance"), {
@@ -81,6 +82,7 @@ const LocalDigitalMarketing = () => {
         <MaskSvg/>
         <GoogleAds/>
         <ShowLocationComponent/>
+        <LocatedContact/>
       </article>
     </main>
   )

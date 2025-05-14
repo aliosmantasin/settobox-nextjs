@@ -11,7 +11,7 @@ interface FirstGlanceProps {
 
 const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   return (
-    <section className="relative my-20">
+    <section className="relative mb-10 sm:py-10">
       <div className="container flex m-auto flex-wrap relative justify-evenly pb-10">
         <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg flex justify-center items-center">
           <AllInSetToBoxAnimasyonJson

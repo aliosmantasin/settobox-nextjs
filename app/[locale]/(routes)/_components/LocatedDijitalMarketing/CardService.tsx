@@ -79,7 +79,7 @@ const CardService = () => {
         </div>
 
       </div>
-      <div className='container flex flex-wrap mx-0 sm:mx-auto p-10'>
+      <div className='container flex flex-wrap mx-0 sm:mx-auto'>
         <span className='text-xl font-bold paragraphStyle'>
           Mikro Pazarlama İçerikleri
         </span>
