@@ -12,6 +12,13 @@ const urlMap: Record<string, { tr: string; en: string; changefreq: string; prior
     changefreq: "monthly", 
     priority: 0.8 
   },
+
+  "yerel-dijital-pazarlama": { 
+    tr: "/tr/yerel-dijital-pazarlama", 
+    en: "/en/yerel-dijital-pazarlama", 
+    changefreq: "monthly", 
+    priority: 0.8 
+  },
   "dijital-pazarlama-donusum-kutusu/hizmetsektoru": { 
     tr: "/tr/dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
     en: "/en/dijital-pazarlama-donusum-kutusu/hizmetsektoru", 
