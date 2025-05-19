@@ -23,9 +23,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: "Varsayılan Açıklama",
   };
 
+  // BASE URL'ni ayarla
+  const baseUrl = "https://www.settobox.com";
+  const canonical = `${baseUrl}/${locale}`;
+
   return {
     title: seo.title,
     description: seo.description,
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+    },
+    twitter: {
+      title: seo.title,
+      description: seo.description,
+    },
+    alternates: {
+      canonical,
+    },
   };
 }
 

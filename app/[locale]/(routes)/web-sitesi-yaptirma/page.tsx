@@ -36,6 +36,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const seo = seoData[pagePath] || defaultSeo;
 
+
+     // BASE URL'ni ayarla
+     const baseUrl = "https://www.settobox.com";
+     const canonical = `${baseUrl}/${locale}/${pagePath}`;
+
   return {
     title: seo.title,
     description: seo.description,
@@ -64,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? "Website Development, Web Design, E-commerce Website, Corporate Website, Mobile Compatible Website, SEO Friendly Website, Professional Web Design, Website Solutions"
       : "Web Sitesi Yaptırma, Web Tasarım, E-ticaret Sitesi, Kurumsal Web Sitesi, Mobil Uyumlu Web Sitesi, SEO Dostu Web Sitesi, Profesyonel Web Tasarım, Web Site Çözümleri",
     alternates: {
-      canonical: `/${pagePath}`,
+      canonical,
       languages: {
         'en': `/en/website-development`,
         'tr': `/tr/web-sitesi-yaptirma`,

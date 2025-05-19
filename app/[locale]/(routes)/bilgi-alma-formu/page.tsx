@@ -1,17 +1,25 @@
 import React from 'react'
 import InfoForm from '../_components/Register/form'
 import { seoData } from '@/lib/seo';
+import { Metadata } from 'next';
 
-export async function generateMetadata() {
-  const pagePath = "bilgi-alma-formu"; // Sayfanın adı belirleniyor
-  console.log("generateMetadata Çalışıyor! Sayfa:", pagePath);
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale ?? "tr";
+  const pagePath = locale === "en" ? "information-form" : "bilgi-alma-formu";
 
   const seo = seoData[pagePath] || {
-    title: "Varsayılan Başlık",
-    description: "Varsayılan Açıklama",
+    title: locale === "en" ? "Information Request Form | SettoBox" : "Bilgi Alma Formu | SettoBox",
+    description: locale === "en" ? "SettoBox Information Form" : "SettoBox Bilgi Alma Formu",
   };
 
-  console.log("Bulunan SEO:", seo);
+  // BASE URL'ni ayarla
+  const baseUrl = "https://www.settobox.com";
+  const canonical = `${baseUrl}/${locale}`;
 
   return {
     title: seo.title,
@@ -24,10 +32,15 @@ export async function generateMetadata() {
       title: seo.title,
       description: seo.description,
     },
+    alternates: {
+      canonical,
+      languages: {
+        'en': `${baseUrl}/en/information-form`,
+        'tr': `${baseUrl}/tr/bilgi-alma-formu`,
+      },
+    },
   };
 }
-
-
 
 const InfoFormPage = () => {
   return (

@@ -1,4 +1,42 @@
 import { Card } from "@/components/ui/card";
+import { seoData } from "@/lib/seo";
+import { Metadata } from "next";
+
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const resolvedParams = await params;
+  const locale = resolvedParams.locale ?? "tr";
+  const pagePath = locale === "en" ? "cerez-politikasi" : "cerez-politikasi";
+
+  const seo = seoData[pagePath] || {
+    title: locale === "en" ? "Çerez Politikası | SettoBox" : "Çerez Politikası| SettoBox",
+    description: locale === "en" ? "Çerez Politikasını incelyebilir ve tarayıcınızda değişiklik yapabilirsiniz" : "Çerez Politikasını incelyebilir ve tarayıcınızda değişiklik yapabilirsiniz",
+  };
+
+  // BASE URL'ni ayarla
+  const baseUrl = "https://www.settobox.com";
+  const canonical = `${baseUrl}/${locale}`;
+
+  return {
+    title: seo.title,
+    description: seo.description,
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+    },
+    twitter: {
+      title: seo.title,
+      description: seo.description,
+    },
+    alternates: {
+      canonical,
+    },
+  };
+}
+
 
 export default function CookiePolicyPage() {
   return (

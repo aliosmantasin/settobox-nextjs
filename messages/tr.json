@@ -18,7 +18,7 @@
     "description4": "MiniWeb - MegaWeb olarak hizmet kutularımızı inceleyerek ihtiyacınız olan hizmeti seçebilirsiniz.",
     "link4": "/web-sitesi-yaptirma",
     "allServices": "Tüm Hizmetler",
-    "allServicesDescription": "SettoBox hizmetleri arasında tekil hizmetler ve 360° Dijital Pazarlama Hizmetleri arasında seçim yapabilirsiniz.",
+    "allServicesDescription": "SettoBox, markanızın dijital hedeflerine uygun olarak bireysel hizmet seçenekleri ya da bütünsel 360° Dijital Pazarlama Hizmetleri sunar.",
     "allServicesLink": "/settobox-hizmetler",
 
     "Referance": "Referanslar",
@@ -72,7 +72,7 @@
 
     "features2": {
       "title": "Meta Yönetimi",
-      "description": "Markanızı Meta Gücüyle Yönlendirmesiyle Öne Çıkarın"
+      "description": "Markanızı Meta'nın Çapraz Platform Desteğiyle Öne Çıkarın"
     },
 
     "features3": {
@@ -451,6 +451,35 @@
       "feature6": {
         "title": "Sabit Fiyat",
         "description": "Fiyatlandırmalarda 1 yıl sabit fiyat garantisi uygulanır."
+      },
+      "title": "Google Ads Yönetimine Ek Hizmetlerimiz",
+      "subtitle": "İşletmenizin dijital varlığını güçlendirmek için sunduğumuz özel hizmetler",
+      "features": {
+        "feature1": {
+          "title": "Hesap Kurulum ve Optimizasyon",
+          "description": "Google Ads hesabınızın profesyonel kurulumu ve optimizasyonu ile başarıya ulaşın"
+        },
+        "feature2": {
+          "title": "Anahtar Kelime Araştırması",
+          "description": "Sektörünüze özel detaylı anahtar kelime araştırması yaparal potansiyel müşterilerinize ulaşırız"
+        },
+        "feature3": {
+          "title": "Reklam Performans Takibi",
+          "description": "Günlük performans raporları incelenir, negatif kelimeler belirlenir"
+        },
+        "feature4": {
+          "title": "Rakip Analizi",
+          "description": "Rakiplerinizin reklam stratejilerini analiz ederek rekabet avantajı elde edin"
+        },
+        "feature5": {
+          "title": "Özel Hedefleme",
+          "description": "Hedef kitlenize özel reklam stratejileri ile dönüşüm oranlarınızı artırın"
+        },
+        "feature6": {
+          "title": "ROI Takibi",
+          "description": "Yatırım getirinizi ölçümlemek adına anahtar kelime odaklı online varlıklar optimize edilir."
+        }
+       
       }
     },
 
@@ -563,7 +592,7 @@
       "span17": "Google MegaBox İçeriği",
       "p13": "Ürün/hizmet arayan internet kullanıcılarının anlık olarak karşılarına çıkmak, sekörel olarak marka biliniliğini artırmak ve derinlemesine etki yaparak web sitelerinine kullanıcı trafiği çekerek daha iyi hedeflemeler ile pazarlama taktikleri uygulamak için tasarlanmıştır.",
       "span18": "Uygun Görülen Bütçe",
-      "p14": "Google MegaBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 10.000(+) TL`dir.",
+      "p14": "Google MegaBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 15.000(+) TL`dir.",
       "span19": "Google Araçları",
       "p15": "Google Analystic | Google Search Console",
       "p16": "Optimizsayonu iyileştirimek daha iyi hedeflemeler yapabilmek için web sitenize bu araçların kodlarını (etiket) bağlıyoruz.",
@@ -625,7 +654,7 @@
       "span17": "Google ProBox İçeriği",
       "p14": "ProBox içeriği; ilk olarak Arama Ağı reklamı ile başlayarak müşterilerinin karşısına çıkar ve algoritmayı besler... Duyarlı Görüntülü Reklam ile sektörel bir marka bilinirliği kazanılmak hedeflenir. Ardından Maksimum Performans Reklamı ile dönüşüm ortalamasını artırmak hedeflenir. Bu kutu içeriğimizde oturmuş alt yapı ve algoritma ile sahip olduğumuz web sitesinden form - whatsapp veya telefon araması dönüşümlerini artırmak hedeflenmektedir.",
       "span18": "Uygun Görülen Bütçe",
-      "p15": "Google ProBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 10.000(+) TL`dir.",
+      "p15": "Google ProBox Reklam içeriğinde Arama Ağı - Duyarlı Reklam Ağı ve Retargeting reklamları kullanılmaktadır. Gösterime sunulacak reklamın çeşitli değişkenlikleri göz önünde bulundurulunca minumum ihtiyaç duyulan aylık bütçe 25.000(+) TL`dir.",
       "span19": "Google Araçları",
       "p16": "Google Analystic | Google Search Console",
       "p17": "Optimizsayonu iyileştirimek daha iyi hedeflemeler yapabilmek için web sitenize bu araçların kodlarını (etiket) bağlıyoruz.",
@@ -660,7 +689,7 @@
 
     "googleAnimation": {
       "title": "Başarılı Reklam Zeminleri",
-      "description": "Google, kullanıcı deneyimini iyileştirmek için, reklam verenlerin sundukları ürün ya da hizmet hakkında net ve doğru bilgiler paylaşmasını bekler.",
+      "description": "Google, reklam performansını değerlendirirken yalnızca bütçeyi değil, aynı zamanda markanın dijital varlığının kalitesini de dikkate alır. Teknik olarak optimize edilmiş bir web sitesi, güçlü bir içerik yapısı ve stratejik olarak kurgulanmış reklam kampanyaları, reklam kalite puanınızı yükselterek başarınızı doğrudan etkiler. Kısacası, dijital altyapınız ne kadar güçlü olursa, reklam yatırımlarınızdan elde edeceğiniz dönüşüm de o denli yüksek olacaktır.",
       "features": {
         "mobile": "Mobil Uyumlu Hızlı Web Site",
         "seo": "SEO",
@@ -1656,7 +1685,7 @@
   },
 
   
-    "ContactCard": {
+"ContactCard": {
       "name": "Ali Osman Taşın",
       "title": "Dijital Pazarlama Danışmanı",
       "description": "Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.",
@@ -1665,7 +1694,7 @@
       "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
     },
 
-    "ExplationVideoGoogle": {
+"ExplationVideoGoogle": {
       "name": "Ali Osman Taşın",
       "title": "Dijital Pazarlama Danışmanı",
       "description": "Dijital pazarlamaya giriş ve online varlıklarınızın yönetimi gibi konularda sizlerle beraber bir yol haritası oluşturabiliriz.",

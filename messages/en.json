@@ -17,7 +17,9 @@
     "span4": "Web Design Services",
     "description4": "As MiniWeb - MegaWeb, you can choose the service you need by examining our service boxes.",
     "link4": "/website-development",
-
+    "allServices": "All Services",
+    "allServicesDescription": "SettoBox offers individual service options or holistic 360° Digital Marketing Services in line with your brand's digital goals.",
+    "allServicesLink": "/services",
     "Referance": "Referance",
     "refLink": "/settobox-references",
     "light": "Light Mode",
@@ -53,7 +55,7 @@
     "linkLocalMarketing": "/yerel-dijital-pazarlama",
 
     "sub3": "Can We Help You?",
-    "span6": "Whatsapp Support",
+    "span6": "WhatsApp Support",
     "span7": "Holistic Approach and Consultancy Service to Digital Marketing.",
     "span8": "All Rights Reserved."
   },
@@ -69,7 +71,7 @@
 
     "features2": {
       "title": "Meta Management",
-      "description": "Stand Out Your Brand with Meta Power"
+      "description": "Highlight Your Brand with Meta's Cross-Platform Support"
     },
 
     "features3": {
@@ -452,6 +454,34 @@
       "feature6": {
         "title": "Fixed Pricing",
         "description": "A 1-year fixed price guarantee is applied to all pricing plans."
+      },
+      "title": "Additional Services with Google Ads",
+      "subtitle": "Special services we offer to strengthen your business's digital presence",
+      "features": {
+        "feature1": {
+          "title": "Account Setup and Optimization",
+          "description": "Achieve success with professional setup and optimization of your Google Ads account"
+        },
+        "feature2": {
+          "title": "Keyword Research",
+          "description": "Reach your target audience with detailed keyword research specific to your industry"
+        },
+        "feature3": {
+          "title": "Ad Performance Tracking",
+          "description": "Daily performance reports are reviewed and negative words are identified."
+        },
+        "feature4": {
+          "title": "Competitor Analysis",
+          "description": "Gain competitive advantage by analyzing your competitors' advertising strategies"
+        },
+        "feature5": {
+          "title": "Custom Targeting",
+          "description": "Increase your conversion rates with advertising strategies tailored to your target audience"
+        },
+        "feature6": {
+          "title": "ROI Tracking",
+          "description": "Keyword-focused online assets are optimized to measure your return on investment."
+        }
       }
     },
 

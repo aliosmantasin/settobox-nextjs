@@ -50,14 +50,14 @@ const GoogleBoxesPro = () => {
                        
                               <div className="p-3 border border-red-500 rounded-[5px]">
                                   <h6 className="line-through text-red-500 flex justify-center">
-                                      14.000₺
+                                      16.500₺
                                   </h6>
                               </div>
                
 
                               <div className="p-3 border border-green-500 rounded-[5px]">
                                   <h6 className="text-green-500 flex justify-center">
-                                      12.600₺
+                                      14.900₺
                                   </h6>
                               </div>
                               

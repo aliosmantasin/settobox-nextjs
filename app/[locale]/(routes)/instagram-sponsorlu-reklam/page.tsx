@@ -30,6 +30,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: locale === "en" ? "Professional Instagram Sponsored Ads Services" : "Profesyonel Instagram Sponsorlu Reklam Hizmetleri",
   };
 
+   // BASE URL'ni ayarla
+   const baseUrl = "https://www.settobox.com";
+   const canonical = `${baseUrl}/${locale}/${pagePath}`;
+
   return {
     title: seo.title,
     description: seo.description,
@@ -40,6 +44,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       title: seo.title,
       description: seo.description,
+    },
+
+    alternates: {
+      canonical,
+      languages: {
+        'en': `${baseUrl}/en/instagram-sponsored-ad`,
+        'tr': `${baseUrl}/instagram-sponsorlu-reklam`,
+      },
     },
   };
 }

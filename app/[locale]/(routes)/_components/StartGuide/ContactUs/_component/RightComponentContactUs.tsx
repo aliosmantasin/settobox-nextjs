@@ -75,7 +75,7 @@ const RightComponentContactUs = () => {
               preload="none"
               title="Google Ads Reklam Yönetimi Tanıtım Videosu"
               aria-label="Google Ads reklam yönetimi hizmetlerimizin bilgilendime videosu"
-              poster="https://res.cloudinary.com/dydji2imy/video/upload/v1744549340/GoogleAdsKutuTan%C4%B1t%C4%B1mVideosu_zuvcc8.jpg"
+              poster="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/LocatedDijitalMarketing/LocatedContactComp/Kapak-2-100-JDlK8hSPyPeeMe8HtuMLhAwt9mA5VZ.jpg"
             >
               <track
                 kind="captions"
@@ -86,6 +86,8 @@ const RightComponentContactUs = () => {
               />
               Tarayıcınız video formatını desteklemiyor.
             </video>
+
+            
 
             {/* Video Schema Markup */}
             <script type="application/ld+json" dangerouslySetInnerHTML={{

@@ -14,6 +14,7 @@ export const seoData: Record<string, { title: string; description: string }> = {
       title: "Dijital Pazarlama Dönüşüm Kutusu | SetToBox",
       description: "Derinlemesine 360° dijital pazarlama hizmetleri ile işletmenizin görünürlüğünü artırıyor ve potansiyel müşterilerinizide artırıyoruz.",
     },
+
     "dijital-pazarlama-donusum-kutusu/hizmetsektoru": {
       title: "Hizmet Sektörü Dijital Pazarlama | SetToBox",
       description: "Hizmet sektöründe faaliyet gösteren firmalar için dijital pazarlama çözümleri sunuyoruz. İnstagram sponsorlu reklam, Google Ads reklam ve web site tasarım hizmeti",
@@ -45,16 +46,32 @@ export const seoData: Record<string, { title: string; description: string }> = {
     // 
     "bilgi-alma-formu": {
       title: "Bilgi Alma Formu | SetToBox",
-      description: "Markanız için ihtiyacınız olan hizmeti seçin",
+      description: "Markanız için ihtiyacınız olan hizmeti seçin instagram - facebook yönetim, google ads reklam yönetimi, kurumsal web site tasarım hizmeti, 360 derece dijital pazarlama",
     },
+    
+    "information-form": {
+      title: "Information Form | SetToBox",
+      description: "Choose the service you need for your brand: Instagram - Facebook management, Google Ads advertising management, corporate website design service, 360 degree digital marketing",
+    },
+
     "dijital-pazarlama-baslagic-kilavuzu": {
       title: "Markaların Dijital Pazarlamaya Girişi | SetToBox",
       description: "Bir markayı kendi yöntemlerimizi kullanarak dijital pazarlamaya sağlam adımlarla girişini sağlıyoruz.",
     },
+    "digital-marketing-beginner-guide": {
+      title: "Digital Marketing Beginner Guide | SetToBox",
+      description: "We guide you step by step to enter digital marketing with your own methods.",
+    },
+    
     //Tekli Hizmetler
     "instagram-sponsorlu-reklam": {
       title: "İnstagram Sponsorlu Reklam Verme ve Reklam Fiyatları | SetToBox",
       description: "İnstagram, facebook sosyal medya ve reklam yönetimi. Fiyat listesi ve daha fazla detay için web sitemizi inceleyebilirsin.",
+    },
+
+    "instagram-sponsored-ads": {
+      title: "Instagram Sponsored Ads | SetToBox",
+      description: "Instagram, Facebook social media and advertising management. You can check our website for price list and more details.",
     },
 
     "google-ads-reklam-yonetimi": {
@@ -72,11 +89,27 @@ export const seoData: Record<string, { title: string; description: string }> = {
       description: "Kurumsal web site tasarımı ile potansiyel müşterilerinize ulaşın.",
     },
 
+    "web-site-design": {
+      title: "Web Site Design | SetToBox",
+      description: "Professional web site design services for your brand. Contact us to learn more about our services.",
+    },
+
   
     //Diğer Sayfalar
     "settobox-referanslar": {
         title: "SetToBox Referanslar | SetToBox",
         description: "Dijital pazarlama referansları, işletmelerin online varlıklarını nasıl yönettiğimizi incele",
       },
+
+    // Çerez Politikası
+    "cerez-politikasi": {
+      title: "Çerez Politikası | SettoBox",
+      description: "SettoBox Çerez Politikası ve Gizlilik Bilgileri. Web sitemizde kullanılan çerezler ve gizlilik politikamız hakkında detaylı bilgi.",
+    },
+    "cookie-policy": {
+      title: "Cookie Policy | SettoBox",
+      description: "SettoBox Cookie Policy and Privacy Information. Detailed information about cookies used on our website and our privacy policy.",
+    },
+
   };
   

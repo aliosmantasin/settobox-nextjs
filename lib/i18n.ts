@@ -1,6 +1,12 @@
 export const urlMap: Record<string, { tr: string; en: string }> = {
     anasayfa: { tr: "anasayfa", en: "home" },
 
+    "bilgi-alma-formu": { 
+      tr: "bilgi-alma-formu", 
+      en: "information-form" 
+    },
+
+    //SAYFALAR
     "dijital-pazarlama-donusum-kutusu": { 
       tr: "dijital-pazarlama-donusum-kutusu", 
       en: "digital-marketing-conversion-box" 

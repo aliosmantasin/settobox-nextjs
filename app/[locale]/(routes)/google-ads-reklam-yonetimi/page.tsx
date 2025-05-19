@@ -12,9 +12,13 @@ const GoogleAdditional = dynamic(() => import('../_components/GoogleAds/GoogleAd
   loading: () => <div><Loading/></div>
 })
 
-const GoogleProduct = dynamic(() => import('../_components/GoogleAds/GoogleProduct/GoogleProduct'), {
+const PricingPlans = dynamic(() => import('../_components/GoogleAds/PricingPlans/PricingPlans'), {
   loading: () => <div><Loading/></div>
 })
+
+// const GoogleProduct = dynamic(() => import('../_components/GoogleAds/GoogleProduct/GoogleProduct'), {
+//   loading: () => <div><Loading/></div>
+// })
 
 const GoogleAdsCard = dynamic(() => import('../_components/GoogleAds/GoogleAdsCard/GoogleAdsCard').then(mod => mod.GoogleAdsCard), {
   loading: () => <div><Loading/></div>
@@ -52,15 +56,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const seo = seoData[pagePath] || defaultSeo;
 
+    // BASE URL'ni ayarla
+    const baseUrl = "https://www.settobox.com";
+    const canonical = `${baseUrl}/${locale}/${pagePath}`;
+
   return {
     title: seo.title,
     description: seo.description,
     openGraph: {
       title: seo.title,
       description: seo.description,
-      type: "website",
       locale: locale,
-      siteName: locale === "en" ? "Settobox Digital Marketing" : "Settobox Dijital Pazarlama",
       images: [
         {
           url: '/thumbnails/google-ads-animation-thumbnail.png',
@@ -80,10 +86,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? "Google Ads, PPC Advertising, Google Ads Management, Digital Marketing, Search Engine Marketing, Display Ads, Remarketing, Google Ads Campaign, AdWords, Online Advertising"
       : "Google Ads, PPC Reklamcılık, Google Ads Yönetimi, Dijital Pazarlama, Arama Motoru Pazarlamacılığı, Görüntülü Reklamlar, Yeniden Pazarlama, Google Ads Kampanyası, AdWords, Online Reklamcılık",
     alternates: {
-      canonical: `/${pagePath}`,
+      canonical,
       languages: {
-        'en': `/en/google-ads-management`,
-        'tr': `/tr/google-ads-reklam-yonetimi`,
+        'en': `${baseUrl}/en/google-ads-management`,
+        'tr': `${baseUrl}/tr/google-ads-reklam-yonetimi`,
       },
     },
   };
@@ -96,8 +102,11 @@ const GoogleAdsPage = () => {
         <GoogleInfo/>
         <GoogleAdditional/>
         <section className='py-20 relative' aria-label="Google Ads Services">
+          <PricingPlans/>
+          {/* <GoogleProduct/> */}
           <GoogleAdsCard/>
-          <GoogleProduct/>
+          
+          
           <GoogleAnimation/>
         </section>
         <GoogleCTA />

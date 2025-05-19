@@ -2,7 +2,8 @@ import createMiddleware from "next-intl/middleware";
 
 // URL yönlendirme kuralları
 const pathnames = {
-  '/': '/',
+  '/tr': '/en',
+  
   '/instagram-sponsorlu-reklam': {
     tr: '/instagram-sponsorlu-reklam',
     en: '/instagram-sponsored-ads'
@@ -42,6 +43,11 @@ const pathnames = {
   '/havadan-drone-cekimleri': {
     tr: '/havadan-drone-cekimleri',
     en: '/havadan-drone-cekimleri'
+  },
+  //Form
+ '/bilgi-alma-formu': {
+    tr: '/bilgi-alma-formu',
+    en: '/information-form'
   }
 };
 
