@@ -393,6 +393,33 @@
       "span19": "Web Design (Optional)",
       "p22": "◆ MiniWeb - Basic Website Design If your business does not have a website, we design a basic website for you. In this campaign, we cover the first-year domain and hosting fees.",
       "p23": "FREE SERVICE"
+    },
+
+    "features": {
+      "brandIdentity": {
+        "title": "Brand Identity Management",
+        "description": "We consistently reflect your brand's values and vision on social media. We strengthen your brand with custom design templates, color palettes, and visual language."
+      },
+      "contentStrategy": {
+        "title": "Content Strategy",
+        "description": "We create content tailored to your target audience, producing high-engagement content through trend analysis. We develop custom content calendars for Reels, Stories, and Feed."
+      },
+      "adCreative": {
+        "title": "Ad Creative Management",
+        "description": "We prepare conversion-focused ad visuals and videos, determining the most effective ad formats through A/B testing. We efficiently utilize all of Meta's advertising formats."
+      },
+      "accountManagement": {
+        "title": "Professional Account Management",
+        "description": "We transform your Instagram and Facebook accounts into professional business accounts, providing comprehensive management through Meta Business Suite integrations."
+      },
+      "analytics": {
+        "title": "Detailed Analysis & Reporting",
+        "description": "We continuously optimize your strategy with weekly and monthly performance reports, competitor analysis, and audience insights."
+      },
+      "engagement": {
+        "title": "Engagement & Community Management",
+        "description": "We professionally manage comments, direct messages, and interactions, growing your community and increasing brand loyalty."
+      }
     }
   },
 
@@ -418,11 +445,8 @@
         {
           "title": "Website Digital Marketing Integration",
           "description": "Setting up Google Ads remarketing and conversion tags"
-        },
-        {
-          "title": "Google Ads Starting Price + Website Campaign",
-          "description": "Monthly Management: 4,500₺ including VAT + Corporate Website: 4,500₺ (discount price)"
         }
+       
       ]
     },
 
@@ -728,6 +752,60 @@
         "button": "Get Started Now",
         "phone": "Or call now: 0543 721 48 39"
       }
+    },
+
+    "pricingPlans": {
+      "mini": {
+        "description": "Ideal starter package for small businesses",
+        "features": {
+          "f1": "Google Ads Account Setup",
+          "f2": "1 Search Network Campaign",
+          "f3": "Keyword Research",
+          "f4": "Competitor Analysis",
+          "f5": "Negative Keyword Optimization",
+          "f6": "Monthly Report",
+          "f7": "09:00 - 20:00 WhatsApp Support",
+          "f8": "SEO-Friendly Corporate Website - 4,500₺ (optional)",
+          "f9": "VAT Included Pricing"
+        }
+      },
+      "mega": {
+        "description": "Professional solution for growing businesses",
+        "features": {
+          "f1": "2 Search Network Campaigns",
+          "f2": "2 Display Campaigns",
+          "f3": "1 Performance Campaign",
+          "f4": "Advanced Conversion Optimization",
+          "f5": "Report on the 15th",
+          "f6": "09:00 - 20:00 WhatsApp Support",
+          "f7": "Detailed Competitor Analysis",
+          "f8": "SEO-Friendly Corporate Website - Free",
+          "f9": "VAT Included Pricing"
+        }
+      },
+      "pro": {
+        "description": "Comprehensive service for corporate companies",
+        "features": {
+          "f1": "Advanced Search Network Campaign",
+          "f2": "Brand Awareness Campaigns",
+          "f3": "Regional Maximum Performance Campaign",
+          "f4": "Advanced Conversion Optimization Form + WhatsApp + Phone Call",
+          "f5": "Advanced Visuals and Videos for Your Ads",
+          "f6": "Weekly Detailed Reporting",
+          "f7": "End of Month Planning and Recommendations for Next Month - PowerPoint Slide",
+          "f8": "SWOT Analysis",
+          "f9": "Monthly Performance Meeting",
+          "f10": "09:00 - 20:00 WhatsApp and Phone Support",
+          "f11": "Google Maps and Local SEO Optimization",
+          "f12": "SEO-Friendly Advanced Corporate Website - Free",
+          "f13": "VAT Included Pricing"
+        }
+      },
+      "monthlyFee": "Monthly Management Fee",
+      "minimumBudget": "Minimum Ad Budget (monthly)",
+      "packageFeatures": "Package Features",
+      "detailedInfo": "Detailed Package Information",
+      "whatsappContact": "WhatsApp Contact"
     }
   },
 

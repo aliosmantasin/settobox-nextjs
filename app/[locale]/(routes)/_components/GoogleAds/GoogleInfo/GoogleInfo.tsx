@@ -4,6 +4,13 @@ import DiscountModal from "../../libs/Campaign/DiscountModal";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import "./GoogleInfo.css";
+import Loading from "../../Loadling/Loading";
+import dynamic from "next/dynamic";
+
+const PricingPlans = dynamic(() => import('../PricingPlans/PricingPlans'), {
+  loading: () => <div><Loading/></div>
+})
+
 
 interface Feature {
   title: string;
@@ -84,6 +91,10 @@ const GoogleInfo: React.FC = () => {
           >
             <MdKeyboardDoubleArrowDown className="text-4xl text-blue-500 animate-bounce" aria-hidden="true" />
           </motion.div>
+
+
+          <PricingPlans/>
+
 
           <motion.div
             initial={{ opacity: 0 }}

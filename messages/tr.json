@@ -414,11 +414,8 @@
         {
           "title": "Website Dijital Pazarlama Entegrasyonu",
           "description": "Google Ads yeniden pazarlama ve dönüşüm etiketlerini kurma"
-        },
-        {
-          "title": "Google Ads Başlangıç Fiyatı + Web Site Kampanyası",
-          "description": "Aylık Yönetim: 4.500₺ KDV dahil + Kurumsal Website: 4.500₺ (indirimli fiyat)"
         }
+        
       ]
     },
 
@@ -725,6 +722,59 @@
         "description": "Sizleri dinleyerek isteğiniz doğrultusunda markanız için neler yapabileceğimizi ifade edelim.",
         "button": "Hemen Başlayın",
         "phone": "Veya hemen arayın: 0543 721 48 39"
+      }
+    },
+    "pricingPlans": {
+      "monthlyFee": "Aylık Yönetim Ücreti",
+      "minimumBudget": "Minimum Reklam Bütçesi",
+      "packageFeatures": "Paket Özellikleri",
+      "detailedInfo": "Detaylı Bilgi",
+      "whatsappContact": "WhatsApp'tan İletişime Geç",
+      "mini": {
+        "description": "Küçük işletmeler için ideal başlangıç paketi",
+        "features": {
+          "f1": "Google Ads Hesap Kurulumu",
+          "f2": "1 Arama Ağı Kampanyası",
+          "f3": "Anahtar Kelime Araştırması",
+          "f4": "Rakip Analizi",
+          "f5": "Negatif Anahtar Kelime Optimizasyonu",
+          "f6": "Aylık Rapor",
+          "f7": "09:00 - 20:00 WhatsApp Desteği",
+          "f8": "SEO Uyumlu Kurumsal Website - 4.500₺ (opsiyonel)",
+          "f9": "KDV Dahil Fiyatlandırma"
+        }
+      },
+      "mega": {
+        "description": "Büyüyen işletmeler için profesyonel çözüm",
+        "features": {
+          "f1": "2 Arama Ağı Kampanyası",
+          "f2": "2 Görüntülü Reklam Kampanyası",
+          "f3": "1 Performans Kampanyası",
+          "f4": "Gelişmiş Dönüşüm Optimizasyonu",
+          "f5": "15'inde Rapor",
+          "f6": "09:00 - 20:00 WhatsApp Desteği",
+          "f7": "Detaylı Rakip Analizi",
+          "f8": "SEO Uyumlu Kurumsal Website - Ücretsiz",
+          "f9": "KDV Dahil Fiyatlandırma"
+        }
+      },
+      "pro": {
+        "description": "Kurumsal firmalar için kapsamlı hizmet",
+        "features": {
+          "f1": "Gelişmiş Arama Ağı Kampanyası",
+          "f2": "Marka Bilinirliği Kampanyaları",
+          "f3": "Bölgesel Maksimum Performans Kampanyası",
+          "f4": "Gelişmiş Dönüşüm Optimizasyonu Form + WhatsApp + Telefon Araması",
+          "f5": "Reklamlarınız İçin Gelişmiş Görseller ve Videolar",
+          "f6": "Haftalık Detaylı Raporlama",
+          "f7": "Ay Sonu Planlama ve Gelecek Ay İçin Öneriler - PowerPoint Slayt",
+          "f8": "SWOT Analizi",
+          "f9": "Aylık Performans Toplantısı",
+          "f10": "09:00 - 20:00 WhatsApp ve Telefon Desteği",
+          "f11": "Google Haritalar ve Yerel SEO Optimizasyonu",
+          "f12": "SEO Uyumlu Gelişmiş Kurumsal Website - Ücretsiz",
+          "f13": "KDV Dahil Fiyatlandırma"
+        }
       }
     }
   },

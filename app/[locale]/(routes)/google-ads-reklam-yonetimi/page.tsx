@@ -3,6 +3,7 @@ import { seoData } from '@/lib/seo'
 import { Metadata } from 'next'
 import Loading from '../_components/Loadling/Loading'
 
+
 // Lazy loaded components
 const GoogleInfo = dynamic(() => import('../_components/GoogleAds/GoogleInfo/GoogleInfo'), {
   loading: () => <div>Loading...</div>
@@ -12,9 +13,6 @@ const GoogleAdditional = dynamic(() => import('../_components/GoogleAds/GoogleAd
   loading: () => <div><Loading/></div>
 })
 
-const PricingPlans = dynamic(() => import('../_components/GoogleAds/PricingPlans/PricingPlans'), {
-  loading: () => <div><Loading/></div>
-})
 
 // const GoogleProduct = dynamic(() => import('../_components/GoogleAds/GoogleProduct/GoogleProduct'), {
 //   loading: () => <div><Loading/></div>
@@ -102,11 +100,8 @@ const GoogleAdsPage = () => {
         <GoogleInfo/>
         <GoogleAdditional/>
         <section className='py-20 relative' aria-label="Google Ads Services">
-          <PricingPlans/>
-          {/* <GoogleProduct/> */}
+        
           <GoogleAdsCard/>
-          
-          
           <GoogleAnimation/>
         </section>
         <GoogleCTA />
