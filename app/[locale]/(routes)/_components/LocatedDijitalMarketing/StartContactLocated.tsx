@@ -12,7 +12,7 @@ export default function StartContactLocated() {
 
   return (
     <div className="p-2 rounded-md">
-          <ul className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 block sm:flex ">
+          <ul className=" space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 block sm:flex ">
             
               <li className='flex p-1 mt-1'>
                 <Button variant="ghost" className='mx-auto w-full'>

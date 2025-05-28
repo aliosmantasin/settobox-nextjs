@@ -70,7 +70,7 @@ const CardService = () => {
           
             <div className="flex text-2xl text-center primary my-4 justify-center">
   
-                  <h2>360° Dijital Pazarlama</h2>
+                  <span>360° Dijital Pazarlama</span>
           
                  
             </div>
@@ -80,9 +80,9 @@ const CardService = () => {
 
       </div>
       <div className='container flex flex-wrap mx-0 sm:mx-auto '>
-        <span className='text-xl font-bold paragraphStyle'>
-          Mikro Pazarlama İçerikleri
-        </span>
+        <h2 className='text-xl font-bold paragraphStyle'>
+          Mikro | Yerel Dijital Pazarlama İçerikleri
+        </h2>
 
         <motion.div 
           initial={{ opacity: 0 }}
