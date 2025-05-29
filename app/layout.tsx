@@ -12,6 +12,7 @@ export const metadata = {
   robots: "index, follow",
   verification: {
     google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
+    facebook: "rftbzo30mozzjh4jnxajcq1594tbsp",
   },
 };
 
