@@ -12,7 +12,6 @@ export const metadata = {
   robots: "index, follow",
   verification: {
     google: "AQAg3wR11Ya_TOJEBFdusZZ9BKvUJLf8tT6kRnGALKc",
-    facebook: "rftbzo30mozzjh4jnxajcq1594tbsp",
   },
 };
 
@@ -43,6 +42,7 @@ export default function RootLayout({
         <link rel="icon" href="/images/favicon.ico/favicon-16x16.png" sizes="16x16" type="image/png" />
         <link rel="icon" href="/images/favicon.ico/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="apple-touch-icon" href="/images/favicon.ico/apple-icon-180x180.png" sizes="180x180" />
+        <meta name="facebook-domain-verification" content="rftbzo30mozzjh4jnxajcq1594tbsp" />
         <style>{`
           /* Inline kritik CSS */
           body { opacity: 1; }
