@@ -1,35 +1,153 @@
+"use client";
+import { MdCheckBox, MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { useTranslations } from "next-intl";
-import WebDesignManageAnimasyonJson from "../../AnimasyonData/WebDesignManageAnimasyonJson";
+import { motion } from "framer-motion";
+import "./WebDesignInfo.css";
 
+interface Feature {
+  title: string;
+  description: string;
+}
 
-
-
-const WebDesignInfo = () => {
-
-  const t = useTranslations("WebsitePage")
-
-  return (
-    <section className="py-10 relative">
-      <div className="container mx-auto flex flex-wrap justify-center">
-        {/* Text Section */}
-        <div className="flex col-span-12 text-center justify-center my-5">
-        <div className=" w-2/2 sm:w-1/2">
-          <h2  className="text-3xl font-extrabold primary tracking-wider my-5">
-            {t("webDesignInfo.title")}
-          </h2>
-          <p className="mt-4">
-          {t("webDesignInfo.description")}
+const FeatureCard = ({ feature, index }: { feature: Feature; index: number }) => (
+  <motion.li
+    initial={{ opacity: 0, y: 20 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5, delay: index * 0.1 }}
+    viewport={{ once: true }}
+    className="w-full bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
+  >
+    <div className=" p-6 border-l-4 border-blue-500 h-full">
+      <div className="flex items-start justify-between gap-4">
+        <div className="flex-1">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+            {feature.title}
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+            {feature.description}
           </p>
         </div>
+        <div className="flex-shrink-0">
+          <div className="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-900/30 flex items-center justify-center">
+            <MdCheckBox className="text-2xl text-blue-500 dark:text-blue-400" aria-hidden="true" />
         </div>
-        {/* Animation Section */}
-        <div className="flex col-span-12 my-5">
-        <div className='flex w-2/2 sm:w-2/2'>
-          <WebDesignManageAnimasyonJson 
-            useBlob={true}
-          />
+        </div>
+      </div>
+    </div>
+  </motion.li>
+);
+
+const WebDesignInfo: React.FC = () => {
+  const t = useTranslations("WebsitePage");
+  const features = [
+    {
+      title: t("webDesignInfo.features.1.title"),
+      description: t("webDesignInfo.features.1.description")
+    },
+    {
+      title: t("webDesignInfo.features.2.title"),
+      description: t("webDesignInfo.features.2.description")
+    },
+    {
+      title: t("webDesignInfo.features.3.title"),
+      description: t("webDesignInfo.features.3.description")
+    },
+    {
+      title: t("webDesignInfo.features.4.title"),
+      description: t("webDesignInfo.features.4.description")
+    }
+  ];
+
+  return (
+    <section className="py-16 relative">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-900 dark:to-gray-800 -z-10" />
+      <h1 className="text-3xl font-extrabold primary tracking-wider text-center sr-only">
+        {t("webDesignInfo.title")}
+      </h1>
+      <motion.p 
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        viewport={{ once: true }}
+        className="text-4xl font-bold text-center mb-12"
+      >
+        {t("webDesignInfo.title")}
+      </motion.p>
+
+      <div className="container mx-auto px-4">
+        <div className="max-w-5xl mx-auto">
+          <ul className="grid gap-6 md:grid-cols-2">
+            {features.map((feature, index) => (
+              <FeatureCard key={index} feature={feature} index={index} />
+            ))}
+          </ul>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="flex justify-center mt-12"
+        >
+          <MdKeyboardDoubleArrowDown className="text-4xl text-blue-500 animate-bounce" aria-hidden="true" />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2 }}
+          className="flex w-1/2 sm:w-1/5 lg:w-2/7 mx-auto my-10"
+        >
+          <div
+            className="relative group"
+            onClick={(e) => {
+              e.stopPropagation();
+              const video = e.currentTarget.querySelector('video') as HTMLVideoElement & {
+                webkitRequestFullscreen?: () => Promise<void>;
+                mozRequestFullScreen?: () => Promise<void>;
+                webkitEnterFullscreen?: () => Promise<void>;
+              };
+
+              if (video) {
+                if (video.requestFullscreen) {
+                  video.requestFullscreen();
+                } else if (video.webkitRequestFullscreen) {
+                  video.webkitRequestFullscreen();
+                } else if (video.mozRequestFullScreen) {
+                  video.mozRequestFullScreen();
+                } else if (video.webkitEnterFullscreen) {
+                  video.webkitEnterFullscreen();
+                }
+                video.play();
+              }
+            }}
+          >
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+            <div className="relative">
+              <video
+                  src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/Website%20Page/kurumsalwebsite-TWSs3AvPPuPbVRmYScJ2bGiO1qC2jM.mp4"
+                  className="w-full h-auto rounded-lg cursor-pointer shadow-xl transform transition duration-300 hover:scale-[1.02]"
+                controls
+                preload="none"
+                title="Web Tasarım Hizmetleri Tanıtım Videosu"
+                aria-label="Web tasarım hizmetlerimizin bilgilendirme videosu"
+                poster="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/Website%20Page/web-site-kapak-q8OVUkHXd2wDLsWswWtEV7C7wfXAp7.webp"
+                controlsList="nodownload"
+              >
+                <track
+                  kind="captions"
+                  label="Türkçe"
+                  srcLang="tr"
+                  src="/captions/web-design-tanitim.vtt"
+                  default
+                />
+                Tarayıcınız video formatını desteklemiyor.
+              </video>
+              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300 rounded-lg"></div>
         </div>
         </div>   
+        </motion.div>
       </div>
     </section>
   );

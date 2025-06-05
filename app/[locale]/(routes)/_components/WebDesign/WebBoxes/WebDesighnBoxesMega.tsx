@@ -1,4 +1,3 @@
-
 import megaWeb from "@/public/images/megaWeb.webp";
 import { ArrowBigRightDash } from "lucide-react";
 import Image from "next/image";
@@ -130,30 +129,21 @@ const WebDesignBoxesMega = () => {
                         </ul>
                         <ul>
                           <li><span><ArrowBigRightDash/></span>{t("webDesignProduct.megaBox.span6")}</li>
-                          <li>{t("webDesignProduct.megaBox.p6")}</li>
-                        </ul>
-                        <ul>
-                          <li><span><ArrowBigRightDash/></span>{t("webDesignProduct.megaBox.span6")}</li>
-                          <li>İyileştirilmiş SEO alt yapısı hedeflenmektedir. Bir çok önemli başlığı değerlendirirken Zeo.Org sıralama faktörlerini önemsiyoruz</li>
+                          <li>{t("webDesignProduct.megaBox.body.seo")}</li>
                         </ul>
                     
                         <ul>
-                          <li><span><ArrowBigRightDash/></span>Responsive Web Tasarım</li>
-                          <li>
-                          Tüm website tasarım hizmetlerinde responsive(esnek) tasarım uygulanmaktadır. Mobil - tablet - geniş ekran</li>
+                          <li><span><ArrowBigRightDash/></span>{t("webDesignProduct.megaBox.body.responsive")}</li>
+                          <li>{t("webDesignProduct.megaBox.body.responsive")}</li>
                         </ul>
 
                         <ul>
                           <li><span><ArrowBigRightDash/></span>Google Search Console</li>
-                          <li>
-                          Google Seacrh Console kullanarak web sitenizi google arama sonuçlarında gösterilmesi sağlıyoruz.</li>
+                          <li>{t("webDesignProduct.megaBox.body.searchConsole")}</li>
                         </ul>
                         <ul>
                           <li><span><ArrowBigRightDash/></span>Google Analytics Setup</li>
-                          <li>
-                          Google Analytics, web sitenizin trafiğini ve kullanıcı davranışlarını analiz etmek için kullanılan
-                           ücretsiz bir web analizi hizmetidir. Bu araç, ziyaretçi sayısı, kullanıcıların hangi sayfalara girdiği,
-                            ne kadar süreyle site üzerinde kaldığı, hangi cihazlardan veya coğrafi bölgelerden geldikleri gibi ayrıntılı verileri sunar.</li>
+                          <li>{t("webDesignProduct.megaBox.body.analytics")}</li>
                         </ul>
 
                         <ul>

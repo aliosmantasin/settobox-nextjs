@@ -4,6 +4,9 @@ import Script from 'next/script';
 import "./styles/critical.css";  // Kritik CSS'i önce yükle
 import "./globals.css";  // Non-kritik CSS'i sonra yükle
 import ClientProviders from "./ClientProviders";
+import CookieConsent from "./[locale]/(routes)/_components/libs/Cookies/CookieConsent";
+// import { LocaleAwareBotProtection } from "./[locale]/(routes)/_components/libs/BotProtection/LocaleAwareBotProtection";
+
 
 export const metadata = {
   title: "SetToBox | Kurumsal Dijital Pazarlama Ajansı",
@@ -67,6 +70,8 @@ export default function RootLayout({
             height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
         </noscript>
         <ClientProviders>
+        {/* <LocaleAwareBotProtection /> */}
+        <CookieConsent />
           {children}
           <Toaster />
         </ClientProviders>

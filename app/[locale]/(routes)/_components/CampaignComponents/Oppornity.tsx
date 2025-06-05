@@ -27,7 +27,7 @@ const Opportunity = () => {
     <div>
     <h2 className='font-bold text-3xl py-3 primary'>Google Ads Fırsat Kampanyası</h2>
     <p>
-        Potansiyel müşterilerine ulaşmak isteyen firmalar için Google Ads Fırsat Kampanyası. Bu kampanyaya ek olarak <strong>Kurumsal Web Tasarım hizmetini</strong> indirimli sahip olabilir ve daha profesyonel adımlar atabilirsin
+        Potansiyel müşterilerine ulaşmak isteyen firmalar için Google Ads Fırsat Kampanyası. Bu kampanyaya ek olarak <strong>Kurumsal Web Tasarım hizmetine</strong> ücretsiz sahip olabilir ve daha profesyonel adımlar atabilirsin
     </p>
     <div className='w-full mt-5 '>
    
@@ -39,11 +39,15 @@ const Opportunity = () => {
         </li>
 
         <li>
-          31 Aralık 2025 tarihine kadar geçerlidir.
+          31 Aralık 2025 tarihine kadar 10 İşletme için geçerlidir.
         </li>
 
         <li>
-          Bu kampanyada <u>web tasarım hizmeti</u> 10.000₺ yerine 4.500₺ fiyatta olup, ilk yıl domain ve hosting hizmetinizi 
+          Google Ads Reklam Hesap Yönetimi 4.500₺ yerine 3.500₺
+        </li>
+
+        <li>
+          Bu kampanyada 10.000₺ değerinde Kurumsal Web Site Hediyemizdir. İlk yıl domain ve hosting hizmetinizi 
           biz karşılıyoruz.
         </li>
   

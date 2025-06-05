@@ -12,7 +12,7 @@ import GoogleProBox from "@/public/images/GooglePro.webp";
 import GoogleProduct from "../GoogleProduct/GoogleProduct";
 import { useTranslations } from "next-intl";
 
-const PricingPlans = () => {
+const PricingPlansGoogle = () => {
   const [activeTab, setActiveTab] = useState("mini");
   const [showModal, setShowModal] = useState(false);
   const t = useTranslations("GooglePage");
@@ -303,4 +303,4 @@ const PricingPlans = () => {
   );
 };
 
-export default PricingPlans; 
+export default PricingPlansGoogle; 

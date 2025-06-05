@@ -5,9 +5,9 @@ import { MdWhatsapp } from "react-icons/md";
 import Cookies from "js-cookie";
 
 const MODAL_KEY = "discountModalSeen";
-const MODAL_EXPIRY_DAYS = 7;
+const MODAL_EXPIRY_DAYS = 1;
 
-export default function DiscountModal() {
+export default function DiscountModalGoogle() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -55,27 +55,28 @@ export default function DiscountModal() {
           </button>
         </div>
         <div className="mt-4 text-gray-500 dark:text-gray-400 text-sm">
-          <p>Yeni başlayan veya bütçesi sınırlı markalar için Google Ads Reklamlarına ilk adımı atabilmeleri için özelleştirilmiş bir kampanya düzenledik </p>
+          <p><strong>Yeni başlayan veya bütçesi sınırlı markalar </strong>için Google Ads Reklamlarına ilk adımı atabilmeleri için özelleştirilmiş bir kampanya düzenledik </p>
         </div>
 
         <span className="mt-4 flex justify-end uppercase text-[0.5rem] p-2 text-red-500 dark:text-red-300 animate-pulse">sınırlı süreli</span>
         <div className=" space-y-3">
-          <a href="#" className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
-            <span className="flex-1">Başlagıç Paketi <span className="text-xs primary">(MiniBox Google)</span></span>
-            <span>  <span className="text-lg text-green-500 dark:text-green-400">4.500₺</span> <span className="text-[12px] text-gray-700 dark:text-green-400">(Aylık)</span>  </span>
-          </a>
-          <a href="#" className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
-            <span className="flex-1">Web Tasarım Hizmeti</span>
-            <span> <span className="text-red-500 dark:text-red-400 line-through text-xs">6.000₺</span> <span className="text-lg text-green-500 dark:text-green-400">4.500₺</span></span>
+          <span className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
+            <span className="flex-1">Başlagıç Paketi <span className="text-xs primary">(MiniBox Google Yönetimi)</span></span>
+            <span> <span className="text-red-500 dark:text-red-400 line-through text-xs">4.500₺</span> <span className="text-lg text-green-500 dark:text-green-400">3.500₺</span> <span className="text-[12px] text-gray-700 dark:text-green-400">(Aylık)</span>  </span>
+          </span>
+          <span className="flex items-center p-3 bg-gray-100 rounded-lg dark:bg-gray-600 hover:bg-gray-200">
+            <span className="flex-1">Kurumsal Web Tasarım Hizmeti</span>
+            <span> <span className="text-red-500 dark:text-red-400 line-through text-xs">10.000₺</span> <span className="text-lg text-green-500 dark:text-green-400">HEDİYE₺</span></span><br />
+            
 
-          </a>
+          </span>
         </div>
         <div className="my-1 ml-1">
           <Link href="/settobox-kampanyalar" className="inline-flex items-center text-xs font-normal text-blue-500 hover:underline dark:text-blue-400">
             Tüm kampanyaları incele!</Link>
         </div>
         <div className="flex item-center justify-evenly border-t-2 pt-2">
-          <p className="flex my-auto tracking-widest text-gray-500 md:text-lg dark:text-gray-400">Başvuru İçin:</p>
+          <p className="flex my-auto tracking-widest text-gray-500 md:text-lg dark:text-gray-400">Bilgi Almak İçin:</p>
           <Button variant="ghost">
             <Link
               href="https://wa.me/905437214839?text=Merhaba%20Google%20Ads%20Fırsat%20Kampanyasından%20faydalanmak%20istiyorum."

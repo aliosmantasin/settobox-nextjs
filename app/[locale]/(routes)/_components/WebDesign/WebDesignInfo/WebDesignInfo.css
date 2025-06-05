@@ -1,0 +1,23 @@
+.web-span:nth-of-type(1) {
+  color: #4285f4; /* Blue */
+}
+
+.web-span:nth-of-type(2) {
+  color: #ea4335; /* Red */
+}
+
+.web-span:nth-of-type(3) {
+  color: #fbbc05; /* Yellow */
+}
+
+.web-span:nth-of-type(4) {
+  color: #4285f4; /* Blue */
+}
+
+.web-span:nth-of-type(5) {
+  color: #34a853; /* Green */
+}
+
+.web-span:nth-of-type(6) {
+  color: #ea4335; /* Red */
+} 

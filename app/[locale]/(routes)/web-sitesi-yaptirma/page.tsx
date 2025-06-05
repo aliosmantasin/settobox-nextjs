@@ -1,14 +1,14 @@
-import dynamic from 'next/dynamic'
 import { seoData } from "@/lib/seo";
 import { Metadata } from "next";
+import dynamic from 'next/dynamic'
 import Loading from '../_components/Loadling/Loading'
+// import { WebSiteCard } from '../_components/WebDesign/WebSiteCard/WebSiteCard';
+import WebsiteAnimation from '../_components/WebDesign/WebsiteAnimation';
+import WebsiteCTA from '../_components/WebDesign/WebsiteCTA';
+import WebsiteContent from "../_components/WebSite/WebsiteContent";
 
 // Lazy loaded components
 const WebDesignInfo = dynamic(() => import("../_components/WebDesign/WebDesignInfo/WebDesignInfo"), {
-  loading: () => <div><Loading/></div>
-})
-
-const MaskSvg = dynamic(() => import("../_components/libs/Mask/Mask").then(mod => mod.MaskSvg), {
   loading: () => <div><Loading/></div>
 })
 
@@ -16,9 +16,13 @@ const WebDesignAdditional = dynamic(() => import("../_components/WebDesign/WebDe
   loading: () => <div><Loading/></div>
 })
 
-const WebDesignProduct = dynamic(() => import("../_components/WebDesign/WebDesignProduct/WebDesignProduct"), {
+
+
+const PricingPlansWeb = dynamic(() => import('../_components/WebDesign/PricingPlansWeb/PricingPlansWeb'), {
   loading: () => <div><Loading/></div>
 })
+
+
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -83,9 +87,13 @@ const WebDesignPage = () => {
     <main aria-label="Website Development Page">
       <article className="web-design-content">
         <WebDesignInfo/>
-        <MaskSvg/>
         <WebDesignAdditional/>
-        <WebDesignProduct/>
+           {/* PricingPlansWeb Component */}
+        <PricingPlansWeb />
+        {/* <WebSiteCard/> */}
+        <WebsiteAnimation/>
+        <WebsiteCTA/>
+        <WebsiteContent/>
       </article>
     </main>
   );

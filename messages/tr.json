@@ -401,7 +401,7 @@
       "features": [
         {
           "title": "Google Arama Motorunda İlk Sıralar",
-          "description": "İlk sayfa görünür olup anlık potansiyel müşterilerine ulaşmak isteyen markalar."
+          "description": "İlk sayfada görünür olup anlık potansiyel müşterilerine ulaşmak isteyen markalar."
         },
         {
           "title": "Marka Bilinirliği Reklamları",
@@ -726,7 +726,7 @@
     },
     "pricingPlans": {
       "monthlyFee": "Aylık Yönetim Ücreti",
-      "minimumBudget": "Minimum Reklam Bütçesi",
+      "minimumBudget": "Aylık Minimum Reklam Bütçesi",
       "packageFeatures": "Paket Özellikleri",
       "detailedInfo": "Detaylı Bilgi",
       "whatsappContact": "WhatsApp'tan İletişime Geç",
@@ -740,21 +740,21 @@
           "f5": "Negatif Anahtar Kelime Optimizasyonu",
           "f6": "Aylık Rapor",
           "f7": "09:00 - 20:00 WhatsApp Desteği",
-          "f8": "SEO Uyumlu Kurumsal Website - 4.500₺ (opsiyonel)",
+          "f8": "Reklam Hizmetine Özel - 4.500₺ (opsiyonel)",
           "f9": "KDV Dahil Fiyatlandırma"
         }
       },
       "mega": {
         "description": "Büyüyen işletmeler için profesyonel çözüm",
         "features": {
-          "f1": "2 Arama Ağı Kampanyası",
-          "f2": "2 Görüntülü Reklam Kampanyası",
+          "f1": "Arama Ağı Kampanyası",
+          "f2": "Görüntülü Reklam Kampanyası Opsiyonel",
           "f3": "1 Performans Kampanyası",
           "f4": "Gelişmiş Dönüşüm Optimizasyonu",
           "f5": "15'inde Rapor",
           "f6": "09:00 - 20:00 WhatsApp Desteği",
           "f7": "Detaylı Rakip Analizi",
-          "f8": "SEO Uyumlu Kurumsal Website - Ücretsiz",
+          "f8": "Reklam Hizmetine Özel - Hediye Kurumsal Web Site",
           "f9": "KDV Dahil Fiyatlandırma"
         }
       },
@@ -782,27 +782,57 @@
   "WebsitePage": {
     "webDesignInfo": {
       "title": "İhtiyacınıza Göre Web Site Tasarım Hizmeti",
-      "description": "İşletmenizin dijital dünyada öne çıkmasını sağlayacak web sitesi tasarımlarını ihtiyacınıza göre şekillendiriyoruz. Hedef kitlenize en etkili şekilde ulaşmak için özelleştirilebilir web tasarım paketlerimizle profesyonel ve kullanıcı dostu çözümler sunuyoruz."
+      "description": "İşletmenizin dijital dünyada öne çıkmasını sağlayacak web sitesi tasarımlarını ihtiyacınıza göre şekillendiriyoruz. Hedef kitlenize en etkili şekilde ulaşmak için özelleştirilebilir web tasarım paketlerimizle profesyonel ve kullanıcı dostu çözümler sunuyoruz.",
+      "features": {
+        "1": {
+          "title": "Modern Tasarım",
+          "description": "Kullanıcı deneyimini ön planda tutan, modern ve etkileyici web tasarımları"
+        },
+        "2": {
+          "title": "Mobil Uyumlu",
+          "description": "Tüm cihazlarda mükemmel görüntülenen responsive tasarımlar"
+        },
+        "3": {
+          "title": "SEO Dostu",
+          "description": "Arama motorlarında üst sıralarda yer almanızı sağlayan SEO uyumlu yapı"
+        },
+        "4": {
+          "title": "Hızlı Performans",
+          "description": "Yüksek hız ve performans ile kullanıcı deneyimini optimize eden web siteleri"
+        }
+      },
+      "cta": {
+        "primary": "Hemen Başlayın",
+        "secondary": "Detaylı Bilgi"
+      }
     },
 
     "webDesignAdditional": {
+      "title": "Web Tasarım Hizmetlerimiz",
+      "subtitle": "Modern ve profesyonel web sitesi tasarımı için sunduğumuz özel hizmetler",
       "features1": {
-        "title": "SEO Yapısı",
-        "description": "Hizmet kutularımızda temel SEO alt yapısı uygulanmaktadır"
+        "title": "Modern Teknoloji",
+        "description": "Next.js, React ve TypeScript ile modern ve hızlı web siteleri geliştiriyoruz"
       },
       "features2": {
-        "title": "Üretsiz SSL Sertifikası",
-        "description": "Tarayıcılar tarafından güvenli olarak tespit edilen websitleri arama motorlarında ön planda olmaktadır"
+        "title": "Mobil Uyumlu Tasarım",
+        "description": "Tüm cihazlarda mükemmel görüntülenen responsive tasarımlar"
       },
-
       "features3": {
-        "title": "Modern Teknoloji",
-        "description": "React teknolojisinin esnek yapısı ve geniş ekosistemi sayesinde, kullanıcı deneyimini zenginleştiren dinamik ve ölçeklenebilir arayüzler oluşturuyoruz"
+        "title": "Yüksek Performans",
+        "description": "Optimize edilmiş kod yapısı ile hızlı yüklenen web siteleri"
       },
-
       "features4": {
-        "title": "Sabit Fiyat",
-        "description": "Fiyatlandırmalarda 1 yıl sabit fiyat garantisi uygulanır"
+        "title": "SSL Sertifikası",
+        "description": "Güvenli bağlantı için ücretsiz SSL sertifikası"
+      },
+      "features5": {
+        "title": "SEO Uyumlu",
+        "description": "Arama motorlarında üst sıralarda yer almanızı sağlayan SEO dostu yapı"
+      },
+      "features6": {
+        "title": "7/24 Destek",
+        "description": "Teknik destek ve bakım hizmetleri"
       }
     },
 
@@ -920,7 +950,7 @@
       "megaBox": {
         "title": "MegaBox Web Tasarım Hizmeti",
         "subtitle": "Gelişmiş Özellikli Hedef Odaklı Web Site",
-        "description": "Dinamik içerik yönetimi, özelleştirilmiş SEO entegrasyonu ve kullanıcı deneyimini artıran özelliklerle hazırlanmaktadır. Bu web sitesi 10 - 20 gün içerisinde tasarlanabilmektedir. İlerleyen 3 ay boyunca optimizasyonlara devam edilmektedir.",
+        "description": "Dinamik içerik yönetimi, özelleştirilmiş SEO entegrasyonu ve kullanıcı deneyimini artıran özelliklerle hazırlanmaktadır. Bu web sitesi 7 - 10 gün içerisinde tasarlanabilmektedir. İlerleyen 3 ay boyunca geliştirme ve optimizasyonlara devam edilmektedir.",
 
         "businessMegaWeb": {
           "span": "MegaBox Kimler Tercih Edebilir?",
@@ -961,7 +991,95 @@
         "span13": "MegaWeb İçeriği",
         "p13": "Hizmet - Eğitim - Sağlık gibi bir çok sektörün kullanabileceği yapıda bir web site modelidir. Web sitesinde kullanılan yazılım teknolojileri, zengin içerikler (başlıklar, açıklamalar, görseller ve animasyonlar) ve kullanıcı deneyimi gibi konular ön planda tutulmaktadır. İşletmeler profesyonel hizmetlerinin tanıtımını MegaWeb ile yapabilirler. Ayrıca MegaWeb hizmetimizde dijital pazarlama araçlarımızla bağlantılıdır. Google Ads ve Meta entegrasyonları yaparak dijital pazarlama hizmetlerini de kullanabilirsiniz.Eğer dijital pazarlama konularında reklam ihtiyaçlarınız var ve bununla ilgili bütünsel bir çalışmaya ihtiyacınız var ise bizimle iletişime geçebilir veya  <a href=`/dijital-pazarlama-donusum-kutusu`> Dijital Dönüşüm Kutusu </a>  hizmetimizi inceleyebilirsiniz."
       }
+    },
+
+    "pricingPlansWeb": {
+      "title": "Web Tasarım Paketleri",
+      "subtitle": "İhtiyaçlarınıza en uygun paketi seçin",
+      "monthlyFee": "Paket Ücreti",
+      "packageFeatures": "Paket Özellikleri",
+      "detailedInfo": "Detaylı Bilgi",
+      "whatsappContact": "WhatsApp'tan İletişime Geç",
+      "mini": {
+        "description": "Küçük işletmeler ve kişisel web siteleri için mükemmel",
+        "features": {
+          "f1": "Modern, Responsive Kurumsal Tasarım",
+          "f2": "5 Sayfaya Kadar",
+          "f3": "İletişim Formu",
+          "f4": "Google Analytics + Search Console Entegrasyonu",
+          "f5": "Temel SEO Optimizasyonu",
+          "f6": "Mobil Uyumlu Tasarım",
+          "f7": "Ücretsiz SSL Sertifikası",
+          "f8": "3 Ay Ücretsiz Destek",
+          "f9": "1 Yıl Hosting + Domain Hediye",
+          "f10": "Taslak Web Site Örneği",
+          "f11": "https://referans-templateweb1.settobox.com/",
+          "f12": "Demo Site Örneği - Güzellik Merkezi",
+          "f13": "http://referans-guzellikmerkezi.settobox.com/"
+        }
+      },
+      "mega": {
+        "description": "Büyüyen işletmeler için kapsamlı çözüm",
+        "features": {
+          "f1": "Tüm MiniWeb Özellikleri +",
+          "f2": "10 Sayfaya Kadar",
+          "f3": "Gelişmiş SEO Optimizasyonu",
+          "f4": "KVKK veya GDPR Entegrasyonu",
+          "f5": "Meta ve Google Ads Kurulumları",
+          "f6": "1 Aylık Ücretsiz Google Ads Yönetimi",
+          "f7": "Öncelikli Destek",
+          "f8": "3 Ay Ücretsiz Destek",
+          "f9": "Taslak Web Site Örneği",
+          "f10": "https://referans-templateweb1.settobox.com/",
+          "f11": "Demo Site Örneği - Güzellik Merkezi",
+          "f12": "http://referans-guzellikmerkezi.settobox.com/"
+        }
+      }
+
+     
+    },
+    
+    "websiteAnimation": {
+      "title": "Dijital Pazarlama Entegrasyonlu Kurumsal Web Sitesi",
+      "description": "Kurumsal web sitesi tasarımında dijital pazarlama entegrasyonu önemli bir konudur. Google Ads, Instagram, Facebook gibi platformların entegrasyonu sayesinde web sitesi daha etkili sonuçlar almamızı sağlar. Kullandığımız yazılım teknolojisi Next.js ve TypeScript ile modern ve hızlı bir web sitesi oluşturuyoruz.",
+      "features": {
+        "mobile": "Mobil Responsive Tasarım",
+        "seo": "SEO",
+        "integration": "Dijital Pazarlama Entegrasyonu",
+        "technology": "Next.js ve TypeScript"
+      }
+    },
+
+    "websiteCTA": {
+      "title": "Web Sitenizi Profesyonel Ekibimizle",
+      "highlight": "Hemen Oluşturun!",
+      "description": "Modern ve kullanıcı dostu web sitesi çözümleriyle işletmenizi dijital dünyada güçlü bir şekilde temsil ediyoruz. SEO uyumlu, hızlı ve responsive tasarımlarla markanızı öne çıkarın.",
+      "features": [
+        {
+          "title": "Mobil Uyumlu",
+          "description": "Tüm cihazlarda mükemmel görünüm"
+        },
+        {
+          "title": "SEO Dostu",
+          "description": "Arama motorlarında üst sıralarda yer alın"
+        },
+        {
+          "title": "Kolay Entegrasyon",
+          "description": "Google Ads ve Meta Entegrasyonu"
+        },
+        {
+          "title": "Modern Teknoloji",
+          "description": "En güncel web teknolojileri"
+        }
+      ],
+      "cta": {
+        "title": "Ücretsiz Danışmanlık",
+        "description": "Web siteniz için profesyonel önerilerimizi dinleyin, ihtiyaçlarınıza en uygun çözümü birlikte belirleyelim.",
+        "button": "Teklif Alın",
+        "phone": "Veya hemen arayın: 0543 721 48 39"
+      }
     }
+  
   },
 
   "DigitalConversion": {

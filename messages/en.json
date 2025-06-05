@@ -297,7 +297,18 @@
       "p16": "included in the service",
       "span16": "Web Design (Optional)",
       "p17": "◆ MiniWeb - Basic Level Website Design If your business lacks a website, we design a basic-level website for you. In this campaign, we cover the domain and hosting costs for the first year.",
-      "p18": "FREE SERVICE"
+      "p18": "FREE SERVICE",
+      "businessMegaWeb": {
+        "span": "Who Can Prefer MegaBox?",
+        "dialogContent": "Advanced Feature-Oriented Website",
+        "description": "Companies that are growing or want to increase their customer portfolio for a specific goal need websites equipped with more content management, SEO optimization, and advanced user experience features.",
+        "title": "Which sectors is it suitable for?",
+        "list": [
+          "Service Sector",
+          "Healthcare Sector",
+          "Education Sector"
+        ]
+      }
     },
 
     "proBox": {
@@ -772,14 +783,14 @@
       "mega": {
         "description": "Professional solution for growing businesses",
         "features": {
-          "f1": "2 Search Network Campaigns",
-          "f2": "2 Display Campaigns",
+          "f1": "Search Network Campaigns",
+          "f2": "Display Campaigns (optional)",
           "f3": "1 Performance Campaign",
           "f4": "Advanced Conversion Optimization",
           "f5": "Report on the 15th",
           "f6": "09:00 - 20:00 WhatsApp Support",
           "f7": "Detailed Competitor Analysis",
-          "f8": "SEO-Friendly Corporate Website - Free",
+          "f8": "Special for Advertising Service - Gift Corporate Website",
           "f9": "VAT Included Pricing"
         }
       },
@@ -812,27 +823,57 @@
   "WebsitePage": {
     "webDesignInfo": {
       "title": "Website Design Service According to Your Needs",
-      "description": "We shape website designs that will make your business stand out in the digital world according to your needs. We offer professional and user-friendly solutions with our customizable web design packages to reach your target audience in the most effective way."
+      "description": "We shape website designs that will make your business stand out in the digital world according to your needs. We offer professional and user-friendly solutions with our customizable web design packages to reach your target audience in the most effective way.",
+      "features": {
+        "1": {
+          "title": "Modern Design",
+          "description": "Modern and impressive web designs that prioritize user experience"
+        },
+        "2": {
+          "title": "Mobile Compatible",
+          "description": "Responsive designs that display perfectly on all devices"
+        },
+        "3": {
+          "title": "SEO Friendly",
+          "description": "SEO-compliant structure that helps you rank higher in search engines"
+        },
+        "4": {
+          "title": "Fast Performance",
+          "description": "Websites that optimize user experience with high speed and performance"
+        }
+      },
+      "cta": {
+        "primary": "Get Started",
+        "secondary": "Learn More"
+      }
     },
 
     "webDesignAdditional": {
+      "title": "Our Web Design Services",
+      "subtitle": "Special services we offer for modern and professional website design",
       "features1": {
-        "title": "SEO Structure",
-        "description": "A basic SEO infrastructure is applied in our service packages."
+        "title": "Modern Technology",
+        "description": "We develop modern and fast websites using Next.js, React, and TypeScript"
       },
       "features2": {
-        "title": "Free SSL Certificate",
-        "description": "Websites identified as secure by browsers are prioritized in search engine rankings."
+        "title": "Mobile Responsive Design",
+        "description": "Responsive designs that display perfectly on all devices"
       },
-
       "features3": {
-        "title": "Modern Technology",
-        "description": "Thanks to React's flexible structure and extensive ecosystem, we create dynamic and scalable interfaces that enhance user experience."
+        "title": "High Performance",
+        "description": "Fast-loading websites with optimized code structure"
       },
-
       "features4": {
-        "title": "Fixed Price",
-        "description": "A fixed price guarantee is applied for one year in pricing."
+        "title": "SSL Certificate",
+        "description": "Free SSL certificate for secure connection"
+      },
+      "features5": {
+        "title": "SEO Friendly",
+        "description": "SEO-friendly structure that helps you rank higher in search engines"
+      },
+      "features6": {
+        "title": "24/7 Support",
+        "description": "Technical support and maintenance services"
       }
     },
 
@@ -946,17 +987,124 @@
       },
 
       "megaBox": {
-        "title": "MegaBox Web Tasarım Hizmeti",
-        "subtitle": "Gelişmiş Özellikli Hedef Odaklı Web Site",
-        "description": "Dinamik içerik yönetimi, özelleştirilmiş SEO entegrasyonu ve kullanıcı deneyimini artıran özelliklerle hazırlanmaktadır. Bu web sitesi 10 - 20 gün içerisinde tasarlanabilmektedir. İlerleyen 3 ay boyunca optimizasyonlara devam edilmektedir.",
-
+        "title": "MegaBox Web Design Service",
+        "subtitle": "Advanced Feature-Oriented Website",
+        "description": "Prepared with dynamic content management, customized SEO optimization, and features that enhance user experience. This website can be designed within 10 - 20 days. Optimization continues for the next 3 months.",
+        "megaWebDiscount": "VAT is included in our prices.",
         "businessMegaWeb": {
-          "span": "MegaBox Kimler Tercih Edebilir?",
-          "dialogContent": "Gelişmiş Özellikli Hedef Odaklı Web Site",
-          "description": "Gelişmekte olan veya belirli bir hedef doğrultusunda müşteri portföyünü artırmak isteyen firmalar, daha fazla içerik yönetimi, SEO optimizasyonu ve kullanıcı deneyimi gibi gelişmiş özelliklerle donatılmış web sitelerine ihtiyaç duyar.",
-          "title": "Hangi sektörler için uygundur?",
-          "list": ["Hizmet Sektörü", "Sağlık Sektörü", "Eğitim Sektörü"]
+          "span": "Who Can Prefer MegaBox?",
+          "dialogContent": "Advanced Feature-Oriented Website",
+          "description": "Companies that are growing or want to increase their customer portfolio for a specific goal need websites equipped with more content management, SEO optimization, and advanced user experience features.",
+          "title": "Which sectors is it suitable for?",
+          "list": ["Service Sector", "Healthcare Sector", "Education Sector"]
+        },
+        "span": "Action Plan",
+        "span1": "Information Collection",
+        "p1": "We collect all the necessary information and requirements for your website.",
+        "span2": "Design and Content Planning",
+        "p2": "We plan the design and content structure according to your needs and brand identity.",
+        "span3": "Development Process",
+        "p3": "We develop your website using modern technologies and best practices.",
+        "span4": "SEO Optimization",
+        "p4": "We implement advanced SEO strategies to help your website rank higher in search engines.",
+        "span5": "Performance Optimization",
+        "p5": "We optimize the code structure and content for the best performance on all devices.",
+        "span6": "Support and Maintenance",
+        "p6": "We provide ongoing support and maintenance for 3 months after delivery.",
+        "body": {
+          "seo": "Improved SEO infrastructure is targeted. We prioritize Zeo.Org ranking factors while evaluating many important headings.",
+          "responsive": "Responsive Web Design is applied in all web design services. Mobile, tablet, and wide screens are supported.",
+          "searchConsole": "We ensure your website appears in Google search results using Google Search Console.",
+          "analytics": "Google Analytics is a free web analytics service used to analyze your website's traffic and user behavior. It provides detailed data such as the number of visitors, which pages users visit, how long they stay on the site, and from which devices or regions they come.",
+          "optimization": "We optimize the landing page code structure and content using customized coding methods. By using Google Page Speed and similar tools, we measure and maximize the site's speed on both mobile and large screens.",
+          "pageStructure": "In addition to the basic level, advanced rich content page structures are created.",
+          "content": "MegaWeb Content: It is a website model that can be used by many sectors such as Service, Education, and Health. The software technologies used on the website, rich content (headings, descriptions, images, and animations), and user experience are prioritized. Businesses can promote their professional services with MegaWeb. In addition, our MegaWeb service is connected with our digital marketing tools. You can also use digital marketing services by integrating Google Ads and Meta. If you need advertising in digital marketing and need a holistic study, you can contact us or review our Digital Transformation Box service."
         }
+      }
+    },
+
+    "pricingPlansWeb": {
+      "title": "Web Design Packages",
+      "subtitle": "Choose the package that best suits your needs",
+      "monthlyFee": "Package Fee",
+      "packageFeatures": "Package Features",
+      "detailedInfo": "Detailed Information",
+      "whatsappContact": "Contact via WhatsApp",
+      "mini": {
+        "description": "Perfect for small businesses and personal websites",
+        "features": {
+          "f1": "Modern and Responsive Design",
+          "f2": "Up to 5 Pages",
+          "f3": "Contact Form",
+          "f4": "Google Analytics + Search Console Integration",
+          "f5": "Basic SEO Optimization",
+          "f6": "Mobile-Friendly Design",
+          "f7": "Free SSL Certificate",
+          "f8": "3 Months Free Support",
+          "f9": "1 Year Hosting + Domain Gift",
+          "f10": "Template Web Site Example",
+          "f11": "https://referans-templateweb1.settobox.com/",
+          "f12": "Demo Site Example - Beauty Center",
+          "f13": "http://referans-guzellikmerkezi.settobox.com/"
+        }
+      },
+      "mega": {
+        "description": "Comprehensive solution for growing businesses",
+        "features": {
+          "f1": "All MiniWeb Features +",
+          "f2": "Up to 10 Pages",
+          "f3": "Advanced SEO Optimization",
+          "f4": "KVKK or GDPR Integration",
+          "f5": "Meta and Google Ads Setup",
+          "f6": "1 Month Free Google Ads Management",
+          "f7": "Priority Support",
+          "f8": "3 Months Free Support",
+          "f9": "Template Web Site Example",
+          "f10": "https://referans-templateweb1.settobox.com/",
+          "f11": "Demo Site Example - Beauty Center",
+          "f12": "http://referans-guzellikmerkezi.settobox.com/"
+        }
+      }
+    },
+
+    "websiteAnimation": {
+      "title": "Corporate Website with Digital Marketing Integration",
+      "description": "Digital marketing integration is an important issue in corporate website design. Thanks to the integration of platforms such as Google Ads, Instagram, Facebook, the website allows us to get more effective results. We create a modern and fast website with the software technology we use, Next.js and TypeScript.",
+      "features": {
+        "mobile": "Mobile Responsive Design",
+        "seo": "SEO",
+        "integration": "Digital Marketing Integration",
+        "technology": "Next.js and TypeScript"
+      }
+    },
+
+    "websiteCTA": {
+      "title": "Create Your Website with Our",
+      "highlight": "Professional Team!",
+      "description": "We represent your business strongly in the digital world with modern and user-friendly website solutions. Make your brand stand out with SEO-friendly, fast, and responsive designs.",
+      "features": [
+        {
+          "title": "Mobile Friendly",
+          "description": "Perfect view on all devices"
+        },
+        {
+          "title": "SEO Friendly",
+          "description": "Rank higher in search engines"
+        },
+        {
+          "title": "Easy Integration",
+          "description": "Google Ads and Meta Integration"
+        },
+        {
+          "title": "Modern Technology",
+          "description": "Latest web technologies"
+        }
+      ],
+      "cta": {
+        "title": "Free Consultation",
+        "description": "Listen to our professional suggestions for your website, let's determine the most suitable solution for your needs together.",
+        "button": "Get a Quote",
+        "phone": "Or call now: 0543 721 48 39"
       }
     }
   },

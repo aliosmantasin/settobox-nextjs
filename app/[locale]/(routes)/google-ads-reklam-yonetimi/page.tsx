@@ -9,9 +9,16 @@ const GoogleInfo = dynamic(() => import('../_components/GoogleAds/GoogleInfo/Goo
   loading: () => <div>Loading...</div>
 })
 
-const GoogleAdditional = dynamic(() => import('../_components/GoogleAds/GoogleAdditional/GoogleAdditional'), {
+
+
+const PricingPlans = dynamic(() => import('../_components/GoogleAds/PricingPlans/PricingPlansGoogle'), {
   loading: () => <div><Loading/></div>
 })
+
+
+// const GoogleAdditional = dynamic(() => import('../_components/GoogleAds/GoogleAdditional/GoogleAdditional'), {
+//   loading: () => <div><Loading/></div>
+// })
 
 
 // const GoogleProduct = dynamic(() => import('../_components/GoogleAds/GoogleProduct/GoogleProduct'), {
@@ -98,9 +105,9 @@ const GoogleAdsPage = () => {
     <main aria-label="Google Ads Management Page">
       <article className="google-ads-content">
         <GoogleInfo/>
-        <GoogleAdditional/>
+        <PricingPlans/>
+        {/* <GoogleAdditional/> */}
         <section className='py-20 relative' aria-label="Google Ads Services">
-        
           <GoogleAdsCard/>
           <GoogleAnimation/>
         </section>
