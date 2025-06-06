@@ -1869,7 +1869,78 @@
       "videoButton": "Video İzle",
       "whatsappButton": "WhatsApp İletişim",
       "whatsappText": "Merhabalar SetToBox web sitesinden iletişime geçiyorum.."
-    }
-  
-  
+    },
+
+ 
+
+  "CookiePolicy": {
+    "title": "Çerez Politikası",
+    "aboutCookies": "Çerezler Hakkında",
+    "aboutCookiesText": "Çerezler (cookies), web sitemizi ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Bu dosyalar, web sitemizi kullandığınızda sizin hakkınızda bilgi toplar ve deneyiminizi iyileştirmemize yardımcı olur.",
+    "cookieTypes": "Kullandığımız Çerez Türleri",
+    "mandatoryCookies": "Zorunlu Çerezler",
+    "mandatoryCookiesText": "Bu çerezler, web sitesinin temel işlevleri için gereklidir ve devre dışı bırakılamazlar. Bunlar genellikle yalnızca siz tarayıcınızda çerezleri devre dışı bırakma gibi bir eylemde bulunduğunuzda ayarlanır. Bu çerezler, gizlilik tercihlerinizi kaydetme, giriş yapma veya form doldurma gibi hizmetleri sağlamak için gereklidir.",
+    "functionalCookies": "Fonksiyonel Çerezler",
+    "functionalCookiesText": "Bu çerezler, web sitesinin gelişmiş işlevsellik ve kişiselleştirme özellikleri sunmasına olanak tanır. Bunlar tarafımızca veya sitemize eklediğimiz üçüncü taraf hizmetleri tarafından ayarlanabilir. Bu çerezlere izin vermezseniz, bu hizmetlerin bazıları veya tamamı düzgün çalışmayabilir.",
+    "analyticalCookies": "Analitik Çerezler",
+    "analyticalCookiesText": "Bu çerezler, ziyaretçilerin web sitesini nasıl kullandığına dair bilgileri toplar. Bu bilgiler, web sitesinin performansını iyileştirmemize yardımcı olur. Örneğin, bu çerezler hangi sayfaların en popüler olduğunu ve ziyaretçilerin sitede nasıl gezindiğini anlamamıza yardımcı olur.",
+    "marketingCookies": "Pazarlama Çerezleri",
+    "marketingCookiesText": "Bu çerezler, size ilgi alanlarınıza yönelik reklamlar sunmak için kullanılır. Ayrıca, reklamların etkinliğini ölçmemize ve iyileştirmemize yardımcı olurlar. Bu çerezler genellikle üçüncü taraf reklam ağları tarafından ayarlanır. Ziyaret ettiğiniz siteleri hatırlar ve bu bilgileri reklamverenlere ve diğer kuruluşlara aktarabilirler.",
+    "manageCookies": "Çerez Tercihlerinizi Yönetme",
+    "manageCookiesText1": "Çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz. Sitenin alt kısmında bulunan \"Çerez Tercihleri\" bağlantısına tıklayarak çerez ayarlarınızı güncelleyebilirsiniz.",
+    "manageCookiesText2": "Ayrıca, çoğu web tarayıcısı çerezleri yönetmenize olanak tanır. Tarayıcı ayarlarınızdan çerezleri engelleyebilir veya çerezler ayarlandığında bildirim alabilirsiniz. Ancak, çerezleri engellerseniz, web sitemizin bazı özellikleri düzgün çalışmayabilir.",
+    "thirdPartyCookies": "Üçüncü Taraf Çerezleri",
+    "thirdPartyCookiesText": "Web sitemizde, aşağıdaki üçüncü taraf hizmetleri tarafından ayarlanan çerezler de kullanılmaktadır:",
+    "googleAnalytics": "Google Analytics: Ziyaretçi istatistiklerini toplamak ve analiz etmek için",
+    "googleTagManager": "Google Tag Manager: Çeşitli etiketleri yönetmek için",
+    "facebookPixel": "Facebook Pixel: Reklam kampanyalarının etkinliğini ölçmek ve hedeflenmiş reklamlar sunmak için",
+    "microsoftClarity": "Microsoft Clarity: Kullanıcı deneyimini analiz etmek için",
+    "contact": "İletişim",
+    "contactText": "Çerez politikamız hakkında sorularınız varsa, lütfen bizimle iletişime geçin:",
+    "email": "E-posta",
+    "backToHome": "Ana Sayfaya Dön"
+  },
+
+  "CookieBanner": {
+    "title": "Çerez Bildirimi",
+    "description": "Bu sitede deneyiminizi kişiselleştirmek, analiz yapmak ve pazarlama faaliyetleri için çerezler kullanıyoruz. GDPR düzenlemeleri kapsamında, bu çerezlerin kullanımı için izninizi istiyoruz.",
+    "rejectAll": "Hepsini Reddet",
+    "preferences": "Tercihleri Ayarla",
+    "acceptAll": "Hepsini Kabul Et"
+  },
+
+  "CookiePreferences": {
+    "title": "Çerez Tercihleri",
+    "close": "Kapat",
+    "description": "Çerezler, web sitesinin çalışması ve deneyiminizi kişiselleştirmek için kullanılır. Aşağıdaki seçenekleri kullanarak farklı çerez kategorilerini kabul edebilir veya reddedebilirsiniz.",
+    "manageInfo": "Burada çerez tercihlerinizi yönetebilirsiniz. Tercihlerinizi değiştirirseniz, web sitesi işlevselliği etkilenebilir.",
+    "necessary": {
+      "title": "Zorunlu Çerezler",
+      "description": "Bu çerezler, web sitesinin temel işlevleri için gereklidir ve devre dışı bırakılamazlar.",
+      "required": "Gerekli"
+    },
+    "functional": {
+      "title": "Fonksiyonel Çerezler",
+      "description": "Bu çerezler, web sitesinin gelişmiş işlevsellik ve kişiselleştirme özellikleri sunmasına olanak tanır."
+    },
+    "analytics": {
+      "title": "Analitik Çerezler",
+      "description": "Bu çerezler, ziyaretçilerin web sitesini nasıl kullandığına dair bilgileri toplar. Bu bilgiler, web sitesinin performansını iyileştirmemize yardımcı olur."
+    },
+    "marketing": {
+      "title": "Pazarlama Çerezleri",
+      "description": "Bu çerezler, size ilgi alanlarınıza yönelik reklamlar sunmak için kullanılır. Ayrıca, reklamların etkinliğini ölçmemize ve iyileştirmemize yardımcı olurlar."
+    },
+    "rejectAll": "Hepsini Reddet",
+    "acceptAll": "Hepsini Kabul Et",
+    "savePreferences": "Tercihleri Kaydet",
+    "openLabel": "Çerez Tercihlerini Aç",
+    "closeLabel": "Çerez Tercihlerini Kapat",
+    "onText": "Açık",
+    "offText": "Kapalı",
+    "developedBy": "Tarafından Geliştirildi"
+  }
+
+
+
 }

@@ -56,22 +56,58 @@ export default function CookiePolicyPage() {
         </Card>
         <Card className="p-4 shadow-md">
           <h2 className="text-2xl font-semibold">Kullandığımız Çerezler</h2>
-          <ul className="list-disc pl-6 text-lg">
-            <li>Temel Çerezler: Web sitesinin düzgün çalışmasını sağlayan çerezler.</li>
-            <li>Performans Çerezleri: Web sitesinin nasıl kullanıldığını analiz etmek için kullanılır.</li>
-            <li>İşlevsellik Çerezleri: Kullanıcı tercihlerini saklamak için kullanılır.</li>
-            <li>Reklam Çerezleri: Kullanıcıları hedeflemek için kullanılır.</li>
+          <div className="space-y-4 mt-4">
+            <div>
+              <h3 className="text-xl font-medium">1. Gerekli Çerezler</h3>
+              <p className="text-lg">Web sitesinin düzgün çalışması için gerekli olan çerezlerdir. Bu çerezler olmadan web sitesi düzgün çalışmaz.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-medium">2. Analitik Çerezler</h3>
+              <p className="text-lg">Web sitesinin nasıl kullanıldığını analiz etmek için kullanılır. Bu çerezler sayesinde web sitesi performansını iyileştirebiliriz.</p>
+              <ul className="list-disc pl-6 text-lg mt-2">
+                <li>Google Analytics</li>
+                <li>Microsoft Clarity</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-medium">3. Pazarlama Çerezleri</h3>
+              <p className="text-lg">Reklam ve pazarlama faaliyetleri için kullanılan çerezlerdir.</p>
+              <ul className="list-disc pl-6 text-lg mt-2">
+                <li>Google Ads</li>
+                <li>Facebook Pixel</li>
           </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-medium">4. İşlevsel Çerezler</h3>
+              <p className="text-lg">Web sitesinde gelişmiş işlevsellik ve kişiselleştirme sağlamak için kullanılan çerezlerdir.</p>
+            </div>
+          </div>
         </Card>
         <Card className="p-4 shadow-md">
           <h2 className="text-2xl font-semibold">Çerezleri Nasıl Yönetebilirsiniz?</h2>
+          <div className="space-y-4 mt-4">
+            <p className="text-lg">
+              Çerez tercihlerinizi web sitemizdeki çerez yönetim panelinden değiştirebilirsiniz. Ayrıca, tarayıcı ayarlarınızdan da çerezleri yönetebilirsiniz.
+            </p>
+            <p className="text-lg">
+              Çerezleri devre dışı bırakmak web sitesinin bazı özelliklerinin çalışmamasına neden olabilir.
+            </p>
+          </div>
+        </Card>
+        <Card className="p-4 shadow-md">
+          <h2 className="text-2xl font-semibold">GDPR ve KVKK Uyumluluğu</h2>
+          <div className="space-y-4 mt-4">
+            <p className="text-lg">
+              Web sitemiz, Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR) ve Kişisel Verilerin Korunması Kanunu (KVKK) gereksinimlerine uygun olarak tasarlanmıştır.
+            </p>
           <p className="text-lg">
-            Tarayıcı ayarları aracılığıyla çerezleri yönetebilir veya silebilirsiniz.
+              Çerez kullanımı için açık rızanız alınmakta ve istediğiniz zaman bu rızayı geri çekebilmektesiniz.
           </p>
+          </div>
         </Card>
       </section>
       <footer className="mt-8 text-center text-sm">
-        <p>© 2025 SetTo Box - Tüm hakları saklıdır.</p>
+        <p>© {new Date().getFullYear()} SetTo Box - Tüm hakları saklıdır.</p>
       </footer>
     </div>
   );

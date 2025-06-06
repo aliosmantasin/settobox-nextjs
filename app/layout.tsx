@@ -4,7 +4,11 @@ import Script from 'next/script';
 import "./styles/critical.css";  // Kritik CSS'i önce yükle
 import "./globals.css";  // Non-kritik CSS'i sonra yükle
 import ClientProviders from "./ClientProviders";
-import CookieConsent from "./[locale]/(routes)/_components/libs/Cookies/CookieConsent";
+import { CookieConsentProvider } from "./[locale]/(routes)/_components/libs/CookieConsent/CookieConsentContext";
+import CookieCleaner from "./[locale]/(routes)/_components/libs/CookieConsent/CookieCleaner";
+import ConditionalScripts from "./[locale]/(routes)/_components/libs/CookieConsent/ConditionalScripts";
+import CookieConsentBanner from "./[locale]/(routes)/_components/libs/CookieConsent/CookieConsentBanner";
+
 // import { LocaleAwareBotProtection } from "./[locale]/(routes)/_components/libs/BotProtection/LocaleAwareBotProtection";
 
 
@@ -69,12 +73,20 @@ export default function RootLayout({
           <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
             height="0" width="0" style={{ display: 'none', visibility: 'hidden' }} />
         </noscript>
+        <CookieConsentProvider>
+
         <ClientProviders>
         {/* <LocaleAwareBotProtection /> */}
-        <CookieConsent />
+        <CookieCleaner/>
+        <ConditionalScripts />
+    
+        
+  
           {children}
           <Toaster />
+          <CookieConsentBanner />
         </ClientProviders>
+        </CookieConsentProvider>
       </body>
     </html>
   );
