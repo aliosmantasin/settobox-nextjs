@@ -3,6 +3,11 @@
 import { useEffect } from "react";
 import { useCookieConsent } from "./CookieConsentContext";
 
+const GA_DISABLE_KEY = 'ga-disable-G-NRSTMB28' as const;
+
+type WindowWithGA = Window & {
+  [GA_DISABLE_KEY]: boolean;
+}
 
 interface ClientCookieBannerProps {
   translations: {
@@ -13,6 +18,12 @@ interface ClientCookieBannerProps {
     acceptAll: string;
   }
 }
+
+const COOKIE_CATEGORIES = {
+  analytics: ['_ga', '_gid', '_gat'],
+  marketing: ['_fbp', '_fbc'],
+  functionality: ['_clck', '_clsk']
+};
 
 export default function ClientCookieBanner({ translations }: ClientCookieBannerProps) {
   const { 
@@ -26,21 +37,13 @@ export default function ClientCookieBanner({ translations }: ClientCookieBannerP
   // Sayfa yüklendiğinde eski Google Analytics çerezlerini kontrol et
   useEffect(() => {
     if (!hasInteracted) {
-      // Sayfa yüklendiğinde GA ve diğer izleme çerezlerini kontrol et
       const trackingCookiesExist = document.cookie.split(';').some(cookie => 
-        cookie.trim().startsWith('_ga') || 
-        cookie.trim().startsWith('_gid') || 
-        cookie.trim().startsWith('_gat') ||
-        cookie.trim().startsWith('_fbp') ||
-        cookie.trim().startsWith('_fbc') ||
-        cookie.trim().startsWith('_clck') ||
-        cookie.trim().startsWith('_clsk')
+        Object.values(COOKIE_CATEGORIES).flat().some(prefix => cookie.trim().startsWith(prefix))
       );
 
-      // Eğer izleme çerezleri varsa, geçici olarak bunları devre dışı bırak
       if (trackingCookiesExist) {
         console.log('Tracking cookies found but consent not given. Temporarily disabling.');
-        window['ga-disable-G-NRSTMB28'] = true;
+        ((window as unknown) as WindowWithGA)[GA_DISABLE_KEY] = true;
       }
     }
   }, [hasInteracted]);
