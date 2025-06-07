@@ -10,8 +10,8 @@ export default function CookieCleaner() {
   useEffect(() => {
     // Kullanıcı reddetmişse veya henüz etkileşimde bulunmamışsa çerezleri temizle
     if (!hasInteracted || !consent.analytics) {
-      // Google Analytics için devre dışı bırakma bayrağını ayarla
-      window['ga-disable-G-X8BS5XMQ68'] = true;
+      // Analytics çerezleri reddedildi ise Google Analytics'i devre dışı bırak
+      window['ga-disable-G-NRSTMB28'] = true;
     }
 
     // Kullanıcı reddetmişse veya henüz etkileşimde bulunmamışsa çerezleri temizle

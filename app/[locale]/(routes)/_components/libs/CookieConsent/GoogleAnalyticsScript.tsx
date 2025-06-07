@@ -16,20 +16,20 @@ export function GoogleAnalyticsScript() {
     <>
       {/* Google Analytics'i sadece kullanıcı açıkça izin verdiyse yükle */}
       <Script
-        id="google-analytics-load"
+        id="google-analytics"
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-X8BS5XMQ68`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-NRSTMB28`}
       />
       
       <Script
-        id="google-analytics-config"
+        id="gtag-config"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-X8BS5XMQ68', {
+            gtag('config', 'G-NRSTMB28', {
               'anonymize_ip': true,
               'cookie_flags': 'SameSite=None;Secure'
             });

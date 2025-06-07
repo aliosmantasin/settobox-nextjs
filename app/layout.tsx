@@ -43,19 +43,21 @@ export default function RootLayout({
   params: { locale: string };
 }>) {
   return (
-    <html lang={params.locale}>
+    <html lang={params.locale} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/images/favicon.ico/favicon.ico" sizes="any" />
         <link rel="icon" href="/images/favicon.ico/favicon-16x16.png" sizes="16x16" type="image/png" />
         <link rel="icon" href="/images/favicon.ico/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="apple-touch-icon" href="/images/favicon.ico/apple-icon-180x180.png" sizes="180x180" />
         <meta name="facebook-domain-verification" content="rftbzo30mozzjh4jnxajcq1594tbsp" />
+        <meta name="format-detection" content="telephone=no, date=no, email=no, address=no" />
+        <meta name="next-head-count" content="7" />
         <style>{`
           /* Inline kritik CSS */
           body { opacity: 1; }
         `}</style>
       </head>
-      <body>
+      <body suppressHydrationWarning>
         <Script
           id="gtm-script"
           strategy="lazyOnload"

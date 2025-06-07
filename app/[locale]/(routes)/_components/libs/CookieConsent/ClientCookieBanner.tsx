@@ -40,7 +40,7 @@ export default function ClientCookieBanner({ translations }: ClientCookieBannerP
       // Eğer izleme çerezleri varsa, geçici olarak bunları devre dışı bırak
       if (trackingCookiesExist) {
         console.log('Tracking cookies found but consent not given. Temporarily disabling.');
-        window['ga-disable-G-X8BS5XMQ68'] = true;
+        window['ga-disable-G-NRSTMB28'] = true;
       }
     }
   }, [hasInteracted]);
