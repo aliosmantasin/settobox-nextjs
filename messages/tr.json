@@ -1903,42 +1903,50 @@
 
   "CookieBanner": {
     "title": "Çerez Bildirimi",
-    "description": "Bu sitede deneyiminizi kişiselleştirmek, analiz yapmak ve pazarlama faaliyetleri için çerezler kullanıyoruz. GDPR düzenlemeleri kapsamında, bu çerezlerin kullanımı için izninizi istiyoruz.",
-    "rejectAll": "Hepsini Reddet",
+    "description": "Bu sitede deneyiminizi kişiselleştirmek, analizler yapmak ve pazarlama faaliyetleri için çerezler kullanıyoruz. KVKK ve GDPR yönetmelikleri uyarınca bu çerezlerin kullanılmasına izin vermenizi rica ediyoruz.",
+    "rejectAll": "Tümünü Reddet",
     "preferences": "Tercihleri Ayarla",
-    "acceptAll": "Hepsini Kabul Et"
+    "acceptAll": "Tümünü Kabul Et"
   },
-
   "CookiePreferences": {
-    "title": "Çerez Tercihleri",
+    "title": "Çerez Tercihlerinizi Yönetin",
     "close": "Kapat",
-    "description": "Çerezler, web sitesinin çalışması ve deneyiminizi kişiselleştirmek için kullanılır. Aşağıdaki seçenekleri kullanarak farklı çerez kategorilerini kabul edebilir veya reddedebilirsiniz.",
-    "manageInfo": "Burada çerez tercihlerinizi yönetebilirsiniz. Tercihlerinizi değiştirirseniz, web sitesi işlevselliği etkilenebilir.",
+    "description": "Web sitemizdeki deneyiminizi geliştirmek için çerezler kullanıyoruz. Hangi tür çerezlere izin vermek istediğinizi aşağıdan seçebilirsiniz.",
+    "manageInfo": "Daha fazla bilgi için Çerez Politikamızı inceleyebilirsiniz. Tercihlerinizi istediğiniz zaman değiştirebilirsiniz.",
     "necessary": {
       "title": "Zorunlu Çerezler",
-      "description": "Bu çerezler, web sitesinin temel işlevleri için gereklidir ve devre dışı bırakılamazlar.",
-      "required": "Gerekli"
+      "description": "Bu çerezler, web sitesinin temel işlevleri için gereklidir ve devre dışı bırakılamaz. Oturum açma, form gönderme gibi temel fonksiyonları sağlarlar.",
+      "required": "Her Zaman Aktif"
+    },
+    "security": {
+      "title": "Güvenlik Çerezleri",
+      "description": "Bu çerezler, sahte form gönderimleri ve DDoS saldırıları gibi kötü niyetli aktivitelere karşı koruma sağlamak için kullanılır.",
+      "required": "Her Zaman Aktif"
     },
     "functional": {
-      "title": "Fonksiyonel Çerezler",
-      "description": "Bu çerezler, web sitesinin gelişmiş işlevsellik ve kişiselleştirme özellikleri sunmasına olanak tanır."
+      "title": "İşlevsel Çerezler",
+      "description": "Bu çerezler, dil tercihleriniz veya bölge seçimleriniz gibi ayarlarınızı hatırlayarak size daha kişiselleştirilmiş bir deneyim sunmamızı sağlar."
     },
     "analytics": {
       "title": "Analitik Çerezler",
-      "description": "Bu çerezler, ziyaretçilerin web sitesini nasıl kullandığına dair bilgileri toplar. Bu bilgiler, web sitesinin performansını iyileştirmemize yardımcı olur."
+      "description": "Bu çerezler, sitemizi kaç kişinin ziyaret ettiğini, hangi sayfaların popüler olduğunu anlamamıza yardımcı olur. Bu veriler, sitemizi geliştirmemiz için kullanılır."
     },
     "marketing": {
       "title": "Pazarlama Çerezleri",
-      "description": "Bu çerezler, size ilgi alanlarınıza yönelik reklamlar sunmak için kullanılır. Ayrıca, reklamların etkinliğini ölçmemize ve iyileştirmemize yardımcı olurlar."
+      "description": "Bu çerezler, ilgi alanlarınıza uygun reklamlar sunmak için kullanılır. Reklam kampanyalarının etkinliğini ölçmemize ve geliştirmemize yardımcı olurlar."
     },
-    "rejectAll": "Hepsini Reddet",
-    "acceptAll": "Hepsini Kabul Et",
-    "savePreferences": "Tercihleri Kaydet",
-    "openLabel": "Çerez Tercihlerini Aç",
-    "closeLabel": "Çerez Tercihlerini Kapat",
+    "personalization": {
+      "title": "Kişiselleştirme Çerezleri",
+      "description": "Bu çerezler, web sitesindeki davranışlarınıza dayanarak size özel ürün önerileri veya içerikler sunmamızı sağlar."
+    },
+    "rejectAll": "Tümünü Reddet",
+    "acceptAll": "Tümünü Kabul Et",
+    "savePreferences": "Tercihlerimi Kaydet",
+    "openLabel": "Açık",
+    "closeLabel": "Kapalı",
     "onText": "Açık",
     "offText": "Kapalı",
-    "developedBy": "Tarafından Geliştirildi"
+    "developedBy": "Geliştiren:"
   }
 
 

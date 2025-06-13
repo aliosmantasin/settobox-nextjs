@@ -6,11 +6,16 @@ type ConsentType = {
   analytics: boolean;
   marketing: boolean;
   functional: boolean;
+  personalization: boolean;
+  security: boolean;
 };
+
+type ConsentRegion = 'TR' | 'EU' | 'OTHER';
 
 interface CookieConsentContextType {
   consent: ConsentType;
   hasInteracted: boolean;
+  region: ConsentRegion;
   updateConsent: (newConsent: Partial<ConsentType>) => void;
   acceptAll: () => void;
   rejectAll: () => void;
@@ -22,24 +27,45 @@ interface CookieConsentContextType {
 const defaultConsent: ConsentType = {
   analytics: false,
   marketing: false,
-  functional: false,
+  functional: true,
+  personalization: false,
+  security: true, // Security her zaman true olmalı
 };
 
 const CookieConsentContext = createContext<CookieConsentContextType | undefined>(undefined);
+
+const detectRegion = (): ConsentRegion => {
+  // Burada gerçek bir bölge tespiti yapılabilir
+  // Şimdilik basit bir örnek
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  if (timezone.includes('Istanbul')) return 'TR';
+  if (timezone.includes('Europe')) return 'EU';
+  return 'OTHER';
+};
 
 export function CookieConsentProvider({ children }: { children: ReactNode }) {
   const [consent, setConsent] = useState<ConsentType>(defaultConsent);
   const [hasInteracted, setHasInteracted] = useState<boolean>(false);
   const [isPreferencesOpen, setIsPreferencesOpen] = useState<boolean>(false);
+  const [region, setRegion] = useState<ConsentRegion>('OTHER');
 
   useEffect(() => {
-    // Load consent state from localStorage on mount
+    // Bölge tespiti
+    setRegion(detectRegion());
+
+    // Kayıtlı izinleri yükle
     const savedConsent = localStorage.getItem("cookieConsent");
     const savedInteraction = localStorage.getItem("cookieInteraction");
     
     if (savedConsent) {
       try {
-        setConsent(JSON.parse(savedConsent));
+        const parsedConsent = JSON.parse(savedConsent);
+        // Yeni consent yapısına uygun olarak güncelle
+        setConsent({
+          ...defaultConsent,
+          ...parsedConsent,
+          security: true, // Security her zaman true
+        });
       } catch (error) {
         console.error("Failed to parse saved consent", error);
         setConsent(defaultConsent);
@@ -51,18 +77,41 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  // Kaydırma kilidi yönetimi
   useEffect(() => {
-    // Save consent state to localStorage whenever it changes
-    // Only save if user has interacted with the banner
+    const shouldLockScroll = isPreferencesOpen || !hasInteracted;
+    if (shouldLockScroll) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    // Component unmount olduğunda her ihtimale karşı temizle
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isPreferencesOpen, hasInteracted]);
+
+  useEffect(() => {
     if (hasInteracted) {
       localStorage.setItem("cookieConsent", JSON.stringify(consent));
       localStorage.setItem("cookieInteraction", "true");
     }
   }, [consent, hasInteracted]);
 
+  const pushConsentUpdateEvent = () => {
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({ 'event': 'consent_updated' });
+    }
+  }
+
   const updateConsent = (newConsent: Partial<ConsentType>) => {
-    setConsent(prev => ({ ...prev, ...newConsent }));
+    setConsent(prev => ({
+      ...prev,
+      ...newConsent,
+      security: true, // Security her zaman true kalmalı
+    }));
     setHasInteracted(true);
+    pushConsentUpdateEvent();
   };
 
   const acceptAll = () => {
@@ -70,63 +119,47 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
       analytics: true,
       marketing: true,
       functional: true,
+      personalization: true,
+      security: true,
     });
     setHasInteracted(true);
     setIsPreferencesOpen(false);
+    pushConsentUpdateEvent();
   };
 
   const rejectAll = () => {
     setConsent({
-      analytics: false,
-      marketing: false,
-      functional: false,
+      ...defaultConsent,
+      security: true, // Security her zaman true kalmalı
     });
     setHasInteracted(true);
     setIsPreferencesOpen(false);
-    
-    // Google Analytics ve diğer izleme çerezlerini temizle
     clearTrackingCookies();
+    pushConsentUpdateEvent();
   };
 
-  // Çerez temizleme fonksiyonu
   const clearTrackingCookies = () => {
-    // Google Analytics çerezlerini temizle
-    const gaCookies = document.cookie.split(';').filter(cookie => 
-      cookie.trim().startsWith('_ga') || 
-      cookie.trim().startsWith('_gid') || 
-      cookie.trim().startsWith('_gat')
-    );
-    
-    gaCookies.forEach(cookie => {
-      const cookieName = cookie.split('=')[0].trim();
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.${window.location.hostname};`;
-    });
-    
-    // Facebook Pixel çerezlerini temizle
-    const fbCookies = document.cookie.split(';').filter(cookie => 
-      cookie.trim().startsWith('_fbp') || 
-      cookie.trim().startsWith('_fbc')
-    );
-    
-    fbCookies.forEach(cookie => {
-      const cookieName = cookie.split('=')[0].trim();
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.${window.location.hostname};`;
-    });
-    
-    // Microsoft Clarity çerezlerini temizle
-    const clarityCookies = document.cookie.split(';').filter(cookie => 
-      cookie.trim().startsWith('_clck') || 
-      cookie.trim().startsWith('_clsk')
-    );
-    
-    clarityCookies.forEach(cookie => {
-      const cookieName = cookie.split('=')[0].trim();
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-      document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.${window.location.hostname};`;
-    });
-    
+    const cookiesToClear = {
+      ga: ['_ga', '_gid', '_gat'],
+      fb: ['_fbp', '_fbc'],
+      clarity: ['_clck', '_clsk'],
+      custom: [] // Özel çerezler buraya eklenebilir
+    };
+
+    const clearCookie = (name: string) => {
+      const domains = [
+        window.location.hostname,
+        `.${window.location.hostname}`,
+        `www.${window.location.hostname}`,
+        `.www.${window.location.hostname}`
+      ];
+
+      domains.forEach(domain => {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${domain};`;
+      });
+    };
+
+    Object.values(cookiesToClear).flat().forEach(clearCookie);
     console.log('Tracking cookies cleared');
   };
 
@@ -143,6 +176,7 @@ export function CookieConsentProvider({ children }: { children: ReactNode }) {
       value={{
         consent,
         hasInteracted,
+        region,
         updateConsent,
         acceptAll,
         rejectAll,

@@ -17,6 +17,10 @@ const locales = ["tr", "en"];
 // 🌍 Tüm çeviri dosyalarını içe aktar
 import trMessages from "@/messages/tr.json";
 import enMessages from "@/messages/en.json";
+import { CookieConsentProvider } from "./_components/libs/CookieConsent/CookieConsentContext";
+import CookieCleaner from "./_components/libs/CookieConsent/CookieCleaner";
+import ConditionalScripts from "./_components/libs/CookieConsent/ConditionalScripts";
+import CookieConsentBanner from "./_components/libs/CookieConsent/CookieConsentBanner";
 
 // 🌍 Çeviri mesajlarını haritaya ekle
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -40,6 +44,7 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
   return (
     <>
         <NextIntlClientProvider locale={locale} messages={messages}>
+   
           <Navbar />
           <ToastProvider>
               <Toaster/>
@@ -49,9 +54,14 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
               <MdKeyboardArrowUp />
             </ScrollTop>
             {/* <BottomNavigation/> */}
+          <CookieConsentProvider>
+          <CookieCleaner />
+          <ConditionalScripts/>
+          <CookieConsentBanner />
           <Footer />
           <Analytics/>
           <SpeedInsights />
+          </CookieConsentProvider>
         </NextIntlClientProvider>
     </>
   );

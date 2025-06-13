@@ -23,7 +23,7 @@ type GtagConsentArg = [
   ConsentUpdate & { wait_for_update?: number; region?: string[] }
 ];
 
-type DataLayerEvent = ConsentUpdate & {
+type DataLayerEvent = Partial<ConsentUpdate> & {
   event?: string;
   'gtm.start'?: number;
   'gtm.js'?: boolean;
@@ -54,13 +54,6 @@ function sendGtagConsent(consent: { analytics: boolean; marketing: boolean }) {
       security_storage: 'granted'
     };
 
-    // GTM için consent_update eventi
-    const dataLayerEvent: DataLayerEvent = {
-      event: 'consent_update',
-      ...consentUpdate
-    };
-    window.dataLayer.push(dataLayerEvent);
-
     // Google Consent Mode için doğrudan güncelleme
     if (window.gtag) {
       window.gtag('consent', 'update', {
@@ -68,8 +61,6 @@ function sendGtagConsent(consent: { analytics: boolean; marketing: boolean }) {
         region: ['TR', 'EU']
       });
     }
-    
-    console.log('[ConsentMode] Consent update sent:', consentUpdate);
   }
 }
 
@@ -113,13 +104,13 @@ export default function ConditionalScripts() {
               // Önce consent_default eventini gönder
               w[l].push({
                 'event': 'consent_default',
-                'ad_storage': 'denied',
-                'analytics_storage': 'denied',
+              'ad_storage': 'denied',
+              'analytics_storage': 'denied',
                 'ad_user_data': 'denied',
-                'ad_personalization': 'denied',
+              'ad_personalization': 'denied',
                 'functionality_storage': 'granted',
                 'security_storage': 'granted'
-              });
+            });
 
               // Sonra GTM'i yükle
               w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
