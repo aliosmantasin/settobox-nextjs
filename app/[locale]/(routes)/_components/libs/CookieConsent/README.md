@@ -1,231 +1,83 @@
-# Çerez (Cookie) İzin Sistemi
+# Gelişmiş İzin Yönetim Sistemi (Cookie Consent)
 
-Bu belge, Paris Yolcusu web sitesindeki GDPR uyumlu çerez izin sisteminin nasıl çalıştığını açıklamaktadır.
+Bu belge, bu projedeki Google İzin Modu v2 (Consent Mode v2) uyumlu çerez yönetim sisteminin hem kod tabanı (Next.js/React) hem de Google Etiket Yöneticisi (GTM) tarafındaki yapılandırmasını detaylı bir şekilde açıklar. Amaç, sistemi hiç bilmeyen bir geliştiricinin bile anlayabilmesini, bakımını yapabilmesini ve yeni projelere uyarlayabilmesini sağlamaktır.
 
-## Genel Bakış
+## Genel Bakış ve Çalışma Prensibi
 
-Çerez izin sistemi, kullanıcıların web sitesinde hangi üçüncü taraf scriptlerin ve çerezlerin yükleneceğini kontrol etmelerini sağlar. Sistem aşağıdaki prensipleri takip eder:
+Sistem, kullanıcıların web sitesindeki çerezler ve takip teknolojileri üzerindeki kontrolünü sağlamak amacıyla GDPR ve KVKK gibi gizlilik yönetmeliklerine uyumlu olarak tasarlanmıştır.
 
-1. Varsayılan olarak, bir kullanıcı siteyi ilk ziyaret ettiğinde hiçbir üçüncü taraf script yüklenmez
-2. Kullanıcıya aşağıdaki seçenekleri sunan bir izin banner'ı gösterilir:
-   - Tüm çerezleri kabul et
-   - Tüm çerezleri reddet
-   - Tercihlerini özelleştir
-3. Scriptler yalnızca kullanıcı açıkça izin verdikten sonra yüklenir
-4. Kullanıcılar istedikleri zaman tercihlerini değiştirebilirler
+**Temel Prensip:** Varsayılan olarak hiçbir izne dayalı takip teknolojisi (çerezler vb.) çalışmaz. Etiketler, yalnızca kullanıcı açıkça izin verdikten sonra tam fonksiyonlu olarak ateşlenir. Sistem, Google'ın İzin Modu v2'sini kullanarak, izin verilmediği durumlarda bile Google etiketlerinden anonim "ping"ler göndererek veri kaybını modelleme yoluyla azaltır.
 
-## Bileşenler
+## Bölüm 1: Kod Tabanı Yapısı (`/CookieConsent`)
 
-Sistem aşağıdaki bileşenlerden oluşur:
+Tüm çerez yönetimi mantığı ve arayüz bileşenleri `app/[locale]/(routes)/_components/libs/CookieConsent/` klasörü altında bulunur.
 
-### 1. Context Provider (`CookieConsentContext.tsx`)
+### `CookieConsentContext.tsx`
+Bu dosya, sistemin beynidir. Bir React Context Provider'ı oluşturur ve tüm izin durumunu yönetir.
+*   **Sorumlulukları:**
+    *   `consent` state'ini tutar (örn: `{ analytics: true, marketing: false }`).
+    *   Kullanıcının bir seçim yapıp yapmadığını (`hasInteracted`) ve tercih modalının açık olup olmadığını (`isPreferencesOpen`) yönetir.
+    *   `acceptAll`, `rejectAll`, `updateConsent` gibi fonksiyonlarla izin durumunu günceller.
+    *   Yapılan tercihleri kullanıcının tarayıcısındaki `localStorage`'a kaydeder ve bir sonraki ziyaretinde hatırlar.
+    *   Kullanıcı bir seçim yaptığında (`acceptAll`, `rejectAll` vb.), GTM'i bilgilendirmek için `dataLayer`'a `consent_updated` adında özel bir olay (event) gönderir.
+    *   Banner veya modal açıkken arka planın kaydırılmasını engellemek için `<body>` etiketinin stilini yönetir.
 
-- İzin durumunu yönetir (analitik, pazarlama, işlevsel)
-- İzin tercihlerini güncellemek için metotlar sağlar
-- Tercihleri localStorage'a kaydeder
-- Çerezleri temizlemek için fonksiyonlar içerir
+### `ConditionalScripts.tsx`
+Bu bileşen, GTM ve İzin Modu'nun web sitesine entegrasyonunu sağlar.
+*   **Sorumlulukları:**
+    *   GTM ana betiğini (`gtm.js`) sayfaya ekler.
+    *   **En Kritik Görev:** `gtag('consent', 'default', ...)` komutunu kullanarak, kullanıcı bir seçim yapmadan *önce* tüm izin kategorilerini varsayılan olarak `denied` (reddedilmiş) durumuna ayarlar.
+    *   `CookieConsentContext`'teki izin durumu (`consent` state'i) her değiştiğinde, `gtag('consent', 'update', ...)` komutunu çalıştırarak GTM'in dahili izin durumunu günceller.
 
-### 2. İzin Banner'ı (`CookieConsentBanner.tsx` / `ClientCookieBanner.tsx`)
+### `CookieConsentBanner.tsx` ve `ClientCookieBanner.tsx`
+Bu bileşenler, kullanıcı siteye ilk girdiğinde gösterilen alt banner'ı oluşturur.
+*   `CookieConsentBanner.tsx`: Çeviri metinlerini (`i18n`) alır ve `ClientCookieBanner`'ı render eder.
+*   `ClientCookieBanner.tsx`: Banner'ın arayüzünü (HTML/CSS) ve butonların (`acceptAll`, `rejectAll`, `showPreferences`) işlevselliğini içerir. Dark/light mode için stil tanımlamaları burada yapılır.
 
-- Kullanıcı izin seçenekleriyle etkileşimde bulunmadığında sayfanın altında gösterilir
-- Tüm çerezleri kabul et, tüm çerezleri reddet veya tercihleri özelleştir seçenekleri sunar
-- Kullanıcı etkileşimi olmadığında mevcut takip çerezlerini kontrol eder ve geçici olarak devre dışı bırakır
-- Modern ve responsive tasarım, mobil cihazlarda kolonları alt alta dizerken, büyük ekranlarda yan yana yerleştirir
-- Belirgin gölge efekti ile sayfada daha görünür hale getirilmiştir (`shadow-2xl` ve özel CSS gölge)
-- Tüm butonlar hover efektleri ve geçiş animasyonları ile geliştirilmiştir
-- Akıllı buton sıralaması: "Kabul Et" butonu mobil cihazlarda en üstte, masaüstünde ise en sağda konumlandırılmıştır (`flex-col-reverse` ve `sm:flex-row` kombinasyonu ile)
+### `CookiePreferencesModal.tsx` ve `ClientCookiePreferencesModal.tsx`
+Bu bileşenler, "Tercihleri Ayarla" butonuna tıklandığında açılan detaylı tercih penceresini oluşturur.
+*   **Sorumlulukları:**
+    *   Her bir izin kategorisi (Analitik, Pazarlama vb.) için ayrı ayrı açma/kapama butonları sunar.
+    *   Kullanıcının yaptığı seçimleri `updateConsent` fonksiyonu aracılığıyla `CookieConsentContext`'e iletir.
+    *   Arayüzün dark/light mode uyumlu stil tanımlamalarını içerir.
 
-### 3. Tercihler Modalı Yapısı (Server ve Client Component Ayrımı)
+## Bölüm 2: Google Etiket Yöneticisi (GTM) Yapılandırması
 
-#### 3.1 Server Component (`CookiePreferencesModal.tsx`)
-- Next.js'in Server Components özelliğini kullanır
-- next-intl ile çevirileri alır ve çeviri verilerini client component'a aktarır
-- İstemci tarafı (client-side) state'lere erişmez
-- "use client" direktifi içermez ve tamamen server-side çalışır
-- Uluslararasılaştırma (i18n) desteği için ideal yapıdadır
+Kod tabanı doğru sinyalleri gönderse bile, GTM'in bu sinyalleri doğru yorumlaması kritik öneme sahiptir. Bu projede, eski manuel tetikleyici mantığı yerine GTM'in modern ve **otomatik İzin Modu** mekanizması kullanılmaktadır.
 
-#### 3.2 Client Wrapper (`CookiePreferencesClientWrapper.tsx`)
-- "use client" direktifi içerir ve client-side işlemleri yönetir
-- useCookieConsent hook'unu kullanarak modal gösterim durumunu (isPreferencesOpen) kontrol eder
-- Server component'tan gelen çevirileri alır
-- Modal görünürlüğünü (isPreferencesOpen) kontrol eder
-- Server ve client kodunu temiz bir şekilde ayırarak, Next.js'in hem server components hem de client interaktivitesinin avantajlarını kullanır
+### Adım 1: GTM'de İzin Modunu Etkinleştirme (Kritik)
+*   GTM'de **Yönetici -> Kapsayıcı Ayarları**'na gidin.
+*   **"İzin özetini etkinleştir"** seçeneğini işaretleyin.
+*   Bu ayar olmadan, GTM'in yerleşik izin denetimleri çalışmaz.
 
-#### 3.3 Modal İçeriği (`ClientCookiePreferencesModal.tsx`)
-- Modalın görsel ve interaktif öğelerini içerir
-- Çerez kategorileri üzerinde ayrıntılı kontrol sağlar
-- Server-side component'tan gelen çeviri metinlerini kullanır
-- Ekran boyutuna dinamik olarak yanıt veren responsive tasarım
-- Mobil cihazlarda düzgün bir şekilde scroll edilebilen içerik alanı
-- Modern toggle butonlar ile kullanıcı dostu arayüz (Açık/Kapalı durumları için çeviri metinleri)
+### Adım 2: Etiketlerin İzin Ayarları
+*   **Google Etiketleri (GA4, Google Ads):**
+    *   Bu etiketlerin `Gelişmiş Ayarlar -> İzin Ayarları` bölümünde **"Ek İzin Gerekmiyor"** seçili olmalıdır. GTM, bu etiketlerin hangi izinlere ihtiyacı olduğunu (`analytics_storage`, `ad_storage`) zaten bilir ve durumu otomatik yönetir.
+*   **Üçüncü Taraf Etiketler (Facebook Pixel, Clarity vb.):**
+    *   Bu etiketlerin `Gelişmiş Ayarlar -> İzin Ayarları` bölümünde **"Ek İzin Gerekli"** seçeneği işaretlenmelidir.
+    *   Açılan kutucuğa, etiketin çalışması için gereken izin türü eklenmelidir. (Örn: Facebook Pixel için `ad_storage`, Clarity için `analytics_storage`).
 
-### 4. Koşullu Script Yükleyici (`ConditionalScripts.tsx`)
+### Adım 3: Çok Dilli ve SPA Uyumlu Tetikleyici Stratejisi
+Single Page Application (SPA) yapılarında ve çok dilli sitelerde etiketlerin doğru zamanda ateşlenmesi için **üçlü tetikleyici stratejisi** uygulanmalıdır. Her bir dil için (örn: `Fb Pixel TR` ve `Fb Pixel EN`) bu üç tetikleyici grubu oluşturulur.
 
-- Scriptleri yalnızca kullanıcı ilgili kategori için izin verdiyse yükler
-- Google Tag Manager, Google Analytics, Microsoft Clarity ve Facebook Pixel gibi scriptleri yönetir
-- Her script için kategori bazlı kontrol sağlar (analitik, pazarlama, işlevsel)
+*   **Tetikleyici 1: Başlatma (Initialization / Page View)**
+    *   **Tür:** `Başlatma` veya `Sayfa Görüntüleme`.
+    *   **Amaç:** Kullanıcı doğrudan o dile ait bir URL'ye (`/tr`, `/en`) geldiğinde etiketi ateşler.
+    *   **Koşul:** `Page Path` **şunu içerir** `/tr` (veya `/en`).
 
-### 5. Çerez Temizleyici (`CookieCleaner.tsx`)
+*   **Tetikleyici 2: İzin Güncelleme (Consent Update)**
+    *   **Tür:** `Özel Etkinlik (Custom Event)`.
+    *   **Amaç:** Kullanıcı sayfa yüklendikten *sonra* çerez iznini verdiğinde (veya değiştirdiğinde) etiketi ateşler. "Kaçırılan treni yakalamasını" sağlar.
+    *   **Etkinlik Adı:** `consent_updated` (Kodda gönderdiğimiz olay).
+    *   **Koşul:** `Page Path` **şunu içerir** `/tr` (veya `/en`).
 
-- Kullanıcı reddettiyse veya henüz etkileşimde bulunmadıysa çerezleri temizler
-- İzin kategorilerine göre (analitik, pazarlama, işlevsel) ilgili çerezleri temizler
+*   **Tetikleyici 3: Navigasyon (History Change)**
+    *   **Tür:** `Geçmiş Değişikliği (History Change)`.
+    *   **Amaç:** Kullanıcı site içinde sayfayı yeniden yüklemeden dil değiştirdiğinde (`/tr`'den `/en`'e geçtiğinde) etiketi ateşler. SPA'lar için kritiktir.
+    *   **Koşul:** `Page Path` **şunu içerir** `/tr` (veya `/en`).
 
-### 6. Tercih Yöneticisi (`CookieConsentManager.tsx`)
+Bu üç tetikleyiciyi bir etikete (`VE` yerine `VEYA` mantığıyla) bağladığınızda, etiket her koşulda doğru zamanda ve doğru sayfada ateşlenmek için bir sinyal alır. GTM'in İzin Modu ise bu sinyal geldiğinde iznin verilip verilmediğini kontrol ederek son kararı verir.
 
-- Footer'da tercihleri yeniden açmak için simge butonu sunar
-- Metin yerine şık bir çerez simgesi kullanır (SVG ikon)
-- Hover efekti ve erişilebilirlik özellikleri (aria-label ve title) içerir
-- Kullanıcılara görsel olarak tanımlayıcı bir arayüz sunar
-- Farklı dil desteği için çeviri metinlerini title ve aria-label olarak kullanır
-
-## Nasıl Çalışır
-
-1. Kullanıcı siteyi ziyaret ettiğinde, `CookieConsentProvider` varsayılan tercihlerle (hepsi kapalı) başlatılır
-2. Sayfanın altında `CookieConsentBanner` gösterilir
-3. Kullanıcı izin vermeden hiçbir üçüncü taraf script yüklenmez
-4. Kullanıcı bir seçim yaptığında, tercihleri localStorage'a kaydedilir
-5. `ConditionalScripts` bileşeni, Google Tag Manager'ı yalnızca kullanıcı analitik veya pazarlama için izin verdiyse yükler
-6. Kullanıcılar istedikleri zaman footer'daki çerez simgesine tıklayarak tercihlerini değiştirebilirler
-7. Kullanıcı belirli kategorileri reddettiğinde, o kategoriye ait çerezler otomatik olarak temizlenir
-
-## Uluslararasılaştırma (i18n) Entegrasyonu
-
-Çerez izin sistemi, Next.js'in i18n sistemi ile tam entegrasyon içinde çalışacak şekilde tasarlanmıştır:
-
-1. **Server Components** (CookiePreferencesModal.tsx, CookieConsentBanner.tsx):
-   - next-intl'in `useTranslations` hook'unu kullanarak çevirileri alır
-   - Çeviri metinlerini client component'lara props olarak aktarır
-   - Sayfanın dil ayarına bağlı olarak doğru çevirileri gösterir
-   - Server tarafında render edilir ve SEO dostu bir yapı sağlar
-
-2. **Client Components** (CookiePreferencesClientWrapper.tsx, ClientCookiePreferencesModal.tsx, ClientCookieBanner.tsx):
-   - Server component'tan gelen çeviri metinlerini kullanır
-   - Kullanıcı etkileşimlerini ve client-side state'leri yönetir
-   - "use client" direktifi ile client tarafında çalışır
-   - useCookieConsent hook'u kullanarak izin durumunu yönetir
-
-3. **Çeviri Anahtarları**:
-   - CookieBanner - Banner metinleri için
-   - CookiePreferences - Modal içeriği ve arayüz öğeleri için
-   - Tüm buton ve etiketler için çeviriler yapılandırılmıştır
-   - Açık/Kapalı toggle durumları için dil desteği
-
-Bu yapı, Next.js server components ve i18n desteğini verimli bir şekilde kullanarak hem performans hem de uluslararasılaştırma açısından optimum bir çözüm sunar.
-
-## Üçüncü Taraf Scriptlerinin Yönetimi
-
-Sistemimiz şu anda aşağıdaki üçüncü taraf scriptlerini yönetmektedir:
-
-1. **Google Tag Manager** - Analitik veya pazarlama için izin verildiğinde yüklenir
-2. **Google Analytics** - Yalnızca analitik için izin verildiğinde yüklenir
-3. **Microsoft Clarity** - Yalnızca analitik için izin verildiğinde yüklenir
-4. **Facebook Pixel** - Yalnızca pazarlama için izin verildiğinde yüklenir
-
-Kullanıcı reddettikten sonra, ilgili çerezler otomatik olarak temizlenir ve scriptler devre dışı bırakılır. Kullanıcı henüz etkileşimde bulunmadıysa, bu scriptler hiç yüklenmez.
-
-## Tasarım ve Kullanıcı Deneyimi Özellikleri
-
-Çerez banner ve modalı, modern ve kullanıcı dostu bir deneyim sunmak için aşağıdaki özelliklere sahiptir:
-
-### Banner Tasarımı
-- Sayfanın altında sabit (fixed) konumlandırma
-- Belirgin gölge efekti ile sayfanın geri kalanından ayrışma
-- Responsive layout: Mobil cihazlarda tek kolon, tablet ve masaüstünde iki kolonlu görünüm
-- Butonlar için hover efektleri ve geçiş animasyonları
-- İçeriği maksimum genişlikte sınırlama ile büyük ekranlarda da düzgün görünüm
-- Butonlarda tam genişlik (mobil) ve otomatik genişlik (masaüstü) ile responsive davranış
-- UX optimizasyonu: "Kabul Et" butonu mobil cihazlarda en üstte (kolay erişim için), masaüstünde en sağda (doğal eylem akışı için) konumlanır
-
-### Modal Tasarımı
-- Dinamik yükseklik hesaplaması ile farklı ekran boyutlarına uyum:
-  - Mobil cihazlarda: Ekran yüksekliğinin %90'ı (maksimum 600px)
-  - Masaüstünde: Ekran yüksekliğinin %80'i (maksimum 700px)
-- Yapışkan başlık ve alt çubuk ile geniş içeriklerde kolay gezinme
-- iOS ve Android cihazlarda düzgün kaydırma için WebkitOverflowScrolling desteği
-- Kategorileri açık/kapalı gösteren modern yuvarlak toggle butonlar
-- Modal dışına tıklayarak kapatma imkanı
-- Özel gölge ve yuvarlatılmış köşeler ile modern görünüm
-- Çerez kategorilerini kartlar halinde gösterme
-- Mobil ve masaüstü için optimize edilmiş boşluk ve padding değerleri
-- Banner ile tutarlı buton sıralaması: Alt kısımda da "Kabul Et" butonu mobil cihazlarda en üstte, masaüstünde en sağda görünür
-
-### Erişilebilirlik Özellikleri
-- Tüm butonlarda aria-label etiketleri
-- Belirgin odaklanma efektleri (focus styles)
-- Klavye ile gezinme desteği
-- Semantik HTML yapısı
-- Yeterli kontrast oranlarıyla okunabilir metin
-- Footer'daki çerez simgesi için title ve aria-label kullanımı
-
-## Özelleştirme
-
-İzin kategorilerini veya banner/modal görünümünü özelleştirmek için aşağıdaki dosyaları değiştirebilirsiniz:
-
-- `CookieConsentContext.tsx` - İzin kategorilerini değiştirmek için
-- `ClientCookieBanner.tsx` - Banner görünümünü değiştirmek için
-- `CookiePreferencesModal.tsx` - Server-side çevirileri ve props aktarımını değiştirmek için
-- `CookiePreferencesClientWrapper.tsx` - Modal görünürlük kontrollerini değiştirmek için
-- `ClientCookiePreferencesModal.tsx` - Tercihler modalının görünümünü değiştirmek için
-- `CookieConsentManager.tsx` - Footer'daki çerez simgesini değiştirmek için
-- `ConditionalScripts.tsx` - İzne bağlı olarak hangi scriptlerin yükleneceğini değiştirmek için
-
-### Çevirileri Yapılandırma
-Çevirileri yapılandırmak için messages klasöründeki dil dosyalarını düzenleyin:
-
-1. `CookieBanner` bölümü - Banner metinleri için
-2. `CookiePreferences` bölümü - Modal metinleri, etiketler ve açıklamalar için
-3. Her dil için gerekli tüm anahtarları tanımladığınızdan emin olun
-
-### Stil Özelleştirmesi
-
-Banner ve modal tasarımları Tailwind CSS sınıfları kullanılarak oluşturulmuştur. Aşağıdaki öğeleri özelleştirmek mümkündür:
-
-- Renkler - Marka kimliğine uygun olarak buton ve arkaplan renklerini değiştirin
-- Yazı tipleri - Font boyutları ve ağırlıkları
-- Boşluklar - Padding ve margin değerleri
-- Gölgeler - shadow sınıfları ve özel CSS gölgelerle derinlik efektleri
-- Animasyonlar - Geçiş (transition) süreleri ve efektleri
-- Responsive breakpoint'ler - sm, md, lg öneklerini kullanarak farklı ekran boyutları için davranışlar
-- Flex yönlendirme - İçerik yerleşimini özelleştirmek için flex-row, flex-col, flex-row-reverse gibi sınıflar
-
-## GDPR Uyumluluğu
-
-Bu uygulama, GDPR gereksinimlerine aşağıdaki şekillerde uyum sağlamayı amaçlar:
-
-1. Açık izin olmadan çerezleri yüklemez
-2. Çerez kullanımı hakkında açık bilgi sağlar
-3. Kullanıcıların hangi çerez kategorilerini kabul ettiklerini seçmelerine olanak tanır
-4. İstedikleri zaman tercihlerini değiştirme imkanı sunar
-5. Detaylı bir çerez politikası içerir
-6. Kullanıcı reddettiğinde ilgili çerezleri otomatik olarak temizler
-7. Varsayılan olarak çerezleri devre dışı bırakır (opt-in yaklaşımı)
-
-## Next.js Server-Client Model Entegrasyonu
-
-Bu sistem, Next.js'in server ve client component modeline tam entegrasyon sağlayacak şekilde tasarlanmıştır:
-
-1. **Server Components** - Server-side rendering yaparak çevirileri işler ve SEO'yu destekler
-2. **Client Wrappers** - Server component'lar ile client component'lar arasında köprü görevi görür
-3. **Client Components** - Kullanıcı etkileşimlerini ve state yönetimini yapar
-
-Bu mimari, Next.js uygulamalarında server ve client işlemleri arasında net bir ayrım sağlar, bu da:
-- Daha iyi performans (server-side rendering)
-- Daha iyi SEO (içerik server tarafında oluşturulur)
-- Temiz kod yapısı (sorumlulukların net ayrımı)
-- Kolay uluslararasılaştırma (i18n entegrasyonu)
-- İyi kullanıcı deneyimi (client-side etkileşimler)
-
-## Başka Projelere Uyarlama
-
-Bu çerez izin sistemini başka projelere uyarlamak için izlenmesi gereken adımlar:
-
-1. Tüm CookieConsent klasörünü proje dosyalarınıza kopyalayın
-2. Context dosyalarını projenizin context yapısına entegre edin
-3. Banner ve modal bileşenlerini projenizin genel layout'una ekleyin
-4. Dil desteği için messages klasörüne gerekli çevirileri ekleyin
-5. Çerezleri ve scriptleri kendi ihtiyaçlarınıza göre `ConditionalScripts.tsx` dosyasında güncelleyin
-6. Stil ve metinleri markanıza uygun şekilde özelleştirin
-7. Herhangi bir özel çerez durumu için `CookieCleaner.tsx` dosyasını güncelleyin
-8. Yeni projenizin dil desteğine göre çevirileri yapılandırın
-
-Bu sistem, farklı tasarım tercihlerine, teknik gereksinimlere ve çoklu dil desteğine uyum sağlayacak şekilde modüler olarak tasarlanmıştır. 
+## Bölüm 3: Çeviri (i18n) Yönetimi
+*   Tüm kullanıcı arayüzü metinleri `messages/tr.json` ve `messages/en.json` dosyalarından gelir.
+*   Çerez sistemiyle ilgili metinler `CookieBanner` ve `CookiePreferences` ana anahtarları altında toplanmıştır. Yeni bir metin eklemek veya mevcut bir metni değiştirmek için bu iki nesne düzenlenmelidir. 

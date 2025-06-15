@@ -13,6 +13,8 @@ import { Toast, ToastAction } from "@/components/ui/toast";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { toast } from "@/hooks/use-toast";
+import { useCookieConsent } from "../libs/CookieConsent/CookieConsentContext";
+import { sendMetaEvent } from "@/lib/meta";
 
 
 // ✅ Zod Schema ile Form Validasyonu
@@ -27,6 +29,7 @@ const formSchema = z.object({
 
 const InfoForm = () => {
   const t = useTranslations("InfoForm");
+  const { consent } = useCookieConsent(); // Rıza durumunu al
   const [toastOpen, setToastOpen] = useState(false);
   const [toastMessage] = useState("");
   const [toastSeverity] = useState<"default" | "destructive">("default");
@@ -66,6 +69,43 @@ const sendEmail = async (data: z.infer<typeof formSchema>) => {
       });
     } else {
       throw new Error();
+    }
+
+    // Meta CAPI'ye "Lead" olayı gönder
+    if (consent.marketing) {
+      console.log("Pazarlama izni var, Meta CAPI olayı gönderiliyor...");
+      try {
+        const userData = {
+          email: data.email,
+          phone: data.phone,
+          firstName: data.firstName,
+          lastName: data.lastName,
+        };
+        
+        const { success, eventId } = await sendMetaEvent({
+          eventName: "Lead",
+          userData: userData,
+          customData: {
+            content_name: 'Bilgi Alma Formu',
+            form_service_selection: data.service,
+          }
+        });
+
+        if (success) {
+          console.log("Meta CAPI 'Lead' olayı başarıyla gönderildi. Event ID:", eventId);
+          // İsteğe bağlı: Bu eventId'yi GTM'e bir dataLayer push ile gönderebilirsiniz.
+          // window.dataLayer.push({
+          //   event: 'fb_lead_capi',
+          //   fb_event_id: eventId 
+          // });
+        } else {
+          console.error("Meta CAPI olayı gönderilemedi.");
+        }
+      } catch (capiError) {
+        console.error("Meta CAPI gönderiminde kritik hata:", capiError);
+      }
+    } else {
+      console.log("Pazarlama izni yok, Meta CAPI olayı gönderilmedi.");
     }
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (erro) {

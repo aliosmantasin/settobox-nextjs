@@ -10,6 +10,10 @@ import { Toaster } from "@/components/ui/toaster";
 // import BottomNavigation from "./_components/libs/BottomNavigation";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react"
+import { CookieConsentProvider } from "./_components/libs/CookieConsent/CookieConsentContext";
+import CookieCleaner from "./_components/libs/CookieConsent/CookieCleaner";
+import ConditionalScripts from "./_components/libs/CookieConsent/ConditionalScripts";
+import CookieConsentBanner from "./_components/libs/CookieConsent/CookieConsentBanner";
 
 // 🌍 Desteklenen diller
 const locales = ["tr", "en"];
@@ -17,10 +21,6 @@ const locales = ["tr", "en"];
 // 🌍 Tüm çeviri dosyalarını içe aktar
 import trMessages from "@/messages/tr.json";
 import enMessages from "@/messages/en.json";
-import { CookieConsentProvider } from "./_components/libs/CookieConsent/CookieConsentContext";
-import CookieCleaner from "./_components/libs/CookieConsent/CookieCleaner";
-import ConditionalScripts from "./_components/libs/CookieConsent/ConditionalScripts";
-import CookieConsentBanner from "./_components/libs/CookieConsent/CookieConsentBanner";
 
 // 🌍 Çeviri mesajlarını haritaya ekle
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -44,23 +44,22 @@ export default async function RoutesLayout({children,params,}:{children: ReactNo
   return (
     <>
         <NextIntlClientProvider locale={locale} messages={messages}>
-   
-          <Navbar />
-          <ToastProvider>
-              <Toaster/>
-              {children}
-          </ToastProvider>
-            <ScrollTop>
-              <MdKeyboardArrowUp />
-            </ScrollTop>
-            {/* <BottomNavigation/> */}
           <CookieConsentProvider>
-          <CookieCleaner />
-          <ConditionalScripts/>
-          <CookieConsentBanner />
-          <Footer />
-          <Analytics/>
-          <SpeedInsights />
+            <Navbar />
+            <ToastProvider>
+                <Toaster/>
+                {children}
+            </ToastProvider>
+              <ScrollTop>
+                <MdKeyboardArrowUp />
+              </ScrollTop>
+              {/* <BottomNavigation/> */}
+            <CookieCleaner />
+            <ConditionalScripts/>
+            <CookieConsentBanner />
+            <Footer />
+            <Analytics/>
+            <SpeedInsights />
           </CookieConsentProvider>
         </NextIntlClientProvider>
     </>
