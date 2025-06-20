@@ -11,78 +11,76 @@ interface FirstGlanceProps {
 
 const FirstGlance: React.FC<FirstGlanceProps> = ({ onLoad }) => {
   return (
-    <section className="relative mb-10 sm:py-10">
-      <div className="container flex m-auto flex-wrap relative justify-evenly pb-10">
-        <div className="w-full sm:w-1/2 min-h-[500px] relative max-w-lg flex justify-center items-center">
-          <AllInSetToBoxAnimasyonJson
-            onLoad={onLoad}
-            useBlob={true}
-          />
-        </div>
-
-
-        <div className="w-full relative max-w-lg  flex justify-center   dark:bg-black p-2 shadow-sm dark:ocean-shadow rounded-sm hover:shadow-lg transition-all duration-300">
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 4 }}>
-            <div>
-              <h1 className="text-3xl text-center  dark:bg-slate-800 primary dark:text-slate-400 rounded-sm p-2">
-                Yerel/Mikro Dijital Pazarlama
-              </h1>
-              <p className="my-4 text-md text-gray-900 dark:text-slate-400 text-center">
-                Markanızın kurumsal değerlerini oturtmak ve potansiyel müşterilerinize ulaşmanızı sağlayacak temel seviyede online varlıklarınızı yönetiyoruz
-              </p>
-              <div>
-                <ul className=' w-full p-0 m-0'>
-
-
-                  <li className='text-sm listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-between cursor-pointer rounded-lg items-center'>
-                    Planlı ve Ekonomik Yönetim<MdCheckCircleOutline className='text-green-700 text-xl' />
-                  </li>
-
-                  <li className='text-sm listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-between cursor-pointer rounded-lg items-center'>
-                    Raporlama ve Öneri<MdCheckCircleOutline className='text-green-700 text-xl' />
-                  </li>
-
-                  <li className='text-sm listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-between cursor-pointer rounded-lg items-center'>
-                    Online Varlıkların Tümüyle Yönetimi<MdCheckCircleOutline className='text-green-700 text-xl' />
-                  </li>
-
-
-                </ul>
-
-                <div className='text-xl  text-center w-full listStyle p-3 my-2  hover:bg-gray-50 shadow-sm flex justify-evenly cursor-pointer rounded-lg items-center'>
-
-
-
-                  <div className="p-1 border border-red-500 rounded-[5px]">
-                    <h6 className="line-through text-red-500 flex justify-center">
-                      15.000₺
-                    </h6>
-                  </div>
-
-
-                  <div className="p-1 border border-green-500 rounded-[5px]">
-                    <h6 className="text-green-500 flex justify-center">
-                      12.500₺
-                    </h6>
-                  </div>
-
-
-                </div>
-              </div>
-              <div className="my-10">
-                <StartContactLocated />
-              </div>
-              <div className="absolute bottom-4 right-4 bg-blue-300 text-white text-xs px-2 py-1 rounded-full">KDV DAHİL</div>
-
-            </div>
+    <section className="relative mb-10 py-10 sm:py-20 ">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-center gap-12">
+        
+        {/* Left Side: Animation */}
+        <div className="w-full lg:w-1/2 flex justify-center items-center min-h-[400px] lg:min-h-[500px]">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            <AllInSetToBoxAnimasyonJson
+              onLoad={onLoad}
+              useBlob={true}
+            />
           </motion.div>
-
         </div>
 
+        {/* Right Side: Content Card */}
+        <div className="w-full lg:w-1/2 max-w-xl flex items-center">
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="bg-white dark:bg-slate-900/70 p-6 sm:p-8 rounded-2xl shadow-xl w-full backdrop-blur-sm"
+          >
+            <h1 className="text-3xl md:text-4xl font-extrabold text-center primary dark:text-slate-200 mb-3">
+              Yerel/Mikro Dijital Pazarlama
+            </h1>
+            <p className="my-4 text-base md:text-lg text-gray-600 dark:text-slate-400 text-center">
+              Markanızın kurumsal değerlerini oturtmak ve potansiyel müşterilerinize ulaşmanızı sağlayacak temel seviyede online varlıklarınızı yönetiyoruz.
+            </p>
+            
+            <ul className='space-y-3 my-6'>
+              <li className='flex items-center text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-slate-800/60 p-3 rounded-lg shadow-sm'>
+                <MdCheckCircleOutline className='text-green-500 mr-3 text-2xl flex-shrink-0' /> 
+                <span className="font-medium">Planlı ve Ekonomik Yönetim</span>
+              </li>
+              <li className='flex items-center text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-slate-800/60 p-3 rounded-lg shadow-sm'>
+                <MdCheckCircleOutline className='text-green-500 mr-3 text-2xl flex-shrink-0' /> 
+                <span className="font-medium">Raporlama ve Öneri</span>
+              </li>
+              <li className='flex items-center text-gray-700 dark:text-gray-300 bg-gray-100 dark:bg-slate-800/60 p-3 rounded-lg shadow-sm'>
+                <MdCheckCircleOutline className='text-green-500 mr-3 text-2xl flex-shrink-0' /> 
+                <span className="font-medium">Online Varlıkların Tümüyle Yönetimi</span>
+              </li>
+            </ul>
+
+            <div className='flex justify-center items-end space-x-4 sm:space-x-6 my-6'>
+              <div className="text-center">
+                <p className="text-sm text-gray-500 dark:text-gray-400">Eski Fiyat</p>
+                <h6 className="text-xl sm:text-2xl font-bold line-through text-red-500/80">
+                  15.000₺
+                </h6>
+              </div>
+              <div className="text-center p-3 sm:p-4 bg-green-100 dark:bg-green-900/30 rounded-xl border border-green-200 dark:border-green-800/50">
+                <p className="text-sm text-green-800 dark:text-green-300 font-semibold">İndirimli Fiyat (aylık)</p>
+                <h6 className="text-2xl sm:text-3xl font-extrabold text-green-600 dark:text-green-400">
+                  12.500₺
+                </h6>
+              </div>
+            </div>
+            
+            <div className="mt-8 text-center">
+              <StartContactLocated />
+            </div>
+
+            <div className="mt-4 text-center text-sm text-blue-600 dark:text-blue-400 font-semibold">KDV DAHİL</div>
+          </motion.div>
+        </div>
       </div>
-
-      {/* Animasyon CSS */}
-
     </section>
   );
 };

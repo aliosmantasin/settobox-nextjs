@@ -1,4 +1,3 @@
-
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
@@ -18,7 +17,7 @@ const Opportunity = () => {
 
 <div className='flex w-full sm:w-3/7 lg:w-5/12 mx-auto p-2'>
 
-    <Image className='mx-auto' src="/GoogleMiniBox.webp" alt="Armut Görsel" width={500} height={500}></Image>
+    <Image className='mx-auto' src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/GoogleMiniBox-tHoIJeqSAtA0VrlhQjIAW70uFlWymi.webp" alt="Armut Görsel" width={500} height={500}></Image>
    
 </div>
 
@@ -43,7 +42,7 @@ const Opportunity = () => {
         </li>
 
         <li>
-          Google Ads Reklam Hesap Yönetimi 4.500₺ yerine 3.500₺
+          Google Ads Reklam Hesap Yönetimi  <span className='text-red-500 line-through'>4.500₺</span> yerine <span className='text-green-500'>3.500₺</span>
         </li>
 
         <li>

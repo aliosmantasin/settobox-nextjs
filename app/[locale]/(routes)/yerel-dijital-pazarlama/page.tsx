@@ -1,25 +1,17 @@
-import dynamic from 'next/dynamic'
 import { seoData } from "@/lib/seo"
 import { Metadata } from "next"
-import Loading from '../_components/Loadling/Loading'
 import LocatedContact from '../_components/LocatedDijitalMarketing/LocatedContact/LocatedContact'
+import CardService from '../_components/LocatedDijitalMarketing/CardService'
+import FirstGlance from '../_components/LocatedDijitalMarketing/FirstGlance'
+import FunnelStrategy from '../_components/LocatedDijitalMarketing/FunnelStrategy'
+import ResultsHighlight from '../_components/libs/HighLight/ResultsHighlight'
+import CaseStudyVip from '../_components/libs/HighLight/CaseStudyVip'
+import React from 'react'
 
 // Lazy loaded components
-const FirstGlance = dynamic(() => import("../_components/LocatedDijitalMarketing/FirstGlance"), {
-  loading: () => <div><Loading/></div>
-})
-
-const MaskSvg = dynamic(() => import("../_components/libs/Mask/Mask").then(mod => mod.MaskSvg), {
-  loading: () => <div><Loading/></div>
-})
-
-const GoogleAds = dynamic(() => import("../_components/LocatedDijitalMarketing/CardService"), {
-  loading: () => <div><Loading/></div>
-})
-
-const ShowLocationComponent = dynamic(() => import("../_components/LocatedDijitalMarketing/ShowLocation"), {
-  loading: () => <div><Loading/></div>
-})
+// const ShowLocationComponent = dynamic(() => import("../_components/LocatedDijitalMarketing/ShowLocation"), {
+//   loading: () => <div><Loading/></div>
+// })
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -78,11 +70,22 @@ const LocalDigitalMarketing = () => {
   return (
     <main aria-label="Local Digital Marketing Page">
       <article className="local-marketing-content">
-        <FirstGlance/>
-        <MaskSvg/>
-        <GoogleAds/>
-        <ShowLocationComponent/>
-        <LocatedContact/>
+        <FirstGlance />
+        <div>
+          <CardService />
+        </div>
+        <div>
+          <FunnelStrategy />
+        </div>
+        <div>
+          <ResultsHighlight />
+        </div>
+        <div>
+          <CaseStudyVip />
+        </div>
+        {/* <ShowLocationComponent /> */}
+        
+        <LocatedContact />
       </article>
     </main>
   )

@@ -18,7 +18,7 @@ const WelcomeCampaign = () => {
 
 <div className='flex w-full sm:w-3/7 lg:w-5/12 justify-center items-center mx-auto p-2'>
 <div className='flex'>
-  <Image className='mx-auto object-contain w-[200] h-[200] sm:w-[300px] sm:h-[300px]' src="/GoogleMiniBox.webp" alt="Armut Görsel" width={200} height={200}></Image>
+  <Image className='mx-auto object-contain w-[200] h-[200] sm:w-[300px] sm:h-[300px]' src="https://vr3j8vmadakibxk6.public.blob.vercel-storage.com/1-%20HomePage/Slider/GoogleMiniBox-tHoIJeqSAtA0VrlhQjIAW70uFlWymi.webp" alt="Armut Görsel" width={200} height={200}></Image>
       <span className='flex m-auto text-xl font-extrabold'>+</span>
   <Image className='mx-auto object-contain w-[200] h-[200] sm:w-[300px] sm:h-[300px]' src="/BusinessWeb.webp" alt="Armut Görsel" width={400} height={400}></Image>
 </div>

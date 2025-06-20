@@ -1,354 +1,150 @@
 "use client";
 import Image from 'next/image'
 import React from 'react'
-import { MdArrowDownward, MdCheckCircleOutline, MdClose } from 'react-icons/md'
+import { MdCheckCircleOutline } from 'react-icons/md'
 import { motion } from 'framer-motion'
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+
+const serviceData = [
+  {
+    id: "1",
+    title: "Google Ads Reklam Yönetimi",
+    icon: "/images/yerelGorseller/googleAds.webp",
+    features: ["Metin Reklamı", "Çağrı Uzantılı Reklam", "Konum Uzantılı Reklam"],
+    description: "Google ads arama ağı reklamlarıyla potansiyel müşterilerinize ulaşma hedeflenir.",
+    integrations: {
+      description: "Oluşturduğumuz web sitelerine entegre ettiğimiz Google Uygulamaları Google Analytics - Google Tag Manager",
+      images: [
+        { src: "/images/yerelGorseller/googleAnalystic.webp", alt: "Google Analiytics Görseli" },
+        { src: "/images/yerelGorseller/googleTag.webp", alt: "Google GT Görseli" },
+      ],
+    },
+  },
+  {
+    id: "2",
+    title: "Google İşletme Profili",
+    icon: "/images/yerelGorseller/isletmeProfil.webp",
+    features: ["Organik Aramalar", "Konum Bilgisi", "Müşteri Yorumları"],
+    description: "İlgili aramalarda müşterilerinize görünürlüğünüzü artırmak ve işletmenizle iletişim kurmalarını sağlatmak hedeflenir.",
+    integrations: {
+      images: [{ src: "/images/yerelGorseller/googleMap.webp", alt: "Google Map Görseli" }],
+    },
+  },
+  {
+    id: "3a",
+    title: "Meta Yönetimi",
+    icon: "/images/yerelGorseller/meta.webp",
+    features: ["Facebook ve İnstagram Hesapları", "Meta Business Suit", "Sosyal Medya Kurumsal Yapı", "Sosyal Medya İçerik Paylaşımı (opsiyonel +)"],
+    // excludedFeatures: ["Sosyal Medya İçerik Paylaşımı"],
+    description: "Meta kurulumları yapılarak potansiyel müşterilerinize kurumsal bir imaj verilmek istenmektedir.",
+    integrations: {
+      images: [
+        { src: "/images/yerelGorseller/instagramApp.webp", alt: "Instagram Görseli" },
+        { src: "/images/yerelGorseller/facebookApp.webp", alt: "Facebook Görseli" },
+      ],
+    },
+  },
+  {
+    id: "3b",
+    title: "Meta Reklam Yönetimi",
+    icon: "/images/yerelGorseller/meta.webp",
+    features: ["Meta İşletme Hesabı Kurulumu", "Meta Reklam Yönetimi", "Meta Pixel Kodu", "Haftalık Rapor ve Öneri"],
+    description: "Meta'da bu kurulumları yaparak özelleştirilmiş reklam stratejileri izleyebiliyoruz.",
+    integrations: {
+      images: [
+        { src: "/images/yerelGorseller/instagramApp.webp", alt: "Instagram Görseli" },
+        { src: "/images/yerelGorseller/facebookApp.webp", alt: "Facebook Görseli" },
+        { src: "/images/yerelGorseller/messengerFbApp.webp", alt: "Messenger Görseli" },
+        { src: "/images/yerelGorseller/whatsappApp.webp", alt: "WhatsApp Görseli" },
+      ],
+    },
+  },
+  {
+    id: "4",
+    title: "Kurumsal Website Tasarım",
+    icon: "/images/yerelGorseller/website.webp",
+    features: ["Kurumsal Website Ücretsiz", "Temel SEO + Search Console", "Meta ve Google Entagrasyonları", "Domain Hosting İlk Yıl Ücretsiz"," Bot Saldırı Koruma, SSL Sertifikası, Firewall"],
+    description: "Dijital pazarlama yapısına uygun kurumsal website tasarlıyoruz ve yönetiyoruz. Sahte tıklamalara ve bot saldırılarına önlemler alıyoruz.",
+    integrations: {
+      images: [
+        { src: "/images/yerelGorseller/whatsappApp.webp", alt: "WhatsApp Görseli" },
+        { src: "/images/yerelGorseller/phoneConversion.webp", alt: "Telefonla Arama Görseli" },
+        { src: "/images/yerelGorseller/mailConversion.webp", alt: "Maille İletişim Görseli" },
+      ],
+    },
+  },
+];
 
 const CardService = () => {
   return (
-    <section className='my-20 p-2'>
-      <div className="w-full max-w-lg flex justify-center items-center mx-auto">
-        <div className='w-full mx-atuo relative flex justify-center'>
-
-          <div className="absolute image-container top-20 left-0 animate-float">
-            <Image
-              src="/images/yerelGorseller/googleAds.webp"
-              width={75}
-              height={75}
-              alt="WhatsApp"
-              className="shadow-lg p-3 rounded-lg bg-slate-100 dark:bg-slate-900 -rotate-12"
-            />
-          </div>
-
-          <div className="absolute image-container bottom-20 left-0 animate-float delay-150">
-            <Image
-              src="/images/yerelGorseller/isletmeProfil.webp"
-              width={75}
-              height={75}
-              alt="WhatsApp"
-              className="shadow-lg p-3 rounded-lg bg-slate-100 dark:bg-slate-900 rotate-12"
-            />
-          </div>
-          <div className="absolute image-container top-20 right-0 animate-float delay-300">
-            <Image
-              src="/images/yerelGorseller/meta.webp"
-              width={75}
-              height={75}
-              alt="WhatsApp"
-              className="shadow-lg p-3 rounded-lg bg-slate-100 dark:bg-slate-900 -rotate-12"
-            />
-          </div>
-
-          <div className="absolute image-container bottom-20 right-0 animate-float delay-300">
-            <Image
-              src="/images/yerelGorseller/website.webp"
-              width={75}
-              height={75}
-              alt="WhatsApp"
-              className="shadow-lg p-3 rounded-lg  bg-slate-100 dark:bg-slate-900 rotate-12"
-            />
-          </div>
-
-
-          <div className="block max-w-md p-6">
-
-            <Image
-              src="/images/yerelGorseller/isletme.webp"
-              alt="Yerel/Mikro Dijital Pazarlama"
-              width={300}
-              height={300}
-              className="mx-auto"
-            />
-
-          
-            <div className="flex text-2xl text-center primary my-4 justify-center">
-  
-                  <span>360° Dijital Pazarlama</span>
-          
-                 
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      <div className='container flex flex-wrap mx-0 sm:mx-auto '>
-        <h2 className='text-xl font-bold paragraphStyle'>
-          Mikro | Yerel Dijital Pazarlama İçerikleri
+    <section className='my-20'>
+      <div className="text-center mb-16">
+        <h2 className='text-3xl sm:text-4xl font-extrabold primary dark:text-slate-200 mb-4'>
+          Yerel Dijital Pazarlama Paketi İçerik Yapısı
         </h2>
+        <p className="max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400">
+          İşletmenizin dijital dünyadaki tüm ihtiyaçlarını tek bir pakette topladık. İşte size sunduğumuz hizmetlerin detayları:
+        </p>
+      </div>
 
-        <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 1 }}
-          className='w-full mx-auto'
-        >
-          <div className="relative px-4 py-6">
-            <Carousel 
-              opts={{ 
-                align: "start",
-                loop: true,
-                containScroll: "trimSnaps"
-              }} 
-              className="w-full"
-            >
-              <CarouselContent className="-ml-2 md:-ml-4">
-                {/* 1.Card */}
-                <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
-                  <div className='block p-6 theme border border-gray-200 dark:border-gray-400 rounded-lg shadow-sm relative h-full'>
-
-                    <div className="absolute inline-flex items-center justify-center w-10 h-10 font-bold primary text-xl dark:text-white bg-white dark:bg-black shadow-md border-2 border-white rounded-full top-4 end-4 dark:border-gray-900">1</div>
-
-                    <div className='block text-center text-[#373737] dark:text-slate-400'>
-                      <div className='flex justify-center shadow-lg rounded-full w-[75px] mx-auto'>
-                        <Image src="/images/yerelGorseller/googleAds.webp" alt='Google Ads Görseli' width={75} height={75} className='p-2' />
+      <div className="space-y-4">
+        {serviceData.map((service, index) => (
+          <motion.div
+            key={service.id}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className={`container mx-auto py-12 md:py-16 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ${index % 2 === 0 ? 'bg-white dark:bg-slate-800/50' : 'bg-gray-50 dark:bg-slate-900'}`}>
+              <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+                  
+                  <div className={`text-center ${index % 2 !== 0 ? 'md:order-2' : ''}`}>
+                    <div className='relative inline-block group'>
+                      <div className="absolute -top-3 -right-3 inline-flex items-center justify-center w-12 h-12 font-bold primary text-xl dark:text-white bg-white dark:bg-gray-900 shadow-md border-2 border-white rounded-full dark:border-gray-800 z-10">
+                        {service.id}
                       </div>
-                      <h2 className='text-2xl font-semibold primary dark:text-slate-400 my-2'>Google Ads Reklam Yönetimi</h2>
+                      <div className="p-4 bg-gradient-to-br from-blue-100 to-indigo-200 dark:from-slate-700 dark:to-slate-800 rounded-full shadow-lg group-hover:scale-105 transition-transform duration-300">
+                        <Image src={service.icon} alt={service.title} width={130} height={130} className='p-2' />
+                      </div>
                     </div>
-
-                    <div className='w-full'>
-                      <ul className=' w-full p-0 m-0'>
-                        <li className='text-sm listStyle p-2 my-2  hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg '>
-                          Metin Reklamı <MdCheckCircleOutline className='text-green-700 text-xl' />
-
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Çağrı Uzantılı Reklam <MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Konum Uzantılı Reklam <MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                      </ul>
-
-                      <div className='w-full px-2 mt-5 text-center paragraphStyle'>
-                        Google ads arama ağı reklamlarıyla potansiyel müşterilerinize ulaşma hedeflenir.
-                      </div>
-
-                      <hr className="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-
-                      <div className='flex justify-evenly'>
-                        <Image src="/images/yerelGorseller/googleAnalystic.webp" alt='Google Analiytics Görseli' width={55} height={55}/>
-
-                        <Image src="/images/yerelGorseller/googleTag.webp" alt='Google GT Görseli' width={55} height={55}/>
-                      </div>
-                      <div className='w-full flex justify-center text-xl'><MdArrowDownward /></div>
-                      <p className='text-center text-sm paragraphStyle mt-2'>Oluşturduğumuz web sitelerine entegre ettiğimiz Google Uygulamaları Google Analytics - Google Tag Manager</p>
-
-                    </div>
-
                   </div>
-                </CarouselItem>
 
-                {/* 2.Card */}
-                <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
-                  <div className='block p-6 theme border border-gray-200 dark:border-gray-400 rounded-lg shadow-sm relative h-full'>
-
-                    <div className="absolute inline-flex items-center justify-center w-10 h-10 font-bold primary text-xl dark:text-white bg-white dark:bg-black shadow-md border-2 border-white rounded-full top-4 end-4 dark:border-gray-900">2</div>
-
-                    <div className='block text-center'>
-                      <div className='flex justify-center shadow-lg rounded-full w-[75px] mx-auto'>
-                        <Image src="/images/yerelGorseller/isletmeProfil.webp" alt='Google Ads Görseli' width={75} height={75} className='p-2' />
-                      </div>
-                      <h2 className='text-2xl font-semibold primary dark:text-slate-400 my-2'>Google İşletme Profili</h2>
-                    </div>
-
-                    <div className='w-full'>
-                      <ul className=' w-full p-0 m-0'>
-                        <li className='text-sm listStyle p-2 my-2  hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Organik Aramalar<MdCheckCircleOutline className='text-green-700 text-xl' />
-
+                  <div className={`${index % 2 !== 0 ? 'md:order-1' : ''}`}>
+                    <h3 className='text-2xl sm:text-3xl font-bold primary dark:text-slate-300 mb-5'>{service.title}</h3>
+                    <ul className='space-y-3 mb-6'>
+                      {service.features.map(feature => (
+                        <li key={feature} className='flex items-center text-base sm:text-lg'>
+                          <MdCheckCircleOutline className='text-green-500 mr-3 text-2xl flex-shrink-0' />
+                          <span className='text-gray-700 dark:text-gray-300'>{feature}</span>
                         </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Konum Bilgisi <MdCheckCircleOutline className='text-green-700 text-xl' />
+                      ))}
+                      {/* {service.excludedFeatures?.map(feature => (
+                        <li key={feature} className='flex items-center text-base sm:text-lg text-gray-400 dark:text-gray-500'>
+                          <MdClose className='text-red-500 mr-3 text-2xl flex-shrink-0 rounded-full border border-red-500 p-0.5' />
+                          <span className='line-through'>{feature}</span>
                         </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Müşteri Yorumları<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                      </ul>
-
-                      <div className='w-full px-2 mt-5 text-center paragraphStyle'>
-                        İlgili aramalarda müşterilerinize görünürlüğünüzü artırmak ve işletmenizle iletişim kurmalarını sağlatmak hedeflenir.
+                      ))} */}
+                    </ul>
+                    <p className='text-gray-600 dark:text-gray-400 italic text-base sm:text-lg'>{service.description}</p>
+                    {service.integrations && (
+                      <div className='mt-6 pt-4 border-t border-gray-200 dark:border-gray-700'>
+                        <div className='flex items-center justify-start space-x-4'>
+                          {service.integrations.images.map(img => (
+                            <div key={img.src} className="p-2 bg-gray-100 dark:bg-gray-700/50 rounded-full">
+                              <Image src={img.src} alt={img.alt} width={35} height={35} className='opacity-90' />
+                            </div>
+                          ))}
+                        </div>
+                        {service.integrations.description && <p className='text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-3'>{service.integrations.description}</p>}
                       </div>
-
-                      <hr className="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-
-                      <div className='flex justify-evenly'>
-                        <Image src="/images/yerelGorseller/googleMap.webp" alt='Google Map Görseli' width={55} height={55} />
-
-                      </div>
-
-                    </div>
-
+                    )}
                   </div>
-                </CarouselItem>
-
-                {/* 3a.Card */}
-                <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
-                  <div className='block p-6 theme border border-gray-200 dark:border-gray-400 rounded-lg shadow-sm relative h-full'>
-
-                    <div className="absolute inline-flex items-center justify-center w-10 h-10 font-bold primary text-xl dark:text-white bg-white dark:bg-black shadow-md border-2 border-white rounded-full top-4 end-4 dark:border-gray-900">3a</div>
-
-                    <div className='block text-center'>
-                      <div className='flex justify-center shadow-lg rounded-full w-[75px] mx-auto'>
-                        <Image src="/images/yerelGorseller/meta.webp" alt='Google Ads Görseli' width={75} height={75} className='p-2' />
-                      </div>
-                      <h2 className='text-2xl font-semibold primary dark:text-slate-400 my-2'>Meta Yönetimi</h2>
-                    </div>
-
-                    <div className='w-full'>
-                      <ul className=' w-full p-0 m-0'>
-                        <li className='text-sm listStyle p-2 my-2  hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Facebook ve İnstagram Hesapları<MdCheckCircleOutline className='text-green-700 text-xl' />
-
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Meta Business Suit<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Sosyal Medya Kurumsal Yapı<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg line-through'>
-                          Sosyal Medya İçerik Paylaşımı<MdClose className='text-red-700 text-2xl border border-red-700 rounded-sm' />
-                        </li>
-                      </ul>
-
-                      <div className='w-full px-2 mt-5 text-center paragraphStyle'>
-                        Meta kurulumları yapılarak potansiyel müşterilerinize kurumsal bir imaj verilmek istenmektedir.
-                      </div>
-
-                      <hr className="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-
-                      <div className='flex justify-evenly'>
-                        <Image src="/images/yerelGorseller/instagramApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/facebookApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                      </div>
-
-                    </div>
-
-                  </div>
-                </CarouselItem>
-
-                {/* 3b.Card */}
-                <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
-                  <div className='block p-6 theme border border-gray-200 dark:border-gray-400 rounded-lg shadow-sm relative h-full'>
-
-                    <div className="absolute inline-flex items-center justify-center w-10 h-10 font-bold primary text-xl dark:text-white bg-white dark:bg-black shadow-md border-2 border-white rounded-full top-4 end-4 dark:border-gray-900">3b</div>
-
-                    <div className='block text-center'>
-                      <div className='flex justify-center shadow-lg rounded-full w-[75px] mx-auto'>
-                        <Image src="/images/yerelGorseller/meta.webp" alt='Google Ads Görseli' width={75} height={75} className='p-2' />
-                      </div>
-                      <h2 className='text-2xl font-semibold primary dark:text-slate-400 my-2'>Meta Reklam Yönetimi</h2>
-                    </div>
-
-                    <div className='w-full'>
-                      <ul className=' w-full p-0 m-0'>
-                        <li className='text-sm listStyle p-2 my-2  hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Meta İşletme Hesabı Kurulumu<MdCheckCircleOutline className='text-green-700 text-xl' />
-
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Meta Reklam Yönetimi<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Meta Pixel Kodu<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Haftalık Rapor ve Öneri<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                      </ul>
-
-                      <div className='w-full px-2 mt-5 text-center paragraphStyle'>
-                        Meta`da bu kurulumları yaparak özelleştirilmiş reklam stratejileri izleyebiliyoruz.
-                      </div>
-
-                      <hr className="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-
-                      <div className='flex justify-evenly'>
-                        <Image src="/images/yerelGorseller/instagramApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/facebookApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/messengerFbApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/whatsappApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                      </div>
-
-                    </div>
-
-                  </div>
-                </CarouselItem>
-
-                {/* 4.Card */}
-                <CarouselItem className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
-                  <div className='block p-6 theme border border-gray-200 dark:border-gray-400 rounded-lg shadow-sm relative h-full'>
-
-                    <div className="absolute inline-flex items-center justify-center w-10 h-10 font-bold primary text-xl dark:text-white bg-white dark:bg-black shadow-md border-2 border-white rounded-full top-4 end-4 dark:border-gray-900">4</div>
-
-                    <div className='block text-center'>
-                      <div className='flex justify-center shadow-lg rounded-full w-[75px] mx-auto'>
-                        <Image src="/images/yerelGorseller/website.webp" alt='Google Ads Görseli' width={75} height={75} className='p-4' />
-                      </div>
-                      <h2 className='text-2xl font-semibold primary dark:text-slate-400 my-2'>Kurumsal Website Tasarım</h2>
-                    </div>
-
-                    <div className='w-full'>
-                      <ul className=' w-full p-0 m-0'>
-                        <li className='text-sm listStyle p-2 my-2  hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Temel Seviye Website Ücretsiz<MdCheckCircleOutline className='text-green-700 text-xl' />
-
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Temel SEO + Search Console<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Meta ve Google Entagrasyonları<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                        <li className='text-sm listStyle p-2 my-2 bg-white hover:bg-gray-50 shadow-lg flex justify-between cursor-pointer rounded-lg'>
-                          Domain Hosting İlk Yıl Ücretsiz<MdCheckCircleOutline className='text-green-700 text-xl' />
-                        </li>
-                      </ul>
-
-                      <div className='w-full px-2 mt-5 text-center paragraphStyle'>
-                        Dijital pazarlama yapısına uygun kurumsal website tasarlıyoruz ve yönetiyoruz.
-                      </div>
-
-                      <hr className="h-px my-8 bg-blue-600 border-0 dark:bg-gray-700"></hr>
-
-                      <div className='flex justify-evenly'>
-                        <Image src="/images/yerelGorseller/whatsappApp.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/phoneConversion.webp" alt='Google Map Görseli' width={55} height={55} />
-                        <Image src="/images/yerelGorseller/mailConversion.webp" alt='Google Map Görseli' width={55} height={55} />
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                </CarouselItem>
-              </CarouselContent>
-
-              {/* Carousel Navigation Buttons */}
-              <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 p-2 bg-white/80 shadow-md rounded-full md:p-4" />
-              <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 p-2 bg-white/80 shadow-md rounded-full md:p-4" />
-            </Carousel>
-          </div>
-        </motion.div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        ))}
       </div>
     </section>
   )

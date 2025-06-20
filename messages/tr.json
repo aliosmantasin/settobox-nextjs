@@ -101,7 +101,7 @@
       "Facebook | Instagram yönetimi ve reklam hizmeti",
       "Google haritalar kayıt + Google Ads reklam hizmeti"
     ],
-    "description3": "<strong>Dijital Dönüşüm Kutusu</strong> orta ve orta büyüklükteki işletmeler için tasarlanmıştır.",
+    "description3": "<strong>Dijital Dönüşüm Kutusu</strong> orta ve büyük büyüklükteki işletmeler için tasarlanmıştır.",
     "LinkButton": "Daha Fazla İncele",
     "moreİnfoLink": "/dijital-pazarlama-donusum-kutusu",
 
@@ -608,7 +608,7 @@
         "span": "ProBox Kimler Tercih Edebilir?",
         "title": "İstikrarlı Bütçe - Derinlemesine Hedefleme - Yüksek Dönüşüm",
         "p1": "ProBox hizmeti; uzun vadeli pazarlama stratejisi anlayışıyla bir çok reklam türünü kullanarak marka bilinirliğini artırmak, ürün/hizmet satışını en yüksek seviyelere ulaştırmak isteyen işletmelerin tercih edebileceği bir hizmettir. Bu hizmet`te reklam türleri aşama aşama ilerleyerek makina öğrenimini tamamlayarak gelecekte karmaşık hedeflemeler yapmadan yapay zekanın katkılarıyla en iyi hefeflemeleri bulmasını sağlatmaktır.",
-        "p2": "Google ProBox hizmeti marka odaklı uzun vadeli reklam stratejileri ile gelişmeyi benimsemiş küçük ve orta büyüklükteki tüm işletmeler için faydalıdır.Not: Maksimum performans reklamı google`e ait Arama Ağı - Görüntülü Reklam Ağı - Gmail - Youtube - Discover - Haritalar gibi platformları kapsamaktadır. Reklam makina öğrenimi sayesinde ürün/hizmetiniz ile ilgilenebilecek internet kullancılarına gösterilmektedir.",
+        "p2": "Google ProBox hizmeti marka odaklı uzun vadeli reklam stratejileri ile gelişmeyi benimsemiş orta büyüklükteki tüm işletmeler için faydalıdır.Not: Maksimum performans reklamı google`e ait Arama Ağı - Görüntülü Reklam Ağı - Gmail - Youtube - Discover - Haritalar gibi platformları kapsamaktadır. Reklam makina öğrenimi sayesinde ürün/hizmetiniz ile ilgilenebilecek internet kullancılarına gösterilmektedir.",
         "subtitle": "Kimler için uygundur?",
         "list": ["Hizmet Sektörü", "Sağlık Sektörü", "Eğitim Sektörü"]
       },
@@ -740,7 +740,7 @@
           "f5": "Negatif Anahtar Kelime Optimizasyonu",
           "f6": "Aylık Rapor",
           "f7": "09:00 - 20:00 WhatsApp Desteği",
-          "f8": "Reklam Hizmetine Özel - 4.500₺ (opsiyonel)",
+          "f8": "SEO Dostu Kurumsal Web Sitesi - 4.500₺ (opsiyonel)",
           "f9": "KDV Dahil Fiyatlandırma"
         }
       },
@@ -748,7 +748,7 @@
         "description": "Büyüyen işletmeler için profesyonel çözüm",
         "features": {
           "f1": "Arama Ağı Kampanyası",
-          "f2": "Görüntülü Reklam Kampanyası Opsiyonel",
+          "f2": "Görüntülü Reklam Kampanyası (Opsiyonel)",
           "f3": "1 Performans Kampanyası",
           "f4": "Gelişmiş Dönüşüm Optimizasyonu",
           "f5": "15'inde Rapor",

@@ -2,6 +2,8 @@ import dynamic from 'next/dynamic'
 import { seoData } from '@/lib/seo'
 import { Metadata } from 'next'
 import Loading from '../_components/Loadling/Loading'
+import CaseStudyVip from '../_components/libs/HighLight/CaseStudyVip'
+import ResultsHighlight from '../_components/libs/HighLight/ResultsHighlight'
 
 
 // Lazy loaded components
@@ -111,7 +113,10 @@ const GoogleAdsPage = () => {
           <GoogleAdsCard/>
           <GoogleAnimation/>
         </section>
+        <ResultsHighlight />
+        <CaseStudyVip/>
         <GoogleCTA />
+       
         <GoogleAdsContent />
       </article>
     </main>

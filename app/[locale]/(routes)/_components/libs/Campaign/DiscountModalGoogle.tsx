@@ -2,20 +2,17 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { MdWhatsapp } from "react-icons/md";
-import Cookies from "js-cookie";
+import { useCookieConsent } from "../CookieConsent/CookieConsentContext";
 
 const MODAL_KEY = "discountModalSeen";
 const MODAL_EXPIRY_DAYS = 1;
 
 export default function DiscountModalGoogle() {
   const [open, setOpen] = useState(false);
+  const { consent, hasInteracted } = useCookieConsent();
 
   useEffect(() => {
-    // Çerezleri kontrol et
-    const userConsent = Cookies.get("user_consent");
-
-    // Eğer kullanıcı çerezleri reddettiyse veya çerez değeri belirli değilse, modal açılmasın
-    if (!userConsent || userConsent === "false") {
+    if (!hasInteracted || !consent.functional) {
       return;
     }
 
@@ -29,9 +26,20 @@ export default function DiscountModalGoogle() {
     }
 
     // Kullanıcı çerezleri kabul etmişse ve süresi dolmuşsa modalı göster
-    const timer = setTimeout(() => setOpen(true), 25000);
+    const timer = setTimeout(() => setOpen(true), 20000);
     return () => clearTimeout(timer);
-  }, []);
+  }, [consent, hasInteracted]);
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [open]);
 
   const handleClose = () => {
     setOpen(false);
